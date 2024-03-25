@@ -793,6 +793,7 @@ section .header-main {
 
         #home-service-section {
             width: 414px !important;
+            overflow: hidden !important;
         }
         #home-service-section .box-style {
             display: none;
