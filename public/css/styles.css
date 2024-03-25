@@ -627,9 +627,9 @@ section .header-main {
 
         html, body {
             overflow-x: hidden !important;
-            width: 100vw !important;
+            width: 101vw !important;
         }
-        
+
         #home-blog {
             /* max-width: 100% !important; */
             overflow-x: hidden !important;
