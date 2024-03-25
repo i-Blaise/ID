@@ -797,6 +797,7 @@ section .header-main {
 
         #home-service-section .home-service-row {
             display: block;
+            width: 414px !important;
         }
 
         #home-service-section .home-service-left {
@@ -1052,6 +1053,7 @@ section .header-main {
 
         .ad-section {
             display: none;
+            width: 414px !important;
         }
 
         .mobile-ad-section {
@@ -3468,9 +3470,10 @@ section .blog-cards-row {
     overflow: hidden;
 }
 
-@media (max-width: 700px) {
+@media screen and (max-width: 700px) {
     footer {
         overflow-x: hidden !important;
+        width: 414px !important;
     }
 }
 
