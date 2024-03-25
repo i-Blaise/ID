@@ -627,7 +627,8 @@ section .header-main {
 
         html, body {
             overflow-x: hidden !important;
-            width: 101vw !important;
+            width: 392px !important;
+            max-width: 110vw !important;
         }
 
         #home-blog {
@@ -3456,6 +3457,12 @@ section .blog-cards-row {
     height: 10rem;
     border-radius: 12px;
     overflow: hidden;
+}
+
+@media (max-width: 700px) {
+    footer {
+        overflow-x: hidden !important;
+    }
 }
 
 
