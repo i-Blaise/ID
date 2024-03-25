@@ -635,7 +635,7 @@ section .header-main {
 
         html, body {
             overflow-x: hidden !important;
-            width: 392px !important;
+            width: 414px !important;
             max-width: 110vw !important;
         }
 
@@ -2785,6 +2785,7 @@ section .blog-cards-row {
     background-image: url(../assets/ad-bg.png);
     background-size: cover;
     height: 322px;
+
 }
 
 /* @media screen and (max-width: 1490px) {
