@@ -1024,7 +1024,8 @@ section .header-main {
 
 
         section .main-blog-row .blog-cards-row-home {
-            margin: 8rem 0 0 22px !important;
+            display: block;
+            margin: 8rem 3rem 0 3rem !important;
         }
 
         section .blog-cards-row {
