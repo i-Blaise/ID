@@ -47,9 +47,9 @@
       
       <section class="about-column">
         <div class="about-row-1">
-            <img src="assets/about1.png" alt="" class="about1">
-            <img src="assets/about2.png" alt="" class="about2">
-            <img src="assets/about3.png" alt="" class="about3">
+          <div class="about-card"><img src="assets/about1.png" alt="" class="about1"></div>
+          <div class="about-card"><img src="assets/about2.png" alt="" class="about2"></div>
+          <div class="about-card"><img src="assets/about3.png" alt="" class="about3"></div>
         </div>
         
 

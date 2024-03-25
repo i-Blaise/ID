@@ -1896,6 +1896,119 @@ header .about-header {
 
 
 /* About Us Responsive  */
+
+@media screen and (max-width: 700px) {
+    header .about-header {
+        display: block;
+    }
+
+    .about-header .header-text {
+        margin-left: 1rem;
+        margin-bottom: 5rem;
+    }
+    .about-header .header-text p {
+        width: 25rem;
+    }
+    .about-header .header-image {
+        display: inline-flex;
+        margin-left: 0rem;
+    }
+
+    .about-header .header-image .header1{
+        height: 156px;
+    }
+
+    .about-header .header-image .header2{
+        height: 259px;
+        position: relative;
+        bottom: 4rem;
+    }
+
+    
+
+    .about-column {
+        display: inline-block;
+        margin: 23rem 0 0 0;
+    }
+
+    .about-column .about-row-1 {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .about-column .about-row-1 .about-card{
+        flex: 0 0 auto;
+    }
+
+    .about-column .about-row-2 {
+        display: block;
+        -webkit-transform:  rotate(180deg);
+        transform:  rotate(180deg);
+        background-color: #FFF;
+    }
+
+    .about-column .about-row-2 > div {
+        display: block;
+        margin: 0 auto 111px;
+        -webkit-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+    }
+
+    .about-intro-text h2 {
+        position: relative;
+        top: 4rem;
+        left: 1rem;
+    }
+
+    .about-intro-text p {
+        position: relative;
+        left: 1rem;
+        bottom: -48px;
+        width: 24rem;
+    }
+
+    .about-row-2 .about-intro-img img {
+        height: 18rem;
+        position: relative;
+        top: 2rem;
+    }
+
+    .about-section-2 .banner-1 img {
+        height: 7rem;
+    }
+
+    .about-section-2 .section-2 .section-2-container {
+        display: block;
+    }
+
+    .about-section-2 .section-2 {
+        margin: -5rem 22px 0 22px ;
+        padding: 2rem;
+    }
+
+    .section-2 .section-2-img img {
+        height: 16rem;
+    }
+
+
+
+    .about-section-3, .about-column {
+        margin: auto 2rem;
+    }
+
+    .about-section-3 .team-card-row {
+        display: block;
+        gap: 0 70px;
+    }
+    .about-blob-1 {
+        display: none;
+    }
+}
+
+
+
 @media screen and (min-width: 1700px) {
     header .about-header {
         margin: 10rem;
