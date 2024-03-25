@@ -618,7 +618,15 @@ section .header-main {
 
 
 
+     @media (max-width: 500) {
 
+        html, body {
+            overflow-x: hidden !important;
+            width: 414px !important;
+            max-width: 110vw !important;
+        }
+
+    }
 
 
 
