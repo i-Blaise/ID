@@ -646,7 +646,7 @@ section .header-main {
         }
 
         .top-nav {
-            width: 91% !important;
+            width: 382px !important;
         }
 
         .slideshow-container {
@@ -663,7 +663,7 @@ section .header-main {
     
           .slideshow-hero .slide-image img {
             height: 451px;
-            width: 210% !important;
+            width: 205% !important;
             /* max-width: 213% !important; */
             position: relative;
             left: -27rem;
@@ -791,6 +791,9 @@ section .header-main {
 
 
 
+        #home-service-section {
+            width: 414px !important;
+        }
         #home-service-section .box-style {
             display: none;
         }
