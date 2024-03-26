@@ -3246,6 +3246,10 @@ section .blog-cards-row {
     height: 18px;
 }
 
+.main-content-container .share-row .three-dots {    
+    display: none;
+}
+
 
 .main-content-container .share-row .share-socials img:not(:first-child) {
     margin-left: 1rem;
@@ -3499,6 +3503,72 @@ section .blog-cards-row {
     position: absolute;
     left: 0;
     top: 126rem;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    #blog-content-container .blob1,
+    #blog-content-container .blob2,
+    #blog-content-container .blob3 {
+        display: none;
+    }
+    #blog-content-container {
+        display: block;
+        margin: auto -9rem;
+    } 
+    #blog-content-container .blog-content-left {
+        width: 133%;
+    }
+    .blog-content-left .main-blog-image img {
+        height: 14rem;
+    }
+    .blog-content-left .main-content-container h1 {
+        font-size: 26px;
+    }
+    .main-content-container .main-blog-details p {
+        position: relative;
+        top: -21px;
+        left: -70px;
+    }
+    .main-content-container .main-blog-details h5 {
+        position: relative;
+        left: 2rem;
+        top: -3px;
+    }
+    .main-content-container .body-image-row {
+        display: block;
+    }
+    .main-content-container .body-image-row img:not(:first-child) {
+        margin-left: 0;
+        margin-top: 24px;
+    }
+    .main-content-container .blog-content-quote .quote-content {
+        padding: 1rem 1rem 1rem 0rem;
+    }
+    .blog-content-quote .quote-content p {
+        font-size: 13px;
+    }
+    .main-content-container .share-row .share-socials {
+        left: -25px;
+    }
+
+    .main-content-container .share-row h4 {
+        display: none;
+    }
+    .main-content-container .share-row {
+        display: block;
+        margin-bottom: 5rem;
+    }
+
+    .main-content-container .share-row .three-dots {
+        display: inline-flex;
+        position: relative;
+    right: 2rem;
+    }
+    #blog-content-container .blog-content-right {
+        display: none;
+    }
 }
 
 /* End of Blog Open Page  */

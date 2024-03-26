@@ -18,6 +18,10 @@ Route::get('/blogs', function () {
     return view('blogs.index');
 })->name('blogs');
 
+Route::get('/blogs-open', function () {
+    return view('blogs.blog-open');
+})->name('blog-open');
+
 Route::get('/contact', function () {
     return view('contactus.index');
 })->name('contactus');

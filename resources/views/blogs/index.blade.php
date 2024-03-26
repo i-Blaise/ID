@@ -51,13 +51,13 @@
     <div class="blog-body">
       <section>
         <div class="main-blog-row">
-          <a href="blog-open.html">
+          <a href="{{ route('blog-open') }}">
             <div class="main-blog-img">
               <img src="assets/main-blog-img.png" alt="">
             </div>
           </a>
           <div class="main-blog-text">
-            <a href="blog-open.html">
+            <a href="{{ route('blog-open') }}">
               <h1>Lorem Ipsum is simply dummy text of the printing.</h1>
             </a>
             <p class="main-blog-body">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the .</p>
@@ -67,7 +67,7 @@
                 <h3>John Doe</h3>
                 <p>12.02.2020</p>
               </div>
-              <a href="blog-open.html"><p class="read-more">Read More</p></a>
+              <a href="{{ route('blog-open') }}"><p class="read-more">Read More</p></a>
             </div>
           </div>
         </div>
