@@ -138,7 +138,7 @@
       </div>
 
 
-          <!-- Footer Starts  -->
+    <!-- Footer Starts  -->
           @include('components.footer')
     <!-- Footer Ends  -->
     

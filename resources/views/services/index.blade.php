@@ -32,16 +32,18 @@
 
 
         <div class="header-2">
-          <img src="assets/services/header2.png" alt="">
+          <img src="assets/services/header2.png" class="service-header-2" alt="">
+          <img src="assets/mobile-header-service.png" class="service-header-2-mobile" alt="">
         </div>
         <!-- ends here -->
       </header>
 
 
       <section id="service-body">
-        <div class="service-row">
+
+        <div class="service-row social-market-row">
             <div class="service-image">
-                <img src="assets/services/service1.png" alt="">
+                <img src="assets/services/social-media-marketing.png" alt="">
             </div>
             <div class="service-text">
                 <h1>Social Media <span>Marketing</span></h1>
@@ -56,7 +58,7 @@
         </div>
 
 
-        <div class="service-row">
+        <div class="service-row online-ad-row">
           <div class="service-text">
               <h1>Online <span> Advertising</span></h1>
               <p>Find your spot in a noisy world. We know the exact place
@@ -74,7 +76,7 @@
       </div>
 
 
-      <div class="service-row">
+      <div class="service-row media-prod-row">
         <div class="service-image">
             <img src="assets/services/service3.png" alt="">
         </div>
@@ -91,7 +93,7 @@
     </div>
 
     
-    <div class="service-row">
+    <div class="service-row web-design-row">
       <div class="service-text">
           <h1>Website <span> Design</span></h1>
           <p>Find your spot in a noisy world. We know the exact place
@@ -109,7 +111,7 @@
   </div>
 
 
-  <div class="service-row">
+  <div class="service-row strat-consult-row">
     <div class="service-image">
         <img src="assets/services/service-strat.png" class="service-5" alt="">
     </div>
@@ -129,6 +131,8 @@
 
   <div class="ad-section">
     <!-- <img src="assets/ad-bg.png" alt=""> -->
+  </div>
+  <div class="mobile-ad-section">
   </div>
 
   <!-- Footer Starts  -->

@@ -46,6 +46,9 @@ header {
 
 #header-services {
     background-image: url(../assets/services/header-img2.png);
+    background-position: 49% 0;
+    height: 28rem;
+    background-size: inherit;
 }
 
 #header-online-ad {
@@ -1997,7 +2000,7 @@ header .about-header {
 
 
     .about-section-3, .about-column {
-        margin: 13rem 1rem 5rem 0rem;
+        margin: 13rem 1rem 5rem 22px;
     }
 
     .about-section-3 .team-card-row {
@@ -2134,6 +2137,96 @@ header .about-header {
 @media screen and (min-width: 1700px) {
     .service-row {
         margin: 100px 0 0 228px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .service-header-2 {
+        display: none;
+    }
+
+    .service-header-2-mobile {
+        position: relative;
+        top: 1rem;
+    }
+
+
+    .service-row {
+        display: block;
+        margin: 100px -13rem;
+    }
+
+    .service-row .service-image img {
+        height: 22rem;
+    }
+
+
+    .service-row .service-text {
+        width: 23rem;
+    }
+
+    .social-market-row {
+        -webkit-transform:  rotate(180deg);
+        transform:  rotate(180deg);
+    }
+
+    .social-market-row > div {
+        display: block;
+        margin: -1rem 0 0 -18rem !important;
+        -webkit-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+    }
+    .social-market-row .service-image  img {
+        position: relative;
+        left: 118px;
+    }
+
+    .online-ad-img {
+        height: 18rem !important;
+        position: relative;
+        left: 50px;
+        top: 7px;
+    }
+
+    .media-prod-row {
+        -webkit-transform:  rotate(180deg);
+        transform:  rotate(180deg);
+    }
+
+    .media-prod-row > div {
+        display: block;
+        margin: -1rem 0 0 -18rem !important;
+        -webkit-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+    }
+
+    .media-prod-row .service-image img {
+        height: 22rem;
+        position: relative;
+        left: 9rem;
+    }
+
+    .web-design-row .service-image img {
+        position: relative;
+        left: 5rem;
+        top: 8px;
+    }
+
+    .strat-consult-row {
+        -webkit-transform:  rotate(180deg);
+        transform:  rotate(180deg);
+    }
+
+    .strat-consult-row > div {
+        display: block;
+        margin: -1rem 0 0 -18rem !important;
+        -webkit-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+    }
+
+    .strat-consult-row .service-image img {
+        height: 16rem !important;
+        left: 7rem;
     }
 }
 /* End Service Page  */
