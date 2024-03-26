@@ -1084,7 +1084,7 @@ section .header-main {
         .footer-row-2 .footer-menu {
             display: block !important;
             padding: 38px 13rem 3rem 46px !important;
-            margin: 16px 0 0 -2rem !important;
+            margin: 16px 0 0 -1rem !important;
         }
 
         .footer-row-2 .footer-menu {
@@ -1098,7 +1098,7 @@ section .header-main {
 
         .footer-row .footer-row-3 {
             width: 118% !important;
-            margin: 0 66px 81px -120px !important;
+            margin: 4rem 0 0 -7rem !important;
         }
 
         footer .copy-rights {
@@ -1107,7 +1107,7 @@ section .header-main {
 
         footer .mobile-copy-rights {
             display: block;
-            margin: 8rem 0 0 0 !important;
+            margin: 8rem 0 0 1rem !important;
         }
 
         footer .mobile-copy-rights .row-1 {
@@ -1986,6 +1986,8 @@ header .about-header {
     .about-section-2 .section-2 {
         margin: -5rem 22px 0 22px ;
         padding: 2rem;
+        box-shadow: 0px 2.7128028869628906px 10.851211547851562px 0px rgba(0, 0, 0, 0.25);
+
     }
 
     .section-2 .section-2-img img {
@@ -1995,13 +1997,23 @@ header .about-header {
 
 
     .about-section-3, .about-column {
-        margin: 16rem 1rem 5rem 2rem;
+        margin: 13rem 1rem 5rem 0rem;
     }
 
     .about-section-3 .team-card-row {
         display: block;
+        margin: 0 0 0 43px;
         gap: 0 70px;
     }
+
+    .team-card-row .team-card {
+        width: 17rem;
+    }
+
+    .team-card .team-pic {
+        height: 319px;
+    }
+
     .about-blob-1 {
         display: none;
     }
@@ -3812,6 +3824,10 @@ footer .copy-rights a {
 @media screen and (min-width: 1700px) {
     .footer-row {
         margin: auto 170px;
+    }
+
+    .footer-social img {
+        height: 22px;
     }
 
     .footer-row .footer-row-2 {

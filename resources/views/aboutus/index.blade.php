@@ -121,7 +121,7 @@
 
 
       
-      <section class="adbox-2">
+      {{-- <section class="adbox-2">
         <div class="adbox-2-row">
           <div class="ad-img">
             <img src="assets/ad-card-round.png" alt="">
@@ -133,7 +133,9 @@
 
           </div>
         </div>
-      </section>
+      </section> --}}
+      <div class="mobile-ad-section">
+      </div>
 
 
           <!-- Footer Starts  -->
