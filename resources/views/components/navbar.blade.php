@@ -1,6 +1,6 @@
 <section class="top-nav" id="{{ Route::currentRouteNamed('contactus') ? 'white-nav' : '' }}">
           <div class="logo">
-            <a href="index.html"><img src="assets/logo-digital.png" alt="logo" /></a>
+            <a href="{{ route('home') }}"><img src="assets/logo-digital.png" alt="logo" /></a>
           </div>
           <input id="menu-toggle" type="checkbox" />
           <label class='menu-button-container' for="menu-toggle">
