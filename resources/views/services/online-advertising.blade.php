@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>!D - Online Advertising</title>
-
+    {{-- Favicon  --}}
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
@@ -26,23 +26,13 @@
   </head>
   <body>
       <header id="header-online-ad">
-        <nav>
-            <div class="navbar" id="dark-nav">
-              <div class="logo">
-                <img src="assets/logo-digital.png" alt="logo" />
-              </div>
-              <ul class="nav-links">
-                <li class="menu-link"><a href="index.html">Home</a></li>
-                <li class="menu-link"><a href="aboutus.html">About us</a></li>
-                <li class="menu-link"><a class="active" href="services.html">Services</a></li>
-                <li class="menu-link"><a href="blogs.html">Blog</a></li>
-                <li class="menu-link"><a href="#casestudy">Case Studies</a></li>
-                <li class="menu-link"><a href="#contact">Contact us</a></li>
-              </ul>
-            </div>
-          </nav>
+        @include('components.navbar')
+        <div class="header-title-mobile">
+          <h1>Social Media <br></h1>
+          <h1 class="two-x">Marketing</h1>
+        </div>
           <div class="header-2">
-            <img src="assets/services/online-marketing-header2.png" alt="">
+            <img src="assets/services/online-marketing-header2.png" class="online-ad-header-2">
           </div>
         <!-- ends here -->
       </header>
@@ -82,7 +72,7 @@
             <div class="account2-image">
                 <img class="stanbic-img" src="assets/services/stanbic-sm.png" alt="">
             </div>
-            <div class="account2-texts">
+            <div class="account2-texts stanbic-text">
                 <div class="desc">
                     <h5>Stanbic Bank Limited</h5>
                     <p>Venenatis blandit habitasse nunc, sapien enim elit in. Arcu, pharetra, et cursus sit senectus in blandit. Aliquet enim fermentum non semper nibh ut neque.</p>
@@ -102,7 +92,7 @@
       <section>
         <div class="account1-row">
             <div class="account1-image">
-                <img class="mtn-img" src="assets/services/mtn-sm.png" alt="">
+                <img class="mtn-img" src="assets/services/online-ad-mtn.png" alt="">
             </div>
             <div class="account1-texts">
                 <div class="desc">
@@ -117,7 +107,7 @@
         </div>
       </section>
 
-      <section>
+      <section class="last-row-mobile">
         <div class="account2-row">
             <div class="account2-image">
                 <img class="stanbic-img" src="assets/services/stanbic-sm.png" alt="">
@@ -139,81 +129,11 @@
       <div class="ad-section">
         <!-- <img src="assets/ad-bg.png" alt=""> -->
       </div>
+      <div class="mobile-ad-section">
+      </div>
     
       <!-- Footer Starts  -->
-      <footer>
-          <div class="footer-row">
-              <div class="footer-row-1">
-                  <div class="company">
-                    <img src="assets/IDlogo.png" alt="">
-                    <h1>Interactive Digital</h1>
-                  </div>
-                  <p>Creates compelling online experiences in digital media for great brands, <span>2024</span>.</p>
-                  <div class="footer-social">
-                    <img src="assets/fb.svg" alt="facebook-logo">
-                    <img src="assets/x.svg" alt="twitter-logo">
-                    <img src="assets/in.svg" alt="linkedin-logo">
-                    <img src="assets/ig.svg" alt="instagram-logo">
-                  </div>
-              </div>
-              <div class="footer-row-2">
-                <div class="footer-menu">
-                  <div class="column-1">
-                    <h4>Products</h4>
-                    <a href="#">Social Media</a>
-                    <a href="#">Online Advertisnent</a>
-                    <a href="#">Media</a>
-                    <a href="#">Website Design</a>
-                    <a href="#">Strategy</a>
-                  </div>
-    
-                  <div class="column-2">
-                    <h4>Platforms</h4>
-                    <a href="#">About Us</a>
-                    <a href="#">Services</a>
-                    <a href="#">Portfolio</a>
-                    <a href="#">Case Study</a>
-                    <a href="#">Contact Us</a>
-                  </div>
-    
-                  <div class="column-3">
-                    <h4>Utility Pages</h4>
-                    <a href="#">Use Cases</a>
-                    <a href="#">SEO</a>
-                    <a href="#">Public Relation</a>
-                    <a href="#">Content Marketing</a>
-                    <a href="#">Licenses</a>
-                  </div>
-                </div>
-              </div>
-              <div class="footer-row-3">
-                <video id="player" poster="assets/footer-video.png" class="vid" playsinline width="320" data-poster="assets/blog2.png" controls muted>
-                  <source src="assets/video/footer-vid.mp4" type="video/mp4">
-                  <source src="assets/video/footer-vid.mp4" type="video/ogg">
-                  Your browser does not support the video tag.
-                </video>
-    
-                <!-- <div class="video" id="player">
-                  <iframe
-                    src="https://www.youtube.com/embed/bTqVqk7FSmY?origin=https://plyr.io&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1"
-                    allowfullscreen
-                    allowtransparency
-                    allow="autoplay"
-                  ></iframe>
-                </div> -->
-                </div>
-          </div>
-    
-          <!-- <hr> -->
-    
-          <div class="copy-rights">
-            <p>interactivedigital © 2024. All rights reserved.</p>
-            <a href="#"><p>Contact &nbsp; &nbsp; &nbsp;/</p></a>
-            <a href="#"><p>Terms of Service &nbsp; &nbsp; &nbsp;/</p></a>
-            <a href="#"><p>Privacy Statement</p></a>
-            <!-- <p>Contact &nbsp; / &nbsp; Terms of Service &nbsp; /  &nbsp;   Privacy Statement</p> -->
-          </div>
-      </footer>
+            @include('components.footer')
       <!-- Footer Ends  -->
 
 

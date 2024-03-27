@@ -64,7 +64,7 @@
               <p>Find your spot in a noisy world. We know the exact place
                 We harness the power of digital channels to expand your brand’s reach. Our digital marketing experts develop data-driven strategies to connect with your target audience, increase engagement, and drive conversions..</p>
               <div class="service-btn">
-                  <a href="online-advertising.html">
+                  <a href="{{ route('online-advertising') }}">
                       <p>View More</p>
                       <img src="assets/services/red-right-arrow.svg" alt="">
                   </a>

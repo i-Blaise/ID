@@ -18,6 +18,10 @@ Route::get('/sm-marketing', function () {
     return view('services.sm-marketing');
 })->name('sm-marketing');
 
+Route::get('/online-advertising', function () {
+    return view('services.online-advertising');
+})->name('online-advertising');
+
 Route::get('/blogs', function () {
     return view('blogs.index');
 })->name('blogs');
