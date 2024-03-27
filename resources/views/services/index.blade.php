@@ -49,7 +49,7 @@
                 <h1>Social Media <span>Marketing</span></h1>
                 <p>Find your spot in a noisy world. We know the exact place we harness the power of digital channels to expand your brand’s reach. Our digital marketing experts develop data-driven strategies to connect with your target audience, increase engagement, and drive conversions.</p>
                 <div class="service-btn">
-                    <a href="digital-marketing.html">
+                    <a href="{{ route('sm-marketing') }}">
                         <p>Learn More</p>
                         <img src="assets/services/red-right-arrow.svg" alt="">
                     </a>

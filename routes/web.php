@@ -14,6 +14,10 @@ Route::get('/services', function () {
     return view('services.index');
 })->name('services');
 
+Route::get('/sm-marketing', function () {
+    return view('services.sm-marketing');
+})->name('sm-marketing');
+
 Route::get('/blogs', function () {
     return view('blogs.index');
 })->name('blogs');
