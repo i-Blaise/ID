@@ -26,21 +26,7 @@
   </head>
   <body>
       <header id="header-digital-strategy">
-        <nav>
-          <div class="navbar" id="dark-nav">
-            <div class="logo">
-              <img src="assets/logo-digital.png" alt="logo" />
-            </div>
-            <ul class="nav-links">
-              <li class="menu-link"><a href="index.html">Home</a></li>
-              <li class="menu-link"><a href="#about">About us</a></li>
-              <li class="menu-link"><a class="active"  href="services.html">Services</a></li>
-              <li class="menu-link"><a href="blogs.html">Blog</a></li>
-              <li class="menu-link"><a href="#casestudy">Case Studies</a></li>
-              <li class="menu-link"><a href="#contact">Contact us</a></li>
-            </ul>
-          </div>
-        </nav>
+        @include('components.navbar')
         <!-- ends here -->
         </header>
 
@@ -119,7 +105,7 @@
     </section>
 
 
-    <section>
+    {{-- <section>
         <div class="main-ad">
             <div class="ad-box">
                 <div class="ad-text">
@@ -132,92 +118,15 @@
                 </button>
             </div>
         </div>
-    </section>
+    </section> --}}
 
 
-          <!-- Footer Starts  -->
-          <footer>
-            <div class="footer-row">
-                <div class="footer-row-1">
-                    <div class="company">
-                      <img src="assets/IDlogo.png" alt="">
-                      <h1>Interactive Digital</h1>
-                    </div>
-                    <p>Creates compelling online experiences in digital media for great brands, <span>2024</span>.</p>
-                    <div class="footer-social">
-                      <a href="fb.com" target="_blank">
-                        <img src="assets/fb.svg" alt="facebook-logo">
-                      </a>
-                      <a href="https://x.com/id4brandz/" target="_blank">
-                        <img src="assets/x.svg" alt="twitter-logo">
-                      </a>
-                      <a href="https://x.com/id4brandz/" target="_blank">
-                        <img src="assets/in.svg" alt="linkedin-logo">
-                      </a>
-                      <a href="https://x.com/id4brandz/" target="_blank">
-                        <img src="assets/ig.svg" alt="instagram-logo">
-                      </a>
-                    </div>
-                </div>
-                <div class="footer-row-2">
-                  <div class="footer-menu">
-                    <div class="column-1">
-                      <h4>Products</h4>
-                      <a href="#">Social Media</a>
-                      <a href="#">Online Advertisnent</a>
-                      <a href="#">Media</a>
-                      <a href="#">Website Design</a>
-                      <a href="#">Strategy</a>
-                    </div>
-    
-                    <div class="column-2">
-                      <h4>Platforms</h4>
-                      <a href="#">About Us</a>
-                      <a href="#">Services</a>
-                      <a href="#">Portfolio</a>
-                      <a href="#">Case Study</a>
-                      <a href="#">Contact Us</a>
-                    </div>
-    
-                    <div class="column-3">
-                      <h4>Utility Pages</h4>
-                      <a href="#">Use Cases</a>
-                      <a href="#">SEO</a>
-                      <a href="#">Public Relation</a>
-                      <a href="#">Content Marketing</a>
-                      <a href="#">Licenses</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="footer-row-3">
-                  <video id="player" poster="assets/footer-video.png" class="vid" playsinline width="848" height="480" data-poster="assets/blog2.png" controls muted loop>
-                    <source src="assets/video/footer-vid.mp4" type="video/mp4">
-                    <source src="assets/video/footer-vid.mp4" type="video/ogg">
-                    Your browser does not support the video tag.
-                  </video>
-      
-                  <!-- <div class="video" id="player">
-                    <iframe
-                      src="https://www.youtube.com/embed/bTqVqk7FSmY?origin=https://plyr.io&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1"
-                      allowfullscreen
-                      allowtransparency
-                      allow="autoplay"
-                    ></iframe>
-                  </div> -->
-                  </div>
-            </div>
-    
-            <!-- <hr> -->
-    
-            <div class="copy-rights">
-              <p>interactivedigital © 2024. All rights reserved.</p>
-              <a href="#"><p>Contact &nbsp; &nbsp; &nbsp;/</p></a>
-              <a href="#"><p>Terms of Service &nbsp; &nbsp; &nbsp;/</p></a>
-              <a href="#"><p>Privacy Statement</p></a>
-              <!-- <p>Contact &nbsp; / &nbsp; Terms of Service &nbsp; /  &nbsp;   Privacy Statement</p> -->
-            </div>
-        </footer>
-        <!-- Footer Ends  -->
+    <div class="mobile-ad-section">
+    </div>
+  
+    <!-- Footer Starts  -->
+          @include('components.footer')
+    <!-- Footer Ends  -->
 
 
         <script> 

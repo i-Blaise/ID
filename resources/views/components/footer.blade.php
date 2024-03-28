@@ -1,6 +1,6 @@
 <footer>
     <div class="footer-row">
-        <div class="footer-row-1">
+        <div class="footer-row-1 videography">
             <div class="company">
               <img src="assets/IDlogo.png" alt="">
               <h1>Interactive Digital</h1>

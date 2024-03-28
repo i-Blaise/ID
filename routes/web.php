@@ -26,6 +26,10 @@ Route::get('/videography', function () {
     return view('services.videography');
 })->name('videography');
 
+Route::get('/strategy', function () {
+    return view('services.digital-strategy');
+})->name('strategy');
+
 Route::get('/blogs', function () {
     return view('blogs.index');
 })->name('blogs');
