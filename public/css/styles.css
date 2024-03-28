@@ -4088,14 +4088,14 @@ section .blog-cards-row {
         margin: 8rem 0 0 5rem;
     }
     .video-project-row .project-videos {
-        margin: 20rem 0 0 -3rem;
+        margin: 20rem 0 0 -4rem;
     }
     .video-project-row .project-videos .video img {
         background-size: auto;
-        height: 12rem;
+        height: 10rem;
     }
     .video-project-row .project-videos .project-video3 img {
-        height: 14rem;
+        height: 12rem;
     }
     .video-project-row .project-videos .video {
         height: 15rem;
@@ -4114,6 +4114,18 @@ section .blog-cards-row {
     #video-projects-section {
         height: 119rem;
     }
+    .video-project-row .project-list {
+        margin: 0 5rem 0 0;
+    }
+    @supports (display: grid){
+    .main {
+        overflow-x: hidden;
+        margin: -2rem 0 0 -16rem;
+    }
+    .grid-container h2 {
+        right: -3rem;
+    }
+}
 
 }
 
