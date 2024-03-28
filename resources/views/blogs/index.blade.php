@@ -80,7 +80,7 @@
             <img src="assets/blog2.png" alt="">
             <div class="blog-card-text">
               <h2>Lorem Ipsum is simply dummy text of the printing.</h2>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the .</p>
+              <p class="blog-excerpt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the .</p>
               <div class="card-info">
                 <img src="assets/blog-author2.png" alt="Blog Author">
                 <div class="card-info-name-date">
@@ -95,7 +95,7 @@
             <img src="assets/blog3.png" alt="">
             <div class="blog-card-text">
               <h2>Lorem Ipsum is simply dummy text of the printing.</h2>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the .</p>
+              <p class="blog-excerpt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the .</p>
               <div class="card-info">
                 <img src="assets/blog-author3.png" alt="Blog Author">
                 <div class="card-info-name-date">
@@ -110,7 +110,7 @@
             <img src="assets/blog4.png" alt="">
             <div class="blog-card-text">
               <h2>Lorem Ipsum is simply dummy text of the printing.</h2>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the .</p>
+              <p class="blog-excerpt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the .</p>
               <div class="card-info">
                 <img src="assets/blog-author4.png" alt="Blog Author">
                 <div class="card-info-name-date">
@@ -125,7 +125,7 @@
             <img src="assets/blog2.png" alt="">
             <div class="blog-card-text">
               <h2>Lorem Ipsum is simply dummy text of the printing.</h2>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the .</p>
+              <p class="blog-excerpt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the .</p>
               <div class="card-info">
                 <img src="assets/blog-author2.png" alt="Blog Author">
                 <div class="card-info-name-date">
@@ -140,7 +140,7 @@
             <img src="assets/blog3.png" alt="">
             <div class="blog-card-text">
               <h2>Lorem Ipsum is simply dummy text of the printing.</h2>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the .</p>
+              <p class="blog-excerpt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the .</p>
               <div class="card-info">
                 <img src="assets/blog-author3.png" alt="Blog Author">
                 <div class="card-info-name-date">

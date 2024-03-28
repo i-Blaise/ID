@@ -3012,6 +3012,13 @@ header .header-2 .sm-header-2-mobile {
         right: 3rem;
         width: 15rem;
     }
+    .blog-card .card-info {
+        margin: 5rem 0 -26px 0 !important;
+    }
+    .blog-card-text .blog-excerpt {
+        position: relative;
+        top: 2rem;
+    }
  }
  /* .parent {
     -webkit-transform:  rotate(180deg);
