@@ -15,7 +15,7 @@
     .grid-container {
       grid-template-columns: 1fr;
       grid-template-rows: 0.3fr 1fr auto 1fr;
-      /* grid-template-areas: "header" "title" "main" "footer"; */
+      grid-template-areas: "header" "title" "main" "footer";
     }
   }
 
