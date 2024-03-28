@@ -435,7 +435,7 @@ section .header-main {
     display: flow;
     height: 50px;
     position: relative;
-    bottom: 503px;
+    bottom: 508px;
   }
 
   .slideshow-container .slideshow-cta p {
@@ -733,7 +733,7 @@ section .header-main {
         #clients {
             display: block;
             padding: 0 10rem;
-            margin: -1rem 0 0 -9rem;
+            margin: 10rem 0 0 -9rem;
         }
 
         #clients h1 {
