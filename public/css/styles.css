@@ -71,7 +71,9 @@ header {
     background-image: url(../assets/case_study/case-study.png);
     height: 46rem;
 }
-
+#header-case-open {
+    background-image: url(../assets/case_study/header.png);
+}
 header .header-2 {
     margin-top: 2rem;
     text-align: center;
@@ -2007,7 +2009,7 @@ header .about-header {
 
 
     .about-section-3, .about-column {
-        margin: 13rem 1rem 5rem 22px;
+        margin: 30rem 1rem 5rem 22px;
     }
 
     .about-section-3 .team-card-row {

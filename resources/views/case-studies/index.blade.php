@@ -24,6 +24,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap"
       rel="stylesheet"
     />
+  </head>
 <body>
     <header id="header-case-study">
       @include('components.navbar')
@@ -34,15 +35,15 @@
 <section class="case-study">
   <div class="case-study-container">
     <div class="case-study-card">
-      <a href="#">
+      <a href="{{ route('case-open') }}">
         <img src="{{ asset('assets/case_study/case1.png') }}" alt="">
       </a>
       <p>23 Nov 2021</p>
       <hr>
-      <a href="#">
+      <a href="{{ route('case-open') }}">
         <h1>Easter Holidays</h1>
       </a>
-      <a href="#">
+      <a href="{{ route('case-open') }}">
         <p class="view">View</p>
       </a>
     </div>

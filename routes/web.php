@@ -38,6 +38,10 @@ Route::get('/case-study', function () {
     return view('case-studies.index');
 })->name('case-study');
 
+Route::get('/case-open', function () {
+    return view('case-studies.single');
+})->name('case-open');
+
 Route::get('/blogs-open', function () {
     return view('blogs.blog-open');
 })->name('blog-open');
