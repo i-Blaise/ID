@@ -6,7 +6,7 @@
 body {
     margin: 0;
     overflow-x: hidden;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif !important;
 }
 
 body p{
@@ -65,6 +65,11 @@ header {
 
 #header-digital-strategy {
     background-image: url(../assets/digi_strat_header.png);
+}
+
+#header-case-study {
+    background-image: url(../assets/case_study/case-study.png);
+    height: 46rem;
 }
 
 header .header-2 {
@@ -4179,7 +4184,6 @@ section .blog-cards-row {
 
 
 
-/* Digital Strategy Page Start  */
 
 
 
@@ -4188,6 +4192,76 @@ section .blog-cards-row {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Case Study Page Begins  */
+
+.case-study-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem 1rem;
+    width: 79%;
+    margin: 5rem 11rem;
+}
+
+.case-study-container .case-study-card {
+    display: block;
+    width: 233px;
+    box-shadow: 0px 0px 17.736133575439453px 0px rgba(0, 0, 0, 0.1);
+    padding: 22px;
+}
+
+.case-study-container .case-study-card a {
+    text-decoration: none;
+}
+
+.case-study-container .case-study-card p {
+    color: rgba(146, 145, 161, 1);
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 300;
+    text-align: end;
+}
+
+.case-study-container .case-study-card h1 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: rgba(47, 46, 65, 1);
+    width: 217px;
+    height: 5rem;
+}
+
+.case-study-container .case-study-card .view {
+    color: rgba(206, 25, 25, 1);
+    text-align: start;
+    position: relative;
+}
+
+@media screen and (max-width: 700px) {
+    .case-study-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 5rem 62px;
+    }
+    #header-case-study {
+        background-image: url(../assets/case_study/cs-header-mobile.png);
+        height: 32rem;
+    }
+}
 
 
 

@@ -34,6 +34,10 @@ Route::get('/blogs', function () {
     return view('blogs.index');
 })->name('blogs');
 
+Route::get('/case-study', function () {
+    return view('case-studies.index');
+})->name('case-study');
+
 Route::get('/blogs-open', function () {
     return view('blogs.blog-open');
 })->name('blog-open');

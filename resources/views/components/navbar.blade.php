@@ -11,7 +11,7 @@
             <li class="menu-link"><a class="{{ Route::currentRouteNamed('aboutus') ? 'active' : '' }}" href="{{ route('aboutus') }}">About Us</a></li>
             <li class="menu-link"><a class="{{ Route::currentRouteNamed('services') ? 'active' : '' }}" href="{{ route('services') }}">Services</a></li>
             <li class="menu-link"><a class="{{ Route::currentRouteNamed('blogs') ? 'active' : '' }}" href="{{ route('blogs') }}">Blog</a></li>
-            <li class="menu-link"><a class="{{ Route::currentRouteNamed('case-studies') ? 'active' : '' }}" href="#">Case Studies</a></li>
+            <li class="menu-link"><a class="{{ Route::currentRouteNamed('case-studies') ? 'active' : '' }}" href="{{ route('case-study') }}">Case Studies</a></li>
             <li class="menu-link"><a class="{{ Route::currentRouteNamed('contactus') ? 'active' : '' }}" href="{{ route('contactus') }}">Contact us</a></li>
           </ul>
 </section>
