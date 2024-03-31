@@ -1545,16 +1545,32 @@ section .home-blog-title {
 
 /* Home Responsive  */
 
-@media screen and (max-width: 1500px) {
+@media screen and (min-width: 1400px) {
     #process-section .process-container {
         background-position: 89% 55%;
      }
 
-     /* #clients {
-        display: block;
-        padding: 0 10rem;
-        margin: 13rem 0 0 -24px;
-    } */
+     .slideshow-container .slideshow-hero .slideshow-cta {
+        bottom: 536px;
+    }
+    .slideshow-container .slideshow-hero .slideshow-dot {
+        bottom: 33rem;
+    }
+    .slideshow-hero p {
+        bottom: 32rem;
+    }
+    .slideshow-hero .r1 {
+        bottom: 19rem;
+    }
+    .slideshow-hero h1 {
+        bottom: 25rem;
+    }
+    .slideshow-hero .r2 {
+        bottom: 28rem;
+    }
+    .about-section-2 .section-2 {
+        margin: auto 269px;
+    }
 
     #portfolio-section .portfolio-row {
         margin-left: 7%;
@@ -1919,7 +1935,7 @@ header .about-header {
         margin-bottom: 5rem;
     }
     .about-header .header-text p {
-        width: 25rem;
+        width: 24rem;
     }
     .about-header .header-image {
         display: inline-flex;
@@ -1971,14 +1987,14 @@ header .about-header {
     .about-intro-text h2 {
         position: relative;
         top: 4rem;
-        left: 1rem;
+        left: 0rem;
     }
 
     .about-intro-text p {
         position: relative;
-        left: 1rem;
+        left: 0rem;
         bottom: -48px;
-        width: 24rem;
+        width: 355px;
     }
 
     .about-row-2 .about-intro-img img {
@@ -2006,9 +2022,11 @@ header .about-header {
         height: 16rem;
     }
 
+    .about-section-3 {
+        margin: 12rem 1rem 5rem 22px;
+    }
 
-
-    .about-section-3, .about-column {
+     .about-column {
         margin: 24rem 1rem 5rem 22px;
     }
 

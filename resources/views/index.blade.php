@@ -133,27 +133,27 @@
                 </div>
 
                 <div class="service">
-                  <img src="assets/service-icon-2.png" class="service-icon" alt="">
+                  <img src="{{ asset('assets/web-design-icon.svg') }}" class="service-icon" alt="">
                   <p>Website Design</p>
                 </div>
 
                 <div class="service">
-                  <img src="assets/globe-icon.png" class="service-icon" alt="">
+                  <img src="{{ asset('assets/online-ad-icon.svg') }}" class="service-icon" alt="">
                   <p>Online Advertising</p>
                 </div>
 
                 <div class="service">
-                  <img src="assets/service-icon-3.png" class="service-icon" alt="">
+                  <img src="{{ asset('assets/strat-icon.svg') }}" class="service-icon" alt="">
                   <p>Strategy Consulting</p>
                 </div>
 
                 <div class="service">
-                  <img src="assets/globe-icon.png" class="service-icon" alt="">
+                  <img src="{{ asset('assets/media-prod-icon.svg') }}" class="service-icon" alt="">
                   <p>Media Production</p>
                 </div>
 
               </div>
-              <a href="services.html">
+              <a href="{{ route('services') }}">
                 <p>Come have a look</p>
               </a>
             </div>
