@@ -19,6 +19,29 @@
     }
   }
 
+  /* Scrollbar  */
+/* width */
+.main::-webkit-scrollbar {
+  height: 4px;
+  width: 5px;
+}
+
+
+/* Track */
+.main::-webkit-scrollbar-track {
+  background: #00000000; 
+}
+ 
+/* Handle */
+.main::-webkit-scrollbar-thumb {
+  background: #8888885d; 
+}
+
+/* Handle on hover */
+.main::-webkit-scrollbar-thumb:hover {
+  background: #555555a2; 
+}
+
   .grid-item {
     color: #fff;
     padding: 3.5em 1em;
@@ -45,6 +68,7 @@
     padding: 0;
     overflow-x: scroll;
     overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
   }
 
   .items {
