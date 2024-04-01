@@ -2089,6 +2089,9 @@ header .about-header {
 
 
 /* Service Page Starts  */
+.service-header-2-mobile {
+    display: none;
+}
 #service-body {
     margin: 45px 100px;
     /* border: 1px solid red; */
@@ -2143,6 +2146,8 @@ header .about-header {
     display: inline-flex;
     color: red;
     text-decoration: underline;
+    text-decoration: underline;
+    text-underline-offset: 5px;
 }
 
 .service-text .service-btn a p{
@@ -2174,8 +2179,11 @@ header .about-header {
     }
 
     .service-header-2-mobile {
+        display: inline;
         position: relative;
-        top: 1rem;
+        top: 34px;
+        right: 12px;
+        height: 314px;
     }
 
 
@@ -2256,6 +2264,17 @@ header .about-header {
         height: 16rem !important;
         left: 7rem;
     }
+
+    .service-text .service-btn{
+        text-align: center;
+    }
+
+    .sm-marketing-row .marketing-card h3 {
+        bottom: 174px !important;
+    }
+    .sm-marketing-row .marketing-card p {
+        bottom: 180px !important;
+    }
 }
 /* End Service Page  */
 
@@ -2267,10 +2286,10 @@ header .about-header {
 /* Start Online Ad Page  */
 
 .ad-space {
-    width: 74rem;
+    width: 73rem;
     background-color: #F1F5F9 !important;
     height: 12rem;
-    margin: 18rem 10rem;
+    margin: 6rem 184px;
     margin-bottom: 12px;
 }
 
@@ -2371,6 +2390,17 @@ section .account2-row {
     display: none;
 }
 
+@media screen and (min-width: 1800px) {
+    .ad-space {
+        margin: 6rem 361px !important;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .ad-space {
+        margin: 6rem 138px !important;
+    }
+}
 
 @media screen and (max-width: 700px) {
     #header-online-ad {
@@ -3308,6 +3338,11 @@ section .blog-cards-row {
     }
   }
 
+  @media screen and (max-width: 1500px) {
+    .main-blog-text .blog-info {
+        width: 101% !important;
+    }
+}
   @media screen and (max-width: 700px) {
 
     header {
@@ -4251,7 +4286,7 @@ section .blog-cards-row {
 
 .case-study-container .case-study-card p {
     color: rgba(146, 145, 161, 1);
-    font-size: 20px;
+    font-size: 16px;
     line-height: 22px;
     font-weight: 300;
     text-align: end;
@@ -4263,7 +4298,7 @@ section .blog-cards-row {
     line-height: 32px;
     color: rgba(47, 46, 65, 1);
     width: 217px;
-    height: 5rem;
+    height: 4rem;
 }
 
 .case-study-container .case-study-card .view {
@@ -4272,6 +4307,16 @@ section .blog-cards-row {
     position: relative;
 }
 
+@media screen and (min-width: 1800px) {
+    .case-study-container {
+        margin: 5rem 15rem !important;
+    }
+}
+@media screen and (max-width: 1500px) {
+    .case-study-container {
+        margin: 5rem 148px !important;
+    }
+}
 @media screen and (max-width: 700px) {
     .case-study-container {
         display: grid;

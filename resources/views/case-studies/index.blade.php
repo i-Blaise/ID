@@ -41,7 +41,7 @@
       <p>23 Nov 2021</p>
       <hr>
       <a href="{{ route('case-open') }}">
-        <h1>Easter Holidays</h1>
+        <h1>Easter <br> Holidays</h1>
       </a>
       <a href="{{ route('case-open') }}">
         <p class="view">View</p>
@@ -55,7 +55,7 @@
       <p>23 Nov 2021</p>
       <hr>
       <a href="#">
-        <h1>8 guidelines for art lovers</h1>
+        <h1>8 guidelines for <br> art lovers</h1>
       </a>
       <a href="#">
         <p class="view">View</p>
@@ -70,7 +70,7 @@
       <p>23 Nov 2021</p>
       <hr>
       <a href="#">
-        <h1>The Importance of Statistics</h1>
+        <h1>The Importance <br>of Statistics</h1>
       </a>
       <a href="#">
         <p class="view">View</p>
