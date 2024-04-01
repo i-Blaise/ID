@@ -24,6 +24,7 @@
 .main::-webkit-scrollbar {
   height: 4px;
   width: 5px;
+  -webkit-overflow-scrolling: touch;
 }
 
 
