@@ -1988,6 +1988,7 @@ header .about-header {
         position: relative;
         top: 4rem;
         left: 0rem;
+        font-size: 32px !important;
     }
 
     .about-intro-text p {
