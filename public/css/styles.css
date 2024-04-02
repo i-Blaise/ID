@@ -936,6 +936,7 @@ section .header-main {
             display: flex;
             flex-wrap: nowrap;
             overflow-x: auto;
+            margin-left: 46px !important;
         }
         
         #portfolio-section .portfolio-row .portfolio-card {
@@ -987,9 +988,9 @@ section .header-main {
         .testimonial-right .testimonial-name {
         width: 72px !important;
         position: relative;
-        top: 122px !important;
-        left: 18px !important;
-        padding: 8px 2px !important;
+        top: 123px !important;
+        left: 4px !important;
+        padding: 8px 5px !important;
         }
 
         .testimonial-right .testimonial-name h2 {
@@ -1544,7 +1545,11 @@ section .home-blog-title {
 
 
 /* Home Responsive  */
-
+@media screen and (min-width: 1500px) {
+    .slideshow-container .slideshow-hero .slideshow-cta {
+        bottom: 516px !important;
+    }
+}
 @media screen and (min-width: 1400px) {
     #process-section .process-container {
         background-position: 89% 55%;
@@ -2182,8 +2187,8 @@ header .about-header {
         display: inline;
         position: relative;
         top: 34px;
-        right: 12px;
-        height: 314px;
+        /* right: 12px;
+        height: 314px; */
     }
 
 
@@ -4323,7 +4328,7 @@ section .blog-cards-row {
     .case-study-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin: 5rem 62px;
+        margin: 5rem 70px !important;
     }
     #header-case-study {
         background-image: url(../assets/case_study/cs-header-mobile.png);
