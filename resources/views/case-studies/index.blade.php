@@ -11,7 +11,7 @@
         <link rel="manifest" href="assets/favicon_io/site.webmanifest">
     <!-- Include the stylesheet -->
   <link rel="stylesheet" href="{{ asset('assets/dist/style.css') }}">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.css?v=1">
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
