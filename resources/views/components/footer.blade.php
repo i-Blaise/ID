@@ -1,3 +1,8 @@
+<div class="ad-section">
+  <h1>Have questions?</h1>
+  <p>We love those. Reach out. Let’s chat. Even if it’s about random things...like the color fuchsia...or how much coffee our team consumes on a daily basis.</p>
+  <p class="email">info@interactivedigital.com</p>
+</div>
 <footer>
     <div class="footer-row">
         <div class="footer-row-1 videography">

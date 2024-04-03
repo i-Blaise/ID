@@ -182,8 +182,6 @@
 </section>
 
 
-<div class="ad-section">
-</div>
 <div class="mobile-ad-section">
 </div>
 

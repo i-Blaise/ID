@@ -276,10 +276,6 @@
       </div>
     </div>
 
-    <div class="ad-section">
-    </div>
-    <div class="mobile-ad-section">
-    </div>
 
     <!-- Footer Starts  -->
         @include('components.footer')

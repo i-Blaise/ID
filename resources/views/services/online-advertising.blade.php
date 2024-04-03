@@ -126,9 +126,7 @@
       </section>
 
 
-      <div class="ad-section">
-        <!-- <img src="assets/ad-bg.png" alt=""> -->
-      </div>
+
       <div class="mobile-ad-section">
       </div>
     

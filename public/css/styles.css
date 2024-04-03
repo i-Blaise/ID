@@ -420,10 +420,11 @@ section .header-main {
   }
 
   .slideshow-hero .slideshow-dot .dot {
-    cursor: pointer;
+    /* cursor: pointer; */
     height: 8px;
     width: 9px;
-    background-color: #CE19196B;
+    /* background-color: #CE19196B; */
+    background-color: #ffffff00;
     display: inline-block;
     transition: background-color 0.6s ease;
     /* position: relative;
@@ -432,7 +433,8 @@ section .header-main {
   
   .slideshow-hero .slideshow-dot .on,
   .slideshow-dot .dot:hover {
-    background-color: #CE1919;
+    background-color: #ffffff00;
+    /* background-color: #CE1919; */
     width: 44px;
   }
 
@@ -1547,7 +1549,7 @@ section .home-blog-title {
 /* Home Responsive  */
 @media screen and (min-width: 1500px) {
     .slideshow-container .slideshow-hero .slideshow-cta {
-        bottom: 516px !important;
+        bottom: 504px !important;
     }
 }
 @media screen and (min-width: 1400px) {
@@ -3323,10 +3325,32 @@ section .blog-cards-row {
 }
 
 .ad-section {
-    background-image: url(../assets/ad-bg.png);
+    background-image: url(../assets/ad-image.png);
     background-size: cover;
     height: 322px;
+}
 
+.ad-section h1 {
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 66px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: 2rem;
+}
+.ad-section p {
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 30px;
+    text-align: center;
+    color: #FFF;
+    width: 38rem;
+    position: relative;
+    left: 30rem;
+    top: 2rem;
 }
 
 /* @media screen and (max-width: 1490px) {
