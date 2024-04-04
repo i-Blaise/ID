@@ -4403,10 +4403,12 @@ section .blog-cards-row {
 .case-row-2 {
     display: inline-flex;
     width: 100%;
+    margin: 8rem 0 0 32px;
 }
 
-.case-row-2 .case-row-2-image img {
-    height: 20rem;
+.case-row-2 .case-row-2-image img,
+.case-row-3 .case-row-3-image img {
+    height: 19rem;
 }
 
 .case-row-2 .case-row-2-text {
@@ -4420,7 +4422,8 @@ section .blog-cards-row {
     box-shadow: 0px 0px 9.546875px 0px rgba(0, 0, 0, 0.07);
     box-shadow: 0px 19.09375px 23.8671875px -4.7734375px rgba(0, 0, 0, 0.1);
 }
-.case-row-2 .case-row-2-text h1 {
+.case-row-2 .case-row-2-text h1,
+.case-row-3 .case-row-3-text h1 {
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
@@ -4428,13 +4431,79 @@ section .blog-cards-row {
     color: rgba(15, 23, 42, 1);
 }
 
-.case-row-2 .case-row-2-text p {
-    font-size: 12px;
+.case-row-2 .case-row-2-text p,
+.case-row-3 .case-row-3-text p {
+    font-size: 14px;
     font-weight: 400;
-    line-height: 28px;
     color: rgba(71, 85, 105, 1);
-    width: 31rem;
+    width: 30rem;
 }
+
+
+
+
+
+.case-row-3 {
+    display: inline-flex;
+    width: 100%;
+    margin: 3rem 0 0 145px;
+}
+
+.case-row-3 .case-row-3-text {
+    position: relative;
+    left: 38px;
+    top: 2rem;
+    background-color: #FFF;
+    padding: 1rem 1rem 14px 1rem;
+    height: fit-content;
+    width: fit-content;
+    box-shadow: 0px 0px 9.546875px 0px rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 19.09375px 23.8671875px -4.7734375px rgba(0, 0, 0, 0.1);
+
+}
+
+.case-row-3 .case-row-3-text p {
+    width: 33rem;
+}
+
+
+
+
+.case-study-banner {
+    /* background-image: url(../assets/case_study/bar-bg.png); */
+    height: 414px;
+    width: 74rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 2rem;
+}
+
+.case-study-banner .case-study-banner-text {
+    position: relative;
+    top: 6rem;
+    left: 50rem;
+}
+
+.case-study-banner-text h1 {
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 53px;
+    color: rgba(120, 59, 196, 1);
+}
+
+.case-study-banner-text p {
+    color: rgba(120, 59, 196, 1);
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

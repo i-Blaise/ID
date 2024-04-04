@@ -55,6 +55,30 @@
       <p>An engaging social media execution fusing agency life with elements of the Easter story to create relatable and engaging content</p>
     </div>
   </div>
+
+  <div class="case-row-3">
+    <div class="case-row-3-text">
+      <h1>Our Inspiration</h1>
+      <p>The Easter Story historically highlights notable moments occurring during the last moments of Christ. We found that in more ways than one, the agency life bears intriguing similarities to how we navigate work, our client relationships and make magic.</p>
+    </div>
+    <div class="case-row-3-image">
+      <img src="{{ asset('assets/case_study/overview2.png') }}" alt="">
+    </div>
+  </div>
+
+
+  <div class="case-study-banner">
+    <style>
+      .case-study-banner {
+        background-image: url({{ asset('assets/case_study/bar-bg.png') }});
+      }
+    </style>
+    <div class="case-study-banner-text">
+      <h1>THE PASSION OF <br>THE AGENCY</h1>
+      <p style="text-transform: uppercase;">An Easter Story</p>
+      <p style="font-weight: 800;">We remember...</p>
+    </div>
+  </div>
 </section>
 </body>
 </html>
