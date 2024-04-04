@@ -31,5 +31,30 @@
         <!-- ends here -->
       </header>
 <!-- partial:index.partial.html -->
+
+
+<section id="case-study-container">
+  <div class="case-row-1">
+    <div class="case-row-1-image">
+      <img src="{{ asset('assets/case_study/overview1.png') }}" alt="">
+    </div>
+    <div class="case-row-1-text">
+      {{-- <h1>The Ask (objectives/outcomes)</h1>
+      <p>An engaging social media execution fusing agency life with elements of the Easter story to create relatable and engaging content</p> --}}
+      <h1>The Overview</h1>
+      <p>Easter, the second biggest Christian holiday, is always celebrated with some level of solemnity and reflection. Interactive Digital decided to mark the holiday employing themes of reflection on our own journey as an agency.</p>
+    </div>
+  </div>
+
+  <div class="case-row-2">
+    <div class="case-row-2-image">
+      <img src="{{ asset('assets/case_study/overview2.png') }}" alt="">
+    </div>
+    <div class="case-row-2-text">
+      <h1>The Ask (objectives/outcomes)</h1>
+      <p>An engaging social media execution fusing agency life with elements of the Easter story to create relatable and engaging content</p>
+    </div>
+  </div>
+</section>
 </body>
 </html>

@@ -72,7 +72,7 @@ header {
     height: 46rem;
 }
 #header-case-open {
-    background-image: url(../assets/case_study/header.png);
+    background-image: url(../assets/case_study/easter-header.png);
 }
 header .header-2 {
     margin-top: 2rem;
@@ -4359,6 +4359,99 @@ section .blog-cards-row {
         height: 32rem;
     }
 }
+
+
+
+/* Case Study Open Page Begin  */
+
+#case-study-container {
+    display: block;
+    margin: 5rem 9rem;
+}
+
+.case-row-1 {
+    display: inline-flex;
+    width: 100%;
+}
+
+.case-row-1 .case-row-1-image img {
+    height: 28rem;
+}
+
+.case-row-1 .case-row-1-text {
+    position: relative;
+    left: 3rem;
+}
+
+.case-row-1 .case-row-1-text h1 {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 52px;
+    color: rgba(15, 23, 42, 1);
+}
+
+
+.case-row-1 .case-row-1-text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(71, 85, 105, 1);
+    width: 39rem;
+}
+
+
+.case-row-2 {
+    display: inline-flex;
+    width: 100%;
+}
+
+.case-row-2 .case-row-2-image img {
+    height: 20rem;
+}
+
+.case-row-2 .case-row-2-text {
+    position: relative;
+    right: 5rem;
+    top: 7rem;
+    background-color: #FFF;
+    padding: 1rem 1rem 14px 1rem;
+    height: fit-content;
+    width: fit-content;
+    box-shadow: 0px 0px 9.546875px 0px rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 19.09375px 23.8671875px -4.7734375px rgba(0, 0, 0, 0.1);
+}
+.case-row-2 .case-row-2-text h1 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: rgba(15, 23, 42, 1);
+}
+
+.case-row-2 .case-row-2-text p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(71, 85, 105, 1);
+    width: 31rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
