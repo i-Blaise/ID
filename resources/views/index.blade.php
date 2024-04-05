@@ -24,7 +24,7 @@
     />
   </head>
   <body>
-    <header id="header-homepage">
+    <header id="black-bg">
 
     @include('components.navbar')
 
