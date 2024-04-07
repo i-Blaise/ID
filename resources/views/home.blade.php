@@ -146,5 +146,205 @@
     </div>
 
 
+
+
+    <div class="home-body-row4">
+        <h1>Our Portfolio</h1>
+        <div class="portfolio-row4">
+            <div class="portfolio-row4-card">
+                <div class="card-image">
+                    <img src="{{ asset('assets/homepage/mtn.webp') }}" alt="">
+                </div>
+                <div class="card-text">
+                    <h4>MTN-Ghana</h4>
+                    <p>Digital Marketing</p>
+                </div>
+            </div>
+
+            <div class="portfolio-row4-card">
+                <div class="card-image">
+                    <img src="{{ asset('assets/homepage/coronation.webp') }}" alt="">
+                </div>
+                <div class="card-text">
+                    <h4>MTN-Ghana</h4>
+                    <p>Digital Marketing</p>
+                </div>
+            </div>
+
+            <div class="portfolio-row4-card">
+                <div class="card-image">
+                    <img src="{{ asset('assets/homepage/malt.webp') }}" alt="">
+                </div>
+                <div class="card-text">
+                    <h4>MTN-Ghana</h4>
+                    <p>Digital Marketing</p>
+                </div>
+            </div>
+
+            <div class="portfolio-row4-card">
+                <div class="card-image">
+                    <img src="{{ asset('assets/homepage/stanbic.webp') }}" alt="">
+                </div>
+                <div class="card-text">
+                    <h4>MTN-Ghana</h4>
+                    <p>Digital Marketing</p>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-row4-dots">
+            <span class="dot on"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+
+    <div class="home-body-row5">
+        <h1>What our customers <br> are saying</h1>
+        <div class="testimonial-row">
+            <div class="row5-testimonial-card">
+                <div class="testimonial-info-row">
+                    <div class="info">
+                        <img src="{{ asset('assets/homepage/person-1.webp') }}" alt="">
+                        <div class="text">
+                            <h3>Jenny Wilson</h3>
+                            <p>UI-UX Designer</p>
+                        </div>
+                    </div>
+                    <img class="quote" src="{{ asset('assets/homepage/quotes.svg') }}" alt="">
+                </div>
+                <p>Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.</p>
+                <p>Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst.</p>
+            </div>
+
+            <div class="row5-testimonial-card">
+                <div class="testimonial-info-row">
+                    <div class="info">
+                        <img src="{{ asset('assets/homepage/person-2.webp') }}" alt="">
+                        <div class="text">
+                            <h3>Jenny Wilson</h3>
+                            <p>UI-UX Designer</p>
+                        </div>
+                    </div>
+                    <img class="quote" src="{{ asset('assets/homepage/quotes.svg') }}" alt="">
+                </div>
+                <p>Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.</p>
+                <p>Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst.</p>
+            </div>
+        </div>
+
+        <div class="testimonial-row5-dots">
+            <span class="dot on"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+
+
+
+    <section id="home-blog">
+        {{-- <h1 class="home-blog-title">Our Blog</h1> --}}
+        <div class="main-blog-row">
+        <div class="blog-cards-row blog-cards-row-home">
+          <div class="blog-card">
+            <img src="assets/home-blog1.png" class="home"  alt="">
+            <div class="blog-card-text">
+              <h2>Route calls with phone menu</h2>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the .</p>
+              <div class="card-info">
+                <img src="assets/home-blog-author1.png" class="home-blog-author"  alt="Blog Author">
+                <div class="card-info-name-date">
+                  <h3>John Doe</h3>
+                  <p>Feb 28, 2024 &nbsp; <img src="assets/red-dot.svg" alt=""> 5 min read</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="blog-card">
+            <img src="assets/home-blog2.png" class="home" alt="">
+            <div class="blog-card-text">
+              <h2>Answer questions with data</h2>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the .</p>
+              <div class="card-info">
+                <img src="assets/home-blog-author2.png" class="home-blog-author" alt="Blog Author">
+                <div class="card-info-name-date">
+                  <h3>John Doe</h3>
+                  <p>Feb 28, 2024 &nbsp; <img src="assets/red-dot.svg" alt=""> 5 min read</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="blog-card">
+            <img src="assets/home-blog3.png" class="home" alt="">
+            <div class="blog-card-text">
+              <h2>Coach your team for better Design</h2>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the .</p>
+              <div class="card-info">
+                <img src="assets/home-blog-author3.png" class="home-blog-author"  alt="Blog Author">
+                <div class="card-info-name-date">
+                  <h3>John Doe</h3>
+                  <p>Feb 28, 2024  &nbsp; <img src="assets/red-dot.svg" alt=""> 5 min read</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        <a href="blogs.html">
+          <div class="home-blog-btn">
+            <p>Visit Our Blog</p>
+          </div>
+        </a>
+        </div>
+        </div>
+      </section>
+
+
+      <div class="mobile-ad-section">
+    </div>
+
+    <!-- Footer Starts  -->
+    @include('components.footer')
+    <!-- Footer Ends  -->
+
+
+
+
+
+
+
+    <script> 
+  
+        // Targeting video element  
+        let clip = document.querySelector(".vid") 
+        let footer = document.querySelector(".footer-row") 
+    
+        /* Applying mouseover event on video clip  
+        and then we call play() function to play  
+        the video when the mouse is over the video */ 
+        footer.addEventListener("mouseover", function (e) { 
+            clip.play(); 
+        }) 
+    
+        /* Applying mouseout event on video clip  
+        and then we call pause() function to stop  
+        the video when the mouse is out the video */ 
+        footer.addEventListener("mouseout", function (e) { 
+            clip.pause(); 
+        }) 
+    </script>
+    <script>
+        function openNav() {
+        document.getElementById("navigation-bar").style.width = "100%";
+      }
+      
+      function closeNav() {
+        document.getElementById("navigation-bar").style.width = "0%";
+      }
+        </script>
   </body>
 </html>

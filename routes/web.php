@@ -2,13 +2,13 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
+Route::get('/oldhome', function () {
     return view('index');
-})->name('home');
+})->name('home-old');
 
-Route::get('/home', function () {
+Route::get('/', function () {
     return view('home');
-})->name('home-new');
+})->name('home');
 
 Route::get('/aboutus', function () {
     return view('aboutus.index');
