@@ -769,6 +769,67 @@ section .header-main {
 
 
 
+@media screen and (max-width: 1450px) {
+    .header-info-row {
+        margin-top: 32rem;
+    }
+    .header-info-row .right-header-info .ID-text-logo {
+        height: 135px;
+    }
+
+    .home-intro-text {
+        margin: 11rem 0 0 0;
+    }
+    .home-body-row2 .row2-text {
+        margin: 6rem 2rem 0 0;
+    }
+
+    .home-body-row4 .portfolio-row4 {
+        margin: 2rem 0 6rem 6rem;
+    }
+
+    section .main-blog-row .blog-cards-row-home {
+        margin: 136px 0 0 114px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
