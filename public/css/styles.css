@@ -3,10 +3,20 @@
     src: url("../assets/font/Demo_Fonts/Fontspring-DEMO-lufga-black.otf");
 }
 
+@font-face {
+    font-family: "poppinsFont";
+    src: url("../assets/font/Poppins-1/Poppins-Black.ttf");
+}
+
 body {
     margin: 0;
     overflow-x: hidden;
-    font-family: 'Poppins', sans-serif !important;
+    font-family: 'Poppins';
+}
+
+
+.bold {
+    font-family: "poppinsFont";
 }
 
 body p{
@@ -457,7 +467,7 @@ section .header-main {
     margin: 8rem 24rem 0 0;
 }
 
-.home-body-row1 .row1-text h2 {
+.home-body-row1 .row1-text h1 {
     font-size: 35px;
     font-weight: 900;
     line-height: 38px;
@@ -3999,7 +4009,6 @@ section .blog-cards-row {
     text-align: center;
     color: rgba(255, 255, 255, 1);
     text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
     position: relative;
     top: 2rem;
 }
