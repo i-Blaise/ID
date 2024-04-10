@@ -40,7 +40,7 @@
 
     <div class="header-info-row">
         <div class="left-header-info">
-            <h1>WELCOME <br> TO THE <br><span>DIGITAL <br>HOUSE</span>.
+            <h1>YOUR <br> DIGITAL <br><span>POWER <br>HOUSE</span>.
             </h1>
         </div>
         <div class="right-header-info">
@@ -95,14 +95,14 @@
 
     <div class="home-intro-text">
         <img src="{{ asset('assets/homepage/arrow-header.svg') }}" alt="">
-        <p>We discus on business performance and metrics that matter- 
-            sales, new customers, revenue, and such.</p>
+        <p>Creating experiences, driving solutions, growing your business...
+         <br>   is our business.</p>
     </div>
 
     <div class="home-body-row1">
         <div class="row1-text">
-            <h2>We are Interactive Digital</h2>
-            <p>We are an award-winning, full service digital marketing agency that creates compelling online experiences in digital media for great brands. Our solutions leverage strategy, creative thinking and coordinated execution to deliver on business goals through digital..</p>
+            <h2>You dream it, <br> we create it</h2>
+            <p>An award-winning 360 marketing communications agency that creates compelling experiences for great brands. Our solutions leverage strategy, creative thinking and coordinated executions to deliver on business goals with focus on digital. Our approach is agile, collaborative and human-led...</p>
         </div>
         <div class="row1-image">
             <img src="{{ asset('assets/homepage/image-1-home.webp') }}" alt="Background says Movin'">
@@ -151,26 +151,27 @@
             <div class="row3-process-container">
                 <div class="process">
                     <div class="process-image">
-                        <img src="{{ asset('assets/homepage/process-icon-1.svg') }}" alt="">
+                        <img src="{{ asset('assets/homepage/process-icon-2.svg') }}" alt="">
                     </div>
                     <div class="process-text">
                         <h1>...always listening</h1>
-                        <p>We’re constantly plugged into 
-                            the social media and digital 
-                            landscape, looking for triggers that
-                            inspire our creativity for your brand.</p>
+                        <p>We’re always tuned in to what’s what,
+                            using insights to help your brand cut
+                            through the noise and reach your 
+                            consumers.</p>
                     </div>
                 </div>
 
                 <div class="process">
                     <div class="process-image">
-                        <img src="{{ asset('assets/homepage/process-icon-1.svg') }}" alt="">
+                        <img src="{{ asset('assets/homepage/process-icon-2.svg') }}" alt="">
                     </div>
                     <div class="process-text">
                         <h1>...always learning</h1>
-                        <p>A brand new digital identity and website 
-                            for the subscription App service that 
-                            focuses on happy subscribers.</p>
+                        <p>We don’t just plan - we explore your market 
+                            and discover the truth about how it works, 
+                            and what makes a difference in your industry. 
+                            Keeping pace with the speed of digital.</p>
                     </div>
                 </div>
 
@@ -180,9 +181,9 @@
                     </div>
                     <div class="process-text">
                         <h1>...always creating</h1>
-                        <p>How we turned a local studio into 
-                            one of the biggest video agencies 
-                            in the south of the UK.</p>
+                        <p>With a team of creatives bursting at the 
+                            seams with ideas and executions, we’re 
+                            ready to bring your dreams to life!</p>
                     </div>
                 </div>
             </div>
