@@ -22,6 +22,16 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap"
       rel="stylesheet"
     />
+
+
+
+
+
+
+
+    
+	<script src="js/jquery.min.js"></script>
+    <script src="js/materialize.min.js"></script>
   </head>
   <body>
     <header id="header-homepage">
@@ -47,7 +57,41 @@
             </div>
         </div>
     </div>
+
+
+    <div class="slideshow-container">
+        <div class="slideshow-hero" id="fade">
+          <div class="slide-image">
+            <img src="assets/slideshow/slider1.png" alt="">
+          </div>
+            <h1 class="r1">Grow your</h1><br>
+            <h1><span>business</span> not your <br></h1>
+            <h1 class="r2">followers</h1><br>
+            <p>We discus on business performance and metrics that matter- sales, new customers, revenue, and such.</p>
+            <div class="slideshow-dot">
+              <span class="dot on" onclick="currentSlide(0)"></span>
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
+          <a class="slideshow-cta" href="">
+              <p>Come have a chat (CTA)...</p>
+          </a>
+        </div>
     </header>
+
+
+    <section id="clients">
+        <h1>Touched by Us</h1>
+        <div class="clients-row">
+          <img src="assets/gino.png" alt="client-logo" class="client-logo">
+          <img src="assets/yango.png" alt="client-logo" class="client-logo">
+          <img src="assets/lucozade.png" alt="client-logo" class="client-logo">
+          <img src="assets/hdplus.png" alt="client-logo" class="client-logo">
+          <img src="assets/coke.png" alt="client-logo" class="client-logo">
+        </div>
+      </section>
+
+
 
     <div class="home-intro-text">
         <img src="{{ asset('assets/homepage/arrow-header.svg') }}" alt="">
@@ -95,6 +139,9 @@
                 </div>
             </div>
             <a href="#"><h3 class="view-all">View All</h3></a>
+        </div>
+        <div class="row2-image-mobile">
+            <img src="{{ asset('assets/homepage/mobile-service-img.webp') }}" alt="">
         </div>
     </div>
 
@@ -145,12 +192,13 @@
         </div>
     </div>
 
-
-
-
     <div class="home-body-row4">
         <h1>Our Portfolio</h1>
+        <div class="main-portfolio-row">
+            <button class="scroll-left"><img src="{{ asset('assets/homepage/left-arrow.svg') }}" alt=""></button>
+
         <div class="portfolio-row4">
+
             <div class="portfolio-row4-card">
                 <div class="card-image">
                     <img src="{{ asset('assets/homepage/mtn.webp') }}" alt="">
@@ -190,7 +238,39 @@
                     <p>Digital Marketing</p>
                 </div>
             </div>
-        </div>
+
+            <div class="portfolio-row4-card">
+                <div class="card-image">
+                    <img src="{{ asset('assets/homepage/stanbic.webp') }}" alt="">
+                </div>
+                <div class="card-text">
+                    <h4>MTN-Ghana</h4>
+                    <p>Digital Marketing</p>
+                </div>
+            </div>
+
+            <div class="portfolio-row4-card">
+                <div class="card-image">
+                    <img src="{{ asset('assets/homepage/stanbic.webp') }}" alt="">
+                </div>
+                <div class="card-text">
+                    <h4>MTN-Ghana</h4>
+                    <p>Digital Marketing</p>
+                </div>
+            </div>
+
+            <div class="portfolio-row4-card">
+                <div class="card-image">
+                    <img src="{{ asset('assets/homepage/stanbic.webp') }}" alt="">
+                </div>
+                <div class="card-text">
+                    <h4>MTN-Ghana</h4>
+                    <p>Digital Marketing</p>
+                </div>
+            </div>
+        </div>    
+        <button class="scroll-right"><img src="{{ asset('assets/homepage/right-arrow.svg') }}" alt=""></button>        
+    </div>
         <div class="portfolio-row4-dots">
             <span class="dot on"></span>
             <span class="dot"></span>
@@ -201,7 +281,8 @@
     </div>
 
     <div class="home-body-row5">
-        <h1>What our customers <br> are saying</h1>
+        <h1 class="big-screen">Don't take our word for it, <br> ask them</h1>
+        <h1 class="mobile">What everyone says</h1>
         <div class="testimonial-row">
             <div class="row5-testimonial-card">
                 <div class="testimonial-info-row">
@@ -346,5 +427,32 @@
         document.getElementById("navigation-bar").style.width = "0%";
       }
         </script>
+
+
+
+
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("slideshow-hero");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 8000); // Change image every 8 seconds
+}
+  </script>
+
   </body>
 </html>

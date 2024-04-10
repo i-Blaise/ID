@@ -359,7 +359,7 @@
         }) 
     </script>
 
-<!-- <script>
+ <script>
 let slideIndex = 0;
 showSlides();
 
@@ -379,7 +379,7 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 8000); // Change image every 8 seconds
 }
-  </script> -->
+  </script>
 
 
 <script>
