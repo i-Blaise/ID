@@ -52,9 +52,11 @@ header {
 
 #header-contact {
     background-image: url(../assets/contact-header.png);
+    background-position: 56% 10%;
     background-size: cover;
     height: 353px;
 }
+
 
 #header-aboutus {
     background-image: url(../assets/about-hero.png);
@@ -3492,6 +3494,7 @@ header .header-2 .sm-header-2-mobile {
     -webkit-appearance: none;
     -moz-appearance: none;
     background: url('../assets/icons8-expand-arrow-16.png') no-repeat 98% 50%;
+    background-color: #FFF;
     font-size: 16px;
     line-height: 16px;
     padding-right: 2rem;
@@ -3549,6 +3552,71 @@ header .header-2 .sm-header-2-mobile {
         width: 78%;
     }
 }
+@media screen and (min-width: 700px) {
+    #header-contact img {
+        display: none;
+    }
+}
+@media screen and (max-width: 700px) { 
+    .contactus .contact-row {
+        display: block;
+    }
+    .contact-row .contact-texts {
+        width: 74%;
+        margin: 40px 0 0 36px;
+    }
+    .contact-texts h1 {
+        font-size: 38px;
+    }
+    .contact-texts .underline {
+        top: -42px;
+    }
+    .contact-texts a p {
+        color: red;
+    }
+    .contact-row .contact-form {
+        width: 107%;
+        margin: 40px 0 0 21px;
+    }
+    .contact-form input[type=text], 
+    input[type=email], 
+    select {
+        width: 76%;
+    }
+    .contact-form textarea {
+        width: 76%;
+    }
+
+    #header-contact img {
+        position: relative;
+        bottom: 45px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  /* Contact Page Section Ends */
 

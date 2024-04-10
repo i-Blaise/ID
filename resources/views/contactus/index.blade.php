@@ -32,6 +32,7 @@
               <!-- ends here -->
               
       <header id="header-contact">
+        <img src="{{ asset('assets/contact-header-mobile.webp') }}" alt="">
       </header>
 
 
@@ -92,6 +93,9 @@
       </section>
 
 
+
+      <div class="mobile-ad-section">
+      </div>
 
     <!-- Footer Starts  -->
     @include('components.footer')
