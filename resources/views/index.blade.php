@@ -22,73 +22,74 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap"
       rel="stylesheet"
     />
+
+
+    {{-- Swiper CSS  --}}
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+
+
+
+
+
+
+
+
+
+
+
   </head>
   <body>
-    <header id="black-bg">
+    <header id="header-homepage">
 
     @include('components.navbar')
 
-
-        <div class="slideshow-container">
-            <div class="slideshow-hero" id="fade">
-              <div class="slide-image">
-                <img src="assets/slideshow/slider1.png" alt="">
-              </div>
-                <h1 class="r1">Grow your</h1><br>
-                <h1><span>business</span> not your <br></h1>
-                <h1 class="r2">followers</h1><br>
-                <p>We discus on business performance and metrics that matter- sales, new customers, revenue, and such.</p>
-                <div class="slideshow-dot">
-                  <span class="dot on" onclick="currentSlide(0)"></span>
-                  <span class="dot" onclick="currentSlide(1)"></span>
-                  <span class="dot" onclick="currentSlide(2)"></span>
+    <div class="header-info-row">
+        <div class="left-header-info">
+            <h1 class="bold">YOUR <br> DIGITAL <br><span>POWER <br>HOUSE</span>.
+            </h1>
+        </div>
+        <div class="right-header-info">
+            <img src="{{ asset('assets/homepage/id.svg') }}" class="ID-text-logo" alt="Interactive DIgital">
+            <div class="client-row">
+                <h3>Touched By Us</h3>
+                <div class="client-logo-row">
+                    <img src="{{ asset('assets/gino.png') }}" alt="">
+                    <img src="{{ asset('assets/yango.png') }}" alt="">
+                    <img src="{{ asset('assets/lucozade.png') }}" alt="">
+                    <img src="{{ asset('assets/hdplus.png') }}" alt="">
+                    <img src="{{ asset('assets/coke.png') }}" alt="">
                 </div>
-              <a class="slideshow-cta" href="">
-                  <p>Come have a chat (CTA)...</p>
-              </a>
-            </div>
-
-            <div class="slideshow-hero" id="fade">
-              <div class="slide-image">
-                <img src="assets/slideshow/slider4.jpg" alt="">
-              </div>
-              <div class="slide-details">
-                <h1>2Grow your <br><span>business</span> not your <br>followers</h1>
-                <p>We discus on business performance and metrics that matter- sales, new customers, revenue, and such.</p>
-                <div class="slideshow-dot">
-                  <span class="dot" onclick="currentSlide(0)"></span>
-                  <span class="dot on" onclick="currentSlide(1)"></span>
-                  <span class="dot" onclick="currentSlide(2)"></span>
-                </div>
-              </div>
-              <a class="slideshow-cta" href="">
-                  <p>Come have a chat (CTA)...</p>
-              </a>
-            </div>
-
-            <div class="slideshow-hero" id="fade">
-              <div class="slide-image">
-                <img src="assets/slideshow/slider5.jpg" alt="">
-              </div>
-              <div class="slide-details">
-                <h1>3Grow your <br><span>business</span> not your <br>followers</h1>
-                <p>We discus on business performance and metrics that matter- sales, new customers, revenue, and such.</p>
-                <div class="slideshow-dot">
-                  <span class="dot" onclick="currentSlide(0)"></span>
-                  <span class="dot" onclick="currentSlide(1)"></span>
-                  <span class="dot on" onclick="currentSlide(2)"></span>
-                </div>
-              </div>
-              <a class="slideshow-cta" href="">
-                  <p>Come have a chat (CTA)...</p>
-              </a>
             </div>
         </div>
-        <div class="hero-style"></div>
-        
-      </header>
+    </div>
 
-      <section id="clients">
+
+    <div class="slideshow-container">
+        <div class="slideshow-hero" id="fade">
+          <div class="slide-image">
+            <img src="assets/slideshow/slider1.png" alt="">
+          </div>
+            <h1 class="r1">Grow your</h1><br>
+            <h1><span>business</span> not your <br></h1>
+            <h1 class="r2">followers</h1><br>
+            <p>We discus on business performance and metrics that matter- sales, new customers, revenue, and such.</p>
+            <div class="slideshow-dot">
+              <span class="dot on" onclick="currentSlide(0)"></span>
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
+          <a class="slideshow-cta" href="">
+              <p>Come have a chat (CTA)...</p>
+          </a>
+        </div>
+    </header>
+
+
+    <section id="clients">
         <h1>Touched by Us</h1>
         <div class="clients-row">
           <img src="assets/gino.png" alt="client-logo" class="client-logo">
@@ -101,175 +102,245 @@
 
 
 
-      <section id="home-section-1">
-        <div class="section-1-row">
-          <div class="section-1-left">
-            <h2>We are Interactive Digital</h2>
-            <p>Lorem ipsum dolor sit amet consectetur. Viverra lacinia sed praesent pharetra quisque consectetur tellus elit. Suspendisse ultrices vitae at platea. Euismod pretium sit est etiam.</p>
-          </div>
-          <div class="section-1-right">
-            <img src="assets/home-img-1.png" alt="">
-          </div>
+    <div class="home-intro-text">
+        <img src="{{ asset('assets/homepage/arrow-header.svg') }}" alt="">
+        <p>Creating experiences, driving solutions, growing your business...
+         <br>   is our business.</p>
+    </div>
+
+    <div class="home-body-row1">
+        <div class="row1-text">
+            <h1 class="bold">You dream it, <br> we create it</h1>
+            <p>An award-winning 360 marketing communications agency that creates compelling experiences for great brands. Our solutions leverage strategy, creative thinking and coordinated executions to deliver on business goals with focus on digital. Our approach is agile, collaborative and human-led...</p>
         </div>
-      </section>
+        <div class="row1-image">
+            <img src="{{ asset('assets/homepage/image-1-home.webp') }}" alt="Background says Movin'">
+        </div>
+    </div>
 
-
-      <section id="home-service-section">
-        <img src="assets/home-box-style.svg" alt="" class="box-style">
-        <div class="home-service-row">
-          <div class="home-service-left">
-            <img class="service-image" src="assets/service-home.png" alt="">
-            <img class="service-tag" src="assets/Services-Feature-Tag.png" alt="">
-          </div>
-          <div class="home-service-right">
-            <div class="service-content">
-              <h2>Our Services</h2>
-              <p>We are an award-winning, full service digital marketing agency that creates compelling online experiences in digital media for great brands. Our solutions leverage strategy, creative thinking and coordinated execution to deliver on business goals through digital. </p>
-              <div class="service-lists">
-
+    <div class="home-body-row2">
+        <div class="row2-image">
+            <img src="{{ asset('assets/homepage/image-2-home.webp') }}" alt="">
+        </div>
+        <div class="row2-text">
+            <h1 class="bold">Our Services</h1>
+            <p>Some layout verbiage goes here. It’ll be something witty. Probably a music metaphor. Maybe even insightful. But most DEFINITELY about how we use the grid to build responsive works-of-art in our beloved digital-stratosphere.</p>
+            <div class="services-container">
                 <div class="service">
-                  <img src="assets/globe-icon.png" class="service-icon" alt="">
-                  <p>Social Media</p>
+                    <img src="{{ asset('assets/homepage/red-dot.svg') }}" alt="">
+                    <p>Social Media</p>
+                </div>
+                <div class="service">
+                    <img src="{{ asset('assets/homepage/red-dot.svg') }}" alt="">
+                    <p>Social Media</p>
+                </div>
+                <div class="service">
+                    <img src="{{ asset('assets/homepage/red-dot.svg') }}" alt="">
+                    <p>Social Media</p>
+                </div>
+                <div class="service">
+                    <img src="{{ asset('assets/homepage/red-dot.svg') }}" alt="">
+                    <p>Social Media</p>
+                </div>
+                <div class="service">
+                    <img src="{{ asset('assets/homepage/red-dot.svg') }}" alt="">
+                    <p>Social Media</p>
+                </div>
+            </div>
+            <a href="#"><h3 class="view-all">View All</h3></a>
+        </div>
+        <div class="row2-image-mobile">
+            <img src="{{ asset('assets/homepage/mobile-service-img.webp') }}" alt="">
+        </div>
+    </div>
+
+    <div class="home-body-row3">
+        <div class="row3-text">
+            <h1 class="title bold">Our Process</h1>
+            <div class="row3-process-container">
+                <div class="process">
+                    <div class="process-image">
+                        <img src="{{ asset('assets/homepage/process-icon-2.svg') }}" alt="">
+                    </div>
+                    <div class="process-text">
+                        <h2>...always listening</h2>
+                        <p>We’re always tuned in to what’s what,
+                            using insights to help your brand cut
+                            through the noise and reach your 
+                            consumers.</p>
+                    </div>
                 </div>
 
-                <div class="service">
-                  <img src="{{ asset('assets/web-design-icon.svg') }}" class="service-icon" alt="">
-                  <p>Website Design</p>
+                <div class="process">
+                    <div class="process-image">
+                        <img src="{{ asset('assets/homepage/process-icon-2.svg') }}" alt="">
+                    </div>
+                    <div class="process-text">
+                        <h2>...always learning</h2>
+                        <p>We don’t just plan - we explore your market 
+                            and discover the truth about how it works, 
+                            and what makes a difference in your industry. 
+                            Keeping pace with the speed of digital.</p>
+                    </div>
                 </div>
 
-                <div class="service">
-                  <img src="{{ asset('assets/online-ad-icon.svg') }}" class="service-icon" alt="">
-                  <p>Online Advertising</p>
+                <div class="process">
+                    <div class="process-image">
+                        <img src="{{ asset('assets/homepage/process-icon-2.svg') }}" alt="">
+                    </div>
+                    <div class="process-text">
+                        <h2>...always creating</h2>
+                        <p>With a team of creatives bursting at the 
+                            seams with ideas and executions, we’re 
+                            ready to bring your dreams to life!</p>
+                    </div>
                 </div>
+            </div>
+        </div>
+        <div class="row3-image">
+            <img src="{{ asset('assets/homepage/image-3-home.webp') }}" alt="Hippie Coorperate Black Guy">
+        </div>
+    </div>
 
-                <div class="service">
-                  <img src="{{ asset('assets/strat-icon.svg') }}" class="service-icon" alt="">
-                  <p>Strategy Consulting</p>
+    <div class="home-body-row4">
+        <h1 class="bold">Our Portfolio</h1>
+        <div class="main-portfolio-row swiper">
+
+        <div class="portfolio-row4 swiper-wrapper">
+
+            <div class="portfolio-row4-card swiper-slide">
+                <div class="card-image">
+                    <img src="{{ asset('assets/homepage/mtn.webp') }}" alt="">
                 </div>
-
-                <div class="service">
-                  <img src="{{ asset('assets/media-prod-icon.svg') }}" class="service-icon" alt="">
-                  <p>Media Production</p>
+                <div class="card-text">
+                    <h4>MTN-Ghana</h4>
+                    <p>Digital Marketing</p>
                 </div>
-
-              </div>
-              <a href="{{ route('services') }}">
-                <p>Come have a look</p>
-              </a>
             </div>
-          </div>
+
+            <div class="portfolio-row4-card swiper-slide">
+                <div class="card-image">
+                    <img src="{{ asset('assets/homepage/coronation.webp') }}" alt="">
+                </div>
+                <div class="card-text">
+                    <h4>MTN-Ghana</h4>
+                    <p>Digital Marketing</p>
+                </div>
+            </div>
+
+            <div class="portfolio-row4-card swiper-slide">
+                <div class="card-image">
+                    <img src="{{ asset('assets/homepage/malt.webp') }}" alt="">
+                </div>
+                <div class="card-text">
+                    <h4>MTN-Ghana</h4>
+                    <p>Digital Marketing</p>
+                </div>
+            </div>
+
+            <div class="portfolio-row4-card swiper-slide">
+                <div class="card-image">
+                    <img src="{{ asset('assets/homepage/stanbic.webp') }}" alt="">
+                </div>
+                <div class="card-text">
+                    <h4>MTN-Ghana</h4>
+                    <p>Digital Marketing</p>
+                </div>
+            </div>
+
+            <div class="portfolio-row4-card swiper-slide">
+                <div class="card-image">
+                    <img src="{{ asset('assets/homepage/stanbic.webp') }}" alt="">
+                </div>
+                <div class="card-text">
+                    <h4>MTN-Ghana</h4>
+                    <p>Digital Marketing</p>
+                </div>
+            </div>
+
+            <div class="portfolio-row4-card swiper-slide">
+                <div class="card-image">
+                    <img src="{{ asset('assets/homepage/stanbic.webp') }}" alt="">
+                </div>
+                <div class="card-text">
+                    <h4>MTN-Ghana</h4>
+                    <p>Digital Marketing</p>
+                </div>
+            </div>
+
+            <div class="portfolio-row4-card swiper-slide">
+                <div class="card-image">
+                    <img src="{{ asset('assets/homepage/stanbic.webp') }}" alt="">
+                </div>
+                <div class="card-text">
+                    <h4>MTN-Ghana</h4>
+                    <p>Digital Marketing</p>
+                </div>
+            </div>
+        </div>    
+          <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        {{-- <button class="scroll-left swiper-button-prev"><img src="{{ asset('assets/homepage/left-arrow.svg') }}" alt=""></button>
+        <button class="scroll-right swiper-button-next"><img src="{{ asset('assets/homepage/right-arrow.svg') }}" alt=""></button>         --}}
+    </div>
+        <div class="portfolio-row4-dots swiper-pagination">
+            {{-- <span class="dot on"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span> --}}
         </div>
-        <div class="service-bottom"></div>
-      </section>
+    </div>
 
-      <section id="process-section">
-        <div class="process-container">
-          <h1>Our Process</h1>
-          <div class="process-row">
-            <div class="process-text">
-              <h2>...Always Listening</h2>
-              <p>We’re constantly plugged into the social media and digital landscape, looking for triggers that
-                inspire our creativity for your brand.</p>
-            </div>
-            <div class="process-img">
-              <img src="assets/process-1.png" alt="">
-            </div>
-          </div>
-
-          <div class="process-row process-margin-top">
-            <div class="process-img">
-              <img src="assets/process-2.png" alt="">
-            </div>
-            <div class="process-text process-text-right">
-              <h2>...Always Learning</h2>
-              <p class="learning-text">A brand new digital identity and website for the subscription App service that focuses on happy subscribers.</p>
-            </div>
-          </div>
-
-          <div class="process-row process-margin-top">
-            <div class="process-text">
-              <h2>...Always Creating</h2>
-              <p class="creating-text">How we turned a local studio into one of the biggest video agencies in the south of the UK.</p>
-            </div>
-            <div class="process-img">
-              <img src="assets/process-3.png" alt="">
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="portfolio-section">
-        <h1>Our Portfolio</h1>
-        <div class="portfolio-row">
-          <div class="portfolio-card port-card-1">
-            <h4>Romantic getaway...</h4>
-            <p>MTN - Ghana</p>
-          </div>
-
-          <div class="portfolio-card port-card-2">
-            <h4>More Win Dial *789*115#</h4>
-            <p>Coronation</p>
-          </div>
-
-          <div class="portfolio-card port-card-3">
-            <h4>Promo</h4>
-            <p>GB Foods</p>
-          </div>
-
-          <div class="portfolio-card port-card-4">
-            <h4>Digital Marketing</h4>
-            <p>Stanbic</p>
-          </div>
-
-          <div class="portfolio-card port-card-5">
-            <h4>Digital Marketing</h4>
-            <p>Malta Guinness</p>
-          </div>
-        </div>
-        <div class="portfolio-button-row">
-          <!-- <a href="#">
-            <button class="view-more">View More</button>
-          </a> -->
-        </div>
-      </section>
-
-      <section id="testimonial-section">
-        <h1>What Our Customers Say</h1>
+    <div class="home-body-row5">
+        <h1 class="big-screen bold">Don't take our word for it, <br> ask them</h1>
+        <h1 class="mobile bold">What everyone says</h1>
         <div class="testimonial-row">
-          <div class="testimonial-left">
-            <!-- <img src="assets/testimonial1.png" alt="">
-            <img src="assets/testimonial2.png" alt=""> -->
-            <div class="testimonial-image-1">
-              <img src="assets/testimonial1.png" alt="">
+            <div class="row5-testimonial-card">
+                <div class="testimonial-info-row">
+                    <div class="info">
+                        <img src="{{ asset('assets/homepage/person-1.webp') }}" alt="">
+                        <div class="text">
+                            <h3>Jenny Wilson</h3>
+                            <p>UI-UX Designer</p>
+                        </div>
+                    </div>
+                    <img class="quote" src="{{ asset('assets/homepage/quotes.svg') }}" alt="">
+                </div>
+                <p>Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.</p>
+                <p>Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst.</p>
             </div>
-            <div class="testimonial-image-2">
-              <img src="assets/testimonial2.png" alt="">
+
+            <div class="row5-testimonial-card">
+                <div class="testimonial-info-row">
+                    <div class="info">
+                        <img src="{{ asset('assets/homepage/person-2.webp') }}" alt="">
+                        <div class="text">
+                            <h3>Jenny Wilson</h3>
+                            <p>UI-UX Designer</p>
+                        </div>
+                    </div>
+                    <img class="quote" src="{{ asset('assets/homepage/quotes.svg') }}" alt="">
+                </div>
+                <p>Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.</p>
+                <p>Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst.</p>
             </div>
-          </div>
-          <div class="testimonial-right">
-            <div class="testimonial-name">
-              <h2>Kristie Stokes</h2>
-              <p>Product Quality Architect</p>
-            </div>
-            <div class="testimonial-message">
-              <p>Est totam minus fuga quidem. Ipsum nisi dolorem ea nihil voluptatum numquam. Dolor consequatur cum quisquam sit dolore ad minima.</p>
-            </div>
-            <div class="testimonial-slider-counter">
-              <a href="#">
-                <div class="number-box active one">01</div>
-                <div class="number-box two">02</div>
-                <div class="number-box three">03</div>
-                <div class="number-box four">04</div>
-              </a>
-            </div>
-            
-          </div>
         </div>
-      </section>
+
+        <div class="testimonial-row5-dots">
+            <span class="dot on"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
 
 
-      <section id="home-blog">
-        <h1 class="home-blog-title">Our Blog</h1>
+
+    <section id="home-blog">
+        {{-- <h1 class="home-blog-title">Our Blog</h1> --}}
         <div class="main-blog-row">
         <div class="blog-cards-row blog-cards-row-home">
           <div class="blog-card">
@@ -328,17 +399,19 @@
 
 
       <div class="mobile-ad-section">
-      </div>
-  
-      <!-- Footer Starts  -->
-      @include('components.footer')
-      <!-- Footer Ends  -->
+    </div>
+
+    <!-- Footer Starts  -->
+    @include('components.footer')
+    <!-- Footer Ends  -->
 
 
 
 
 
-      <script> 
+
+
+    <script> 
   
         // Targeting video element  
         let clip = document.querySelector(".vid") 
@@ -358,39 +431,47 @@
             clip.pause(); 
         }) 
     </script>
+    <script>
+        function openNav() {
+        document.getElementById("navigation-bar").style.width = "100%";
+      }
+      
+      function closeNav() {
+        document.getElementById("navigation-bar").style.width = "0%";
+      }
+        </script>
 
- <script>
-let slideIndex = 0;
-showSlides();
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
 
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("slideshow-hero");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 8000); // Change image every 8 seconds
-}
-  </script>
 
 
 <script>
-  function openNav() {
-  document.getElementById("navigation-bar").style.width = "100%";
-}
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'vertical',
+  loop: true,
 
-function closeNav() {
-  document.getElementById("navigation-bar").style.width = "0%";
-}
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
   </script>
-  
-</body>
+
+
+{{-- Swiper JS  --}}
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  </body>
 </html>

@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/oldhome', function () {
+Route::get('/stage-page', function () {
     return view('index');
 })->name('home-old');
 

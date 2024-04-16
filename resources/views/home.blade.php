@@ -119,26 +119,38 @@
             <div class="services-container">
                 <div class="service">
                     <img src="{{ asset('assets/homepage/red-dot.svg') }}" alt="">
-                    <p>Social Media</p>
+                    <p>Content Production</p>
                 </div>
                 <div class="service">
                     <img src="{{ asset('assets/homepage/red-dot.svg') }}" alt="">
-                    <p>Social Media</p>
+                    <p>Tech Development</p>
                 </div>
                 <div class="service">
                     <img src="{{ asset('assets/homepage/red-dot.svg') }}" alt="">
-                    <p>Social Media</p>
+                    <p>Social Media Marketing</p>
                 </div>
                 <div class="service">
                     <img src="{{ asset('assets/homepage/red-dot.svg') }}" alt="">
-                    <p>Social Media</p>
+                    <p>Strategy Consulting</p>
                 </div>
                 <div class="service">
                     <img src="{{ asset('assets/homepage/red-dot.svg') }}" alt="">
-                    <p>Social Media</p>
+                    <p>Influencer Marketing</p>
+                </div>
+                <div class="service">
+                    <img src="{{ asset('assets/homepage/red-dot.svg') }}" alt="">
+                    <p>Online Advertising</p>
+                </div>
+                <div class="service">
+                    <img src="{{ asset('assets/homepage/red-dot.svg') }}" alt="">
+                    <p>Media Production</p>
+                </div>
+                <div class="service">
+                    <img src="{{ asset('assets/homepage/red-dot.svg') }}" alt="">
+                    <p>Creative Design</p>
                 </div>
             </div>
-            <a href="#"><h3 class="view-all">View All</h3></a>
+            <a href="#"><h3 class="view-all bold">View All</h3></a>
         </div>
         <div class="row2-image-mobile">
             <img src="{{ asset('assets/homepage/mobile-service-img.webp') }}" alt="">

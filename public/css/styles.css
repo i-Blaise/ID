@@ -467,6 +467,8 @@ section .header-main {
 
 .home-body-row1 .row1-text {
     margin: 8rem 24rem 0 0;
+    position: relative;
+    left: 7rem;
 }
 
 .home-body-row1 .row1-text h1 {
@@ -485,7 +487,7 @@ section .header-main {
 
 .home-body-row1 .row1-image img {
     position: relative;
-    right: 6rem;
+    right: 4rem;
     height: 28rem;
     top: 3rem;
 }
@@ -501,7 +503,7 @@ section .header-main {
 
 .home-body-row2 .row2-image {
     background-image: url(../assets/homepage/background-2-home.webp);
-    margin: 0 7rem 0 0;
+    margin: 0 8rem 0 2rem;
 }
 
 .home-body-row2 .row2-image img{
@@ -510,7 +512,7 @@ section .header-main {
 .home-body-row2 .row2-text {
     margin: 4rem 7rem 0 0;
     position: relative;
-    left: 5rem;
+    left: 5px;
 }
 
 .home-body-row2 .row2-text p {
@@ -527,13 +529,16 @@ section .header-main {
 
 .row2-text .services-container {
     display: inline-grid;
-    gap: 0rem 6rem;
+    gap: 0rem 2rem;
     grid-template-columns: repeat(2, 1fr);
 }
 
 .row2-text .services-container .service {
     display: inline-flex;
     margin-bottom: -10px;
+}
+.row2-text .services-container .service img {
+    height: 22px;
 }
 
 .row2-text .services-container .service p {
@@ -542,6 +547,8 @@ section .header-main {
     color: #1C1F35;
     position: relative;
     left: 8px;
+    bottom: 15px;
+    width: 11rem;
 }
 
 .row2-text a {
@@ -549,9 +556,11 @@ section .header-main {
 }
 .row2-text h3 {
     font-size: 12px;
-    font-size: 900;
+    font-weight: 900;
     color: #ED0707;
     text-transform: uppercase;
+    position: relative;
+    top: 2rem;
 }
 
 
@@ -564,6 +573,11 @@ section .header-main {
     background-image: url(../assets/homepage/background-3-home.webp);
     background-repeat: no-repeat;
     background-position: 10rem -2rem;
+}
+
+.home-body-row3 .row3-text {
+    position: relative;
+    left: 3rem;
 }
 
 .home-body-row3 .row3-text .title {
@@ -607,7 +621,7 @@ section .header-main {
     height: 32rem;
     position: relative;
     bottom: 2rem;
-    left: 1rem;
+    left: 4rem;
 }
 
 
@@ -685,6 +699,7 @@ section .header-main {
     padding: 12px;
     border-radius: 20px;
     height: 21rem;
+    width: 17rem;
 }
 .portfolio-row4 .portfolio-row4-card .card-image img{
     /* height: 30rem; */
