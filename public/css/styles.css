@@ -917,6 +917,8 @@ section .header-main {
     }
     .home-body-row1 .row1-text {
         margin: 8rem 0 0 0;
+        position: relative;
+        left: 0;
     }
     .home-body-row1 .row1-image img {
         position: relative;
@@ -927,7 +929,7 @@ section .header-main {
 
     .home-body-row2 {
         display: block;
-        margin: 8rem -1rem;
+        margin: 12rem -1rem;
     }
     .home-body-row2 .row2-image {
         display: none !important;
@@ -935,10 +937,16 @@ section .header-main {
     .home-body-row2 .row2-image-mobile img{
         height: 22rem;
         position: relative;
-        left: 27px;
+        left: 3px;
+        top: 5rem;
     }
     .home-body-row2 .row2-text {
         margin: 6rem 7rem 0 0;
+        position: relative;
+        left: 48px;
+    }
+    .row2-text .services-container .service p {
+        width: 8rem;
     }
 
 
@@ -950,6 +958,8 @@ section .header-main {
 
     .home-body-row3 {
         display: block;
+        margin: 0rem 0rem;
+        background-position: -1rem -2rem;
     }
     
     .home-body-row3 .row3-text .row3-process-container {
@@ -967,8 +977,11 @@ section .header-main {
     }
     .home-body-row3 .row3-image img {
         position: relative;
-        left: -14rem;
-        /* right: 14rem !important; */
+        left: -158px;
+    }
+    .home-body-row3 .row3-text {
+        position: relative;
+        left: 61px;
     }
 
 
@@ -992,7 +1005,7 @@ section .header-main {
         margin: 3rem 0 5rem 3rem;
     }
     .home-body-row5 h1 {
-        left: 3rem;
+        left: 1rem;
     }
     .testimonial-info-row .info h3 {
         font-size: 17px;
@@ -1729,7 +1742,7 @@ section .header-main {
 
         section .main-blog-row .blog-cards-row-home {
             display: block;
-            margin: 8rem 3rem 0 3rem !important;
+            margin: 8rem 0 0 2rem !important;
         }
 
         section .blog-cards-row {
