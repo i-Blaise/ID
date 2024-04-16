@@ -384,7 +384,7 @@ section .header-main {
 }
 
 .header-info-row .left-header-info {
-    background: rgb(255, 0, 0);
+    background: #ED0707;
     background-blend-mode: multiply;
     backdrop-filter: blur(8px); 
     opacity: 0.75;
@@ -526,6 +526,7 @@ section .header-main {
     font-weight: 900;
     line-height: 39px;
     color: rgba(237, 7, 7, 1);
+    text-transform: uppercase;
 }
 
 .row2-text .services-container {
@@ -586,6 +587,7 @@ section .header-main {
     font-weight: 900;
     line-height: 28px;
     color: #ED0707;
+    text-transform: uppercase;
 }
 
 .home-body-row3 .row3-text .row3-process-container {
@@ -2217,12 +2219,12 @@ section .header-main {
 
     .main-blog-row .blog-cards-row-home a .home-blog-btn{
         background-color: #CF1C1C;
-        padding: 4px 0;
+        padding: 4px 14px;
         width: 12rem;
         color: #FFF !important;
         font-weight: 700;
         font-size: 18px;
-        border-radius: 16px;
+        border-radius: 9px;
         margin-bottom: 5rem;
     }
 
