@@ -477,6 +477,7 @@ section .header-main {
     line-height: 38px;
     color: rgba(237, 7, 7, 1);
     width: 22rem;
+    text-transform: uppercase;
 }
 
 .home-body-row1 .row1-text p {
