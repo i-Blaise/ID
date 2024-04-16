@@ -73,7 +73,7 @@
               <span class="dot" onclick="currentSlide(1)"></span>
               <span class="dot" onclick="currentSlide(2)"></span>
             </div>
-          <a class="slideshow-cta" href="">
+          <a class="slideshow-cta" href="#">
               <p>Come have a chat (CTA)...</p>
           </a>
         </div>
@@ -388,7 +388,7 @@
             </div>
           </div>
           
-        <a href="blogs.html">
+        <a href="#">
           <div class="home-blog-btn">
             <p>Visit Our Blog</p>
           </div>
