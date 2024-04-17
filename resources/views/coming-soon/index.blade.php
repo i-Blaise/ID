@@ -76,7 +76,7 @@
             gap: 0 1rem;
         }
         .right-container {
-            background-image: url('assets/homepage/header.webp');
+            background-image: url('assets/homepage/coming-soon/div.bg-cover.webp');
             width: 60%;
         }
         .right-container .text-container h1 {

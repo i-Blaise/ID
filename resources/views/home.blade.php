@@ -300,22 +300,22 @@
             <div class="row5-testimonial-card">
                 <div class="testimonial-info-row">
                     <div class="info">
-                        <img src="{{ asset('assets/homepage/person-1.webp') }}" alt="">
+                        <img src="{{ asset('assets/homepage/1.webp') }}" alt="">
                         <div class="text">
-                            <h3>Jenny Wilson</h3>
-                            <p>UI-UX Designer</p>
+                            <h3>Felix Sowah</h3>
+                            <p>Product Manager</p>
                         </div>
                     </div>
                     <img class="quote" src="{{ asset('assets/homepage/quotes.svg') }}" alt="">
                 </div>
-                <p>Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.</p>
-                <p>Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst.</p>
+                <p>An innovative digital company, committed to delivering exceptional personalized services, seamlessly integrates technology and expertise to fulfill tasks with style and finesse..</p>
+                <p>With a focus on user-centric design, this interactive digital firm leverages cutting-edge solutions to anticipate and cater to individual needs, ensuring a smooth and sophisticated experience for every client.</p>
             </div>
 
             <div class="row5-testimonial-card">
                 <div class="testimonial-info-row">
                     <div class="info">
-                        <img src="{{ asset('assets/homepage/person-2.webp') }}" alt="">
+                        <img src="{{ asset('assets/homepage/2.webp') }}" alt="">
                         <div class="text">
                             <h3>Jenny Wilson</h3>
                             <p>UI-UX Designer</p>
@@ -323,16 +323,12 @@
                     </div>
                     <img class="quote" src="{{ asset('assets/homepage/quotes.svg') }}" alt="">
                 </div>
-                <p>Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.</p>
-                <p>Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst.</p>
+                <p>Combining advanced automation with a dedicated team of professionals, the company consistently delivers high-quality results, making it the go-to choice for discerning individuals seeking a seamless blend of style, functionality, and class..</p>
             </div>
         </div>
 
         <div class="testimonial-row5-dots">
             <span class="dot on"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
             <span class="dot"></span>
         </div>
     </div>
@@ -346,13 +342,13 @@
           <div class="blog-card">
             <img src="assets/home-blog1.png" class="home"  alt="">
             <div class="blog-card-text">
-              <h2>Route calls with phone menu</h2>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the .</p>
+              <h2>A dive into the digital phase of advertising</h2>
+              <p>Advertising has transcended traditional boundaries into the digital phase over the last 30 years, and it’s a change anyone in the advertising field should be constantly adapting to..</p>
               <div class="card-info">
-                <img src="assets/home-blog-author1.png" class="home-blog-author"  alt="Blog Author">
+                <img src="{{ asset('assets/homepage/3.webp') }}" class="home-blog-author"  alt="Blog Author">
                 <div class="card-info-name-date">
-                  <h3>John Doe</h3>
-                  <p>Feb 28, 2024 &nbsp; <img src="assets/red-dot.svg" alt=""> 5 min read</p>
+                  <h3>Janet A. Saah</h3>
+                  <p>April 02, 2024 &nbsp; <img src="assets/red-dot.svg" alt=""> 3 min read</p>
                 </div>
               </div>
             </div>
@@ -361,13 +357,13 @@
           <div class="blog-card">
             <img src="assets/home-blog2.png" class="home" alt="">
             <div class="blog-card-text">
-              <h2>Answer questions with data</h2>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the .</p>
+              <h2>Influencers vs social media personalities</h2>
+              <p>While influencers can certainly impact consumer decisions, their effectiveness can vary depending on factors such as industry niche, audience engagement, and the specific goals of a brand's marketing...</p>
               <div class="card-info">
-                <img src="assets/home-blog-author2.png" class="home-blog-author" alt="Blog Author">
+                <img src="{{ asset('assets/homepage/4.webp') }}" class="home-blog-author" alt="Blog Author">
                 <div class="card-info-name-date">
-                  <h3>John Doe</h3>
-                  <p>Feb 28, 2024 &nbsp; <img src="assets/red-dot.svg" alt=""> 5 min read</p>
+                  <h3>Kwadwo A. Sirebour</h3>
+                  <p>April 02, 2024 &nbsp; <img src="assets/red-dot.svg" alt=""> 5 min read</p>
                 </div>
               </div>
             </div>
@@ -376,13 +372,13 @@
           <div class="blog-card">
             <img src="assets/home-blog3.png" class="home" alt="">
             <div class="blog-card-text">
-              <h2>Coach your team for better Design</h2>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the .</p>
+              <h2>How Artificial Intelligence is Shaping Our Future</h2>
+              <p>There’s no denying that technology is transforming our world. From the way we work to the way we communicate, innovation seems to be the name...</p>
               <div class="card-info">
-                <img src="assets/home-blog-author3.png" class="home-blog-author"  alt="Blog Author">
+                <img src="{{ asset('assets/homepage/5.webp') }}" class="home-blog-author"  alt="Blog Author">
                 <div class="card-info-name-date">
-                  <h3>John Doe</h3>
-                  <p>Feb 28, 2024  &nbsp; <img src="assets/red-dot.svg" alt=""> 5 min read</p>
+                  <h3>Judith Abani</h3>
+                  <p>April 02, 2024  &nbsp; <img src="assets/red-dot.svg" alt=""> 7 min read</p>
                 </div>
               </div>
             </div>
