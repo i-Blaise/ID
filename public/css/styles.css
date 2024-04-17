@@ -4044,6 +4044,7 @@ section .blog-cards-row {
 
 .blog-card-text p {
     line-height: 33px;
+    height: 14rem;
 }
 
 
@@ -4051,7 +4052,7 @@ section .blog-cards-row {
     display: inline-flex;
     /* border: 1px solid blue; */
     width: 100%;
-    margin: 4px 0 -26px 0;
+    margin: 4px 0 -16rem 0;
 }
 
 .blog-card .card-info img{
