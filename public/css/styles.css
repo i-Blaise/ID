@@ -2207,8 +2207,8 @@ section .header-main {
     }
 
 
-    section  .main-blog-row .blog-cards-row-home  {
-        margin: 136px 0 0 129px;
+    section .main-blog-row .blog-cards-row-home  {
+        margin: 136px 0 -76px 129px;
     }
 
     section  .main-blog-row .blog-cards-row-home a {
