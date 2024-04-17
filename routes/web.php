@@ -10,6 +10,12 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
+Route::get('/coming-soon', function () {
+    return view('coming-soon.index');
+})->name('coming-soon');
+
+
+
 Route::get('/aboutus', function () {
     return view('aboutus.index');
 })->name('aboutus');
