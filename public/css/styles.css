@@ -4155,11 +4155,11 @@ section .blog-cards-row {
     top: 2rem;
 }
 
-/* @media screen and (max-width: 1490px) {
-    .blob1 {
-        left: 92rem;
+@media screen and (min-width: 1900px) {
+    .ad-section p {
+        left: 41rem;
     }
-} */
+}
 
 
 
@@ -5525,6 +5525,9 @@ footer .copy-rights a {
         height: 100%;
     }
 
+    footer .copy-rights {
+        margin: 3rem 0 0 31rem;
+    }
 }
 
 /* footer .copy-rights p {
