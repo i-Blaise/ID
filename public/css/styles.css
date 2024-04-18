@@ -798,7 +798,7 @@ section .header-main {
 }
 .row5-testimonial-card .testimonial-info-row .info {
     display: inline-flex;
-    height: 5rem;
+    height: 4rem;
     /* width: 13rem; */
 }
 .testimonial-info-row .info .text {
