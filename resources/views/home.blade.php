@@ -9,6 +9,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
     <link rel="manifest" href="assets/favicon_io/site.webmanifest">
     <!-- Include the stylesheet -->
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css">
     <link rel="stylesheet" href="css/styles.css?v=1" />
     <link
       rel="stylesheet"
