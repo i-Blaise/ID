@@ -7,6 +7,9 @@
     font-family: "poppinsFont";
     src: url("../assets/font/Poppins-1/Poppins-Black.ttf");
 }
+body, html{
+    overflow-x: hidden;
+}
 
 body {
     margin: 0;
