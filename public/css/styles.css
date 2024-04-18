@@ -5446,7 +5446,7 @@ footer {
     border-radius: 20px;
     display: block;
     border: none;
-    width: 132%;
+    width: 152%;
     height: 88%;
     /* max-height: 65%; */
     object-fit: cover;
@@ -5474,6 +5474,11 @@ footer .copy-rights a {
     bottom: 14px !important;
 }
 
+@media screen and (max-width: 700px) {
+    .footer-row-3 video {
+        margin: 14px 0 -90px 15px;
+    }
+}
 
 @media screen and (min-width: 1700px) {
     .footer-row {
