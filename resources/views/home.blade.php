@@ -308,7 +308,7 @@
                         </div>
                     </div>
                 </div>
-                <img class="quote" src="{{ asset('assets/homepage/quotes.svg') }}" alt="">
+                {{-- <img class="quote" src="{{ asset('assets/homepage/quotes.svg') }}" alt=""> --}}
                 <p>An innovative digital company, committed to delivering exceptional personalized services, seamlessly integrates technology and expertise to fulfill tasks with style and finesse..</p>
                 <p>With a focus on user-centric design, this interactive digital firm leverages cutting-edge solutions to anticipate and cater to individual needs, ensuring a smooth and sophisticated experience for every client.</p>
             </div>
@@ -323,7 +323,7 @@
                         </div>
                     </div>
                 </div>
-                <img class="quote" src="{{ asset('assets/homepage/quotes.svg') }}" alt="">
+                {{-- <img class="quote" src="{{ asset('assets/homepage/quotes.svg') }}" alt=""> --}}
                 <p>Combining advanced automation with a dedicated team of professionals, the company consistently delivers high-quality results, making it the go-to choice for discerning individuals seeking a seamless blend of style, functionality, and class..</p>
             </div>
         </div>
