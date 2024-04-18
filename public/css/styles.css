@@ -1020,6 +1020,11 @@ section .header-main {
     .testimonial-info-row .info p {
         bottom: 17px;
     }
+    .row5-testimonial-card .quote {
+        position: relative;
+        left: 14rem;
+        bottom: 6rem;
+    }
 }
 
 
