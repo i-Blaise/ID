@@ -790,15 +790,16 @@ section .header-main {
 .testimonial-row .row5-testimonial-card .testimonial-info-row {
     display: inline-flex;
 }
-.row5-testimonial-card .testimonial-info-row .quote {
+.row5-testimonial-card .quote {
     position: relative;
-    left: 18rem;
-    bottom: 2rem;
+    left: 15rem;
+    bottom: 3rem;
 
 }
 .row5-testimonial-card .testimonial-info-row .info {
     display: inline-flex;
     height: 5rem;
+    /* width: 13rem; */
 }
 .testimonial-info-row .info .text {
     margin-left: 1rem;
@@ -808,6 +809,7 @@ section .header-main {
     font-weight: 600;
     position: relative;
     bottom: 20px;
+    width: 12rem;
 }
 .testimonial-info-row .info p {
     font-size: 16px;
