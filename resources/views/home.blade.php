@@ -318,7 +318,7 @@
                     <div class="info">
                         <img src="{{ asset('assets/homepage/2.webp') }}" alt="">
                         <div class="text">
-                            <h3>Jenny Wilson</h3>
+                            <h3>Mathias Akoto-Philips</h3>
                             <p>UI-UX Designer</p>
                         </div>
                     </div>

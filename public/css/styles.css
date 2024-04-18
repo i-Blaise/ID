@@ -792,7 +792,7 @@ section .header-main {
 }
 .row5-testimonial-card .quote {
     position: relative;
-    left: 15rem;
+    left: 8rem;
     bottom: 3rem;
 
 }
@@ -809,7 +809,7 @@ section .header-main {
     font-weight: 600;
     position: relative;
     bottom: 20px;
-    width: 12rem;
+    width: 17rem;
 }
 .testimonial-info-row .info p {
     font-size: 16px;
