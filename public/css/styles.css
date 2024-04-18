@@ -1029,6 +1029,31 @@ section .header-main {
         bottom: 6rem;
     }
 }
+@media screen and (min-width: 1900px) {
+
+     #header-homepage {
+        height: 61rem !important;
+    }
+    .header-info-row {
+        margin-top: 47rem;
+    }
+    .home-body-row1 {
+        margin: 0 11rem;
+        background-repeat: repeat;
+        width: 84%;
+    }
+
+    .home-body-row3 {
+        margin: 0rem 12rem;
+    }
+
+    .home-body-row4 .portfolio-row4 {
+        margin: 2rem 0 6rem 18rem;
+    }
+    .home-body-row4 .main-portfolio-row .scroll-left {
+        left: 13rem;
+    }
+}
 
 
 
@@ -2306,11 +2331,6 @@ section .home-blog-title {
     #process-section .process-container {
         background-position: 41% 75%;
      }
-
-     #header-homepage {
-        height: 56rem !important;
-    }
-
     .slideshow-container {
         /* display: block; */
         margin: -2rem 8rem 0 8rem;
