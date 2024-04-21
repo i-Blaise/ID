@@ -7,6 +7,11 @@
     font-family: "poppinsFont";
     src: url("../assets/font/Poppins-1/Poppins-Black.ttf");
 }
+
+@font-face {
+    font-family: "poppinsMedium";
+    src: url("../assets/font/Poppins-1/Poppins-Medium.ttf");
+}
 body, html{
     overflow-x: hidden;
 }
@@ -5333,10 +5338,6 @@ section .blog-cards-row {
 
 
 
-
-
-
-
 /* Footer Begins*/
 
 footer {
@@ -5534,3 +5535,138 @@ footer .copy-rights a {
     right: 10px;
 } */
 /* Footer Ends  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Portfolio swiper */
+
+.swiper-row {
+    background-color: #f3f2f2;
+}
+
+.swiper-row h1 {
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: #ED0707;
+    position: relative;
+    left: 5rem;
+}
+
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    flex-shrink: unset !important;
+    width: fit-content !important;
+    height: fit-content !important;
+    border-radius: 12px;
+    box-shadow: 0px 2.43px 9.73px 0px rgba(75, 75, 75, 0.08);
+  }
+
+  .swiper-wrapper {
+    /* height: 99% !important; */
+        margin-top: 2rem;
+        margin-left: 3rem !important;
+  }
+
+  .swiper {
+    width: 88rem !important;
+    height: 474px;
+    margin: 20px auto;
+  }
+
+  .swiper-slide .portfolio-img-swiper {
+    padding: 10px;
+  }
+  .swiper-slide .portfolio-text-swiper h4{
+    line-height: 1px;
+    font-family: "poppinsMedium";
+    font-size: 22px;
+    font-weight: 400;
+    color: #1B1D1F;
+    position: relative;
+    bottom: 24px;
+  }
+
+  .swiper-slide .portfolio-text-swiper p{
+    line-height: 1px;
+    position: relative;
+    bottom: 24px;
+  }
+
+  .swiper-slide .portfolio-img-swiper img {
+    height: 17rem;
+  }
+
+
+  
+.scroll-btn {
+    height: 48px !important;
+    width: 48px !important;
+    border-radius: 40px;
+    background-color: #fc0000;
+    border: none;
+    cursor: pointer;
+}
+.scroll-btn:hover {
+    background-color: red;
+}
+
+.swiper-button-prev {
+    margin-left: 10rem !important;
+    margin-top: -4rem !important;
+    z-index: 1000 !important;
+    /* position: relative !important; */
+}
+
+.swiper-button-next {
+    margin-right: 7rem !important;
+    margin-top: -3rem !important;
+    z-index: 1000 !important;
+    /* position: sticky !important; */
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: #000000 !important;
+}
+
+:root {
+    --swiper-navigation-size: 20px !important;
+}
+
+:root {
+    --swiper-theme-color: #ff0000 !important;
+}

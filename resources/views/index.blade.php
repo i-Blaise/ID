@@ -24,11 +24,8 @@
     />
 
 
-    {{-- Swiper CSS  --}}
-    <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/>
+      <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
 
 
@@ -202,9 +199,206 @@
         </div>
     </div>
 
-    <div class="home-body-row4">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="swiper-row">
+      <h1 class="bold">Our Portfolio</h1>
+        <!-- Swiper -->
+
+  <div #swiperRef="" class="swiper mySwiper">
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide">
+        <div class="portfolio-img-swiper">
+          <img src="{{ asset('assets/homepage/mtn.webp') }}" alt="">
+      </div>
+      <div class="portfolio-text-swiper">
+          <h4>MTN-Ghana</h4>
+          <p>Digital Marketing</p>
+      </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="portfolio-img-swiper">
+          <img src="{{ asset('assets/homepage/coronation.webp') }}" alt="">
+      </div>
+      <div class="portfolio-text-swiper">
+          <h4>MTN-Ghana</h4>
+          <p>Digital Marketing</p>
+      </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="portfolio-img-swiper">
+          <img src="{{ asset('assets/homepage/malt.webp') }}" alt="">
+      </div>
+      <div class="portfolio-text-swiper">
+          <h4>MTN-Ghana</h4>
+          <p>Digital Marketing</p>
+      </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="portfolio-img-swiper">
+          <img src="{{ asset('assets/homepage/stanbic.webp') }}" alt="">
+      </div>
+      <div class="portfolio-text-swiper">
+          <h4>MTN-Ghana</h4>
+          <p>Digital Marketing</p>
+      </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="portfolio-img-swiper">
+          <img src="{{ asset('assets/homepage/mtn.webp') }}" alt="">
+      </div>
+      <div class="portfolio-text-swiper">
+          <h4>MTN-Ghana</h4>
+          <p>Digital Marketing</p>
+      </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="portfolio-img-swiper">
+          <img src="{{ asset('assets/homepage/mtn.webp') }}" alt="">
+      </div>
+      <div class="portfolio-text-swiper">
+          <h4>MTN-Ghana</h4>
+          <p>Digital Marketing</p>
+      </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="portfolio-img-swiper">
+          <img src="{{ asset('assets/homepage/mtn.webp') }}" alt="">
+      </div>
+      <div class="portfolio-text-swiper">
+          <h4>MTN-Ghana</h4>
+          <p>Digital Marketing</p>
+      </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="portfolio-img-swiper">
+          <img src="{{ asset('assets/homepage/mtn.webp') }}" alt="">
+      </div>
+      <div class="portfolio-text-swiper">
+          <h4>MTN-Ghana</h4>
+          <p>Digital Marketing</p>
+      </div>
+      </div>
+    </div>
+
+    {{-- <div class="swiper-button-next scroll-btn"></div>
+    <div class="swiper-button-prev scroll-btn"></div> --}}
+    <div class="swiper-pagination"></div>
+  </div>
+
+    </div>
+
+      <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      autoplay: {
+      delay: 4000,
+    },
+      loop: true,
+      slidesPerView: 4,
+      centeredSlides: false,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      // navigation: {
+      //   nextEl: ".swiper-button-next",
+      //   prevEl: ".swiper-button-prev",
+      // },
+    });
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {{-- <div class="home-body-row4">
         <h1 class="bold">Our Portfolio</h1>
-        <div class="main-portfolio-row swiper">
+        <div #swiperRef="" class="main-portfolio-row swiper mySwiper" #swiperRef="">
 
         <div class="portfolio-row4 swiper-wrapper">
 
@@ -278,20 +472,56 @@
                 </div>
             </div>
         </div>    
-          <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
-        {{-- <button class="scroll-left swiper-button-prev"><img src="{{ asset('assets/homepage/left-arrow.svg') }}" alt=""></button>
-        <button class="scroll-right swiper-button-next"><img src="{{ asset('assets/homepage/right-arrow.svg') }}" alt=""></button>         --}}
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
     </div>
-        <div class="portfolio-row4-dots swiper-pagination">
-            {{-- <span class="dot on"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span> --}}
-        </div>
-    </div>
+    </div> --}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <div class="home-body-row5">
         <h1 class="big-screen bold">Don't take our word for it, <br> ask them</h1>

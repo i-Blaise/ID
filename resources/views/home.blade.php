@@ -26,7 +26,8 @@
     />
 
 
-
+      <!-- Link Swiper's CSS -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
 
 
@@ -207,7 +208,153 @@
         </div>
     </div>
 
-    <div class="home-body-row4">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="swiper-row">
+        <h1 class="bold">Our Portfolio</h1>
+          <!-- Swiper -->
+  
+    <div #swiperRef="" class="swiper mySwiper">
+      <div class="swiper-wrapper">
+  
+        <div class="swiper-slide">
+            <div class="portfolio-img-swiper">
+              <img src="{{ asset('assets/homepage/mtn.webp') }}" alt="">
+          </div>
+          <div class="portfolio-text-swiper">
+              <h4>MTN-Ghana</h4>
+              <p>Digital Marketing</p>
+          </div>
+          </div>
+    
+          <div class="swiper-slide">
+            <div class="portfolio-img-swiper">
+              <img src="{{ asset('assets/homepage/coronation.webp') }}" alt="">
+          </div>
+          <div class="portfolio-text-swiper">
+              <h4>CORONATION</h4>
+              <p>More Win Dial *789*15#</p>
+          </div>
+          </div>
+    
+          <div class="swiper-slide">
+            <div class="portfolio-img-swiper">
+              <img src="{{ asset('assets/homepage/malt.webp') }}" alt="">
+          </div>
+          <div class="portfolio-text-swiper">
+              <h4>MALTA GUINNESS</h4>
+              <p>Business Idea Expart</p>
+          </div>
+          </div>
+    
+          <div class="swiper-slide">
+            <div class="portfolio-img-swiper">
+              <img src="{{ asset('assets/homepage/stanbic.webp') }}" alt="">
+          </div>
+          <div class="portfolio-text-swiper">
+              <h4>STANBIC</h4>
+              <p>Photography Expart</p>
+          </div>
+          </div>
+  
+        <div class="swiper-slide">
+            <div class="portfolio-img-swiper">
+              <img src="{{ asset('assets/homepage/mtn.webp') }}" alt="">
+          </div>
+          <div class="portfolio-text-swiper">
+              <h4>MTN-Ghana</h4>
+              <p>Digital Marketing</p>
+          </div>
+          </div>
+    
+          <div class="swiper-slide">
+            <div class="portfolio-img-swiper">
+              <img src="{{ asset('assets/homepage/coronation.webp') }}" alt="">
+          </div>
+          <div class="portfolio-text-swiper">
+              <h4>CORONATION</h4>
+              <p>More Win Dial *789*15#</p>
+          </div>
+          </div>
+    
+          <div class="swiper-slide">
+            <div class="portfolio-img-swiper">
+              <img src="{{ asset('assets/homepage/malt.webp') }}" alt="">
+          </div>
+          <div class="portfolio-text-swiper">
+              <h4>MALTA GUINNESS</h4>
+              <p>Business Idea Expart</p>
+          </div>
+          </div>
+    
+          <div class="swiper-slide">
+            <div class="portfolio-img-swiper">
+              <img src="{{ asset('assets/homepage/stanbic.webp') }}" alt="">
+          </div>
+          <div class="portfolio-text-swiper">
+              <h4>STANBIC</h4>
+              <p>Photography Expart</p>
+          </div>
+          </div>
+      </div>
+  
+      {{-- <div class="swiper-button-next scroll-btn"></div>
+      <div class="swiper-button-prev "></div> --}}
+      <div class="swiper-pagination"></div>
+    </div>
+  
+      </div>
+  
+          <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      autoplay: {
+      delay: 4000,
+      },
+      loop: true,
+      roundLengths: true,
+      slidesPerView: 4,
+      centeredSlides: false,
+      spaceBetween: 25,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      // navigation: {
+      //   nextEl: ".swiper-button-next",
+      //   prevEl: ".swiper-button-prev",
+      // },
+    });
+  </script>
+    {{-- <div class="home-body-row4">
         <h1 class="bold">Our Portfolio</h1>
         <div class="main-portfolio-row">
             <button class="scroll-left"><img src="{{ asset('assets/homepage/left-arrow.svg') }}" alt=""></button>
@@ -293,7 +440,7 @@
             <span class="dot"></span>
             <span class="dot"></span>
         </div>
-    </div>
+    </div> --}}
 
     <div class="home-body-row5">
         <h1 class="big-screen bold">Don't take our word for it, <br> ask them</h1>
