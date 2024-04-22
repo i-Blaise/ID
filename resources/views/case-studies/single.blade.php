@@ -79,6 +79,48 @@
       <p style="font-weight: 800;">We remember...</p>
     </div>
   </div>
+
+
+  <div class="case-row-4">
+    <h1>The Approach</h1>
+    <p>So that’s what we did! Picking historic moments such as, <b>The Betrayal</b>, The Trial paired perfectly with well-known GIFs  we told  Easter-esque story.</p>
+  </div>
+
+
+
 </section>
+<div class="case-row-5">
+  <div class="case-row-5-image">
+    <img src="{{ asset('assets/case_study/case-img-1.webp') }}" alt="">
+  </div>
+  <div class="case-row-5-text">
+    <h5>“We celebrate the process that saves us and makes us who we are. ”</h5>
+    <p>Happy Easter</p>
+    <img src="{{ asset('assets/case_study/logo1.webp') }}" alt="">
+  </div>
+</div>
+
+<div class="case-row-6">
+  <div class="case-row-6-text">
+    <div class="text-row">
+      <h1>The Results</h1>
+      <p>An engaging social media execution fusing agency life with elements of the Easter story to create relatable and engaging content.</p>
+    </div>
+    <div class="text-row">
+      <h1>Feed Back</h1>
+      <p>Here’s what the client had to say:</p>
+    </div>
+  </div>
+  <div class="case-row-6-img">
+    <img src="{{ asset('assets/case_study/case-img-2.webp') }}" alt="">
+  </div>
+</div>
+
+
+
+
+<!-- Footer Starts  -->
+@include('components.footer')
+<!-- Footer Ends  -->
 </body>
 </html>

@@ -5253,7 +5253,7 @@ section .blog-cards-row {
 .case-row-3 {
     display: inline-flex;
     width: 100%;
-    margin: 3rem 0 0 145px;
+    margin: 3rem 0 3rem 145px;
 }
 
 .case-row-3 .case-row-3-text {
@@ -5303,27 +5303,90 @@ section .blog-cards-row {
 }
 
 
+.case-row-4 {
+    margin: 0 2rem;
+}
+
+.case-row-4 h1{
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #0F172A;
+    font-family: "poppinsMedium";
+}
+
+
+
+.case-row-5 {
+    width: 100%;
+    display: inline-flex;
+    background-color: #F1F5F9;
+    padding: 5rem
+}
+.case-row-5 .case-row-5-image {
+    margin-left: 5rem;
+}
+.case-row-5 .case-row-5-image img {
+    height: 28rem;
+}
+
+.case-row-5 .case-row-5-text {
+    margin: 7rem 0 0 66px;
+}
+.case-row-5 .case-row-5-text h5{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    color: rgb(223, 223, 53);
+    width: 35rem;
+}
+
+.case-row-5 .case-row-5-text p {
+    font-size: 20px;
+    font-weight: 800;
+    color: #6F44BD;
+    position: relative;
+    bottom: 2rem;
+}
+.case-row-5 .case-row-5-text img {
+    position: relative;
+    bottom: 3rem;
+    right: 1rem;
+}
 
 
 
 
+.case-row-6 {
+    width: 100%;
+    display: inline-flex;
+    background-color: #F7F8F9;
+    padding: 3rem 5rem;
+    margin: 2rem 0 -1rem 0;
+}
+.case-row-6 .case-row-6-text {
+    margin: 0 5rem 0 4rem;
+}
+.case-row-6 .text-row h1 {
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 61px;
+    color: #0F172A;
+    font-family: "poppinsMedium";
+}
+.case-row-6 .text-row p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #475569;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.case-row-6 .case-row-6-img img {
+    height: 36rem;
+    position: relative;
+    right: 12rem;
+}
 
 
 
