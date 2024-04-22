@@ -100,10 +100,10 @@
                     Automotive-Related e-commerce experience.</p>
                 
                 <div class="social-links">
-                    <a href=""><img src="{{ asset('assets/homepage/coming-soon/tw.webp') }}" alt=""></a>
-                    <a href=""><img src="{{ asset('assets/homepage/coming-soon/fb.webp') }}" alt=""></a>
-                    <a href=""><img src="{{ asset('assets/homepage/coming-soon/ig.webp') }}" alt=""></a>
-                    <a href=""><img src="{{ asset('assets/homepage/coming-soon/in.webp') }}" alt=""></a>
+                    <a href="https://twitter.com/iD4Brandz"><img src="{{ asset('assets/homepage/coming-soon/tw.webp') }}" alt=""></a>
+                    <a href="https://www.facebook.com/SocializeiD"><img src="{{ asset('assets/homepage/coming-soon/fb.webp') }}" alt=""></a>
+                    <a href="https://www.instagram.com/interactivedigi/"><img src="{{ asset('assets/homepage/coming-soon/ig.webp') }}" alt=""></a>
+                    <a href="https://www.linkedin.com/in/interactive-digital-82331818a/"><img src="{{ asset('assets/homepage/coming-soon/in.webp') }}" alt=""></a>
                 </div>
             </div>
         </div>
