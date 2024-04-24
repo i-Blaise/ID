@@ -30,29 +30,29 @@
           <div class="footer-menu">
             <div class="column-1">
               <h4>Products</h4>
-              <a href="#">Social Media</a>
-              <a href="#">Online Advertisnent</a>
-              <a href="#">Media</a>
-              <a href="#">Website Design</a>
-              <a href="#">Strategy</a>
+              <a href="{{ route('coming-soon') }}">Social Media</a>
+              <a href="{{ route('coming-soon') }}">Online Advertisnent</a>
+              <a href="{{ route('coming-soon') }}">Media</a>
+              <a href="{{ route('coming-soon') }}">Website Design</a>
+              <a href="{{ route('coming-soon') }}">Strategy</a>
             </div>
 
             <div class="column-2">
               <h4>Platforms</h4>
-              <a href="#">About Us</a>
-              <a href="#">Services</a>
-              <a href="#">Portfolio</a>
-              <a href="#">Case Study</a>
-              <a href="#">Contact Us</a>
+              <a href="{{ route('coming-soon') }}">About Us</a>
+              <a href="{{ route('coming-soon') }}">Services</a>
+              <a href="{{ route('coming-soon') }}">Portfolio</a>
+              <a href="{{ route('coming-soon') }}">Case Study</a>
+              <a href="{{ route('coming-soon') }}">Contact Us</a>
             </div>
 
             <div class="column-3">
               <h4>Utility Pages</h4>
-              <a href="#">Use Cases</a>
-              <a href="#">SEO</a>
-              <a href="#">Public Relation</a>
-              <a href="#">Content Marketing</a>
-              <a href="#">Licenses</a>
+              <a href="{{ route('coming-soon') }}">Use Cases</a>
+              <a href="{{ route('coming-soon') }}">SEO</a>
+              <a href="{{ route('coming-soon') }}">Public Relation</a>
+              <a href="{{ route('coming-soon') }}">Content Marketing</a>
+              <a href="{{ route('coming-soon') }}">Licenses</a>
             </div>
           </div>
         </div>
@@ -70,9 +70,9 @@
 
     <div class="copy-rights">
       <p>interactivedigital © 2024. All rights reserved.</p>
-      <a href="#"><p>Contact &nbsp; &nbsp; &nbsp;/</p></a>
-      <a href="#"><p>Terms of Service &nbsp; &nbsp; &nbsp;/</p></a>
-      <a href="#"><p>Privacy Statement</p></a>
+      <a href="{{ route('coming-soon') }}"><p>Contact &nbsp; &nbsp; &nbsp;/</p></a>
+      <a href="{{ route('coming-soon') }}"><p>Terms of Service &nbsp; &nbsp; &nbsp;/</p></a>
+      <a href="{{ route('coming-soon') }}"><p>Privacy Statement</p></a>
       <!-- <p>Contact &nbsp; / &nbsp; Terms of Service &nbsp; /  &nbsp;   Privacy Statement</p> -->
     </div>
 
