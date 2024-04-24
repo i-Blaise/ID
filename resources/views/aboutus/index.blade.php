@@ -33,8 +33,8 @@
 
         <div class="about-header">
             <div class="header-text">
-                <h3>About Us</h3>
-                <h1>All you need to know</h1>
+                {{-- <h3>About Us</h3> --}}
+                <h1 class="bold">All you need to know</h1>
                 <p>We discus on business performance and metrics that matter- sales, new customers, revenue, and such.</p>
             </div>
             <div class="header-image">
@@ -58,8 +58,8 @@
                 <img src="assets/about-intro.png" alt="">
             </div>
             <div class="about-intro-text">
-                <h2>Introducing the best Digital Agency!</h2>
-                <p>We are an award-winning, full service digital marketing agency that creates compelling online experiences in digital media for great brands. Our solutions leverage strategy, creative thinking and coordinated execution to deliver on business goals through digital..</p>
+                <h2 class="bold-red">LET US INTRODUCE OURSELVES!</h2>
+                <p>Welcome to Interactive Digital! We are a full-service digital marketing agency, crafting captivating online experiences around great brands! We leverage innovative strategies, creative thinking and coordinated executions to deliver on your business goals in the digital space!</p>
             </div>
         </div>
       </section>
@@ -73,8 +73,8 @@
         <div class="section-2">
             <div class="section-2-container">
                 <div class="section-2-text">
-                    <h2>Why choose Us?</h2>
-                    <p>Our company has a strong and proven track record in delivering exceptional results for businesses. We offer customized strategies tailored to your unique needs, ensuring maximum effectiveness. With our comprehensive services, we can handle all aspects of your digital marketing and advertising campaigns. Our data-driven approach allows us to make informed decisions and optimize your campaigns for better results. We also bring creativity, innovation, and transparency to the table, ensuring a successful partnership and open communication..</p>
+                    <h2 class="bold-red">Why choose ID?</h2>
+                    <p>Need an agency well-versed in shaping engaging digital experiences, from start to finish, or strat to execution, perfectly suited for your business needs? What a specific brief. But as luck would have it, you’ve come to the right place!</p>
                 </div>
                 <div class="section-2-img">
                     <img src="assets/about-img.png" alt="">
@@ -85,7 +85,7 @@
 
 
       <section class="about-section-3">
-        <h1 class="section-title">Meet Expert Team</h1>
+        <h1 class="section-title bold-red">MEET THE TEAM!</h1>
         <div class="team-card-row">
             <div class="team-card">
                 <img src="assets/team/team1.png" alt="" class="team-pic">

@@ -27,6 +27,11 @@ body {
     font-family: "poppinsFont";
 }
 
+.bold-red {
+    font-family: "poppinsFont";
+    color: #ED0707 !important;
+}
+
 body p{
     color: #666C89;
 }
@@ -2452,12 +2457,13 @@ header .about-header {
 }
 
 .about-header .header-text h1{
-    color: #252525;
+    color: #D13D24;
     font-size: 40px;
     font-weight: 600;
     width: 18rem;
     position: relative;
     bottom: 18px;
+    text-transform: uppercase;
 }
 
 .about-header .header-text p{
@@ -2765,7 +2771,7 @@ header .about-header {
     }
 
     .about-row-2 .about-intro-img img {
-        height: 18rem;
+        height: 16rem;
         position: relative;
         top: 2rem;
     }
