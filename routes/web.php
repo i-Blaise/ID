@@ -59,3 +59,22 @@ Route::get('/blogs-open', function () {
 Route::get('/contact', function () {
     return view('contactus.index');
 })->name('contactus');
+
+
+
+
+
+
+
+
+
+
+
+
+Route::get('/admin', function () {
+    return view('dashboard.index');
+})->name('admin');
+
+Route::get('/admin/blog', function () {
+    return view('dashboard.pages.blogs.create');
+})->name('blog.create');
