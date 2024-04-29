@@ -876,7 +876,7 @@ section .header-main {
     }
 
     section .main-blog-row .blog-cards-row-home {
-        margin: 136px 0 0 114px;
+        margin: 136px 0 0 114px !important;
     }
 }
 @media (min-width: 700px) {
@@ -1038,6 +1038,34 @@ section .header-main {
         position: relative;
         left: 14rem;
         bottom: 6rem;
+    }
+}
+@media screen and (min-width: 1700px) {
+
+    #header-homepage {
+       height: 61rem !important;
+   }
+   .header-info-row {
+    margin-top: 41rem !important;
+    }
+    .home-intro-text {
+        margin: 10rem 0 0 0;
+    }
+
+    .home-body-row1 {
+        margin: 0 2rem;
+        background-repeat: repeat;
+        width: 97%;
+    }
+    .home-body-row2 {
+        margin: 7rem 11rem !important;
+    }
+
+    section .main-blog-row .blog-cards-row-home {
+        margin: 136px 0 -76px 219px !important;
+    }
+    section .blog-cards-row {
+        gap: 138px 119px !important;
     }
 }
 @media screen and (min-width: 1900px) {
@@ -2254,7 +2282,7 @@ section .header-main {
 
 
     section .main-blog-row .blog-cards-row-home  {
-        margin: 136px 0 -76px 129px;
+        margin: 136px 0 -76px 154px;
     }
 
     section  .main-blog-row .blog-cards-row-home a {
@@ -2287,6 +2315,10 @@ section .header-main {
     height: 4px;
     position: relative;
     bottom: 3px;
+} 
+
+.card-info .card-info-name-date h3 {
+    font-weight: 500;
 }
 
 section .home-blog-title {
@@ -5706,7 +5738,7 @@ footer .copy-rights a {
     font-weight: 400;
     color: #1B1D1F;
     position: relative;
-    bottom: 24px;
+    bottom: 10px;
   }
 
   .swiper-slide .portfolio-text-swiper p{

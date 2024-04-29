@@ -11,7 +11,7 @@
     <link rel="manifest" href="assets/favicon_io/site.webmanifest">
     <!-- Include the stylesheet -->
     <link rel="stylesheet" href="https://unpkg.com/normalize.css">
-    <link rel="stylesheet" href="css/styles.css?v=1.2" />
+    <link rel="stylesheet" href="css/styles.css?v=1.3" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
@@ -126,7 +126,7 @@
                 </div>
                 <div class="service">
                     <img src="{{ asset('assets/homepage/red-dot.svg') }}" alt="">
-                    <p>Tech Development</p>
+                    <p>Software Development</p>
                 </div>
                 <div class="service">
                     <img src="{{ asset('assets/homepage/red-dot.svg') }}" alt="">
@@ -248,7 +248,7 @@
           </div>
           <div class="portfolio-text-swiper">
               <h4>MTN-Ghana</h4>
-              <p>Digital Marketing</p>
+              {{-- <p>Digital Marketing</p> --}}
           </div>
           </div>
     
@@ -258,7 +258,7 @@
           </div>
           <div class="portfolio-text-swiper">
               <h4>CORONATION</h4>
-              <p>More Win Dial *789*15#</p>
+              {{-- <p>More Win Dial *789*15#</p> --}}
           </div>
           </div>
     
@@ -268,7 +268,7 @@
           </div>
           <div class="portfolio-text-swiper">
               <h4>MALTA GUINNESS</h4>
-              <p>Business Idea Expart</p>
+              {{-- <p>Business Idea Expart</p> --}}
           </div>
           </div>
     
@@ -278,7 +278,7 @@
           </div>
           <div class="portfolio-text-swiper">
               <h4>STANBIC</h4>
-              <p>Photography Expart</p>
+              {{-- <p>Photography Expart</p> --}}
           </div>
           </div>
   
@@ -288,7 +288,7 @@
           </div>
           <div class="portfolio-text-swiper">
               <h4>MTN-Ghana</h4>
-              <p>Digital Marketing</p>
+              {{-- <p>Digital Marketing</p> --}}
           </div>
           </div>
     
@@ -298,7 +298,7 @@
           </div>
           <div class="portfolio-text-swiper">
               <h4>CORONATION</h4>
-              <p>More Win Dial *789*15#</p>
+              {{-- <p>More Win Dial *789*15#</p> --}}
           </div>
           </div>
     
@@ -308,7 +308,7 @@
           </div>
           <div class="portfolio-text-swiper">
               <h4>MALTA GUINNESS</h4>
-              <p>Business Idea Expart</p>
+              {{-- <p>Business Idea Expart</p> --}}
           </div>
           </div>
     
@@ -318,7 +318,7 @@
           </div>
           <div class="portfolio-text-swiper">
               <h4>STANBIC</h4>
-              <p>Photography Expart</p>
+              {{-- <p>Photography Expart</p> --}}
           </div>
           </div>
       </div>
@@ -336,9 +336,9 @@
   <!-- Initialize Swiper -->
   <script>
     var swiper = new Swiper(".mySwiper", {
-      autoplay: {
-      delay: 4000,
-      },
+      // autoplay: {
+      // delay: 4000,
+      // },
       loop: true,
       roundLengths: true,
       slidesPerView: 4,
