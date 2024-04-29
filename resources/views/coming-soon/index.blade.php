@@ -97,7 +97,7 @@
                 <h2 class="bold">UPGRADING.....</h2>
                 <h1>We are upgrading our site</h1>
                 <p>We Are Upgrading Our Website To Give You The Best <br>
-                    Automotive-Related e-commerce experience.</p>
+                    Automotive-Related experience.</p>
                 
                 <div class="social-links">
                     <a target="_blank" href="https://twitter.com/iD4Brandz"><img src="{{ asset('assets/homepage/coming-soon/tw.webp') }}" alt=""></a>

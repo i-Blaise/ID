@@ -545,7 +545,7 @@ section .header-main {
 
 .row2-text .services-container {
     display: inline-grid;
-    gap: 0rem 2rem;
+    gap: 8px 2rem;
     grid-template-columns: repeat(2, 1fr);
     margin-top: 3rem;
 }
@@ -4099,6 +4099,7 @@ section .blog-cards-row {
 .blog-card-text h2 {
     line-height: 40px;
     height: 5rem;
+    font-weight: 500;
 }
 
 .blog-card-text p {
