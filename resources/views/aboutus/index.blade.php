@@ -34,8 +34,8 @@
         <div class="about-header">
             <div class="header-text">
                 {{-- <h3>About Us</h3> --}}
-                <h1 class="bold">All you need to know</h1>
-                <p>We discus on business performance and metrics that matter- sales, new customers, revenue, and such.</p>
+                <h1 class="bold">Welcome</h1>
+                {{-- <p>We discus on business performance and metrics that matter- sales, new customers, revenue, and such.</p> --}}
             </div>
             <div class="header-image">
                 <img src="assets/about-header-1.png" alt="" class="header1">

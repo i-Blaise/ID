@@ -118,7 +118,7 @@
         </div>
         <div class="row2-text">
             <h1 class="bold">Our Services</h1>
-            <p>Some layout verbiage goes here. It’ll be something witty. Probably a music metaphor. Maybe even insightful. But most DEFINITELY about how we use the grid to build responsive works-of-art in our beloved digital-stratosphere.</p>
+            <p>When we say 360, we mean it. From content creation to media production, we do it all.</p>
             <div class="services-container">
                 <div class="service">
                     <img src="{{ asset('assets/homepage/red-dot.svg') }}" alt="">
