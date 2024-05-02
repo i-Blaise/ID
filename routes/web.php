@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CustomAuthController;
 
 Route::get('/stage-page', function () {
     return view('index');
@@ -64,11 +65,31 @@ Route::get('/contact', function () {
 
 
 
-
-Route::get('/admin', function () {
+Route::group(['middleware' => 'auth'], function () {
+    Route::get('/admin', function () {
     return view('dashboard.index');
-})->name('admin');
+    })->name('admin');
 
-Route::get('/admin/login', function () {
-    return view('dashboard.pages.auth.login');
-})->name('login');
+    Route::get('/blog-create', function () {
+        return view('dashboard.pages.blogs.create');
+    })->name('blog.create');
+});
+
+
+
+
+// Route::get('/admin/login', function () {
+//     return view('dashboard.pages.auth.login');
+// })->name('login');
+
+// Route::get('/admin/register', function () {
+//     return view('dashboard.pages.auth.register');
+// })->name('register');
+
+
+// Route::get('admin', [CustomAuthController::class, 'dashboard'])->name('dashboard');
+Route::get('login', [CustomAuthController::class, 'index'])->name('login');
+Route::post('custom-login', [CustomAuthController::class, 'customLogin'])->name('login.custom');
+Route::get('register', [CustomAuthController::class, 'registration'])->name('register');
+Route::post('custom-registration', [CustomAuthController::class, 'customRegistration'])->name('register.custom');
+Route::get('signout', [CustomAuthController::class, 'signOut'])->name('signout');

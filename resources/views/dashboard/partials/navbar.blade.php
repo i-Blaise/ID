@@ -76,7 +76,7 @@
               <a class="dropdown-item preview-item">               
                   <i class="icon-head"></i> Profile
               </a>
-              <a class="dropdown-item preview-item">
+              <a href="{{ route('signout') }}" class="dropdown-item preview-item">
                   <i class="icon-inbox"></i> Logout
               </a>
             </div>
