@@ -5,9 +5,9 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>!D Admin Login</title>
+  <title>!D Admin Register</title>
   <!-- base:css -->
-  <link rel="stylesheet" href="{{ asset('dashborad/vendors/mdi/css/materialdesignicons.min.css') }}">
+  <link rel="stylesheet" href="{{ asset('dashboard/vendors/mdi/css/materialdesignicons.min.css') }}">
   <link rel="stylesheet" href="{{ asset('dashboard/vendors/feather/feather.css') }}">
   <link rel="stylesheet" href="{{ asset('dashboard/vendors/base/vendor.bundle.base.css') }}">
   <!-- endinject -->
@@ -32,22 +32,44 @@
               <div class="brand-logo">
                 <img src="{{ asset('assets/logo-digital.png') }}" alt="logo">
               </div>
-              <h4>Welcome back!</h4>
-              <h6 class="font-weight-light">Happy to see you again!</h6>
+              <h4>New here?</h4>
+              <h6 class="font-weight-light">Join us today! It takes only few steps</h6>
               <form class="pt-3">
                 <div class="form-group">
-                  <label for="exampleInputEmail">Username</label>
+                  <label>Username</label>
                   <div class="input-group">
                     <div class="input-group-prepend bg-transparent">
                       <span class="input-group-text bg-transparent border-right-0">
                         <i class="mdi mdi-account-outline text-primary"></i>
                       </span>
                     </div>
-                    <input type="text" class="form-control form-control-lg border-left-0" id="exampleInputEmail" placeholder="Username">
+                    <input type="text" class="form-control form-control-lg border-left-0" placeholder="Username">
                   </div>
                 </div>
                 <div class="form-group">
-                  <label for="exampleInputPassword">Password</label>
+                  <label>Email</label>
+                  <div class="input-group">
+                    <div class="input-group-prepend bg-transparent">
+                      <span class="input-group-text bg-transparent border-right-0">
+                        <i class="mdi mdi-email-outline text-primary"></i>
+                      </span>
+                    </div>
+                    <input type="email" class="form-control form-control-lg border-left-0" placeholder="Email">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label>Country</label>
+                  <select class="form-control form-control-lg" id="exampleFormControlSelect2">
+                    <option>Country</option>
+                    <option>United States of America</option>
+                    <option>United Kingdom</option>
+                    <option>India</option>
+                    <option>Germany</option>
+                    <option>Argentina</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label>Password</label>
                   <div class="input-group">
                     <div class="input-group-prepend bg-transparent">
                       <span class="input-group-text bg-transparent border-right-0">
@@ -57,36 +79,25 @@
                     <input type="password" class="form-control form-control-lg border-left-0" id="exampleInputPassword" placeholder="Password">                        
                   </div>
                 </div>
-                <div class="my-2 d-flex justify-content-between align-items-center">
+                <div class="mb-4">
                   <div class="form-check">
                     <label class="form-check-label text-muted">
                       <input type="checkbox" class="form-check-input">
-                      Keep me signed in
+                      I agree to all Terms & Conditions
                     </label>
                   </div>
-                  <a href="#" class="auth-link text-black">Forgot password?</a>
                 </div>
-                <div class="my-3">
-                  <a class="btn btn-block btn-info btn-lg font-weight-medium auth-form-btn" href="../../index.html">LOGIN</a>
+                <div class="mt-3">
+                  <a class="btn btn-block btn-info btn-lg font-weight-medium auth-form-btn" href="../../index.html">SIGN UP</a>
                 </div>
-                {{-- <div class="mb-2 d-flex">
-                  <button type="button" class="btn btn-facebook auth-form-btn flex-grow mr-1">
-                    <i class="mdi mdi-facebook mr-2"></i>
-                    Facebook
-                  </button>
-                  <button type="button" class="btn btn-google auth-form-btn flex-grow ml-1">
-                    <i class="mdi mdi-google mr-2"></i>
-                    Google
-                  </button>
-                </div> --}}
-                {{-- <div class="text-center mt-4 font-weight-light">
-                  Don't have an account? <a href="register-2.html" class="text-primary">Create</a>
-                </div> --}}
+                <div class="text-center mt-4 font-weight-light">
+                  Already have an account? <a href="login.html" class="text-primary">Login</a>
+                </div>
               </form>
             </div>
           </div>
-          <div class="col-lg-6 login-half-bg d-flex flex-row">
-            <p class="text-white font-weight-medium text-center flex-grow align-self-end">Copyright &copy; 2024  All rights reserved.</p>
+          <div class="col-lg-6 register-half-bg d-flex flex-row">
+            <p class="text-white font-weight-medium text-center flex-grow align-self-end">Copyright &copy; 2020  All rights reserved.</p>
           </div>
         </div>
       </div>

@@ -65,16 +65,10 @@ Route::get('/contact', function () {
 
 
 
-
-
-
-
-
-
 Route::get('/admin', function () {
     return view('dashboard.index');
 })->name('admin');
 
-Route::get('/admin/blog', function () {
-    return view('dashboard.pages.blogs.create');
-})->name('blog.create');
+Route::get('/admin/login', function () {
+    return view('dashboard.pages.auth.login');
+})->name('login');
