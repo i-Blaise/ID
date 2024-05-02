@@ -8,7 +8,7 @@
         </label>
           <ul class="menu">
             <li class="menu-link"><a class="{{ Route::currentRouteNamed('home') ? 'active' : '' }}" href="{{ route('home') }}">Home</a></li>
-            <li class="menu-link"><a class="{{ Route::currentRouteNamed('aboutus') ? 'active' : '' }}" href="{{ route('coming-soon') }}">About Us</a></li>
+            <li class="menu-link"><a class="{{ Route::currentRouteNamed('aboutus') ? 'active' : '' }}" href="{{ route('aboutus') }}">About Us</a></li>
             <li class="menu-link"><a class="{{ Route::currentRouteNamed('services') ? 'active' : '' }}" href="{{ route('coming-soon') }}">Services</a></li>
             <li class="menu-link"><a class="{{ Route::currentRouteNamed('blogs') ? 'active' : '' }}" href="{{ route('coming-soon') }}">Blog</a></li>
             <li class="menu-link"><a class="{{ Route::currentRouteNamed('case-studies') ? 'active' : '' }}" href="{{ route('coming-soon') }}">Case Studies</a></li>

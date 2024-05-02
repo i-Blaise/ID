@@ -12,16 +12,16 @@
             </div>
             <p>Creates compelling online experiences in digital media for great brands, <span>2024</span>.</p>
             <div class="footer-social">
-              <a href="fb.com" target="_blank">
+              <a href="https://www.facebook.com/SocializeiD" target="_blank">
                 <img src="assets/fb.svg" alt="facebook-logo">
               </a>
-              <a href="https://x.com/id4brandz/" target="_blank">
+              <a href="https://twitter.com/iD4Brandz" target="_blank">
                 <img src="assets/x.svg" alt="twitter-logo">
               </a>
-              <a href="https://x.com/id4brandz/" target="_blank">
+              <a href="https://www.linkedin.com/in/interactive-digital-82331818a/" target="_blank">
                 <img src="assets/in.svg" alt="linkedin-logo">
               </a>
-              <a href="https://x.com/id4brandz/" target="_blank">
+              <a href="https://www.instagram.com/interactivedigi/" target="_blank">
                 <img src="assets/ig.svg" alt="instagram-logo">
               </a>
             </div>
@@ -39,7 +39,7 @@
 
             <div class="column-2">
               <h4>Platforms</h4>
-              <a href="{{ route('coming-soon') }}">About Us</a>
+              <a href="{{ route('aboutus') }}">About Us</a>
               <a href="{{ route('coming-soon') }}">Services</a>
               <a href="{{ route('coming-soon') }}">Portfolio</a>
               <a href="{{ route('coming-soon') }}">Case Study</a>
