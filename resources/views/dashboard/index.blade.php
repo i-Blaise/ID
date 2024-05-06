@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="{{ asset('dashboard/vendors/jquery-bar-rating/fontawesome-stars.css') }}">
   <!-- End plugin css for this page -->
   <!-- inject:css -->
-  <link rel="stylesheet" href="{{ asset('dashboard/css/style.css') }}">
+  <link rel="stylesheet" href="{{ asset('dashboard/css/style.css').version() }}">
   <!-- endinject -->
   <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
