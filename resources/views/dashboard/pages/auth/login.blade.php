@@ -37,7 +37,7 @@
               <form class="pt-3" method="POST" action="{{ route('login.custom') }}">
                 @csrf
                 <div class="form-group">
-                  <label for="exampleInputEmail">Username / Email</label>
+                  <label for="exampleInputEmail">Email</label>
                   <div class="input-group">
                     <div class="input-group-prepend bg-transparent">
                       <span class="input-group-text bg-transparent border-right-0">

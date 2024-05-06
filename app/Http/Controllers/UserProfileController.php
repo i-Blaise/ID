@@ -59,20 +59,31 @@ class UserProfileController extends Controller
      */
     public function update(Request $request, string $id)
     {
-              //Move Uploaded File to public folder
-        $destinationPath = 'dashboard/images/uploads/profiles/';
-        $file = $request->file('profile_picture');
-        $hashed_image_name = $file->hashName();
-        $profile_img_path = $destinationPath.$hashed_image_name;
-        $request->profile_picture->move(public_path($destinationPath), $hashed_image_name);
+        if(!is_null($request->file('profile_picture')))
+        {
+            //Move Uploaded File to public folder
+            $destinationPath = 'dashboard/images/uploads/profiles/';
+            $file = $request->file('profile_picture');
+            $hashed_image_name = $file->hashName();
+            $profile_img_path = $destinationPath.$hashed_image_name;
+            $request->profile_picture->move(public_path($destinationPath), $hashed_image_name);
+        }
+
 
 
         // dd($profile_picture_path);
         $profile = User::find($id);
-        $profile->name = $request->input('full_name');
-        $profile->email = $request->input('email');
-        $profile->profile_picture = $profile_img_path;
-        $profile->job_title = $request->input('job_title');
+        is_null($request->input('full_name')) ?
+        '' : $profile->name = $request->input('full_name');
+
+        is_null($request->input('email')) ?
+        '' : $profile->email = $request->input('email');
+
+        !isset($profile_img_path) ? 
+        '' : $profile->profile_picture = $profile_img_path;
+
+        is_null($request->input('job_title')) ? 
+        '' : $profile->job_title = $request->input('job_title');
         
         $profile->save();
         return back()->with('success', 'Profile updated successfully');

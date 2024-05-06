@@ -22,6 +22,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/favicon_io/favicon-32x32.png') }}">
   <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/favicon_io/favicon-16x16.png') }}">
   <link rel="manifest" href="{{ asset('assets/favicon_io/site.webmanifest') }}">
+  <x-head.tinymce-config/>
 </head>
 
 <body>
@@ -47,33 +48,14 @@
             <div class="col-12 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
-                  <h4 class="card-title">Basic form elements</h4>
+                  <h4 class="card-title">Create New Blog</h4>
                   <p class="card-description">
-                    Basic form elements
+                    Submitting form will not immediatelt publish blog. Go to View Blogs tab to revivew and publish submitted blogs
                   </p>
                   <form class="forms-sample">
                     <div class="form-group">
-                      <label for="exampleInputName1">Name</label>
-                      <input type="text" class="form-control" id="exampleInputName1" placeholder="Name">
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleInputEmail3">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleInputPassword4">Password</label>
-                      <input type="password" class="form-control" id="exampleInputPassword4" placeholder="Password">
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleSelectGender">Gender</label>
-                        <select class="form-control" id="exampleSelectGender">
-                          <option>Male</option>
-                          <option>Female</option>
-                        </select>
-                      </div>
-                    <div class="form-group">
-                      <label>File upload</label>
-                      <input type="file" name="img[]" class="file-upload-default">
+                      <label>Main Blog Image</label>
+                      <input type="file" name="main_image" class="file-upload-default">
                       <div class="input-group col-xs-12">
                         <input type="text" class="form-control file-upload-info" disabled placeholder="Upload Image">
                         <span class="input-group-append">
@@ -81,14 +63,75 @@
                         </span>
                       </div>
                     </div>
-                    <div class="form-group">
-                      <label for="exampleInputCity1">City</label>
-                      <input type="text" class="form-control" id="exampleInputCity1" placeholder="Location">
+
+                    <div class=" col-12 form-group">
+                      <label for="exampleInputName1">Blog Title</label>
+                      <input type="text" class="form-control" name="blog_title" id="exampleInputName1" placeholder="Enter Blog Title">
                     </div>
-                    <div class="form-group">
-                      <label for="exampleTextarea1">Textarea</label>
-                      <textarea class="form-control" id="exampleTextarea1" rows="4"></textarea>
+
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label>Sub Image 1</label>
+                          <input type="file" name="sub_image_1" class="file-upload-default">
+                          <div class="input-group col-xs-12">
+                            <input type="text" class="form-control file-upload-info" disabled placeholder="Upload Image">
+                            <span class="input-group-append">
+                              <button class="file-upload-browse btn btn-primary" type="button">Upload</button>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label>Sub Image 2</label>
+                          <input type="file" name="sub_image_2" class="file-upload-default">
+                          <div class="input-group col-xs-12">
+                            <input type="text" class="form-control file-upload-info" disabled placeholder="Upload Image">
+                            <span class="input-group-append">
+                              <button class="file-upload-browse btn btn-primary" type="button">Upload</button>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
                     </div>
+
+
+                    <div class="form-group">
+                      <label for="exampleTextarea1">Blog Body</label>
+                      <x-forms.tinymce-editor/>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-md-6">
+                        <label for="exampleTextarea1">Quotes</label>
+                        <textarea class="form-control" id="exampleTextarea1" rows="4"></textarea>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="exampleInputName1">Quotes Author</label>
+                        <input type="text" class="form-control" id="exampleInputName1" placeholder="Name">
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label>Select Blog Tags</label>
+                          <select class="js-example-basic-multiple w-100" multiple="multiple">
+                            <option value="AL">Alabama</option>
+                            <option value="WY">Wyoming</option>
+                            <option value="AM">America</option>
+                            <option value="CA">Canada</option>
+                            <option value="RU">Russia</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="exampleInputName1">Add Blog Tags</label>
+                        <input type="text" class="form-control" id="exampleInputName1" placeholder="Name">
+                      </div>
+                    </div>
+                    
                     <button type="submit" class="btn btn-primary mr-2">Submit</button>
                     <button class="btn btn-light">Cancel</button>
                   </form>
