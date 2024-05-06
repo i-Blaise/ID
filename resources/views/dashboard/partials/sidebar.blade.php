@@ -1,13 +1,17 @@
 <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <div class="user-profile">
           <div class="user-image">
-            <img src="{{ asset('dashboard/images/faces/face13.jpg') }}">
+            @if (is_null(Auth::user()->profile_picture))
+                <img src="{{ asset('dashboard/images/faces/user-icon.webp') }}">
+            @else
+                <img src="{{ asset( Auth::user()->profile_picture ) }}">
+            @endif
           </div>
           <div class="user-name">
-              Jane Doe
+            {{ Auth::user()->name }}
           </div>
           <div class="user-designation">
-              Administrator
+            {{ Auth::user()->job_title }}
           </div>
         </div>
         <ul class="nav">

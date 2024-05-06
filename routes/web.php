@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CustomAuthController;
+use App\Http\Controllers\UserProfileController;
 
 Route::get('/stage-page', function () {
     return view('index');
@@ -73,6 +74,8 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('/blog-create', function () {
         return view('dashboard.pages.blogs.create');
     })->name('blog.create');
+
+    Route::resource('/profile', UserProfileController::class);
 });
 
 

@@ -22824,3 +22824,24 @@ dl li {
 }
 
 /*# sourceMappingURL=maps/style.css.map */
+
+
+
+/* Profile Dashboard Page  */
+
+.profile .user-profile .user-image {
+  height: 290px !important;
+}
+
+.profile .user-profile .user-image img{
+  height: 16rem;
+  border-radius: 8rem;
+}
+
+.profile {
+  margin-left: 143px;
+  /* align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-left: auto; */
+}

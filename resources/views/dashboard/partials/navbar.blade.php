@@ -3,7 +3,7 @@
         <a class="navbar-brand brand-logo" href="index.html"><img src="{{ asset('assets/logo-digital.png') }}" alt="logo"/></a>
         <a class="navbar-brand brand-logo-mini" href="index.html"><img src="{{ asset('assets/IDlogo.png') }}" alt="logo"/></a>
       </div>
-      <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
+      <di class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
         <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
           <span class="icon-menu"></span>
         </button>
@@ -73,7 +73,7 @@
             </a>
             <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
               <p class="mb-0 font-weight-normal float-left dropdown-header">Settings</p>
-              <a class="dropdown-item preview-item">               
+              <a href="{{ route('profile.index') }}" class="dropdown-item preview-item">               
                   <i class="icon-head"></i> Profile
               </a>
               <a href="{{ route('signout') }}" class="dropdown-item preview-item">
@@ -81,14 +81,14 @@
               </a>
             </div>
           </li>
-          <li class="nav-item dropdown mr-4 d-lg-flex d-none">
+          {{-- <li class="nav-item dropdown mr-4 d-lg-flex d-none">
             <a class="nav-link count-indicatord-flex align-item s-center justify-content-center" href="#">
               <i class="icon-grid"></i>
             </a>
-          </li>
+          </li> --}}
         </ul>
         <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
           <span class="icon-menu"></span>
         </button>
-      </div>
+      </di  v>
     </nav>
