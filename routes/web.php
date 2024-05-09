@@ -62,7 +62,9 @@ Route::get('/contact', function () {
     return view('contactus.index');
 })->name('contactus');
 
-
+Route::get('/view-blogs', function () {
+    return view('dashboard.pages.blogs.index');
+})->name('view.blogs');
 
 
 

@@ -23,16 +23,16 @@
             </a>
           </li>
           
-          <li class="nav-item {{ Route::currentRouteNamed('blog.create') ? 'active' : '' }}">
-            <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="{{ Route::currentRouteNamed('blog.create') ? 'true' : 'false' }}" aria-controls="auth">
+          <li class="nav-item {{ Route::currentRouteNamed('blog.create') || Route::currentRouteNamed('view.blogs') ? 'active' : '' }}">
+            <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="{{ Route::currentRouteNamed('blog.create') || Route::currentRouteNamed('view.blogs') ? 'true' : 'false' }}" aria-controls="auth">
               <i class="icon-file menu-icon"></i>
               <span class="menu-title">Blogs</span>
               <i class="menu-arrow"></i>
             </a>
-            <div class="{{ Route::currentRouteNamed('blog.create') ? 'expand' : 'collapse' }}" id="auth">
+            <div class="{{ Route::currentRouteNamed('blog.create') || Route::currentRouteNamed('view.blogs') ? 'expand' : 'collapse' }}" id="auth">
               <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link {{ Route::currentRouteNamed('view.blogs') ? 'active' : '' }}" href="{{ route('view.blogs') }}"> View Blogs </a></li>
                 <li class="nav-item"> <a class="nav-link {{ Route::currentRouteNamed('blog.create') ? 'active' : '' }}" href="{{ route('blog.create') }}"> Create Blog </a></li>
-                <li class="nav-item"> <a class="nav-link" href="#"> View Blogs </a></li>
               </ul>
             </div>
           </li>
