@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BlogsController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CustomAuthController;
 use App\Http\Controllers\UserProfileController;
@@ -73,11 +74,16 @@ Route::group(['middleware' => 'auth'], function () {
     return view('dashboard.index');
     })->name('admin');
 
-    Route::get('/blog-create', function () {
-        return view('dashboard.pages.blogs.create');
-    })->name('blog.create');
+    // Route::get('/blog-create', function () {
+    //     return view('dashboard.pages.blogs.create');
+    // })->name('blog.create');
 
-    Route::resource('/profile', UserProfileController::class);
+    // Route::resource('/profile', UserProfileController::class);
+
+    Route::resources([
+        'profile' => UserProfileController::class,
+        'blog' => BlogsController::class,
+    ]);
 });
 
 

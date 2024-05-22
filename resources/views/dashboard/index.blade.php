@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags --> 
+  <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>!D - Dashboard</title>
@@ -24,6 +24,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
   <link rel="manifest" href="assets/favicon_io/site.webmanifest">
+
+    {{-- Toastify Notifications  --}}
+    @toastifyCss
 </head>
 <body>
   <div class="container-scroller">
@@ -91,7 +94,7 @@
                               <canvas id="web-audience-metrics-satacked" class="mt-3"></canvas>
                           </div>
                       </div>
-                        
+
                     </div>
                   </div>
             </div>
@@ -125,7 +128,7 @@
                       <div class="marketTrends mt-4">
                         <canvas id="marketTrendssatacked"></canvas>
                       </div>
-                        
+
                     </div>
                   </div>
               </div>
@@ -179,9 +182,9 @@
                             <div>25%</div>
                           </div>
                         </div>
-                        
+
                       </div>
-                    </div>  
+                    </div>
                   </div>
                 </div>
               </div>
@@ -223,10 +226,10 @@
                               <div class="text-muted font-weight-normal mt-1">3 weeks Ago</div>
                             </div>
                             <div><h6 class="font-weight-bold text-info ml-sm-2">$264</h6></div>
-                          </div> 
+                          </div>
                         </div>
                       </div>
-                    </div>  
+                    </div>
                   </div>
                 </div>
               </div>
@@ -257,7 +260,7 @@
                         <tbody>
                           <tr>
                             <td>
-                              <i class="flag-icon flag-icon-us mr-2" title="us" id="us"></i> United States 
+                              <i class="flag-icon flag-icon-us mr-2" title="us" id="us"></i> United States
                             </td>
                             <td>
                               $911,200
@@ -277,7 +280,7 @@
                                 </div>
                               </div>
                             </td>
-                            
+
                           </tr>
                           <tr>
                             <td>
@@ -371,7 +374,7 @@
                               </div>
                             </td>
                           </tr>
-                          
+
                         </tbody>
                       </table>
                     </div>
@@ -578,6 +581,9 @@
     <!-- Custom js for this page-->
     <script src="{{ asset('dashboard/js/dashboard.js') }}"></script>
     <!-- End custom js for this page-->
+
+  {{-- Toastify Notifications  --}}
+  @toastifyJs
 </body>
 
 </html>

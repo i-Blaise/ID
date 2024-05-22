@@ -23,8 +23,19 @@
   <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/favicon_io/favicon-16x16.png') }}">
   <link rel="manifest" href="{{ asset('assets/favicon_io/site.webmanifest') }}">
   <x-head.tinymce-config/>
-</head>
 
+    {{-- Toastify Notifications  --}}
+    @toastifyCss
+</head>
+@if(count($errors) > 0)
+    @foreach($errors->all() as $error)
+        {{ toastify()->error($error) }}
+    @endforeach
+@endif
+
+@if(session('success'))
+        {{ toastify()->success(session('success')) }}
+@endif
 <body>
   <div class="container-scroller">
 
@@ -42,7 +53,7 @@
     {{-- End Sidebar  --}}
 
 
-      <div class="main-panel">        
+      <div class="main-panel">
         <div class="content-wrapper">
           <div class="row">
             <div class="col-12 grid-margin stretch-card">
@@ -52,7 +63,13 @@
                   <p class="card-description">
                     Submitting form will not immediatelt publish blog. Go to View Blogs tab to revivew and publish submitted blogs
                   </p>
-                  <form class="forms-sample">
+                  @if($errors->any())
+                    <h4>{{$errors->first()}}</h4>
+                  @endif
+                  <form class="forms-sample" method="POST" action="{{ route('blog.store') }}" enctype="multipart/form-data">
+                    @csrf
+                    @method('POST')
+
                     <div class="form-group">
                       <label>Main Blog Image</label>
                       <input type="file" name="main_image" class="file-upload-default">
@@ -73,7 +90,7 @@
                       <div class="col-md-6">
                         <div class="form-group">
                           <label>Sub Image 1</label>
-                          <input type="file" name="sub_image_1" class="file-upload-default">
+                          <input type="file" name="sub_image1" class="file-upload-default">
                           <div class="input-group col-xs-12">
                             <input type="text" class="form-control file-upload-info" disabled placeholder="Upload Image">
                             <span class="input-group-append">
@@ -85,7 +102,7 @@
                       <div class="col-md-6">
                         <div class="form-group">
                           <label>Sub Image 2</label>
-                          <input type="file" name="sub_image_2" class="file-upload-default">
+                          <input type="file" name="sub_image2" class="file-upload-default">
                           <div class="input-group col-xs-12">
                             <input type="text" class="form-control file-upload-info" disabled placeholder="Upload Image">
                             <span class="input-group-append">
@@ -105,33 +122,31 @@
                     <div class="row">
                       <div class="col-md-6">
                         <label for="exampleTextarea1">Quotes</label>
-                        <textarea class="form-control" id="exampleTextarea1" rows="4"></textarea>
+                        <textarea class="form-control" name="quotes" id="exampleTextarea1" rows="4"></textarea>
                       </div>
                       <div class="col-md-6">
                         <label for="exampleInputName1">Quotes Author</label>
-                        <input type="text" class="form-control" id="exampleInputName1" placeholder="Name">
+                        <input type="text" class="form-control" name="quotes_author" id="exampleInputName1" placeholder="Name">
                       </div>
                     </div>
 
                     <div class="row">
                       <div class="col-md-6">
                         <div class="form-group">
-                          <label>Select Blog Tags</label>
-                          <select class="js-example-basic-multiple w-100" multiple="multiple">
-                            <option value="AL">Alabama</option>
-                            <option value="WY">Wyoming</option>
-                            <option value="AM">America</option>
-                            <option value="CA">Canada</option>
-                            <option value="RU">Russia</option>
+                          <label for="blog_tags">Select Blog Tags</label>
+                          <select id="blog_tags" class="js-example-basic-single w-100" name="blog_tags[]" multiple>
+                            @foreach ($tags as $tag)
+                                <option>{{ $tag->tags }}</option>
+                            @endforeach
                           </select>
                         </div>
                       </div>
                       <div class="col-md-6">
                         <label for="exampleInputName1">Add Blog Tags</label>
-                        <input type="text" class="form-control" id="exampleInputName1" placeholder="Name">
+                        <input type="text" class="form-control" name="new_blog_tags" id="exampleInputName1" placeholder="Name">
                       </div>
                     </div>
-                    
+
                     <button type="submit" class="btn btn-primary mr-2">Submit</button>
                     <button class="btn btn-light">Cancel</button>
                   </form>
@@ -170,6 +185,9 @@
   <script src="{{ asset('dashboard/js/typeahead.js') }}"></script>
   <script src="{{ asset('dashboard/js/select2.js') }}"></script>
   <!-- End custom js for this page-->
+
+    {{-- Toastify Notifications  --}}
+    @toastifyJs
 </body>
 
 </html>

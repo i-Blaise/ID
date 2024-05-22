@@ -20,7 +20,22 @@
   <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/favicon_io/favicon-32x32.png') }}">
   <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/favicon_io/favicon-16x16.png') }}">
   <link rel="manifest" href="{{ asset('assets/favicon_io/site.webmanifest') }}">
+
+  {{-- Toastify Notifications  --}}
+  @toastifyCss
+  {{-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"> --}}
 </head>
+    {{-- {{ toastify()->error($errors->first()) }} --}}
+
+@if(count($errors) > 0)
+    @foreach($errors->all() as $error)
+        {{ toastify()->error($error) }}
+    @endforeach
+@endif
+
+@if(session('success'))
+        {{ toastify()->success(session('success')) }}
+@endif
 
 <body>
   <div class="container-scroller">
@@ -55,7 +70,7 @@
                         <i class="mdi mdi-lock-outline text-primary"></i>
                       </span>
                     </div>
-                    <input type="password" class="form-control form-control-lg border-left-0" id="password" name="password" placeholder="Password">                        
+                    <input type="password" class="form-control form-control-lg border-left-0" id="password" name="password" placeholder="Password">
                   </div>
                 </div>
                 <div class="my-2 d-flex justify-content-between align-items-center">
@@ -104,6 +119,10 @@
   <script src="{{ asset('dashboard/js/hoverable-collapse.js') }}"></script>
   <script src="{{ asset('dashboard/js/template.js') }}"></script>
   <!-- endinject -->
+
+  {{-- Toastify Notifications  --}}
+  @toastifyJs
+  {{-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script> --}}
 </body>
 
 </html>

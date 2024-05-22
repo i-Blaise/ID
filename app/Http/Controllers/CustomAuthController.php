@@ -29,7 +29,7 @@ class CustomAuthController extends Controller
             return redirect()->intended("admin")
                 ->withSuccess('Signed in');
         }
-        return redirect("login")->withSuccess('Login details are not valid');
+        return redirect("login")->withErrors('Login details are not valid');
     }
 
 
