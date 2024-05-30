@@ -46,11 +46,11 @@
                 <img src="assets/services/social-media-marketing.png" alt="">
             </div>
             <div class="service-text">
-                <h1>Social Media <span>Marketing</span></h1>
-                <p>Find your spot in a noisy world. We know the exact place we harness the power of digital channels to expand your brand’s reach. Our digital marketing experts develop data-driven strategies to connect with your target audience, increase engagement, and drive conversions.</p>
+                <h1>Social Media <span class="bold-red">Marketing</span></h1>
+                <p>Cut through the noise and find your people! <br>You need people to see you and what you can do. No problem! Sit back, relax, and let us create content that speaks to your tribe!</p>
                 <div class="service-btn">
-                    <a href="{{ route('sm-marketing') }}">
-                        <p>Learn More</p>
+                    <a href="{{ route('coming-soon') }}">
+                        <p>Get interactive on social media</p>
                         <img src="assets/services/red-right-arrow.svg" alt="">
                     </a>
                 </div>
@@ -60,12 +60,11 @@
 
         <div class="service-row online-ad-row">
           <div class="service-text">
-              <h1>Online <span> Advertising</span></h1>
-              <p>Find your spot in a noisy world. We know the exact place
-                We harness the power of digital channels to expand your brand’s reach. Our digital marketing experts develop data-driven strategies to connect with your target audience, increase engagement, and drive conversions..</p>
+              <h1>Online <span class="bold-red"> Advertising</span></h1>
+              <p>Getting found online is hard. Getting found by the right audience? - even harder. Navigating the Wild West of <br>the Internet is no easy feat… unless you’re a pro, like <br>us!</p>
               <div class="service-btn">
-                  <a href="{{ route('online-advertising') }}">
-                      <p>View More</p>
+                  <a href="{{ route('coming-soon') }}">
+                      <p>Advertise with us!</p>
                       <img src="assets/services/red-right-arrow.svg" alt="">
                   </a>
               </div>
@@ -81,25 +80,24 @@
             <img src="assets/services/service3.png" alt="">
         </div>
         <div class="service-text">
-            <h1>Media <span> Production</span></h1>
-            <p>Find your spot in a noisy world. We know the exact place we harness the power of digital channels to expand your brand’s reach. Our digital marketing experts develop data-driven strategies to connect with your target audience, increase engagement, and drive conversions.</p>
+            <h1>Media <span class="bold-red"> Production</span></h1>
+            <p>the hustle and bustle of infinite scrolling, you need a <br>story that stops people in their tracks, with captivating<br> visuals to match. And that’s where we come in…</p>
             <div class="service-btn">
-                <a href="{{ route('videography') }}">
-                    <p>Learn More</p>
+                <a href="{{ route('coming-soon') }}">
+                    <p>Shoot my big story!</p>
                     <img src="assets/services/red-right-arrow.svg" alt="">
                 </a>
             </div>
         </div>
     </div>
 
-    
+
     <div class="service-row web-design-row">
       <div class="service-text">
-          <h1>Website <span> Design</span></h1>
-          <p>Find your spot in a noisy world. We know the exact place
-            We harness the power of digital channels to expand your brand’s reach. Our digital marketing experts develop data-driven strategies to connect with your target audience, increase engagement, and drive conversions..</p>
+          <h1>Website <span class="bold-red"> Design</span></h1>
+          <p>Find your spot in a noisy world. We know the exact place We harness the power of digital channels to expand your brand’s reach. Our digital marketing experts develop data-driven strategies to connect with your target audience, increase engagement, and drive conversions..</p>
           <div class="service-btn">
-              <a href="#">
+              <a href="{{ route('coming-soon') }}">
                   <p>View More</p>
                   <img src="assets/services/red-right-arrow.svg" alt="">
               </a>
@@ -116,11 +114,11 @@
         <img src="assets/services/service-strat.png" class="service-5" alt="">
     </div>
     <div class="service-text">
-        <h1>Strategy <span> Consulting</span></h1>
-        <p>Find your spot in a noisy world. We know the exact place we harness the power of digital channels to expand your brand’s reach. Our digital marketing experts develop data-driven strategies to connect with your target audience, increase engagement, and drive conversions.</p>
+        <h1>Strategy <span class="bold-red"> Consulting</span></h1>
+        <p>If at first you don’t succeed, just call us! <br>Millions of accounts and thousands of brands, all<br> fighting for top billing. Standing out is all about cracking<br> the code. And would you look at that, we have that<br> here, ready and waiting - just for you!</p>
         <div class="service-btn">
-            <a href="{{ route('strategy') }}">
-                <p>Learn More</p>
+            <a href="{{ route('coming-soon') }}">
+                <p>Talk strategy with us</p>
                 <img src="assets/services/red-right-arrow.svg" alt="">
             </a>
         </div>
@@ -139,25 +137,25 @@
 
 
 
-  <script> 
-  
-    // Targeting video element  
-    let clip = document.querySelector(".vid") 
-    let footer = document.querySelector(".footer-row") 
+  <script>
 
-    /* Applying mouseover event on video clip  
-    and then we call play() function to play  
-    the video when the mouse is over the video */ 
-    footer.addEventListener("mouseover", function (e) { 
-        clip.play(); 
-    }) 
+    // Targeting video element
+    let clip = document.querySelector(".vid")
+    let footer = document.querySelector(".footer-row")
 
-    /* Applying mouseout event on video clip  
-    and then we call pause() function to stop  
-    the video when the mouse is out the video */ 
-    footer.addEventListener("mouseout", function (e) { 
-        clip.pause(); 
-    }) 
+    /* Applying mouseover event on video clip
+    and then we call play() function to play
+    the video when the mouse is over the video */
+    footer.addEventListener("mouseover", function (e) {
+        clip.play();
+    })
+
+    /* Applying mouseout event on video clip
+    and then we call pause() function to stop
+    the video when the mouse is out the video */
+    footer.addEventListener("mouseout", function (e) {
+        clip.pause();
+    })
 </script>
   </body>
 </html>
