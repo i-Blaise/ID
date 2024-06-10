@@ -30,29 +30,29 @@
           <div class="footer-menu">
             <div class="column-1">
               <h4>Products</h4>
-              <a href="{{ route('coming-soon') }}">Social Media</a>
-              <a href="{{ route('coming-soon') }}">Online Advertisnent</a>
-              <a href="{{ route('coming-soon') }}">Media</a>
-              <a href="{{ route('coming-soon') }}">Website Design</a>
-              <a href="{{ route('coming-soon') }}">Strategy</a>
+              <a href="#">Social Media</a>
+              <a href="#">Online Advertisnent</a>
+              <a href="#">Media</a>
+              <a href="#">Website Design</a>
+              <a href="#">Strategy</a>
             </div>
 
             <div class="column-2">
               <h4>Platforms</h4>
               <a href="{{ route('aboutus') }}">About Us</a>
-              <a href="{{ route('coming-soon') }}">Services</a>
-              <a href="{{ route('coming-soon') }}">Portfolio</a>
-              <a href="{{ route('coming-soon') }}">Case Study</a>
-              <a href="{{ route('coming-soon') }}">Contact Us</a>
+              <a href="{{ route('services') }}">Services</a>
+              <a href="#">Portfolio</a>
+              <a href="{{ route('case-study') }}">Case Study</a>
+              <a href="{{ route('contactus') }}">Contact Us</a>
             </div>
 
             <div class="column-3">
               <h4>Utility Pages</h4>
-              <a href="{{ route('coming-soon') }}">Use Cases</a>
-              <a href="{{ route('coming-soon') }}">SEO</a>
-              <a href="{{ route('coming-soon') }}">Public Relation</a>
-              <a href="{{ route('coming-soon') }}">Content Marketing</a>
-              <a href="{{ route('coming-soon') }}">Licenses</a>
+              <a href="#">Use Cases</a>
+              <a href="#">SEO</a>
+              <a href="#">Public Relation</a>
+              <a href="#">Content Marketing</a>
+              <a href="#">Licenses</a>
             </div>
           </div>
         </div>
@@ -62,7 +62,7 @@
             <source src="assets/video/footer-vid.mp4" type="video/ogg">
             Your browser does not support the video tag.
           </video>
-          
+
           </div>
     </div>
 
@@ -70,9 +70,9 @@
 
     <div class="copy-rights">
       <p>interactivedigital © 2024. All rights reserved.</p>
-      <a href="{{ route('coming-soon') }}"><p>Contact &nbsp; &nbsp; &nbsp;/</p></a>
-      <a href="{{ route('coming-soon') }}"><p>Terms of Service &nbsp; &nbsp; &nbsp;/</p></a>
-      <a href="{{ route('coming-soon') }}"><p>Privacy Statement</p></a>
+      <a href="#"><p>Contact &nbsp; &nbsp; &nbsp;/</p></a>
+      <a href="#"><p>Terms of Service &nbsp; &nbsp; &nbsp;/</p></a>
+      <a href="#"><p>Privacy Statement</p></a>
       <!-- <p>Contact &nbsp; / &nbsp; Terms of Service &nbsp; /  &nbsp;   Privacy Statement</p> -->
     </div>
 
