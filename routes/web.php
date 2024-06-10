@@ -6,10 +6,17 @@ use App\Http\Controllers\CustomAuthController;
 use App\Http\Controllers\UserProfileController;
 use Illuminate\Support\Facades\Request;
 
-if(Request::root() =='https://interactivedigital.com.gh')
-    {
+
+
+Route::get('/', function () {
+    if(Request::root() =='https://interactivedigital.com.gh/')
+        {
             return view('coming-soon.index');
-    }
+        }else{
+            return view('home');
+        }
+})->name('coming-soon');
+
 
 Route::get('/stage-page', function () {
     return view('index');
