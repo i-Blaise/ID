@@ -8,11 +8,15 @@ use Illuminate\Support\Facades\Request;
 
 if(Request::root() =='https://interactivedigital.com.gh/')
     {
-        Route::get('/coming-soon', function () {
+        Route::get('/', function () {
             return view('coming-soon.index');
         })->name('coming-soon');
     }
-
+    // Route::prefix('staging')->group(function () {
+    //     Route::get('/', function () {
+    //         return view('coming-soon.index');
+    //     })->name('coming-soon');
+    // });
 Route::get('/stage-page', function () {
     return view('index');
 })->name('home-old');
