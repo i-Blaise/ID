@@ -4,9 +4,9 @@ use App\Http\Controllers\BlogsController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CustomAuthController;
 use App\Http\Controllers\UserProfileController;
-use Illuminate\Support\Facades\URL;
+use Illuminate\Support\Facades\Request;
 
-if(URL::current() =='https://staging.interactivedigital.com.gh/')
+if(Request::root() =='https://interactivedigital.com.gh/')
     {
         Route::get('/coming-soon', function () {
             return view('coming-soon.index');
@@ -24,6 +24,10 @@ Route::get('/', function () {
 Route::get('/coming-soon', function () {
     return view('coming-soon.index');
 })->name('coming-soon');
+
+// Route::get('/coming-soon', function () {
+//     return Request::root();
+// })->name('coming-soon');
 
 
 
