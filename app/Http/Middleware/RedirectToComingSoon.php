@@ -15,9 +15,9 @@ class RedirectToComingSoon
      */
     public function handle(Request $request, Closure $next): Response
     {
-        $stagingURL = 'staging.interactivedigital.com.gh';
+        $rootDomain = 'interactivedigital.com.gh';
 
-        if ($request->getHttpHost() !== $stagingURL)
+        if ($request->getHost() == $rootDomain)
         {
             $newUrl = $request->getScheme() . '://' . $request->getHost().'/coming-soon';
             return redirect($newUrl);
