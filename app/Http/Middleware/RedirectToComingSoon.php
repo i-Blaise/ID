@@ -17,7 +17,7 @@ class RedirectToComingSoon
     {
         $stagingURL = 'staging.interactivedigital.com.gh';
 
-        if ($request->getHost() !== $stagingURL)
+        if ($request->getHttpHost() !== $stagingURL)
         {
             $newUrl = $request->getScheme() . '://' . $request->getHost().'/coming-soon';
             return redirect($newUrl);

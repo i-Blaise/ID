@@ -4,9 +4,12 @@ use App\Http\Controllers\BlogsController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CustomAuthController;
 use App\Http\Controllers\UserProfileController;
+use App\Http\Middleware\RedirectToComingSoon;
 use Illuminate\Support\Facades\Request;
 
 
+
+Route::middleware([RedirectToComingSoon::class])->group(function () {
 
 Route::get('/stage-page', function () {
     return view('index');
@@ -76,6 +79,8 @@ Route::get('/view-blogs', function () {
 
 
 
+
+
 Route::group(['middleware' => 'auth'], function () {
     Route::get('/admin', function () {
     return view('dashboard.index');
@@ -93,6 +98,13 @@ Route::group(['middleware' => 'auth'], function () {
     ]);
 });
 
+Route::get('login', [CustomAuthController::class, 'index'])->name('login');
+Route::post('custom-login', [CustomAuthController::class, 'customLogin'])->name('login.custom');
+Route::get('register', [CustomAuthController::class, 'registration'])->name('register');
+Route::post('custom-registration', [CustomAuthController::class, 'customRegistration'])->name('register.custom');
+Route::get('signout', [CustomAuthController::class, 'signOut'])->name('signout');
+});
+
 
 
 
@@ -106,8 +118,4 @@ Route::group(['middleware' => 'auth'], function () {
 
 
 // Route::get('admin', [CustomAuthController::class, 'dashboard'])->name('dashboard');
-Route::get('login', [CustomAuthController::class, 'index'])->name('login');
-Route::post('custom-login', [CustomAuthController::class, 'customLogin'])->name('login.custom');
-Route::get('register', [CustomAuthController::class, 'registration'])->name('register');
-Route::post('custom-registration', [CustomAuthController::class, 'customRegistration'])->name('register.custom');
-Route::get('signout', [CustomAuthController::class, 'signOut'])->name('signout');
+
