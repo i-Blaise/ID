@@ -14,7 +14,7 @@ Route::get('/stage-page', function () {
 })->name('home-old');
 
 Route::get('/', function () {
-    return view('coming-soon.index');
+    return view('home');
 })->name('home');
 
 Route::get('/coming-soon', function () {
