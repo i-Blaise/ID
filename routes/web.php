@@ -6,10 +6,10 @@ use App\Http\Controllers\CustomAuthController;
 use App\Http\Controllers\UserProfileController;
 use Illuminate\Support\Facades\Request;
 
-if(Request::root() =='https://interactivedigital.com.gh/')
+if(Request::root() =='https://interactivedigital.com.gh')
     {
         Route::get('/', function () {
-            return Request::root();
+            return view('coming-soon.index');
         })->name('coming-soon');
     }
 
