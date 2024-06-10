@@ -17,7 +17,7 @@ class RedirectToComingSoon
     {
         $rootDomain = 'interactivedigital.com.gh';
 
-        if ($request->getHost() == $rootDomain)
+        if ($request->getHost() == $rootDomain && $request->path() !== 'coming-soon')
         {
             $newUrl = $request->getScheme() . '://' . $request->getHost().'/coming-soon';
             return redirect($newUrl);
