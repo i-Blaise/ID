@@ -4,8 +4,9 @@ use App\Http\Controllers\BlogsController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CustomAuthController;
 use App\Http\Controllers\UserProfileController;
+use Illuminate\Http\Request;
 
-if($request->root() == 'https://staging.interactivedigital.com.gh/')
+if(Request::is('https://staging.interactivedigital.com.gh/'))
     {
         Route::get('/coming-soon', function () {
             return view('coming-soon.index');
