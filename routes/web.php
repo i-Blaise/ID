@@ -8,22 +8,12 @@ use Illuminate\Support\Facades\Request;
 
 
 
-Route::get('/', function () {
-    if(Request::root() =='https://interactivedigital.com.gh')
-        {
-            return view('coming-soon.index');
-        }else{
-            return route('home');
-        }
-});
-
-
 Route::get('/stage-page', function () {
     return view('index');
 })->name('home-old');
 
 Route::get('/', function () {
-    return view('home');
+    return view('coming-soon.index');
 })->name('home');
 
 Route::get('/coming-soon', function () {
