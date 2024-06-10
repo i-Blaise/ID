@@ -13,9 +13,9 @@ Route::get('/', function () {
         {
             return view('coming-soon.index');
         }else{
-            return view('home');
+            return route('home');
         }
-})->name('coming-soon');
+});
 
 
 Route::get('/stage-page', function () {
@@ -30,9 +30,9 @@ Route::get('/coming-soon', function () {
     return view('coming-soon.index');
 })->name('coming-soon');
 
-Route::get('/coming-soon', function () {
-    return Request::root();
-})->name('coming-soon');
+// Route::get('/coming-soon', function () {
+//     return Request::root();
+// })->name('coming-soon');
 
 
 
