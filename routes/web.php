@@ -6,17 +6,12 @@ use App\Http\Controllers\CustomAuthController;
 use App\Http\Controllers\UserProfileController;
 use Illuminate\Support\Facades\Request;
 
-// if(Request::root() =='https://interactivedigital.com.gh/')
-//     {
-//         Route::get('/', function () {
-//             return view('coming-soon.index');
-//         })->name('coming-soon');
-//     }
-    Route::prefix('staging')->group(function () {
+if(Request::root() =='https://interactivedigital.com.gh/')
+    {
         Route::get('/', function () {
-            return view('coming-soon.index');
+            return Request::root();
         })->name('coming-soon');
-    });
+    }
 
 Route::get('/stage-page', function () {
     return view('index');
@@ -30,9 +25,9 @@ Route::get('/coming-soon', function () {
     return view('coming-soon.index');
 })->name('coming-soon');
 
-// Route::get('/coming-soon', function () {
-//     return Request::root();
-// })->name('coming-soon');
+Route::get('/coming-soon', function () {
+    return Request::root();
+})->name('coming-soon');
 
 
 
