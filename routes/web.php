@@ -8,6 +8,9 @@ use App\Http\Middleware\RedirectToComingSoon;
 use Illuminate\Support\Facades\Request;
 
 
+Route::get('/coming-soon', function () {
+    return view('coming-soon.index');
+})->name('coming-soon');
 
 Route::middleware([RedirectToComingSoon::class])->group(function () {
 
