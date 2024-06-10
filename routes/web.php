@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Request;
 
 
 Route::get('/', function () {
-    if(Request::root() =='https://interactivedigital.com.gh/')
+    if(Request::root() =='https://interactivedigital.com.gh')
         {
             return view('coming-soon.index');
         }else{
