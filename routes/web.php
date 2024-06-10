@@ -5,6 +5,13 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CustomAuthController;
 use App\Http\Controllers\UserProfileController;
 
+if($request->root() == 'https://staging.interactivedigital.com.gh/')
+    {
+        Route::get('/coming-soon', function () {
+            return view('coming-soon.index');
+        })->name('coming-soon');
+    }
+
 Route::get('/stage-page', function () {
     return view('index');
 })->name('home-old');
