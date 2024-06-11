@@ -94,7 +94,7 @@
 
     <div class="service-row web-design-row">
       <div class="service-text">
-          <h1>Website <span class="bold-red"> Design</span></h1>
+          <h1>Software <span class="bold-red"> Development</span></h1>
           <p>Find your spot in a noisy world. We know the exact place We harness the power of digital channels to expand your brand’s reach. Our digital marketing experts develop data-driven strategies to connect with your target audience, increase engagement, and drive conversions..</p>
           <div class="service-btn">
               <a href="{{ route('coming-soon') }}">

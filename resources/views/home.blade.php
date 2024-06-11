@@ -32,7 +32,7 @@
 
 
 
-    
+
 	<script src="js/jquery.min.js"></script>
     <script src="js/materialize.min.js"></script>
   </head>
@@ -172,7 +172,7 @@
                         <h2>...always listening</h2>
                         <p>We’re always tuned in to what’s what,
                             using insights to help your brand cut
-                            through the noise and reach your 
+                            through the noise and reach your
                             consumers.</p>
                     </div>
                 </div>
@@ -183,9 +183,9 @@
                     </div>
                     <div class="process-text">
                         <h2>...always learning</h2>
-                        <p>We don’t just plan - we explore your market 
-                            and discover the truth about how it works, 
-                            and what makes a difference in your industry. 
+                        <p>We don’t just plan - we explore your market
+                            and discover the truth about how it works,
+                            and what makes a difference in your industry.
                             Keeping pace with the speed of digital.</p>
                     </div>
                 </div>
@@ -196,8 +196,8 @@
                     </div>
                     <div class="process-text">
                         <h2>...always creating</h2>
-                        <p>With a team of creatives bursting at the 
-                            seams with ideas and executions, we’re 
+                        <p>With a team of creatives bursting at the
+                            seams with ideas and executions, we’re
                             ready to bring your dreams to life!</p>
                     </div>
                 </div>
@@ -238,10 +238,10 @@
     <div class="swiper-row">
         <h1 class="bold">Our Portfolio</h1>
           <!-- Swiper -->
-  
+
     <div #swiperRef="" class="swiper mySwiper">
       <div class="swiper-wrapper">
-  
+
         <div class="swiper-slide">
             <div class="portfolio-img-swiper">
               <img src="{{ asset('assets/homepage/mtn.webp') }}" alt="">
@@ -251,7 +251,7 @@
               {{-- <p>Digital Marketing</p> --}}
           </div>
           </div>
-    
+
           <div class="swiper-slide">
             <div class="portfolio-img-swiper">
               <img src="{{ asset('assets/homepage/coronation.webp') }}" alt="">
@@ -261,7 +261,7 @@
               {{-- <p>More Win Dial *789*15#</p> --}}
           </div>
           </div>
-    
+
           <div class="swiper-slide">
             <div class="portfolio-img-swiper">
               <img src="{{ asset('assets/homepage/malt.webp') }}" alt="">
@@ -271,7 +271,7 @@
               {{-- <p>Business Idea Expart</p> --}}
           </div>
           </div>
-    
+
           <div class="swiper-slide">
             <div class="portfolio-img-swiper">
               <img src="{{ asset('assets/homepage/stanbic.webp') }}" alt="">
@@ -281,7 +281,7 @@
               {{-- <p>Photography Expart</p> --}}
           </div>
           </div>
-  
+
         <div class="swiper-slide">
             <div class="portfolio-img-swiper">
               <img src="{{ asset('assets/homepage/mtn.webp') }}" alt="">
@@ -291,7 +291,7 @@
               {{-- <p>Digital Marketing</p> --}}
           </div>
           </div>
-    
+
           <div class="swiper-slide">
             <div class="portfolio-img-swiper">
               <img src="{{ asset('assets/homepage/coronation.webp') }}" alt="">
@@ -301,7 +301,7 @@
               {{-- <p>More Win Dial *789*15#</p> --}}
           </div>
           </div>
-    
+
           <div class="swiper-slide">
             <div class="portfolio-img-swiper">
               <img src="{{ asset('assets/homepage/malt.webp') }}" alt="">
@@ -311,7 +311,7 @@
               {{-- <p>Business Idea Expart</p> --}}
           </div>
           </div>
-    
+
           <div class="swiper-slide">
             <div class="portfolio-img-swiper">
               <img src="{{ asset('assets/homepage/stanbic.webp') }}" alt="">
@@ -322,14 +322,14 @@
           </div>
           </div>
       </div>
-  
+
       {{-- <div class="swiper-button-next scroll-btn"></div>
       <div class="swiper-button-prev "></div> --}}
       <div class="swiper-pagination"></div>
     </div>
-  
+
       </div>
-  
+
           <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
@@ -430,8 +430,8 @@
                     <p>Digital Marketing</p>
                 </div>
             </div>
-        </div>    
-        <button class="scroll-right"><img src="{{ asset('assets/homepage/right-arrow.svg') }}" alt=""></button>        
+        </div>
+        <button class="scroll-right"><img src="{{ asset('assets/homepage/right-arrow.svg') }}" alt=""></button>
     </div>
         <div class="portfolio-row4-dots">
             <span class="dot on"></span>
@@ -458,7 +458,6 @@
                 </div>
                 {{-- <img class="quote" src="{{ asset('assets/homepage/quotes.svg') }}" alt=""> --}}
                 <p>An innovative digital company, committed to delivering exceptional personalized services, seamlessly integrates technology and expertise to fulfill tasks with style and finesse..</p>
-                <p>With a focus on user-centric design, this interactive digital firm leverages cutting-edge solutions to anticipate and cater to individual needs, ensuring a smooth and sophisticated experience for every client.</p>
             </div>
 
             <div class="row5-testimonial-card">
@@ -532,7 +531,7 @@
               </div>
             </div>
           </div>
-          
+
         <a href="#">
           <div class="home-blog-btn">
             <p>Visit Our Blog</p>
@@ -556,31 +555,31 @@
 
 
 
-    <script> 
-  
-        // Targeting video element  
-        let clip = document.querySelector(".vid") 
-        let footer = document.querySelector(".footer-row") 
-    
-        /* Applying mouseover event on video clip  
-        and then we call play() function to play  
-        the video when the mouse is over the video */ 
-        footer.addEventListener("mouseover", function (e) { 
-            clip.play(); 
-        }) 
-    
-        /* Applying mouseout event on video clip  
-        and then we call pause() function to stop  
-        the video when the mouse is out the video */ 
-        footer.addEventListener("mouseout", function (e) { 
-            clip.pause(); 
-        }) 
+    <script>
+
+        // Targeting video element
+        let clip = document.querySelector(".vid")
+        let footer = document.querySelector(".footer-row")
+
+        /* Applying mouseover event on video clip
+        and then we call play() function to play
+        the video when the mouse is over the video */
+        footer.addEventListener("mouseover", function (e) {
+            clip.play();
+        })
+
+        /* Applying mouseout event on video clip
+        and then we call pause() function to stop
+        the video when the mouse is out the video */
+        footer.addEventListener("mouseout", function (e) {
+            clip.pause();
+        })
     </script>
     <script>
         function openNav() {
         document.getElementById("navigation-bar").style.width = "100%";
       }
-      
+
       function closeNav() {
         document.getElementById("navigation-bar").style.width = "0%";
       }

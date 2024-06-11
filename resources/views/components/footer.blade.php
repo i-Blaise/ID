@@ -31,9 +31,9 @@
             <div class="column-1">
               <h4>Products</h4>
               <a href="#">Social Media</a>
-              <a href="#">Online Advertisnent</a>
+              <a href="{{ route('online-advertising') }}">Online Advertisnent</a>
               <a href="#">Media</a>
-              <a href="#">Website Design</a>
+              <a href="#">Web Development</a>
               <a href="#">Strategy</a>
             </div>
 

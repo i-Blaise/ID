@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>!D - About Us</title>
-    
+
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
@@ -44,14 +44,14 @@
         </div>
       </header>
 
-      
+
       <section class="about-column">
         <div class="about-row-1">
           <div class="about-card"><img src="assets/about1.png" alt="" class="about1"></div>
           <div class="about-card"><img src="assets/about2.png" alt="" class="about2"></div>
           <div class="about-card"><img src="assets/about3.png" alt="" class="about3"></div>
         </div>
-        
+
 
         <div class="about-row-2">
             <div class="about-intro-img">
@@ -63,7 +63,7 @@
             </div>
         </div>
       </section>
-      
+
       <img src="assets/about-page-blob.svg" alt="" class="about-blob-1">
 
       <secion class="about-section-2">
@@ -110,7 +110,7 @@
             <div class="team-card">
                 <img src="assets/team/team3.png" alt="" class="team-pic">
                 <div class="team-title">
-                    <h5>Snr. Animator</h5>
+                    <h5>Strategist</h5>
                 </div>
                 <div class="team-name">
                     <h4>Mr. Akrofi Sam</h4>
@@ -120,7 +120,7 @@
       </section>
 
 
-      
+
       {{-- <section class="adbox-2">
         <div class="adbox-2-row">
           <div class="ad-img">
@@ -141,30 +141,30 @@
     <!-- Footer Starts  -->
           @include('components.footer')
     <!-- Footer Ends  -->
-    
 
 
 
 
-    <script> 
-  
-      // Targeting video element  
-      let clip = document.querySelector(".vid") 
-      let footer = document.querySelector(".footer-row") 
 
-      /* Applying mouseover event on video clip  
-      and then we call play() function to play  
-      the video when the mouse is over the video */ 
-      footer.addEventListener("mouseover", function (e) { 
-          clip.play(); 
-      }) 
+    <script>
 
-      /* Applying mouseout event on video clip  
-      and then we call pause() function to stop  
-      the video when the mouse is out the video */ 
-      footer.addEventListener("mouseout", function (e) { 
-          clip.pause(); 
-      }) 
-  </script> 
+      // Targeting video element
+      let clip = document.querySelector(".vid")
+      let footer = document.querySelector(".footer-row")
+
+      /* Applying mouseover event on video clip
+      and then we call play() function to play
+      the video when the mouse is over the video */
+      footer.addEventListener("mouseover", function (e) {
+          clip.play();
+      })
+
+      /* Applying mouseout event on video clip
+      and then we call pause() function to stop
+      the video when the mouse is out the video */
+      footer.addEventListener("mouseout", function (e) {
+          clip.pause();
+      })
+  </script>
   </body>
   </html>

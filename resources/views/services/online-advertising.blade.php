@@ -40,7 +40,8 @@
 
       <section class="ad-space">
         <div class="ad-space-banner">
-            <h1>AD SPACE</h1>
+            <h2>Seeing is believing, and the numbers don’t lie!</h2>
+            <p>We are creatives, which means stellar work is our ultimate goal. But we do understand that it doesn’t amount to much if it is placed in front of the right audiences. So it’s a great thing we have a clear understanding of audiences. Through effective research, we establish note-worthy human behaviour online, analyse new markets developing, examine demographic interests in order to advertise the right digital material for the purposes of conversion and brand growth.</p>
         </div>
       </section>
 
@@ -54,7 +55,7 @@
             </div>
             <div class="account1-texts">
                 <div class="desc">
-                    <a href="digital_strategy2.html"><h5>Malta Guinness</h5></a>
+                    <h5>Malta Guinness</h5>
                     <p>Venenatis blandit habitasse nunc, sapien enim elit in. Arcu, pharetra, et cursus sit senectus in blandit. Aliquet enim fermentum non semper nibh ut neque. Pellentesque ut tincidunt vitae arcu bibendum malesuada lorem sapien volutpat.</p>
                 </div>
                 <div class="team-title">
@@ -129,7 +130,7 @@
 
       <div class="mobile-ad-section">
       </div>
-    
+
       <!-- Footer Starts  -->
             @include('components.footer')
       <!-- Footer Ends  -->
@@ -137,25 +138,25 @@
 
 
 
-      <script> 
-  
-        // Targeting video element  
-        let clip = document.querySelector(".vid") 
-        let footer = document.querySelector(".footer-row") 
-    
-        /* Applying mouseover event on video clip  
-        and then we call play() function to play  
-        the video when the mouse is over the video */ 
-        footer.addEventListener("mouseover", function (e) { 
-            clip.play(); 
-        }) 
-    
-        /* Applying mouseout event on video clip  
-        and then we call pause() function to stop  
-        the video when the mouse is out the video */ 
-        footer.addEventListener("mouseout", function (e) { 
-            clip.pause(); 
-        }) 
+      <script>
+
+        // Targeting video element
+        let clip = document.querySelector(".vid")
+        let footer = document.querySelector(".footer-row")
+
+        /* Applying mouseover event on video clip
+        and then we call play() function to play
+        the video when the mouse is over the video */
+        footer.addEventListener("mouseover", function (e) {
+            clip.play();
+        })
+
+        /* Applying mouseout event on video clip
+        and then we call pause() function to stop
+        the video when the mouse is out the video */
+        footer.addEventListener("mouseout", function (e) {
+            clip.pause();
+        })
     </script>
     </body>
     </html>

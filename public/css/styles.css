@@ -3092,19 +3092,27 @@ header .about-header {
 .ad-space {
     width: 73rem;
     background-color: #F1F5F9 !important;
-    height: 12rem;
+    height: 20rem;
     margin: 6rem 184px;
     margin-bottom: 12px;
 }
-
-.ad-space .ad-space-banner h1 {
-    font-size: 68px;
-    color: #000000;
+.ad-space .ad-space-banner {
+    position: relative;
+    top: 4rem;
+}
+.ad-space .ad-space-banner h2 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 44px;
+    color: #0F172A;
 }
 
 .ad-space .ad-space-banner p {
-    color: #000000;
-    margin-top: -3rem;
+    color: #475569;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* margin-top: -3rem; */
 }
 
 
@@ -5462,6 +5470,7 @@ section .blog-cards-row {
 
 footer {
     background-color: #1B2534;
+    cursor: pointer;
     /* height: 32rem; */
 }
  /* Correct version - with the footer row display and margin  */
