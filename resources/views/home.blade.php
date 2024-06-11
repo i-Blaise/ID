@@ -43,8 +43,10 @@
 
     <div class="header-info-row">
         <div class="left-header-info">
-            <h1 class="bold">YOUR <br> DIGITAL <br><span>POWER <br>HOUSE</span>.
+            <h1 class="bold">YOUR <br> DIGITAL <br><span>POWER HOUSE</span>.
             </h1>
+            <p>Creating experiences, driving solutions, growing your business...
+                <br>   is our business.</p>
         </div>
         <div class="right-header-info">
             <img src="{{ asset('assets/homepage/id.svg') }}" class="ID-text-logo" alt="Interactive DIgital">
@@ -96,11 +98,11 @@
 
 
 
-    <div class="home-intro-text">
+    {{-- <div class="home-intro-text">
         <img src="{{ asset('assets/homepage/arrow-header.svg') }}" alt="">
         <p>Creating experiences, driving solutions, growing your business...
          <br>   is our business.</p>
-    </div>
+    </div> --}}
 
     <div class="home-body-row1">
         <div class="row1-text">
@@ -122,7 +124,15 @@
             <div class="services-container">
                 <div class="service">
                     <img src="{{ asset('assets/homepage/red-dot.svg') }}" alt="">
-                    <p>Content Production</p>
+                    <p>Brand Management</p>
+                </div>
+                <div class="service">
+                    <img src="{{ asset('assets/homepage/red-dot.svg') }}" alt="">
+                    <p>Research & Strategy Dev’t</p>
+                </div>
+                <div class="service">
+                    <img src="{{ asset('assets/homepage/red-dot.svg') }}" alt="">
+                    <p>Digital Advertising</p>
                 </div>
                 <div class="service">
                     <img src="{{ asset('assets/homepage/red-dot.svg') }}" alt="">
@@ -130,11 +140,19 @@
                 </div>
                 <div class="service">
                     <img src="{{ asset('assets/homepage/red-dot.svg') }}" alt="">
-                    <p>Social Media Marketing</p>
+                    <p>Social Media Management</p>
                 </div>
                 <div class="service">
                     <img src="{{ asset('assets/homepage/red-dot.svg') }}" alt="">
-                    <p>Strategy Consulting</p>
+                    <p>Audio/Visual Production</p>
+                </div>
+                <div class="service">
+                    <img src="{{ asset('assets/homepage/red-dot.svg') }}" alt="">
+                    <p>Creative Design</p>
+                </div>
+                <div class="service">
+                    <img src="{{ asset('assets/homepage/red-dot.svg') }}" alt="">
+                    <p>Technology Management</p>
                 </div>
                 <div class="service">
                     <img src="{{ asset('assets/homepage/red-dot.svg') }}" alt="">
@@ -142,18 +160,10 @@
                 </div>
                 <div class="service">
                     <img src="{{ asset('assets/homepage/red-dot.svg') }}" alt="">
-                    <p>Online Advertising</p>
-                </div>
-                <div class="service">
-                    <img src="{{ asset('assets/homepage/red-dot.svg') }}" alt="">
-                    <p>Media Production</p>
-                </div>
-                <div class="service">
-                    <img src="{{ asset('assets/homepage/red-dot.svg') }}" alt="">
-                    <p>Creative Design</p>
+                    <p>Below-the-Line Marketing</p>
                 </div>
             </div>
-            <a href="#"><h3 class="view-all bold">View All</h3></a>
+            <a href="{{ route('services') }}"><h3 class="view-all bold">View All</h3></a>
         </div>
         <div class="row2-image-mobile">
             <img src="{{ asset('assets/homepage/mobile-service-img.webp') }}" alt="">

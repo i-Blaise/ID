@@ -57,7 +57,7 @@ header {
     background-color: #000000;
 }
 #header-homepage {
-    background-image: url(../assets/homepage/header.webp);
+    background-image: url(../assets/homepage/home-header.webp);
     background-size: contain;
     height: 806px;
     background-repeat: no-repeat;
@@ -393,7 +393,7 @@ section .header-main {
 .header-info-row {
     display: inline-flex;
     width: 100%;
-    margin-top: 36rem;
+    margin-top: 35rem;
 }
 
 .header-info-row .left-header-info {
@@ -412,6 +412,17 @@ section .header-main {
      color: #000;
      position: relative;
      left: 9rem;
+}
+
+.header-info-row .left-header-info p {
+
+    font-size: 16px;
+    font-weight: 500;
+    width: 34rem;
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 9rem;
+    bottom: 2rem;
 }
 
 .header-info-row .left-header-info h1 span {
@@ -443,7 +454,7 @@ section .header-main {
     height: 46px;
 }
 
-.home-intro-text {
+/* .home-intro-text {
     display: block;
     margin: 15rem 0 0 0;
 }
@@ -462,7 +473,7 @@ section .header-main {
     position: relative;
     left: 36rem;
     bottom: 4rem;
-}
+} */
 
 
 
@@ -473,6 +484,7 @@ section .header-main {
     background-image: url('../assets/homepage/background-1-home.webp');
     display: inline-flex;
     margin: 0 3rem;
+    margin-top: 18rem;
     height: 36rem;
     background-position: 11rem -7rem;
     background-repeat: no-repeat;
@@ -545,9 +557,9 @@ section .header-main {
 
 .row2-text .services-container {
     display: inline-grid;
-    gap: 8px 2rem;
+    gap: 0px 2rem;
     grid-template-columns: repeat(2, 1fr);
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 .row2-text .services-container .service {
@@ -565,7 +577,7 @@ section .header-main {
     position: relative;
     left: 8px;
     bottom: 15px;
-    width: 11rem;
+    width: 12rem;
 }
 
 .row2-text a {
