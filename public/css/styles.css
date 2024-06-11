@@ -2536,6 +2536,8 @@ header .about-header {
 }
 .about-column {
     margin-bottom: -28rem;
+    margin-top: 8rem;
+    margin-left: 174px;
 }
 
  .about-blob-1 {
@@ -2554,6 +2556,7 @@ header .about-header {
     /* border: 1px solid red; */
     background-color: #F3F7FA;
     height: 574px;
+    margin: 5rem 0 -84px -7px;
 }
 
 .about-row-2 .about-intro-img img {
@@ -5496,10 +5499,15 @@ footer {
     margin-bottom: 0 !important;
     border: 1px solid blue;
 } */
-
-
+.footer-row .footer-row-1 {
+    width: 33% !important;
+}
 .footer-row .footer-row-2 {
-    width: 50% !important;
+    width: 33% !important;
+}
+
+.footer-row .footer-row-3 {
+    width: 22% !important;
 }
 
 .footer-row .footer-row-1,
@@ -5564,15 +5572,14 @@ footer {
 .footer-row-2 .footer-menu{
     display: inline-flex;
     background-color: #283343;
-    margin: 16px 0 0 0;
+    margin: 16px 0 0 -4rem;
     padding: 38px 46px 38px 46px;
     border-radius: 22px;
     gap: 0 40px;
 }
 
 .footer-row-2 .column-1,
-.footer-row-2 .column-2,
-.footer-row-2 .column-3 {
+.footer-row-2 .column-2 {
     /* border: 1px solid greenyellow; */
     margin-top: -24px;
     display: grid;

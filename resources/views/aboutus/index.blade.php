@@ -25,32 +25,44 @@
     />
   </head>
   <body>
-      <header>
+      {{-- <header>
 
-        @include('components.navbar')
+        @include('components.navbar') --}}
 
         <!-- ends here -->
 
-        <div class="about-header">
-            <div class="header-text">
+        {{-- <div class="about-header">
+            <div class="header-text"> --}}
                 {{-- <h3>About Us</h3> --}}
-                <h1 class="bold">Welcome</h1>
+                {{-- <h1 class="bold">Welcome</h1> --}}
                 {{-- <p>We discus on business performance and metrics that matter- sales, new customers, revenue, and such.</p> --}}
-            </div>
+            {{-- </div>
             <div class="header-image">
                 <img src="assets/about-header-1.png" alt="" class="header1">
                 <img src="assets/about-header-2.png" alt="" class="header2">
             </div>
         </div>
+      </header> --}}
+
+      <header id="header-services">
+
+        @include('components.navbar')
+
+
+        <div class="header-2">
+          <img src="assets/services/header2.png" class="service-header-2" alt="">
+          <img src="assets/mobile-header-service.png" class="service-header-2-mobile" alt="">
+        </div>
+        <!-- ends here -->
       </header>
 
 
       <section class="about-column">
-        <div class="about-row-1">
+        {{-- <div class="about-row-1">
           <div class="about-card"><img src="assets/about1.png" alt="" class="about1"></div>
           <div class="about-card"><img src="assets/about2.png" alt="" class="about2"></div>
           <div class="about-card"><img src="assets/about3.png" alt="" class="about3"></div>
-        </div>
+        </div> --}}
 
 
         <div class="about-row-2">

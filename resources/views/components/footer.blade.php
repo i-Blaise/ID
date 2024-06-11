@@ -46,14 +46,14 @@
               <a href="{{ route('contactus') }}">Contact Us</a>
             </div>
 
-            <div class="column-3">
+            {{-- <div class="column-3">
               <h4>Utility Pages</h4>
               <a href="#">Use Cases</a>
               <a href="#">SEO</a>
               <a href="#">Public Relation</a>
               <a href="#">Content Marketing</a>
               <a href="#">Licenses</a>
-            </div>
+            </div> --}}
           </div>
         </div>
         <div class="footer-row-3">
