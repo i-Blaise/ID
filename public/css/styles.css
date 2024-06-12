@@ -2888,6 +2888,10 @@ header .header-2 .aboutus-header-2 {
     .about-blob-1 {
         display: none;
     }
+
+    .about-section-3 .team-card-row-1 {
+        margin: 0 42px !important;
+    }
 }
 
 
