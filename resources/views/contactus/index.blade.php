@@ -57,7 +57,7 @@
                         <p>All the business strategy you need</p>
                     </div> --}}
                 </div>
-                <a href="#" class="cta">
+                <a href="tel:+233241314723" class="cta">
                     <p class="cta-btn">Let’s have a chat!</p>
                     <img src="assets/right-arrow.svg" alt="">
                 </a>
