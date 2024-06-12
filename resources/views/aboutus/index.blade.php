@@ -44,14 +44,14 @@
         </div>
       </header> --}}
 
-      <header id="header-services">
+      <header id="header-aboutus">
 
         @include('components.navbar')
 
 
         <div class="header-2">
-          <img src="assets/services/header2.png" class="service-header-2" alt="">
-          <img src="assets/mobile-header-service.png" class="service-header-2-mobile" alt="">
+          <img src="{{ asset('assets/about-banner2.webp') }}" class="aboutus-header-2" alt="">
+          {{-- <img src="{{ asset('assets/about-banner2.webp') }}" class="service-header-2-mobile" alt=""> --}}
         </div>
         <!-- ends here -->
       </header>
@@ -80,7 +80,7 @@
 
       <secion class="about-section-2">
         <div class="banner-1">
-            <img src="assets/about-banner.png" alt="">
+            <img src="{{ asset('assets/abt-img1.webp') }}" alt="">
         </div>
         <div class="section-2">
             <div class="section-2-container">
@@ -89,7 +89,7 @@
                     <p>Need an agency well-versed in shaping engaging digital experiences, from start to finish, or strat to execution, perfectly suited for your business needs? What a specific brief. But as luck would have it, you’ve come to the right place!</p>
                 </div>
                 <div class="section-2-img">
-                    <img src="assets/about-img.png" alt="">
+                    <img src="{{ asset('assets/abt-img2.webp') }}" alt="">
                 </div>
             </div>
         </div>

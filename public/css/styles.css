@@ -72,7 +72,11 @@ header {
 
 
 #header-aboutus {
-    background-image: url(../assets/about-hero.png);
+    background-image: url(../assets/about-banner.webp);
+    /* background-position: 49% 0; */
+    height: 34rem;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #header-services {
@@ -2528,6 +2532,17 @@ header .about-header {
 }
 /* End of About Header  */
 
+
+/* New About Header  */
+header .header-2 .aboutus-header-2 {
+    position: relative;
+    top: 4rem;
+}
+
+
+
+
+
 .about-section-3,
 .about-column {
     display: block;
@@ -2542,7 +2557,7 @@ header .about-header {
 
  .about-blob-1 {
     position: relative;
-    bottom: 60rem;
+    bottom: 10rem;
 }
 
 .about-column .about-row-1 {
@@ -2613,6 +2628,7 @@ header .about-header {
     color: #1C1F35;
     font-size: 26px;
     margin-top: -36px;
+    text-transform: uppercase;
 }
 
 
@@ -2628,7 +2644,7 @@ header .about-header {
 
 }
 .about-section-2 .section-2 .section-2-text {
-    margin-top: 28px;
+    margin-top: 110px;
 }
 
 .about-section-2 .section-2 .section-2-img {
