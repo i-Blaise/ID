@@ -2662,9 +2662,14 @@ header .header-2 .aboutus-header-2 {
     color: #1C1F35;
 }
 
+.about-section-3 .team-card-row-1 {
+    margin: 0 15rem !important;
+}
+
 .about-section-3 .team-card-row {
     display: inline-flex;
     gap: 0 70px;
+    margin-top: 3rem;
 }
 
 .team-card-row .team-card {

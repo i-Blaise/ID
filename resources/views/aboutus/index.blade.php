@@ -98,36 +98,113 @@
 
       <section class="about-section-3">
         <h1 class="section-title bold-red">MEET THE TEAM!</h1>
-        <div class="team-card-row">
+        <div class="team-card-row-1 team-card-row">
+            <div class="team-card">
+                <img src="assets/team/joel.webp" alt="" class="team-pic">
+                <div class="team-title">
+                    <h5>Chief Executive Officer</h5>
+                </div>
+                <div class="team-name">
+                    <h4>Joel Edmund Nettey</h4>
+                </div>
+            </div>
+
             <div class="team-card">
                 <img src="assets/team/team1.png" alt="" class="team-pic">
                 <div class="team-title">
                     <h5>Chief Operating Officer</h5>
                 </div>
                 <div class="team-name">
-                    <h4>Mr. Ekow Thompson</h4>
+                    <h4>Ekow Thompson</h4>
                 </div>
             </div>
-
+        </div>
+        <div class="team-card-row">
             <div class="team-card">
                 <img src="assets/team/team2.png" alt="" class="team-pic">
                 <div class="team-title">
-                    <h5>UI/UX Designer</h5>
+                    <h5>Head IT</h5>
                 </div>
                 <div class="team-name">
-                    <h4>Mr. Alex Jerry Sam</h4>
+                    <h4>Alex Jerry Sam</h4>
                 </div>
             </div>
 
             <div class="team-card">
-                <img src="assets/team/team3.png" alt="" class="team-pic">
+                <img src="assets/team/frankay.webp" alt="" class="team-pic">
                 <div class="team-title">
-                    <h5>Strategist</h5>
+                    <h5>Creative Director</h5>
                 </div>
                 <div class="team-name">
-                    <h4>Mr. Akrofi Sam</h4>
+                    <h4>Frank Adjei Otu</h4>
                 </div>
             </div>
+
+            <div class="team-card">
+                <img src="assets/team/afia.webp" alt="" class="team-pic">
+                <div class="team-title">
+                    <h5>Creative Lead, Content</h5>
+                </div>
+                <div class="team-name">
+                    <h4>Afia Owusu-Nyantakyi</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="team-card-row">
+            <div class="team-card">
+                <img src="assets/team/kofi.webp" alt="" class="team-pic">
+                <div class="team-title">
+                    <h5>Snr Account Manager</h5>
+                </div>
+                <div class="team-name">
+                    <h4>Kofi Owusu-Akyaw</h4>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <img src="assets/team/colby.webp" alt="" class="team-pic">
+                <div class="team-title">
+                    <h5>Production Lead</h5>
+                </div>
+                <div class="team-name">
+                    <h4>Colby Benefo Thompson</h4>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <img src="assets/team/danda.webp" alt="" class="team-pic">
+                <div class="team-title">
+                    <h5>Programme Manager</h5>
+                </div>
+                <div class="team-name">
+                    <h4>Danda Berko Tagbor</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="team-card-row">
+            <div class="team-card">
+                <img src="assets/team/jade.webp" alt="" class="team-pic">
+                <div class="team-title">
+                    <h5>Head, Strategy</h5>
+                </div>
+                <div class="team-name">
+                    <h4>Jade Appiah-Lartey</h4>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <img src="assets/team/fred.webp" alt="" class="team-pic">
+                <div class="team-title">
+                    <h5> Head, Performance Marketing and Media</h5>
+                </div>
+                <div class="team-name">
+                    <h4>Fred Tackie-Yarboi</h4>
+                </div>
+            </div>
+
+
         </div>
       </section>
 
