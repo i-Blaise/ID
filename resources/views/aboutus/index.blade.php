@@ -53,6 +53,9 @@
           <img src="{{ asset('assets/about-banner2.webp') }}" class="aboutus-header-2" alt="">
           {{-- <img src="{{ asset('assets/about-banner2.webp') }}" class="service-header-2-mobile" alt=""> --}}
         </div>
+        <a class="aboutus-header-cta" href="#">
+            <p>your digital powerhouse...</p>
+        </a>
         <!-- ends here -->
       </header>
 

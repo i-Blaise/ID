@@ -2538,7 +2538,34 @@ header .header-2 .aboutus-header-2 {
     position: relative;
     top: 4rem;
 }
+header .aboutus-header-cta {
+    background-color: #CE1919;
+    max-width: 54rem;
+    display: flow;
+    height: 50px;
+    position: relative;
+    top: 38px;
+    /* left: 21rem; */
+    margin: 0 3rem;
+}
 
+header .aboutus-header-cta p {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+#header-aboutus a {
+    text-decoration: none;
+}
 
 
 
@@ -2776,6 +2803,16 @@ header .header-2 .aboutus-header-2 {
 
 
 
+    /* New Header  */
+    header .aboutus-header-cta {
+        left: 21rem;
+    }
+
+
+
+
+
+
     .about-column {
         display: inline-block;
         margin: 23rem 0 0 0;
@@ -2895,6 +2932,15 @@ header .header-2 .aboutus-header-2 {
 }
 
 
+@media screen and (min-width: 850px) {
+    /* New About Us Header  */
+    header .aboutus-header-cta {
+        margin: 0 22rem;
+    }
+}
+
+
+
 
 @media screen and (min-width: 1700px) {
     header .about-header {
@@ -2920,6 +2966,14 @@ header .header-2 .aboutus-header-2 {
     .about-section-3 .team-card-row {
         gap: 0 8rem;
         margin: 0 10rem;
+    }
+
+
+
+
+    /* New About Us Header  */
+    header .aboutus-header-cta {
+        left: 31rem;
     }
 }
 
