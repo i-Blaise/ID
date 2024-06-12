@@ -107,7 +107,7 @@
     <div class="home-body-row1">
         <div class="row1-text">
             <h1 class="bold">You dream it, <br> we create it</h1>
-            <p>An award-winning 360 marketing communications agency that creates compelling experiences for great brands. Our solutions leverage strategy, creative thinking and coordinated executions to deliver on business goals with focus on digital. Our approach is agile, collaborative and human-led...</p>
+            <p>An award-winning 360° marketing communications agency that creates compelling experiences for great brands. Our solutions leverage strategy, creative thinking and coordinated executions to deliver on business goals with focus on digital. Our approach is agile, collaborative and human-led...</p>
         </div>
         <div class="row1-image">
             <img src="{{ asset('assets/homepage/image-1-home.webp') }}" alt="Background says Movin'">

@@ -27,10 +27,10 @@
   </head>
   <body>
             <!-- navbar begins here -->
-              
+
         @include('components.navbar')
               <!-- ends here -->
-              
+
       <header id="header-contact">
         <img src="{{ asset('assets/contact-header-mobile.webp') }}" alt="">
       </header>
@@ -43,7 +43,8 @@
                 <img src="assets/underline.svg" class="underline" alt="">
 
                 <div class="contact-texts-list">
-                    <div class="list">
+                    <p>This is it! You’re just one phone call away <br> from getting the agency your brand needs! <br> What are you waiting for?</p>
+                    {{-- <div class="list">
                         <img src="assets/check.svg" class="check" alt="">
                         <p>Do you have a business and wish to be known?</p>
                     </div>
@@ -54,10 +55,10 @@
                     <div class="list">
                         <img src="assets/check.svg" class="check" alt="">
                         <p>All the business strategy you need</p>
-                    </div>
+                    </div> --}}
                 </div>
                 <a href="#" class="cta">
-                    <p class="cta-btn">Make the Call</p>
+                    <p class="cta-btn">Let’s have a chat!</p>
                     <img src="assets/right-arrow.svg" alt="">
                 </a>
             </div>
@@ -75,13 +76,13 @@
 
                     <input type="email" name="email" placeholder="Email address">
 
-                    
+
                     <select name="services">
                         <option value="australia">How did you hear about us?</option>
                         <option value="canada">Social Media</option>
                         <option value="usa">Word of mouth</option>
                       </select>
-                      
+
                     <input type="text" name="phone" placeholder="Phone number">
 
                     <textarea name="message" rows="4" cols="50">Leave a message</textarea>
@@ -104,25 +105,25 @@
 
 
 
-  <script> 
-  
-    // Targeting video element  
-    let clip = document.querySelector(".vid") 
-    let footer = document.querySelector(".footer-row") 
+  <script>
 
-    /* Applying mouseover event on video clip  
-    and then we call play() function to play  
-    the video when the mouse is over the video */ 
-    footer.addEventListener("mouseover", function (e) { 
-        clip.play(); 
-    }) 
+    // Targeting video element
+    let clip = document.querySelector(".vid")
+    let footer = document.querySelector(".footer-row")
 
-    /* Applying mouseout event on video clip  
-    and then we call pause() function to stop  
-    the video when the mouse is out the video */ 
-    footer.addEventListener("mouseout", function (e) { 
-        clip.pause(); 
-    }) 
-</script> 
+    /* Applying mouseover event on video clip
+    and then we call play() function to play
+    the video when the mouse is over the video */
+    footer.addEventListener("mouseover", function (e) {
+        clip.play();
+    })
+
+    /* Applying mouseout event on video clip
+    and then we call pause() function to stop
+    the video when the mouse is out the video */
+    footer.addEventListener("mouseout", function (e) {
+        clip.pause();
+    })
+</script>
   </body>
 </html>
