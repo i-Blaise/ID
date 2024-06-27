@@ -46,6 +46,7 @@
         .left-container {
             width: 40%;
             background-color: #232325;
+            display: block;
         }
         .left-container .text-container,
         .right-container .text-container {
@@ -70,6 +71,13 @@
             font-size: 16px;
             font-weight: 400;
             text-transform: capitalize;
+        }
+        .contact{
+            text-align: left
+        }
+        .contact a{
+            font-weight: 800 !important;
+            color: rgb(163, 27, 27);
         }
         .social-links {
             display: inline-flex;
@@ -97,8 +105,15 @@
                 <h2 class="bold">UPGRADING.....</h2>
                 <h1>We are upgrading our site</h1>
                 <p>We Are Upgrading Our Website To Give You The Best <br>
-                    Automotive-Related experience.</p>
-                
+                    Automotive-Related experience.</p><br>
+
+                <div class="contact">
+                    <ul>
+                        <li><p><a href="tel:+233247901250">+233-247-901-250</a> - Ekow Thompson (COO)</p></li>
+                        <li><p><a href="tel:+233241314723">+233-241-314-723</a> - Kofi Kyie (Senior Account Manager)</p></li>
+                    </ul>
+                </div>
+
                 <div class="social-links">
                     <a target="_blank" href="https://twitter.com/iD4Brandz"><img src="{{ asset('assets/homepage/coming-soon/tw.webp') }}" alt=""></a>
                     <a target="_blank" href="https://www.facebook.com/SocializeiD"><img src="{{ asset('assets/homepage/coming-soon/fb.webp') }}" alt=""></a>
