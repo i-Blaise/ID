@@ -46,7 +46,7 @@
 
     <div class="header-info-row">
         <div class="left-header-info">
-            <h1 class="bold">YOUR <br> DIGITAL <br><span>POWER <br>HOUSE</span>.
+            <h1 class="bold">YOUR <br> <span>DIGITAL</span> <br>POWER <br>HOUSE.
             </h1>
         </div>
         <div class="right-header-info">
@@ -95,7 +95,7 @@
           <img src="assets/hdplus.png" alt="client-logo" class="client-logo">
           <img src="assets/coke.png" alt="client-logo" class="client-logo">
         </div>
-      </section>
+    </section>
 
 
 
@@ -163,7 +163,7 @@
                         <h2>...always listening</h2>
                         <p>We’re always tuned in to what’s what,
                             using insights to help your brand cut
-                            through the noise and reach your 
+                            through the noise and reach your
                             consumers.</p>
                     </div>
                 </div>
@@ -174,9 +174,9 @@
                     </div>
                     <div class="process-text">
                         <h2>...always learning</h2>
-                        <p>We don’t just plan - we explore your market 
-                            and discover the truth about how it works, 
-                            and what makes a difference in your industry. 
+                        <p>We don’t just plan - we explore your market
+                            and discover the truth about how it works,
+                            and what makes a difference in your industry.
                             Keeping pace with the speed of digital.</p>
                     </div>
                 </div>
@@ -187,8 +187,8 @@
                     </div>
                     <div class="process-text">
                         <h2>...always creating</h2>
-                        <p>With a team of creatives bursting at the 
-                            seams with ideas and executions, we’re 
+                        <p>With a team of creatives bursting at the
+                            seams with ideas and executions, we’re
                             ready to bring your dreams to life!</p>
                     </div>
                 </div>
@@ -471,7 +471,7 @@
                     <p>Digital Marketing</p>
                 </div>
             </div>
-        </div>    
+        </div>
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
         <div class="swiper-pagination"></div>
@@ -617,7 +617,7 @@
               </div>
             </div>
           </div>
-          
+
         <a href="blogs.html">
           <div class="home-blog-btn">
             <p>Visit Our Blog</p>
@@ -641,31 +641,31 @@
 
 
 
-    <script> 
-  
-        // Targeting video element  
-        let clip = document.querySelector(".vid") 
-        let footer = document.querySelector(".footer-row") 
-    
-        /* Applying mouseover event on video clip  
-        and then we call play() function to play  
-        the video when the mouse is over the video */ 
-        footer.addEventListener("mouseover", function (e) { 
-            clip.play(); 
-        }) 
-    
-        /* Applying mouseout event on video clip  
-        and then we call pause() function to stop  
-        the video when the mouse is out the video */ 
-        footer.addEventListener("mouseout", function (e) { 
-            clip.pause(); 
-        }) 
+    <script>
+
+        // Targeting video element
+        let clip = document.querySelector(".vid")
+        let footer = document.querySelector(".footer-row")
+
+        /* Applying mouseover event on video clip
+        and then we call play() function to play
+        the video when the mouse is over the video */
+        footer.addEventListener("mouseover", function (e) {
+            clip.play();
+        })
+
+        /* Applying mouseout event on video clip
+        and then we call pause() function to stop
+        the video when the mouse is out the video */
+        footer.addEventListener("mouseout", function (e) {
+            clip.pause();
+        })
     </script>
     <script>
         function openNav() {
         document.getElementById("navigation-bar").style.width = "100%";
       }
-      
+
       function closeNav() {
         document.getElementById("navigation-bar").style.width = "0%";
       }

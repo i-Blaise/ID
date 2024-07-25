@@ -413,9 +413,10 @@ section .header-main {
      font-size: 80px;
      font-weight: 900;
      line-height: 80px;
-     color: #000;
+     color: #fff;
      position: relative;
      left: 9rem;
+     font-family: 'poppinsFont';
 }
 
 .header-info-row .left-header-info p {
@@ -430,7 +431,7 @@ section .header-main {
 }
 
 .header-info-row .left-header-info h1 span {
-    color: #FFF;
+    color: #000;
 }
 
 .header-info-row .right-header-info {
