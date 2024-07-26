@@ -70,11 +70,11 @@
 
         <div class="about-row-2">
             <div class="about-intro-img">
-                <img src="assets/about-intro.png" alt="">
+                <img src="{{ asset('assets/aboutus/about-into.webp') }}" alt="">
             </div>
             <div class="about-intro-text">
                 <h2 class="bold-red">LET US INTRODUCE OURSELVES!</h2>
-                <p>Welcome to Interactive Digital! We are a full-service digital marketing agency, crafting captivating online experiences around great brands! We leverage innovative strategies, creative thinking and coordinated executions to deliver on your business goals in the digital space!</p>
+                <p>Interactive Digital is a dynamic and innovative marketing communications agency that prides itself on merging creativity with cutting-edge technology to deliver exceptional outcomes for our clients.</p>
             </div>
         </div>
       </section>
@@ -89,7 +89,7 @@
             <div class="section-2-container">
                 <div class="section-2-text">
                     <h2 class="bold-red">Why choose ID?</h2>
-                    <p>Need an agency well-versed in shaping engaging digital experiences, from start to finish, or strat to execution, perfectly suited for your business needs? What a specific brief. But as luck would have it, you’ve come to the right place!</p>
+                    <p>We are committed to conceptualizing and executing impactful communication solutions that authentically connect with audiences. Through a blend of artistry and insights, we guarantee that every campaign captures attention and drives tangible, quantifiable results.</p>
                 </div>
                 <div class="section-2-img">
                     <img src="{{ asset('assets/abt-img2.webp') }}" alt="">
@@ -102,7 +102,7 @@
       <section class="about-section-3">
         <h1 class="section-title bold-red">MEET THE TEAM!</h1>
         <div class="team-card-row-1 team-card-row">
-            <div class="team-card">
+            {{-- <div class="team-card">
                 <img src="assets/team/joel.webp" alt="" class="team-pic">
                 <div class="team-title">
                     <h5>Chief Executive Officer</h5>
@@ -110,7 +110,7 @@
                 <div class="team-name">
                     <h4>Joel Edmund Nettey</h4>
                 </div>
-            </div>
+            </div> --}}
 
             <div class="team-card">
                 <img src="assets/team/team1.png" alt="" class="team-pic">

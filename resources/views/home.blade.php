@@ -26,15 +26,10 @@
     />
 
 
-      <!-- Link Swiper's CSS -->
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
-
-
-
-
-	<script src="js/jquery.min.js"></script>
-    <script src="js/materialize.min.js"></script>
+<!-- Add Slick CSS -->
+<link rel="stylesheet" type="text/css" href="{{ asset('slick/slick.css') }}"/>
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="{{ asset('slick/slick-theme.css') }}"/>
   </head>
   <body>
     <header id="header-homepage">
@@ -43,14 +38,14 @@
 
     <div class="header-info-row">
         <div class="left-header-info">
-            <h1 class="bold">YOUR <br> DIGITAL <br><span>POWER HOUSE</span>.
+            <h1 class="bold">YOUR <br> <span>DIGITAL</span> <br>POWER HOUSE.
             </h1>
             <p>Creating experiences, driving solutions, growing your business...
                 <br>   is our business.</p>
         </div>
         <div class="right-header-info">
             <img src="{{ asset('assets/homepage/id.svg') }}" class="ID-text-logo" alt="Interactive DIgital">
-            <div class="client-row">
+            {{-- <div class="client-row">
                 <h3>Touched By Us</h3>
                 <div class="client-logo-row">
                     <img src="{{ asset('assets/gino.png') }}" alt="">
@@ -59,7 +54,7 @@
                     <img src="{{ asset('assets/hdplus.png') }}" alt="">
                     <img src="{{ asset('assets/coke.png') }}" alt="">
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 
@@ -85,7 +80,7 @@
     </header>
 
 
-    <section id="clients">
+    {{-- <section id="clients">
         <h1>Touched by Us</h1>
         <div class="clients-row">
           <img src="assets/gino.png" alt="client-logo" class="client-logo">
@@ -94,7 +89,7 @@
           <img src="assets/hdplus.png" alt="client-logo" class="client-logo">
           <img src="assets/coke.png" alt="client-logo" class="client-logo">
         </div>
-      </section>
+      </section> --}}
 
 
 
@@ -163,14 +158,14 @@
                     <p>Below-the-Line Marketing</p>
                 </div>
             </div>
-            <a href="{{ route('services') }}"><h3 class="view-all bold">View All</h3></a>
+            {{-- <a href="{{ route('services') }}"><h3 class="view-all bold">View All</h3></a> --}}
         </div>
         <div class="row2-image-mobile">
             <img src="{{ asset('assets/homepage/mobile-service-img.webp') }}" alt="">
         </div>
     </div>
 
-    <div class="home-body-row3">
+    {{-- <div class="home-body-row3">
         <div class="row3-text">
             <h1 class="title bold">Our Process</h1>
             <div class="row3-process-container">
@@ -216,241 +211,82 @@
         <div class="row3-image">
             <img src="{{ asset('assets/homepage/image-3-home.webp') }}" alt="Hippie Coorperate Black Guy">
         </div>
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div class="swiper-row">
-        <h1 class="bold">Our Portfolio</h1>
-          <!-- Swiper -->
-
-    <div #swiperRef="" class="swiper mySwiper">
-      <div class="swiper-wrapper">
-
-        <div class="swiper-slide">
-            <div class="portfolio-img-swiper">
-              <img src="{{ asset('assets/homepage/mtn.webp') }}" alt="">
-          </div>
-          <div class="portfolio-text-swiper">
-              <h4>MTN-Ghana</h4>
-              {{-- <p>Digital Marketing</p> --}}
-          </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="portfolio-img-swiper">
-              <img src="{{ asset('assets/homepage/coronation.webp') }}" alt="">
-          </div>
-          <div class="portfolio-text-swiper">
-              <h4>CORONATION</h4>
-              {{-- <p>More Win Dial *789*15#</p> --}}
-          </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="portfolio-img-swiper">
-              <img src="{{ asset('assets/homepage/malt.webp') }}" alt="">
-          </div>
-          <div class="portfolio-text-swiper">
-              <h4>MALTA GUINNESS</h4>
-              {{-- <p>Business Idea Expart</p> --}}
-          </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="portfolio-img-swiper">
-              <img src="{{ asset('assets/homepage/stanbic.webp') }}" alt="">
-          </div>
-          <div class="portfolio-text-swiper">
-              <h4>STANBIC</h4>
-              {{-- <p>Photography Expart</p> --}}
-          </div>
-          </div>
-
-        <div class="swiper-slide">
-            <div class="portfolio-img-swiper">
-              <img src="{{ asset('assets/homepage/mtn.webp') }}" alt="">
-          </div>
-          <div class="portfolio-text-swiper">
-              <h4>MTN-Ghana</h4>
-              {{-- <p>Digital Marketing</p> --}}
-          </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="portfolio-img-swiper">
-              <img src="{{ asset('assets/homepage/coronation.webp') }}" alt="">
-          </div>
-          <div class="portfolio-text-swiper">
-              <h4>CORONATION</h4>
-              {{-- <p>More Win Dial *789*15#</p> --}}
-          </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="portfolio-img-swiper">
-              <img src="{{ asset('assets/homepage/malt.webp') }}" alt="">
-          </div>
-          <div class="portfolio-text-swiper">
-              <h4>MALTA GUINNESS</h4>
-              {{-- <p>Business Idea Expart</p> --}}
-          </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="portfolio-img-swiper">
-              <img src="{{ asset('assets/homepage/stanbic.webp') }}" alt="">
-          </div>
-          <div class="portfolio-text-swiper">
-              <h4>STANBIC</h4>
-              {{-- <p>Photography Expart</p> --}}
-          </div>
-          </div>
-      </div>
-
-      {{-- <div class="swiper-button-next scroll-btn"></div>
-      <div class="swiper-button-prev "></div> --}}
-      <div class="swiper-pagination"></div>
-    </div>
-
-      </div>
-
-          <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      // autoplay: {
-      // delay: 4000,
-      // },
-      loop: true,
-      roundLengths: true,
-      slidesPerView: 4,
-      centeredSlides: false,
-      spaceBetween: 25,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      // navigation: {
-      //   nextEl: ".swiper-button-next",
-      //   prevEl: ".swiper-button-prev",
-      // },
-    });
-  </script>
-    {{-- <div class="home-body-row4">
-        <h1 class="bold">Our Portfolio</h1>
-        <div class="main-portfolio-row">
-            <button class="scroll-left"><img src="{{ asset('assets/homepage/left-arrow.svg') }}" alt=""></button>
-
-        <div class="portfolio-row4">
-
-            <div class="portfolio-row4-card">
-                <div class="card-image">
-                    <img src="{{ asset('assets/homepage/mtn.webp') }}" alt="">
-                </div>
-                <div class="card-text">
-                    <h4>MTN-Ghana</h4>
-                    <p>Digital Marketing</p>
-                </div>
-            </div>
-
-            <div class="portfolio-row4-card">
-                <div class="card-image">
-                    <img src="{{ asset('assets/homepage/coronation.webp') }}" alt="">
-                </div>
-                <div class="card-text">
-                    <h4>MTN-Ghana</h4>
-                    <p>Digital Marketing</p>
-                </div>
-            </div>
-
-            <div class="portfolio-row4-card">
-                <div class="card-image">
-                    <img src="{{ asset('assets/homepage/malt.webp') }}" alt="">
-                </div>
-                <div class="card-text">
-                    <h4>MTN-Ghana</h4>
-                    <p>Digital Marketing</p>
-                </div>
-            </div>
-
-            <div class="portfolio-row4-card">
-                <div class="card-image">
-                    <img src="{{ asset('assets/homepage/stanbic.webp') }}" alt="">
-                </div>
-                <div class="card-text">
-                    <h4>MTN-Ghana</h4>
-                    <p>Digital Marketing</p>
-                </div>
-            </div>
-
-            <div class="portfolio-row4-card">
-                <div class="card-image">
-                    <img src="{{ asset('assets/homepage/stanbic.webp') }}" alt="">
-                </div>
-                <div class="card-text">
-                    <h4>MTN-Ghana</h4>
-                    <p>Digital Marketing</p>
-                </div>
-            </div>
-
-            <div class="portfolio-row4-card">
-                <div class="card-image">
-                    <img src="{{ asset('assets/homepage/stanbic.webp') }}" alt="">
-                </div>
-                <div class="card-text">
-                    <h4>MTN-Ghana</h4>
-                    <p>Digital Marketing</p>
-                </div>
-            </div>
-
-            <div class="portfolio-row4-card">
-                <div class="card-image">
-                    <img src="{{ asset('assets/homepage/stanbic.webp') }}" alt="">
-                </div>
-                <div class="card-text">
-                    <h4>MTN-Ghana</h4>
-                    <p>Digital Marketing</p>
-                </div>
-            </div>
-        </div>
-        <button class="scroll-right"><img src="{{ asset('assets/homepage/right-arrow.svg') }}" alt=""></button>
-    </div>
-        <div class="portfolio-row4-dots">
-            <span class="dot on"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-        </div>
     </div> --}}
+
+
+    <div class="home-body-row3">
+
+        <div class="process-container">
+        <h1 class="process-title">Our Process</h1>
+        <div class="process-card-row">
+            <div class="process-card">
+                <h2 class="process-card-title">id</h2>
+                <h2 class="process-card-subtitle">...always listening</h2>
+                <hr class="process-card-hr">
+                <p>We’re always tuned in to <br> what’s what,<br>
+                    using insights to help your <br> brand cut <br>
+                    through the noise and <br> reach your <br>
+                    consumers.</p>
+            </div>
+
+            <div class="process-card process-card-bg">
+                <h2 class="process-card-title">id</h2>
+                <h2 class="process-card-subtitle">...always listening</h2>
+                <hr class="process-card-hr">
+                <p>We’re always tuned in to <br> what’s what,<br>
+                    using insights to help your <br> brand cut <br>
+                    through the noise and <br> reach your <br>
+                    consumers.</p>
+            </div>
+
+            <div class="process-card">
+                <h2 class="process-card-title">id</h2>
+                <h2 class="process-card-subtitle">...always listening</h2>
+                <hr class="process-card-hr">
+                <p>We’re always tuned in to <br> what’s what,<br>
+                    using insights to help your <br> brand cut <br>
+                    through the noise and <br> reach your <br>
+                    consumers.</p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="home-body-row4">
+        <h1 class="portfolio-title bold">Our Portfolio</h1>
+        <section class="regular slider">
+            <div class="portfolio-card">
+              <img src="{{ asset('assets/homepage/malt.webp') }}">
+              <h2 class="portfolio-card-title">Malta Guinness</h2>
+            </div>
+            <div class="portfolio-card">
+              <img src="{{ asset('assets/homepage/stanbic.webp') }}">
+              <h2 class="portfolio-card-title">Stanbic Bank</h2>
+            </div>
+            <div class="portfolio-card">
+              <img src="{{ asset('assets/homepage/mtn.webp') }}">
+              <h2 class="portfolio-card-title">MTN</h2>
+            </div>
+            <div class="portfolio-card">
+              <img src="{{ asset('assets/homepage/dosh.webp') }}">
+              <h2 class="portfolio-card-title">DOSH</h2>
+            </div>
+            <div class="portfolio-card">
+                <img src="{{ asset('assets/homepage/malt.webp') }}">
+                <h2 class="portfolio-card-title">Malta Guinness</h2>
+              </div>
+        </section>
+    </div>
+
+
+
 
     <div class="home-body-row5">
         <h1 class="big-screen bold">Don't take our word for it, <br> ask them</h1>
@@ -565,6 +401,7 @@
 
 
 
+
     <script>
 
         // Targeting video element
@@ -599,27 +436,18 @@
 
 
 
-<script>
-let slideIndex = 0;
-showSlides();
+<!-- Calling jQuery -->
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+<!-- Calling Slick Library -->
+<script type="text/javascript" src="{{ asset('slick/slick.js') }}"></script>
 
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("slideshow-hero");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 8000); // Change image every 8 seconds
-}
-  </script>
+<script type="text/javascript" src="{{ asset('js/slick_ini.js') }}"></script>
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/materialize.min.js"></script>
 
   </body>
 </html>

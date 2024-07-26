@@ -32,100 +32,82 @@
 
 
         <div class="header-2">
-          <img src="assets/services/header2.png" class="service-header-2" alt="">
-          <img src="assets/mobile-header-service.png" class="service-header-2-mobile" alt="">
+          <img src="assets/services/header2.webp" class="aboutus-header-2" alt="">
+          {{-- <img src="assets/mobile-header-service.png" class="service-header-2-mobile" alt=""> --}}
         </div>
+        <a class="aboutus-header-cta" href="#">
+            <p>your digital powerhouse...</p>
+        </a>
         <!-- ends here -->
       </header>
 
 
-      <section id="service-body">
-
-        <div class="service-row social-market-row">
-            <div class="service-image">
-                <img src="assets/services/social-media-marketing.png" alt="">
-            </div>
-            <div class="service-text">
-                <h1>Social Media <span class="bold-red">Marketing</span></h1>
-                <p>Cut through the noise and find your people! <br>You need people to see you and what you can do. No problem! Sit back, relax, and let us create content that speaks to your tribe!</p>
-                <div class="service-btn">
-                    <a href="{{ route('coming-soon') }}">
-                        <p>Get interactive on social media</p>
-                        <img src="assets/services/red-right-arrow.svg" alt="">
-                    </a>
-                </div>
+      <div class="service1-container">
+        <div class="service1-row1">
+            <img src="{{ asset('assets/services/smm1.webp') }}" alt="">
+            <div class="service1-content">
+                <h2>Social Media <br> <span class="bold">Marketing</span></h2>
+                <p>Cut through the noise and find your people! <br> You need people to see you and what you can do. No <br> problem! Sit back, relax, and let us create content that <br>speaks to your tribe!</p>
+                <a href="#"><p>Get interactive on social media</p></a>
             </div>
         </div>
-
-
-        <div class="service-row online-ad-row">
-          <div class="service-text">
-              <h1>Online <span class="bold-red"> Advertising</span></h1>
-              <p>Getting found online is hard. Getting found by the right audience? - even harder. Navigating the Wild West of <br>the Internet is no easy feat… unless you’re a pro, like <br>us!</p>
-              <div class="service-btn">
-                  <a href="{{ route('coming-soon') }}">
-                      <p>Advertise with us!</p>
-                      <img src="assets/services/red-right-arrow.svg" alt="">
-                  </a>
-              </div>
-          </div>
-          <div class="service-image">
-              <img src="assets/services/service2.png" class="online-ad-img" alt="">
-          </div>
+        <div class="service1-row2">
+            <img src="{{ asset('assets/services/smm2.webp') }}" alt="">
+            <img src="{{ asset('assets/services/smm3.webp') }}" alt="">
+        </div>
       </div>
 
-
-      <div class="service-row media-prod-row">
-        <div class="service-image">
-            <img src="assets/services/service3.png" alt="">
-        </div>
-        <div class="service-text">
-            <h1>Media <span class="bold-red"> Production</span></h1>
-            <p>the hustle and bustle of infinite scrolling, you need a <br>story that stops people in their tracks, with captivating<br> visuals to match. And that’s where we come in…</p>
-            <div class="service-btn">
-                <a href="{{ route('coming-soon') }}">
-                    <p>Shoot my big story!</p>
-                    <img src="assets/services/red-right-arrow.svg" alt="">
-                </a>
+      <div class="service2-container">
+        <div class="service2-row">
+            <img src="{{ asset('assets/services/prod-img.webp') }}" alt="">
+            <div class="service2-content">
+                <h2>Media <br> <span class="bold">PRODUCTION</span></h2>
+                <p>the hustle and bustle of infinite scrolling, you need a story that stops people in their tracks, with captivating visuals to match. And that’s where we come in…</p>
+                <a href="#"><p>Shoot my big story!</p></a>
             </div>
         </div>
-    </div>
-
-
-    <div class="service-row web-design-row">
-      <div class="service-text">
-          <h1>Software <span class="bold-red"> Development</span></h1>
-          <p>Find your spot in a noisy world. We know the exact place We harness the power of digital channels to expand your brand’s reach. Our digital marketing experts develop data-driven strategies to connect with your target audience, increase engagement, and drive conversions..</p>
-          <div class="service-btn">
-              <a href="{{ route('coming-soon') }}">
-                  <p>View More</p>
-                  <img src="assets/services/red-right-arrow.svg" alt="">
-              </a>
-          </div>
       </div>
-      <div class="service-image">
-          <img src="assets/services/service4.png" alt="">
-      </div>
-  </div>
 
-
-  <div class="service-row strat-consult-row">
-    <div class="service-image">
-        <img src="assets/services/service-strat.png" class="service-5" alt="">
-    </div>
-    <div class="service-text">
-        <h1>Strategy <span class="bold-red"> Consulting</span></h1>
-        <p>If at first you don’t succeed, just call us! <br>Millions of accounts and thousands of brands, all<br> fighting for top billing. Standing out is all about cracking<br> the code. And would you look at that, we have that<br> here, ready and waiting - just for you!</p>
-        <div class="service-btn">
-            <a href="{{ route('coming-soon') }}">
-                <p>Talk strategy with us</p>
-                <img src="assets/services/red-right-arrow.svg" alt="">
-            </a>
+      <div class="service1-container">
+        <div class="service1-row1">
+            <img src="{{ asset('assets/services/online-ad1.webp') }}" alt="">
+            <div class="service1-content">
+                <h2>Online <br> <span class="bold">ADVERTISEMENT</span></h2>
+                <p>Getting found online is hard. Getting found by the right audience? - even harder. Navigating the Wild West of the Internet is no easy feat… unless you’re a pro, like us!</p>
+                <a href="#"><p>Advertise with us!</p></a>
+            </div>
         </div>
-    </div>
-</div>
-  </section>
+        <div class="service1-row2">
+            <img src="{{ asset('assets/services/online-ad2.webp') }}" alt="">
+            <img src="{{ asset('assets/services/online-ad3.webp') }}" alt="">
+        </div>
+      </div>
 
+      <div class="service2-container service2-consult">
+        <div class="service2-row">
+            <img src="{{ asset('assets/services/consulting.webp') }}" alt="">
+            <div class="service2-content">
+                <h2>Strategy<br> <span class="bold">CONSULTING</span></h2>
+                <p>If at first you don’t succeed, just call us! Millions of accounts and thousands of brands, all fighting for top billing. Standing out is all about cracking the code. And would you look at that, we have that here, ready and waiting - just for you!</p>
+                <a href="#"><p>Talk to us</p></a>
+            </div>
+        </div>
+      </div>
+
+      <div class="service1-container">
+        <div class="service1-row1">
+            <img src="{{ asset('assets/services/software-dev.webp') }}" alt="">
+            <div class="service1-content">
+                <h2>Software<br> <span class="bold">DEVELOPMENT</span></h2>
+                <p>Find your spot in a noisy world. We know the exact place We harness the power of digital channels to expand your brand’s reach. Our digital marketing experts develop data-driven strategies to connect with your target audience, increase engagement, and drive conversions..</p>
+                <a href="#"><p>Get interactive on social media</p></a>
+            </div>
+        </div>
+        <div class="service1-row2">
+            <img src="{{ asset('assets/services/smm2.webp') }}" alt="">
+            <img src="{{ asset('assets/services/smm3.webp') }}" alt="">
+        </div>
+      </div>
 
 
   <div class="mobile-ad-section">
