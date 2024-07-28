@@ -5175,8 +5175,24 @@ section .blog-cards-row {
 
 /* Case Study Page Begins  */
 
+.case-study-row {
+    margin: 8rem 0 0 17rem;
+    display: inline-flex;
+    gap: 2rem;
+}
 
+.case-study-row .case-study-desc {
+    background-color: #FBE5E5;
+    padding: 1rem 0 1rem 1rem;
+    margin-top: -7px;
+}
 
+.case-study-row .case-study-desc h2 {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #CE1919;
+}
 
 
 /* Case Study Open Page Begin  */
