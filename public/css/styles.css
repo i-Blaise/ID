@@ -13,6 +13,11 @@
     src: url("../assets/font/Poppins-1/Poppins-Medium.ttf");
 }
 
+@font-face {
+    font-family: "poppinsLight";
+    src: url("../assets/font/Poppins-1/Poppins-Light.ttf");
+}
+
 
 @font-face {
     font-family: "Rubik";
@@ -101,11 +106,17 @@ header {
 }
 
 #header-online-ad {
-    background-image: url(../assets/services/online-marketing-header.png);
+    background-image: url(../assets/about-banner.webp);
+    height: 34rem;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #header-sm-marketing {
-    background-image: url(../assets/services/sm-marketing-header.png);
+    background-image: url(../assets/about-banner.webp);
+    height: 34rem;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #header-videography {
@@ -113,7 +124,10 @@ header {
 }
 
 #header-digital-strategy {
-    background-image: url(../assets/digi_strat_header.png);
+    background-image: url(../assets/about-banner.webp);
+    height: 34rem;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #header-case-study {
@@ -701,24 +715,24 @@ section .header-main {
 
 .home-body-row3 .process-card-row {
     display: inline-flex;
-    gap: 10px;
+    gap: 12px;
 }
 
 .process-container .process-card {
     background-color: #FFF;
     display: block;
-    width: 180px;
-    height: 271px;
-    padding: 32.49px 26.63px 32.49px 26.63px;
+    width: 196px;
+    height: 300px;
+    padding: 9px 8px 0 8px;
+}
+
+.process-card-hr {
+    width: 9rem;
 }
 
 .process-container .process-card-bg {
     background-image: url('../assets/homepage/prcess-card-bg.webp');
     background-size: cover;
-    display: block;
-    width: 180px;
-    height: 271px;
-    padding: 32.49px 26.63px 32.49px 26.63px;
     background-color: rgb(255 0 0 / 96%);
     background-blend-mode: multiply;
 }
@@ -746,7 +760,7 @@ section .header-main {
 .process-container .process-card p {
     font-size: 11px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 18px;
     color: #0F172A;
     text-align: center;
 }
@@ -2563,7 +2577,8 @@ header .about-header {
 /* New About Header  */
 header .header-2 .aboutus-header-2 {
     position: relative;
-    top: 84px;
+    top: 66px;
+    width: 78rem;
 }
 header .aboutus-header-cta {
     background-color: #CE1919;
@@ -2571,7 +2586,7 @@ header .aboutus-header-cta {
     display: flow;
     height: 50px;
     position: relative;
-    top: 58px;
+    top: 40px;
     /* left: 21rem; */
     margin: 0 3rem;
 }
@@ -2591,7 +2606,10 @@ header .aboutus-header-cta p {
 }
 
 #header-aboutus a,
-#header-services a {
+#header-services a,
+#header-online-ad a,
+#header-sm-marketing a,
+#header-digital-strategy a {
     text-decoration: none;
 }
 
@@ -3271,9 +3289,9 @@ header .aboutus-header-cta p {
 
 .ad-space {
     width: 73rem;
-    background-color: #F1F5F9 !important;
+    background-color: #f9f1f100 !important;
     height: 20rem;
-    margin: 6rem 184px;
+    margin: 6rem 138px;
     margin-bottom: 12px;
 }
 .ad-space .ad-space-banner {
@@ -3282,93 +3300,136 @@ header .aboutus-header-cta p {
 }
 .ad-space .ad-space-banner h2 {
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 300;
     line-height: 44px;
     color: #0F172A;
+    text-transform: lowercase;
+    font-family: 'poppinsLight';
+}
+
+.ad-space .ad-space-banner h2 span {
+    color: red;
+    text-transform: uppercase;
 }
 
 .ad-space .ad-space-banner p {
-    color: #475569;
+    color: #0F172A;
     font-weight: 400;
     font-size: 18px;
-    line-height: 28px;
+    line-height: 32px;
+    font-family: 'poppinsMedium';
     /* margin-top: -3rem; */
 }
 
 
-section .account1-row,
-section .account2-row {
+
+
+
+#online-ad {
+    margin: -4rem 8rem 12rem 8rem;
+}
+
+.last-ad {
+    margin-bottom: 1rem !important;
+}
+
+.stanbic-ad {
+    margin-top: -6rem !important;
+}
+
+section .online-ad-row1 {
     display: inline-flex;
-    /* border: 1px solid red; */
-    margin: 4rem 12rem;
+    gap: 10px;
+    width: 100%;
 }
 
-section .account2-row {
-    background-color: #F1F5F9;
-    padding: 3rem 0rem 2rem 3rem;
+.online-ad-row1 .row1-image img{
+    height: 30rem;
 }
 
-/* .account1-row .account1-image {
-    border: 1px solid green;
-} */
-
-.account1-image .malta-img {
-    height: 35rem;
+.online-ad-row1 .row1-content{
+    width: 50%;
+    height: 478px;
 }
 
-.account1-image .mtn-img {
-    height: 34rem;
+
+.online-ad-row1 .malt-sec{
+    background-color: #FDEE79;
+    padding: 7rem 7rem;
 }
 
-.account2-image .stanbic-img {
-    height: 25rem;
+.online-ad-row1 .dosh-sec{
+    background: linear-gradient(270deg, #9E825B -8.16%, #C7AC83 106.71%);
+    padding: 1rem 2rem 13px 4rem ;
 }
 
-.account1-texts .desc,
-.account2-texts .desc {
-    margin: 72px 54px 0 26px;
-    padding-left: 2rem;
-    border-left: 3px solid red;
+.online-ad-row1 .stanbic-sec{
+    background-color: blue;
+    padding: 6rem 11rem 13px 4rem;
 }
 
-.account2-texts .desc {
-    border-left: none;
+.online-ad-row1 .mtn-sec{
+    background-color: #FFCA00;
+    padding: 2rem 5rem 13px 4rem;
 }
 
-.account1-texts .desc a{
-    text-decoration: none;
-}
-.account1-texts .desc h5,
-.account2-texts .desc h5 {
-    font-size: 15px;
+.online-ad-row1 .row1-content h3 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: 900;
+}
+
+.online-ad-row1 .row1-content .malt {
+    color: #E69522;
+}
+
+.online-ad-row1 .row1-content h2 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.online-ad-row1 .row1-content span {
+    font-size: 35px;
+    line-height: 35px;
+    font-weight: 700;
+}
+
+.online-ad-row1 .row1-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: 'poppinsMedium';
+}
+
+.ad-white-text {
+    color: #FFF;
+}
+
+.ad-black-text {
+    color: #0F172A;
 }
 
 
-.account1-texts .team-title,
-.account1-texts img,
-.account2-texts .team-title,
-.account2-texts img {
-    margin: 26px 47px 0 26px;
-    padding-left: 1rem;
-    border-left: 3px solid gray;
+section .online-ad-row2 {
+    display: inline-flex;
+    gap: 10px;
 }
 
-.account1-texts h6,
-.account2-texts h6 {
-    font-size: 14px;
+section .online-ad-row2 img {
+    height: 185px;
 }
 
-.account1-texts img,
-.account2-texts img {
-    height: 5rem;
-    padding-left: 0;
-    border: none !important;
-    position: relative;
-    top: -42px;
-}
+
+
+
+
+
+
+
+
 
 .marketing-blob1 {
     margin: -24rem 0 -5rem 0;
@@ -3429,35 +3490,6 @@ section .account2-row {
         height: 20rem;
     }
 
-    section .account1-row,
-    section .account2-row {
-        display: block;
-        margin: 10rem 0;
-    }
-    .account1-image .malta-img {
-        height: 28rem;
-        position: relative;
-        left: 1rem;
-    }
-
-    .account2-image .stanbic-img {
-        height: 17rem;
-    }
-    .account1-texts .desc, .account2-texts .desc {
-        border-left: 3px solid red;
-    }
-
-    .stanbic-text {
-        position: relative;
-        right: 2rem;
-    }
-
-    .account1-image .mtn-img {
-        height: 34rem;
-    }
-    .last-row-mobile {
-        display: none;
-    }
 }
 
 
@@ -3471,45 +3503,31 @@ section .account2-row {
 
 /* Start of Social Media Marketing Page  */
 
-.sm-marketing-section {
-    background-image: url(../assets/services/sm-marketing-bg.png);
-    height: 36rem;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: block;
-    position: relative;
-    z-index: 0;
-    margin-bottom: 3rem;
-    margin-top: -36rem;
-}
 
-header .header-2 .sm-header-2-mobile {
-    display: none;
-}
 
 .sm-marketing-text-row {
-    margin: 8rem 10rem 8rem 11rem;
+    margin: 8rem 10rem -28rem 11rem;
 }
 .sm-marketing-text-row .sm-marketing-desc {
     background-color: rgba(237, 50, 36, 0.02);
 }
 .sm-marketing-text-row .sm-marketing-desc h1 {
-    font-weight: 700;
-    font-size: 38px;
-    color: rgba(71, 85, 105, 1);
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 38px;
+}
+
+.sm-marketing-text-row .sm-marketing-desc h1 span {
+    font-weight: 800;
+    color: red;
+    text-transform: uppercase;
 }
 .sm-marketing-text-row .sm-marketing-desc p {
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 28px;
     position: relative;
     bottom: 16px;
-}
-.sm-marketing-section .sm-marketing-row {
-    margin: 0 14rem 0 27rem;
-    position: relative;
-    top: 9rem;
-    display: inline-flex;
 }
 
 .sm-blob-1 {
@@ -3517,68 +3535,54 @@ header .header-2 .sm-header-2-mobile {
     bottom: 38rem;
 }
 
-.sm-marketing-row .marketing-card {
-    height: 18rem;
-    width: fit-content;
-    display: block;
-    border-radius: 15px;
-    overflow: hidden;
-    z-index: 0;
 
+.marketing-row {
+    display: inline-flex;
+    gap: 12px;
+    margin: auto 8rem;
 }
 
-.sm-marketing-row .marketing-card:not(:first-child) {
-    margin-left: 1rem;
+.marketing-row .marketing-card {
+    background-repeat: no-repeat;
+    height: 17rem;
+    width: 23rem;
 }
 
-.sm-marketing-row .marketing-card img {
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: 0;
-}
-
-.sm-marketing-row .marketing-card::before {
-    content:'';
-    position:absolute;
-    left:0; top:0;
-    border-radius: 20px;
-    width:212px; height:100%;
-    display:inline-block;
-    background: linear-gradient(0deg, rgb(0 0 0 / 13%) 0%, rgba(255,255,255,0) 100%)
-  }
-
-.sm-marketing-row .marketing-card h3{
-    z-index: 2;
-    font-size: 14px;
+.marketing-row .marketing-card h3 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
     color: #FFF;
-    width: 9rem;
+    width: 16rem;
     position: relative;
-    bottom: 164px;
-    left: 18px;
+    top: 5rem;
+    left: 66px;
 }
 
+.marketing-row .card-1 {
+    background-image: url('../assets/services/marketing1.webp');
+}
 
-.sm-marketing-row .marketing-card p {
-    z-index: 2;
-    font-size: 11px;
-    color: #FFF;
-    width: 182px;
+.marketing-row .card-2 {
+    background-image: url('../assets/services/marketing2.webp');
+}
+
+.marketing-row .card-3 {
+    background-image: url('../assets/services/marketing3.webp');
+}
+
+.sm-line-illustration {
     position: relative;
-    bottom: 168px;
-    left: 18px;
+    top: 565px;
+    left: 18rem;
+    margin-top: -47rem;
 }
-.sm-marketing-section .bg-person {
-    display: none;
-}
-
 
 
 /* Digital marketing Responsive  */
 @media screen and (min-width: 1700px) {
-    .sm-marketing-section .sm-marketing-row {
-        margin: 0 14rem 0 33rem;
-    }
+
 }
 
 
@@ -3600,37 +3604,6 @@ header .header-2 .sm-header-2-mobile {
     }
     .sm-blob-1 {
         display: none;
-    }
-    .sm-marketing-section {
-        background-image: url(../assets/services/sm-bg-mobile.png);
-        height: 106rem;
-        margin-top: 0;
-    }
-    /* .sm-marketing-section {
-        background-image: url(../assets/services/sm-marketing-bg.png);
-        height: 36rem;
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: block;
-        position: relative;
-        z-index: 0;
-        margin-bottom: 3rem;
-        margin-top: -36rem;
-    } */
-    .sm-marketing-section .sm-marketing-row {
-        display: block;
-        margin: 0 0 0 6rem
-    }
-    .sm-marketing-row .marketing-card:not(:first-child) {
-        margin-top: 1rem;
-        margin-left: 0;
-    }
-
-    .sm-marketing-section .bg-person {
-        display: inline;
-        position: relative;
-        top: 12rem;
-        left: 4rem;
     }
 }
 
@@ -3935,216 +3908,28 @@ header .header-2 .sm-header-2-mobile {
 
  /* Digital Strat and Consult Page  */
 
-
-/* section {
-    display: flex;
-    justify-content: space-between;
-} */
-
-#digital-strat1 {
-    position: relative;
-    top: 3rem;
+ .ds-text-row {
+    margin: 9rem 10rem 0 11rem;
 }
-
-.ds-row {
-    display: inline-flex;
-    background-color: #333F4C;
-    padding: 10rem 0 18rem 0;
-    width: 100%;
+.ds-text-row .ds-desc {
+    background-color: rgba(237, 50, 36, 0.02);
 }
-
-.ds-row h1,
-.ds-row p{
-    color: #fff;
-}
-
-.ds-row h1{
+.ds-text-row .ds-desc h1 {
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 61px;
+    color: #DC0000;
     text-transform: uppercase;
-    font-size: 21px;
-    font-weight: 700;
-    line-height: 32px;
 }
-
-.ds-row p{
-    font-size: 13px;
+.ds-text-row .ds-desc p {
+    font-size: 16px;
     font-weight: 400;
-    line-height: 20.5px;
-    margin-top: -11px;
-    width: 13rem;
-}
-
-.ds-row  .main-left .service-text{
+    line-height: 28px;
+    color: #0F172A;
     position: relative;
-    right: 1rem;
+    bottom: 16px;
 }
 
-.ds-row  .main-right .service-text{
-    position: relative;
-    left: 1rem;
-}
-
-
-.ds-row .main-left {
-    display: block;
-    text-align: right;
-    width: 33%;
-    /* border: solid 1px red; */
-    margin: 0 12px 0 0;
-}
-
-
-.ds-row .main-center {
-    width: 33%;
-    display: block;
-    /* border: solid 5px red; */
-}
-
-.main-center .center-img{
-    display: block;
-    align-items: center;
-    padding: 0 56px;
-}
-
-
-.main-center img {
-    height: 26rem;
-    position: relative;
-    top: 2rem;
-}
-
-.main-center .img-shadow {
-    height: 50px;
-}
-
-.ds-row .main-right {
-    text-align: left;
-    width: 33%;
-    /* border: solid 5px red; */
-}
-
-.ds-row .main-left .services {
-    margin-left: 18rem;
-}
-
-.ds-row .services {
-    display: inline-flex;
-    margin-top: 14px;
-    width: 100%;
-}
-
-.ds-row .service-icon img{
-    height: 46px;
-}
-
-.ds-row .service-icon {
-    position: relative;
-    top: 1rem;
-}
-
-/* .main-right .service-text {
-    border: solid 5px blue;
-    margin-top: -15px;
-    margin-right: 200px;
-    padding: 0 6px;
-} */
-
- @media screen and (max-width: 700px) {
-    #digital-strat1 {
-        left: 16rem;
-    }
-    .ds-row {
-        display: block;
-    }
-    .ds-row .main-left {
-        text-align: center;
-        margin: 0 0 0 -13rem;
-        position: relative;
-        top: 18rem;
-    }
-    .ds-row .main-left .services {
-        margin-left: 22rem;
-        -webkit-transform:  rotate(180deg);
-        transform:  rotate(180deg);
-    }
-
-    .ds-row .main-left .services > div {
-        -webkit-transform:  rotate(180deg);
-        transform:  rotate(180deg);
-    }
-
-    .ds-row .main-left .service-text {
-        position: relative;
-        right: 0;
-    }
-
-    .ds-row .service-icon {
-        position: relative;
-        top: -1rem;
-    }
-
-    .ds-row .services {
-        display: block;
-    }
-
-    .ds-row .main-center {
-        width: 33%;
-        display: block;
-        position: relative;
-        bottom: 48rem;
-    }
-
-    .main-center img {
-        height: 19rem;
-    }
-
-    .ds-row .main-right {
-        text-align: center;
-        margin: 0 0 0 9rem;
-    }
-    .ds-row .main-right .service-icon {
-        position: relative;
-        top: 1rem;
-    }
-
-    .ds-row .main-right .service-text {
-        position: relative;
-        left: 0rem;
-    }
-
-    .ds-row h1 {
-        width: 14rem;
-        position: relative;
-        right: 3rem;
-    }
-
-    .ds-row p {
-        font-size: 13px;
-        font-weight: 400;
-        line-height: 20.5px;
-        position: relative;
-        top: -11px;
-        right: 3rem;
-        width: 15rem;
-    }
-    .blog-card .card-info {
-        margin: -2rem 0 -164px 0 !important;
-    }
-    .blog-card-text .blog-excerpt {
-        position: relative;
-        top: 2rem;
-    }
- }
- /* .parent {
-    -webkit-transform:  rotate(180deg);
-    transform:  rotate(180deg);
-}
-
-.parent > div {
-    display: block;
-    margin: 0 auto 5px;
-    -webkit-transform: rotate(-180deg);
-    transform: rotate(-180deg);
-} */
 
 /* End of Digital Strat and Consult Page  */
 
@@ -4380,6 +4165,8 @@ section .blog-cards-row {
 .ad-section {
     background-image: url(../assets/ad-image.png);
     background-size: cover;
+    background-color: rgb(255 0 0 / 96%);
+    background-blend-mode: multiply;
     height: 322px;
 }
 

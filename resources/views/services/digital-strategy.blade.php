@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>!D - About Us</title>
-    
+
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
@@ -27,127 +27,56 @@
   <body>
       <header id="header-digital-strategy">
         @include('components.navbar')
+        <div class="header-2">
+            <img src="assets/services/ds-header.webp" class="aboutus-header-2" alt="">
+            {{-- <img src="assets/mobile-header-service.png" class="service-header-2-mobile" alt=""> --}}
+          </div>
+          <a class="aboutus-header-cta" href="#">
+              <p>your digital powerhouse...</p>
+          </a>
         <!-- ends here -->
         </header>
 
 
-
-        
-      <section id="digital-strat1">
-        <div class="ds-row main">
-            <div class="main-left">
-                <div class="services">
-                    <div class="service-text">
-                        <h1>Photograghy</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt doloremque excepturi sit odit impedit, voluptas.</p>
-                    </div>
-                    <div class="service-icon">
-                        <img src="assets/digital_strat/service_icon.svg">
-                    </div>
-                </div>
-                <div class="services">
-                    <div class="service-text">
-                        <h1>UX/UI design</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt doloremque excepturi sit odit impedit, voluptas.</p>
-                    </div>
-                    <div class="service-icon">
-                        <img src="assets/digital_strat/service_icon.svg">
-                    </div>
-                </div>
-                <div class="services">
-                    <div class="service-text">
-                        <h1>Web design</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt doloremque excepturi sit odit impedit, voluptas.</p>
-                    </div>
-                    <div class="service-icon">
-                        <img src="assets/digital_strat/service_icon.svg">
-                    </div>
-                </div>
+        <section class="ds-text-row">
+            <div class="ds-desc">
+                <h1 class="bold">CONSULTING</h1>
+                <p>The Ninani Group and Interactive Digital for that matter, prides itself in a strong strategic orientation in profering communication solutions to its clients.This diversified product portfolio allows the strategic unit of the Interactive Digital to offer a comprehensive range of services to clients, catering to their various needs and objectives in the competitive advertising landscape. .These encompass .</p>
             </div>
-
-            <div class="main-center">
-                <div class="center-img">
-                    <img src="assets/digital_strat/vr-img.png">
-                    <img class="img-shadow" src="assets/digital_strat/vr-shadow.png">
-                </div>
-            </div>
-
-            <div class="main-right">
-                <div class="services">
-                    <div class="service-icon">
-                        <img src="assets/digital_strat/service_icon.svg">
-                    </div>
-                    <div class="service-text">
-                        <h1>Web development</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt doloremque excepturi sit odit impedit, voluptas.</p>
-                    </div>
-                </div>
-                <div class="services">
-                    <div class="service-icon">
-                        <img src="assets/digital_strat/service_icon.svg">
-                    </div>
-                    <div class="service-text">
-                        <h1>3d design</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt doloremque excepturi sit odit impedit, voluptas.</p>
-                    </div>
-                </div>
-                <div class="services">
-                    <div class="service-icon">
-                        <img src="assets/digital_strat/service_icon.svg">
-                    </div>
-                    <div class="service-text">
-                        <h1>2d design</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt doloremque excepturi sit odit impedit, voluptas.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
 
-    {{-- <section>
-        <div class="main-ad">
-            <div class="ad-box">
-                <div class="ad-text">
-                    <h1>Lets's discuss and create Magic!</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequatLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-                </div>
-                <button>
-                    <p>Contact Us</p>
-                    <img src="assets/digital_strat/arrow-right.svg">
-                </button>
-            </div>
-        </div>
-    </section> --}}
+
+
 
 
     <div class="mobile-ad-section">
     </div>
-  
+
     <!-- Footer Starts  -->
           @include('components.footer')
     <!-- Footer Ends  -->
 
 
-        <script> 
-  
-            // Targeting video element  
-            let clip = document.querySelector(".vid") 
-            let footer = document.querySelector(".footer-row") 
-        
-            /* Applying mouseover event on video clip  
-            and then we call play() function to play  
-            the video when the mouse is over the video */ 
-            footer.addEventListener("mouseover", function (e) { 
-                clip.play(); 
-            }) 
-        
-            /* Applying mouseout event on video clip  
-            and then we call pause() function to stop  
-            the video when the mouse is out the video */ 
-            footer.addEventListener("mouseout", function (e) { 
-                clip.pause(); 
-            }) 
+        <script>
+
+            // Targeting video element
+            let clip = document.querySelector(".vid")
+            let footer = document.querySelector(".footer-row")
+
+            /* Applying mouseover event on video clip
+            and then we call play() function to play
+            the video when the mouse is over the video */
+            footer.addEventListener("mouseover", function (e) {
+                clip.play();
+            })
+
+            /* Applying mouseout event on video clip
+            and then we call pause() function to stop
+            the video when the mouse is out the video */
+            footer.addEventListener("mouseout", function (e) {
+                clip.pause();
+            })
         </script>
   </body>
   </html>

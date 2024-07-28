@@ -48,7 +48,7 @@
             <div class="service1-content">
                 <h2>Social Media <br> <span class="bold">Marketing</span></h2>
                 <p>Cut through the noise and find your people! <br> You need people to see you and what you can do. No <br> problem! Sit back, relax, and let us create content that <br>speaks to your tribe!</p>
-                <a href="#"><p>Get interactive on social media</p></a>
+                <a href="{{ route('sm-marketing') }}"><p>Get interactive on social media</p></a>
             </div>
         </div>
         <div class="service1-row2">
@@ -63,7 +63,7 @@
             <div class="service2-content">
                 <h2>Media <br> <span class="bold">PRODUCTION</span></h2>
                 <p>the hustle and bustle of infinite scrolling, you need a story that stops people in their tracks, with captivating visuals to match. And that’s where we come in…</p>
-                <a href="#"><p>Shoot my big story!</p></a>
+                <a href="{{ route('videography') }}"><p>Shoot my big story!</p></a>
             </div>
         </div>
       </div>
@@ -74,7 +74,7 @@
             <div class="service1-content">
                 <h2>Online <br> <span class="bold">ADVERTISEMENT</span></h2>
                 <p>Getting found online is hard. Getting found by the right audience? - even harder. Navigating the Wild West of the Internet is no easy feat… unless you’re a pro, like us!</p>
-                <a href="#"><p>Advertise with us!</p></a>
+                <a href="{{ route('online-advertising') }}"><p>Advertise with us!</p></a>
             </div>
         </div>
         <div class="service1-row2">
@@ -89,7 +89,7 @@
             <div class="service2-content">
                 <h2>Strategy<br> <span class="bold">CONSULTING</span></h2>
                 <p>If at first you don’t succeed, just call us! Millions of accounts and thousands of brands, all fighting for top billing. Standing out is all about cracking the code. And would you look at that, we have that here, ready and waiting - just for you!</p>
-                <a href="#"><p>Talk to us</p></a>
+                <a href="{{ route('strategy') }}"><p>Talk to us</p></a>
             </div>
         </div>
       </div>

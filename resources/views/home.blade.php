@@ -233,20 +233,14 @@
                 <h2 class="process-card-title">id</h2>
                 <h2 class="process-card-subtitle">...always listening</h2>
                 <hr class="process-card-hr">
-                <p>We’re always tuned in to <br> what’s what,<br>
-                    using insights to help your <br> brand cut <br>
-                    through the noise and <br> reach your <br>
-                    consumers.</p>
+                <p>We don’t just plan - we <br> explore your market <br> and discover the truth <br> about how it works, <br> and what makes a <br>difference in your <br> industry. <br>Keeping pace with the <br> speed of digital Truck</p>
             </div>
 
             <div class="process-card">
                 <h2 class="process-card-title">id</h2>
                 <h2 class="process-card-subtitle">...always listening</h2>
                 <hr class="process-card-hr">
-                <p>We’re always tuned in to <br> what’s what,<br>
-                    using insights to help your <br> brand cut <br>
-                    through the noise and <br> reach your <br>
-                    consumers.</p>
+                <p>With a team of <br> creatives bursting at <br> the <br> seams with ideas and <br> executions, we’re <br>ready to bring your <br> dreams to life!.</p>
             </div>
         </div>
         </div>
