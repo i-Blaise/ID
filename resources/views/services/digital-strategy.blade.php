@@ -47,8 +47,64 @@
 
 
 
+    <section class="ds-body-container">
+
+        <section class="ds-row">
+            <div class="ds-text">
+                <h2 class="bold">Brand Strategy:</h2>
+                <p>Development of comprehensive brand strategies for clients, including market segmentation, brand positioning, targeting, messaging, and differentiation strategies.</p>
+            </div>
+            <div class="ds-image">
+                <img src="{{ asset('assets/services/strat.webp') }}" alt="Laptop design">
+            </div>
+        </section>
 
 
+        <section class="ds-row">
+            <div class="ds-image">
+                <img src="{{ asset('assets/services/strat1.webp') }}" alt="Laptop design">
+            </div>
+            <div class="ds-text">
+                <h2 class="bold">Digital Marketing Service:</h2>
+                <p>Creation and management of digital marketing campaigns, including always-on content for a strong digital presence, search engine marketing (SEM), search engine optimization (SEO), social media advertising, email marketing, and content marketing.</p>
+            </div>
+        </section>
+
+
+
+        <section class="ds-row">
+            <div class="ds-text">
+                <h2 class="bold">Social Media Management:</h2>
+                <p>Development of comprehensive brand strategies for clients, including market segmentation, brand positioning, targeting, messaging, and differentiation strategies.</p>
+            </div>
+            <div class="ds-image">
+                <img src="{{ asset('assets/services/strat2.webp') }}" alt="Laptop design">
+            </div>
+        </section>
+
+
+        <section class="ds-row">
+            <div class="ds-image">
+                <img src="{{ asset('assets/services/strat3.webp') }}" alt="Laptop design">
+            </div>
+            <div class="ds-text">
+                <h2 class="bold">Marketing Research and Analytics:</h2>
+                <p>Development of comprehensive brand strategies for clients, including market segmentation, brand positioning, targeting, messaging, and differentiation strategies.</p>
+            </div>
+        </section>
+
+
+        <section class="ds-row">
+            <div class="ds-text">
+                <h2 class="bold">Consulting & Training:</h2>
+                <p>Development of comprehensive brand strategies for clients, including market segmentation, brand positioning, targeting, messaging, and differentiation strategies.</p>
+            </div>
+            <div class="ds-image">
+                <img src="{{ asset('assets/services/strat4.webp') }}" alt="Laptop design">
+            </div>
+        </section>
+
+    </section>
 
     <div class="mobile-ad-section">
     </div>

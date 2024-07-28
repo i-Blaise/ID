@@ -131,8 +131,10 @@ header {
 }
 
 #header-case-study {
-    background-image: url(../assets/case_study/case-study.png);
-    height: 46rem;
+    background-image: url(../assets/about-banner.webp);
+    height: 34rem;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #header-case-open {
     background-image: url(../assets/case_study/easter-header.png);
@@ -2609,7 +2611,8 @@ header .aboutus-header-cta p {
 #header-services a,
 #header-online-ad a,
 #header-sm-marketing a,
-#header-digital-strategy a {
+#header-digital-strategy a,
+#header-case-study a {
     text-decoration: none;
 }
 
@@ -3908,6 +3911,12 @@ section .online-ad-row2 img {
 
  /* Digital Strat and Consult Page  */
 
+
+ .ds-body-container {
+    background-color: #F1F5F9;
+ }
+
+
  .ds-text-row {
     margin: 9rem 10rem 0 11rem;
 }
@@ -3929,6 +3938,37 @@ section .online-ad-row2 img {
     position: relative;
     bottom: 16px;
 }
+
+.ds-row {
+    display: inline-flex;
+    margin: 3rem 0 0 11rem;
+}
+
+.ds-row .ds-text {
+    padding: 6rem 1rem 0 0;
+}
+
+.ds-row .ds-text h2 {
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 38px;
+    color: #DC0000;
+    text-transform: capitalize;
+}
+
+.ds-row .ds-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #0F172A;
+}
+
+.ds-row .ds-image img {
+    height: 28rem;
+}
+
+
+
 
 
 /* End of Digital Strat and Consult Page  */
@@ -5135,69 +5175,7 @@ section .blog-cards-row {
 
 /* Case Study Page Begins  */
 
-.case-study-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem 1rem;
-    width: 79%;
-    margin: 5rem 11rem;
-}
 
-.case-study-container .case-study-card {
-    display: block;
-    width: 233px;
-    box-shadow: 0px 0px 17.736133575439453px 0px rgba(0, 0, 0, 0.1);
-    padding: 22px;
-}
-
-.case-study-container .case-study-card a {
-    text-decoration: none;
-}
-
-.case-study-container .case-study-card p {
-    color: rgba(146, 145, 161, 1);
-    font-size: 16px;
-    line-height: 22px;
-    font-weight: 300;
-    text-align: end;
-}
-
-.case-study-container .case-study-card h1 {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
-    color: rgba(47, 46, 65, 1);
-    width: 217px;
-    height: 4rem;
-}
-
-.case-study-container .case-study-card .view {
-    color: rgba(206, 25, 25, 1);
-    text-align: start;
-    position: relative;
-}
-
-@media screen and (min-width: 1800px) {
-    .case-study-container {
-        margin: 5rem 15rem !important;
-    }
-}
-@media screen and (max-width: 1500px) {
-    .case-study-container {
-        margin: 5rem 148px !important;
-    }
-}
-@media screen and (max-width: 700px) {
-    .case-study-container {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        margin: 5rem 70px !important;
-    }
-    #header-case-study {
-        background-image: url(../assets/case_study/cs-header-mobile.png);
-        height: 32rem;
-    }
-}
 
 
 
