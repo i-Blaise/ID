@@ -282,7 +282,7 @@
 
 
 
-    <div class="home-body-row5">
+    {{-- <div class="home-body-row5">
         <h1 class="big-screen bold">Don't take our word for it, <br> ask them</h1>
         <h1 class="mobile bold">What everyone says</h1>
         <div class="testimonial-row">
@@ -296,7 +296,6 @@
                         </div>
                     </div>
                 </div>
-                {{-- <img class="quote" src="{{ asset('assets/homepage/quotes.svg') }}" alt=""> --}}
                 <p>An innovative digital company, committed to delivering exceptional personalized services, seamlessly integrates technology and expertise to fulfill tasks with style and finesse..</p>
             </div>
 
@@ -310,7 +309,6 @@
                         </div>
                     </div>
                 </div>
-                {{-- <img class="quote" src="{{ asset('assets/homepage/quotes.svg') }}" alt=""> --}}
                 <p>Combining advanced automation with a dedicated team of professionals, the company consistently delivers high-quality results, making it the go-to choice for discerning individuals seeking a seamless blend of style, functionality, and class..</p>
             </div>
         </div>
@@ -319,7 +317,7 @@
             <span class="dot on"></span>
             <span class="dot"></span>
         </div>
-    </div>
+    </div> --}}
 
 
 
@@ -328,7 +326,7 @@
         <div class="main-blog-row">
         <div class="blog-cards-row blog-cards-row-home">
           <div class="blog-card">
-            <img src="assets/home-blog1.png" class="home"  alt="">
+            <img src="{{ asset('assets/homepage/blog1.webp') }}" class="home"  alt="">
             <div class="blog-card-text">
               <h2>A dive into the digital phase of advertising</h2>
               <p>Advertising has transcended traditional boundaries into the digital phase over the last 30 years, and it’s a change anyone in the advertising field should be constantly adapting to..</p>
@@ -343,7 +341,7 @@
           </div>
 
           <div class="blog-card">
-            <img src="assets/home-blog2.png" class="home" alt="">
+            <img src="{{ asset('assets/homepage/blog2.webp') }}" class="home" alt="">
             <div class="blog-card-text">
               <h2>Influencers vs social media personalities</h2>
               <p>While influencers can certainly impact consumer decisions, their effectiveness can vary depending on factors such as industry niche, audience engagement, and the specific goals of a brand's marketing...</p>
@@ -358,7 +356,7 @@
           </div>
 
           <div class="blog-card">
-            <img src="assets/home-blog3.png" class="home" alt="">
+            <img src="{{ asset('assets/homepage/blog3.webp') }}" class="home" alt="">
             <div class="blog-card-text">
               <h2>How Artificial Intelligence is Shaping Our Future</h2>
               <p>There’s no denying that technology is transforming our world. From the way we work to the way we communicate, innovation seems to be the name...</p>
@@ -378,6 +376,34 @@
           </div>
         </a>
         </div>
+        </div>
+      </section>
+
+
+
+      <section class="logos-home">
+        <h2>Touched by !D</h2>
+        <div class="logos-row1">
+            <img src="{{ asset('assets/homepage/mtn-logo.webp') }}" alt="">
+
+            <img src="{{ asset('assets/homepage/stanbic-logo.webp') }}" alt="">
+
+            <img src="{{ asset('assets/homepage/malt-logo.webp') }}" alt="">
+
+            <img src="{{ asset('assets/homepage/yango.webp') }}" alt="">
+
+            <img src="{{ asset('assets/homepage/lucozade.webp') }}" alt="">
+        </div>
+        <div class="logos-row2">
+            <img src="{{ asset('assets/homepage/hdplus.webp') }}" alt="">
+
+            <img src="{{ asset('assets/homepage/gino.webp') }}" alt="">
+
+            <img src="{{ asset('assets/homepage/gcb.webp') }}" alt="">
+
+            <img src="{{ asset('assets/homepage/starbow.webp') }}" class="starbow" alt="">
+
+            <img src="{{ asset('assets/homepage/fiesta.webp') }}" alt="">
         </div>
       </section>
 

@@ -2389,6 +2389,38 @@ section .home-blog-title {
 }
 
 
+
+
+.logos-home {
+    display: block;
+    margin: 5rem 8rem;
+}
+
+.logos-home h2 {
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 38px;
+    color: #0F172A;
+    text-align: center;
+}
+
+.logos-home .logos-row1 {
+    display: inline-flex;
+    gap: 5rem;
+    margin: 2rem 12rem;
+}
+
+.logos-home .logos-row2 {
+    display: inline-flex;
+    gap: 4rem;
+    margin: 2rem 0;
+}
+
+.logos-home .logos-row2 .starbow {
+    width: 16rem;
+}
+
+
 /* Home Responsive  */
 @media screen and (min-width: 1500px) {
     .slideshow-container .slideshow-hero .slideshow-cta {
