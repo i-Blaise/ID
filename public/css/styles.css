@@ -167,7 +167,7 @@ header .header-2 {
   .logo img {
     max-height: 50px;
     margin-left: 90px;
-    padding: 15px;
+    padding: 10px;
 }
 
   .menu {
@@ -937,6 +937,11 @@ section .header-main {
         height: 135px;
     }
 
+    .header-info-row .left-header-info h1,
+    .header-info-row .left-header-info p {
+        left: 5rem !important;
+    }
+
     .home-intro-text {
         margin: 11rem 0 0 0;
     }
@@ -949,7 +954,7 @@ section .header-main {
     }
 
     section .main-blog-row .blog-cards-row-home {
-        margin: 136px 0 0 114px !important;
+        margin: 136px 0 0 180px !important;
     }
 }
 @media (min-width: 700px) {
@@ -2334,21 +2339,47 @@ section .header-main {
     }
 
 
+
+
+    /* Home Blog  */
     .blog-cards-row .blog-card .home {
         border-radius: 30px;
-        height: 19rem;
+        height: 16rem;
     }
 
+    .blog-cards-row-home .blog-card .blog-card-text {
+        margin: 28px 37px 32px 0;
+    }
 
     section .main-blog-row .blog-cards-row-home  {
-        margin: 136px 0 -76px 154px;
+        margin: 136px 0 0 244px;
+        gap: 26px;
     }
 
     section  .main-blog-row .blog-cards-row-home a {
         text-align: center;
         position: relative;
-        left: 160%;
+        left: 125%;
         text-decoration: none;
+    }
+
+    .blog-cards-row-home .blog-card-text h2 {
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .blog-cards-row-home .blog-card-text .body-text {
+        line-height: 33px;
+        height: 8rem;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 21px;
+        margin-top: -2rem;
+    }
+
+    .blog-cards-row-home .blog-card {
+        width: 300px;
     }
 
     .main-blog-row .blog-cards-row-home a .home-blog-btn{
@@ -2368,6 +2399,22 @@ section .header-main {
 
     .blog-card .card-info .home-blog-author {
         border-radius: 30px;
+        height: 44px;
+        position: relative;
+        top: -10px;
+    }
+
+    .blog-cards-row-home .card-info .card-info-name-date  {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .blog-cards-row-home .blog-card-text p {
+        line-height: 33px;
+        height: 14rem;
+        font-size: 12px;
+        line-height: 16px;
     }
 
 .card-info .card-info-name-date p img {
@@ -2427,6 +2474,18 @@ section .home-blog-title {
         bottom: 504px !important;
     }
 }
+
+@media screen and (max-width: 1450px) {
+    .logos-home {
+        margin: 5rem 12rem;
+    }
+
+    .logos-home img {
+        height: 78px;
+    }
+}
+
+
 @media screen and (min-width: 1400px) {
     /* #process-section .process-container {
         background-position: 89% 55%;

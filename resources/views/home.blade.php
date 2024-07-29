@@ -329,7 +329,7 @@
             <img src="{{ asset('assets/homepage/blog1.webp') }}" class="home"  alt="">
             <div class="blog-card-text">
               <h2>A dive into the digital phase of advertising</h2>
-              <p>Advertising has transcended traditional boundaries into the digital phase over the last 30 years, and it’s a change anyone in the advertising field should be constantly adapting to..</p>
+              <p class="body-text">Advertising has transcended traditional boundaries into the digital phase over the last 30 years, and it’s a change anyone in the advertising field should be constantly adapting to..</p>
               <div class="card-info">
                 <img src="{{ asset('assets/homepage/3.webp') }}" class="home-blog-author"  alt="Blog Author">
                 <div class="card-info-name-date">
@@ -344,7 +344,7 @@
             <img src="{{ asset('assets/homepage/blog2.webp') }}" class="home" alt="">
             <div class="blog-card-text">
               <h2>Influencers vs social media personalities</h2>
-              <p>While influencers can certainly impact consumer decisions, their effectiveness can vary depending on factors such as industry niche, audience engagement, and the specific goals of a brand's marketing...</p>
+              <p class="body-text">While influencers can certainly impact consumer decisions, their effectiveness can vary depending on factors such as industry niche, audience engagement, and the specific goals of a brand's marketing...</p>
               <div class="card-info">
                 <img src="{{ asset('assets/homepage/4.webp') }}" class="home-blog-author" alt="Blog Author">
                 <div class="card-info-name-date">
@@ -359,7 +359,7 @@
             <img src="{{ asset('assets/homepage/blog3.webp') }}" class="home" alt="">
             <div class="blog-card-text">
               <h2>How Artificial Intelligence is Shaping Our Future</h2>
-              <p>There’s no denying that technology is transforming our world. From the way we work to the way we communicate, innovation seems to be the name...</p>
+              <p class="body-text">There’s no denying that technology is transforming our world. From the way we work to the way we communicate, innovation seems to be the name...</p>
               <div class="card-info">
                 <img src="{{ asset('assets/homepage/5.webp') }}" class="home-blog-author"  alt="Blog Author">
                 <div class="card-info-name-date">
