@@ -929,7 +929,7 @@ section .header-main {
 
 
 
-@media screen and (max-width: 1450px) {
+@media screen and (max-width: 1450px)  {
     .header-info-row {
         margin-top: 32rem;
     }
@@ -3113,7 +3113,7 @@ header .aboutus-header-cta p {
 
     /* New About Us Header  */
     header .aboutus-header-cta {
-        left: 31rem;
+        left: 11rem;
     }
 }
 
@@ -3372,6 +3372,17 @@ header .aboutus-header-cta p {
         bottom: 180px !important;
     }
 }
+
+@media screen and (max-width: 1450px) {
+    .service2-container .service2-row .service2-content {
+        margin: 4rem -38px;
+        right: 4rem;
+    }
+
+    .service2-container .service2-row .consulting-text {
+        margin: 3rem -38px;
+    }
+}
 /* End Service Page  */
 
 
@@ -3442,28 +3453,32 @@ section .online-ad-row1 {
 }
 
 .online-ad-row1 .row1-content{
-    width: 50%;
+    max-width: 40rem;
     height: 478px;
 }
 
 
 .online-ad-row1 .malt-sec{
-    background-color: #FDEE79;
+    background-image: url('../assets/services/malt-ad-bg.webp');
+    object-fit: cover;
     padding: 7rem 7rem;
 }
 
 .online-ad-row1 .dosh-sec{
-    background: linear-gradient(270deg, #9E825B -8.16%, #C7AC83 106.71%);
+    /* background: linear-gradient(270deg, #9E825B -8.16%, #C7AC83 106.71%); */
+    background-image: url('../assets/services/dosh-ad-bg.webp');
     padding: 1rem 2rem 13px 4rem ;
 }
 
 .online-ad-row1 .stanbic-sec{
-    background-color: blue;
+    /* background-color: blue; */
+    background-image: url('../assets/services/stanbic-ad-bg.webp');
     padding: 6rem 11rem 13px 4rem;
 }
 
 .online-ad-row1 .mtn-sec{
-    background-color: #FFCA00;
+    /* background-color: #FFCA00; */
+    background-image: url('../assets/services/mtn-ad-bg.webp');
     padding: 2rem 5rem 13px 4rem;
 }
 
@@ -3513,7 +3528,7 @@ section .online-ad-row2 {
 }
 
 section .online-ad-row2 img {
-    height: 185px;
+    height: 183px;
 }
 
 
@@ -3540,6 +3555,18 @@ section .online-ad-row2 img {
 @media screen and (min-width: 1800px) {
     .ad-space {
         margin: 6rem 361px !important;
+    }
+
+    #online-ad {
+        margin: -4rem 8rem 12rem 19rem;
+    }
+}
+
+
+
+@media screen and (max-width: 1450px) {
+    section .online-ad-row2 img {
+        height: 169px;
     }
 }
 
@@ -3701,6 +3728,11 @@ section .online-ad-row2 img {
     }
 }
 
+@media screen and (max-width: 1450px) {
+    .marketing-row {
+        margin: auto 100px;
+    }
+}
 
 
 

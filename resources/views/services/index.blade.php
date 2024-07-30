@@ -86,7 +86,7 @@
       <div class="service2-container service2-consult">
         <div class="service2-row">
             <img src="{{ asset('assets/services/consulting.webp') }}" alt="">
-            <div class="service2-content">
+            <div class="service2-content consulting-text">
                 <h2>Strategy<br> <span class="bold">CONSULTING</span></h2>
                 <p>If at first you don’t succeed, just call us! Millions of accounts and thousands of brands, all fighting for top billing. Standing out is all about cracking the code. And would you look at that, we have that here, ready and waiting - just for you!</p>
                 <a href="{{ route('strategy') }}"><p>Talk to us</p></a>
