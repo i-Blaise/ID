@@ -53,7 +53,7 @@
             <p>Yes, it’s clear to see why it’s not so easy. Over 4 billion people currently use social media to share, inform and build profitable relationships. However, there are unique ways of using your voice in the best-suited forms for your existing and potential customers. Sometimes that can be overwhelming and that’s where WE come in. We take on the reins to help you define your brand, identify your people and seamlessly integrate your goals, and objectives into sellable, valuable content that your tribe will care about.</p>
         </div>
       </section>
-      <img src="{{ asset("assets/services/sm-blob-1.svg") }}" alt="" class="sm-blob-1">
+      {{-- <img src="{{ asset("assets/services/sm-blob-1.svg") }}" alt="" class="sm-blob-1"> --}}
 
 
 

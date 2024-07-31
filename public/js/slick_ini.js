@@ -6,5 +6,6 @@ $(".regular").slick({
   autoplay: true,
   arrows: false,
   mobileFirst: true,
-  swipe: true
+  swipe: true,
+  pauseOnFocus: false
 });

@@ -518,11 +518,11 @@ section .header-main {
 .home-body-row1 {
     background-image: url('../assets/homepage/background-1-home.webp');
     display: inline-flex;
-    margin: 0 3rem;
+    width: 100%;
     margin-top: 18rem;
-    height: 36rem;
-    background-position: 11rem -7rem;
-    background-repeat: no-repeat;
+    height: 32rem;
+    background-position: 10rem -10rem;
+    background-size: 78rem;
 }
 
 .home-body-row1 .row1-text {
@@ -550,8 +550,8 @@ section .header-main {
 .home-body-row1 .row1-image img {
     position: relative;
     right: 4rem;
-    height: 28rem;
-    top: 3rem;
+    height: 31rem;
+    top: 1rem;
 }
 
 
@@ -1113,26 +1113,55 @@ section .header-main {
        height: 61rem !important;
    }
    .header-info-row {
-    margin-top: 41rem !important;
+    margin-top: 42rem !important;
     }
     .home-intro-text {
         margin: 10rem 0 0 0;
     }
 
-    .home-body-row1 {
-        margin: 0 2rem;
-        background-repeat: repeat;
-        width: 97%;
+    .header-info-row .right-header-info .ID-text-logo {
+        top: 42px;
+        left: 3rem;
+        height: 160px;
     }
+
+    .home-body-row1 {
+        margin: 10rem 0;
+        background-repeat: repeat;
+        background-position: 1rem 0;
+        background-size: 85rem;
+        height: 44rem;
+        width: 100%;
+    }
+
+    .home-body-row1 .row1-image img {
+        position: relative;
+        right: 4rem;
+        height: 40rem;
+    }
+
     .home-body-row2 {
         margin: 7rem 11rem !important;
     }
 
+    .home-body-row3 {
+        margin: 0rem 17rem;
+    }
+
     section .main-blog-row .blog-cards-row-home {
-        margin: 136px 0 -76px 219px !important;
+        margin: 136px 0 -76px 235px !important;
     }
     section .blog-cards-row {
         gap: 138px 119px !important;
+    }
+
+    section .main-blog-row .blog-cards-row-home a {
+        left: 151% !important;
+        bottom: 7rem !important;
+    }
+
+    .logos-home {
+        margin: 5rem 14rem !important;
     }
 }
 @media screen and (min-width: 1900px) {
@@ -1141,16 +1170,31 @@ section .header-main {
         height: 61rem !important;
     }
     .header-info-row {
-        margin-top: 47rem;
+        margin-top: 48rem !important;
     }
+
+    .header-info-row .right-header-info .ID-text-logo {
+        top: 36px;
+        height: 179px;
+    }
+
     .home-body-row1 {
-        margin: 0 11rem;
+        margin-top: 18rem;
         background-repeat: repeat;
-        width: 84%;
+        width: 100%;
+        padding: 1rem 0 0 8rem;
+    }
+
+    .home-body-row2 {
+        margin: 7rem 20rem !important;
     }
 
     .home-body-row3 {
-        margin: 0rem 12rem;
+        margin: 0rem 29rem;
+    }
+
+    .home-body-row1 .row1-image img {
+        height: 43rem;
     }
 
 }
@@ -2593,11 +2637,19 @@ section .home-blog-title {
     }
 
     section .main-blog-row .blog-cards-row-home {
-        margin: 136px 0px 0px 326px !important;
+        margin: 136px 0px 0px 337px !important;
     }
 
     .hero-style {
         margin-top: 98px !important;
+    }
+
+    section .main-blog-row .blog-cards-row-home a {
+        left: 151% !important;
+    }
+
+    .logos-home {
+        margin: 5rem 20rem !important;
     }
 
   }
@@ -2710,21 +2762,18 @@ header .aboutus-header-cta p {
 
 
 
-.about-section-3,
-.about-column {
-    display: block;
+.about-section-3 {
     margin: auto 9rem;
     /* border: 1px solid red; */
 }
 .about-column {
-    margin-bottom: -28rem;
-    margin-top: 4rem;
-    margin-left: 174px;
+    display: block;
+    margin:  3rem 0 -28rem 0;
 }
 
  .about-blob-1 {
     position: relative;
-    bottom: 10rem;
+    bottom: 5rem;
 }
 
 .about-column .about-row-1 {
@@ -2735,10 +2784,10 @@ header .aboutus-header-cta p {
 
 .about-column .about-row-2 {
     display: inline-flex;
-    /* border: 1px solid red; */
     background-color: #F3F7FA;
     height: 574px;
-    margin: 5rem 0 -84px -7px;
+    margin: 5rem 0 -108px 0;
+    padding-left: 8rem;
 }
 
 .about-row-2 .about-intro-img img {
@@ -2748,8 +2797,7 @@ header .aboutus-header-cta p {
 }
 
 .about-row-2 .about-intro-text {
-    /* border: 1px solid black; */
-    margin: 160px 30px 0 90px;
+    margin: 160px 13rem 0 90px;
 }
 
 .about-intro-text h2 {
@@ -2772,7 +2820,7 @@ header .aboutus-header-cta p {
 }
 
 .about-section-2 .banner-1 img {
-    height: 25rem;
+    height: 26rem;
 }
 
 .about-section-2 .section-2 {
@@ -3105,7 +3153,11 @@ header .aboutus-header-cta p {
 
     .about-section-3 .team-card-row {
         gap: 0 8rem;
-        margin: 0 10rem;
+        margin: 0 40px !important;
+    }
+
+    .about-section-3 .team-card-row-1 {
+        margin: 0 524px !important;
     }
 
 
@@ -3113,7 +3165,17 @@ header .aboutus-header-cta p {
 
     /* New About Us Header  */
     header .aboutus-header-cta {
-        left: 11rem;
+        left: 4rem !important;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    .about-section-3 {
+        margin: auto 15rem;
+    }
+
+    header .aboutus-header-cta {
+        left: 10rem !important;
     }
 }
 
@@ -3267,7 +3329,18 @@ header .aboutus-header-cta p {
     .service-row {
         margin: 100px 0 0 228px;
     }
+
+    .service1-container {
+        margin: 10rem 10rem 0rem 15rem;
+    }
 }
+
+@media screen and (min-width: 1900px) {
+    .service1-container {
+        margin: 10rem 10rem 0rem 20rem;
+    }
+}
+
 
 @media screen and (max-width: 700px) {
     .service-header-2 {
@@ -3462,6 +3535,7 @@ section .online-ad-row1 {
     background-image: url('../assets/services/malt-ad-bg.webp');
     object-fit: cover;
     padding: 7rem 7rem;
+    max-width: 39rem;
 }
 
 .online-ad-row1 .dosh-sec{
@@ -3660,7 +3734,7 @@ section .online-ad-row2 img {
 .marketing-row {
     display: inline-flex;
     gap: 12px;
-    margin: auto 8rem;
+    margin: 28rem 0 0 13rem;
 }
 
 .marketing-row .marketing-card {
@@ -3703,7 +3777,23 @@ section .online-ad-row2 img {
 
 /* Digital marketing Responsive  */
 @media screen and (min-width: 1700px) {
+    .marketing-row {
+        margin: 28rem 0 0 19rem;
+    }
 
+    .sm-line-illustration {
+        left: 23rem;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    .marketing-row {
+        margin: 29rem 0 0 26rem;
+    }
+
+    .sm-line-illustration {
+        left: 28rem;
+    }
 }
 
 
@@ -3730,7 +3820,7 @@ section .online-ad-row2 img {
 
 @media screen and (max-width: 1450px) {
     .marketing-row {
-        margin: auto 100px;
+        margin: 28rem 0 0 168px;
     }
 }
 
@@ -4092,6 +4182,11 @@ section .online-ad-row2 img {
 
 
 
+@media screen and (min-width: 1900px) {
+    .ds-row .ds-text {
+        padding: 6rem 11rem 0 0;
+    }
+}
 
 
 /* End of Digital Strat and Consult Page  */
@@ -5315,6 +5410,27 @@ section .blog-cards-row {
     font-weight: 300;
     line-height: 20px;
     color: #CE1919;
+}
+
+
+
+
+@media screen and (min-width: 1700px) {
+    .case-study-row {
+        margin: 8rem 0 0 22rem;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .case-study-row {
+        margin: 8rem 0 0 234px !important;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    .case-study-row {
+        margin: 8rem 0 0 29rem !important;
+    }
 }
 
 

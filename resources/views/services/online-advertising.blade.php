@@ -54,7 +54,6 @@
                 <img src="{{ asset('assets/services/alvaro-ad.webp') }}" alt="Alvaro Ad">
             </div>
             <div class="row1-content malt-sec">
-                {{-- <img src="{{ asset('../assets/services/malt-ad-bg.webp') }}" alt=""> --}}
                 <h3 class="malt">Team Work</h3>
                 <h2>Malta <br> <span class="ad-white-text">Guinness</span></h2>
                 <p>Cut through the noise and find your people! You need people to see you and what you can do. No problem! Sit back, relax, and let us create content that speaks to your tribe!</p>
