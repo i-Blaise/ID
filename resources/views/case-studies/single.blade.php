@@ -28,93 +28,80 @@
 <body>
     <header id="header-case-open">
       @include('components.navbar')
+
+
+      <div class="header-2">
+        <img src="assets/case_study/case-open-header.webp" class="aboutus-header-2" alt="">
+        {{-- <img src="assets/mobile-header-service.png" class="service-header-2-mobile" alt=""> --}}
+      </div>
+      <a class="aboutus-header-cta" href="#">
+          <p>your digital powerhouse...</p>
+      </a>
         <!-- ends here -->
       </header>
 <!-- partial:index.partial.html -->
 
 
-<section id="case-study-container">
-  <div class="case-row-1">
-    <div class="case-row-1-image">
-      <img src="{{ asset('assets/case_study/overview1.png') }}" alt="">
+<section class="first-container">
+    <div class="case1-img">
+        <img src="{{ asset('assets/case_study/case-sec1-img.webp') }}" alt="child with easter bunny ears">
     </div>
-    <div class="case-row-1-text">
-      {{-- <h1>The Ask (objectives/outcomes)</h1>
-      <p>An engaging social media execution fusing agency life with elements of the Easter story to create relatable and engaging content</p> --}}
-      <h1>The Overview</h1>
-      <p>Easter, the second biggest Christian holiday, is always celebrated with some level of solemnity and reflection. Interactive Digital decided to mark the holiday employing themes of reflection on our own journey as an agency.</p>
+    <div class="case1-text">
+        <h2>The <br><span class="bold">Overview</span></h2>
+        <p>Easter, the second biggest Christian holiday, is always celebrated with some level of solemnity and reflection. Interactive Digital decided to mark the holiday employing themes of reflection on our own journey as an agency.</p>
     </div>
-  </div>
-
-  <div class="case-row-2">
-    <div class="case-row-2-image">
-      <img src="{{ asset('assets/case_study/overview2.png') }}" alt="">
-    </div>
-    <div class="case-row-2-text">
-      <h1>The Ask (objectives/outcomes)</h1>
-      <p>An engaging social media execution fusing agency life with elements of the Easter story to create relatable and engaging content</p>
-    </div>
-  </div>
-
-  <div class="case-row-3">
-    <div class="case-row-3-text">
-      <h1>Our Inspiration</h1>
-      <p>The Easter Story historically highlights notable moments occurring during the last moments of Christ. We found that in more ways than one, the agency life bears intriguing similarities to how we navigate work, our client relationships and make magic.</p>
-    </div>
-    <div class="case-row-3-image">
-      <img src="{{ asset('assets/case_study/overview2.png') }}" alt="">
-    </div>
-  </div>
-
-
-  <div class="case-study-banner">
-    <style>
-      .case-study-banner {
-        background-image: url({{ asset('assets/case_study/bar-bg.png') }});
-      }
-    </style>
-    <div class="case-study-banner-text">
-      <h1>THE PASSION OF <br>THE AGENCY</h1>
-      <p style="text-transform: uppercase;">An Easter Story</p>
-      <p style="font-weight: 800;">We remember...</p>
-    </div>
-  </div>
-
-
-  <div class="case-row-4">
-    <h1>The Approach</h1>
-    <p>So that’s what we did! Picking historic moments such as, <b>The Betrayal</b>, The Trial paired perfectly with well-known GIFs  we told  Easter-esque story.</p>
-  </div>
-
-
-
 </section>
-<div class="case-row-5">
-  <div class="case-row-5-image">
-    <img src="{{ asset('assets/case_study/case-img-1.webp') }}" alt="">
-  </div>
-  <div class="case-row-5-text">
-    <h5>“We celebrate the process that saves us and makes us who we are. ”</h5>
-    <p>Happy Easter</p>
-    <img src="{{ asset('assets/case_study/logo1.webp') }}" alt="">
-  </div>
-</div>
 
-<div class="case-row-6">
-  <div class="case-row-6-text">
-    <div class="text-row">
-      <h1>The Results</h1>
-      <p>An engaging social media execution fusing agency life with elements of the Easter story to create relatable and engaging content.</p>
+<section class="second-container">
+    <div class="case2-row">
+        <div class="case2-text">
+            <h2>THE ASK. <br><span class="bold">Objectives / OUTCOME</span></h2>
+            <p>An engaging social media execution fusing agency life with elements of the Easter story to create relatable and engaging content</p>
+        </div>
+        <div class="case2-img">
+            <img src="{{ asset('assets/case_study/case2-img.webp') }}" alt="">
+        </div>
     </div>
-    <div class="text-row">
-      <h1>Feed Back</h1>
-      <p>Here’s what the client had to say:</p>
+
+    <div class="case3-row">
+        <div class="case3-img">
+            <img src="{{ asset('assets/case_study/case3-img.webp') }}" alt="">
+        </div>
+        <div class="case3-text">
+            <h2>OUR <br><span class="bold">INSPIRATION</span></h2>
+            <p>The Easter Story historically highlights notable moments occurring during the last moments of Christ. We found that in more ways than one, the agency life bears intriguing similarities to how we navigate work, our client relationships and make magic.</p>
+        </div>
     </div>
-  </div>
-  <div class="case-row-6-img">
-    <img src="{{ asset('assets/case_study/case-img-2.webp') }}" alt="">
-  </div>
-</div>
+
+    <div class="case4-row">
+        <div class="case4-text">
+            <h2 class="bold">The Approach</h2>
+            <p>So that’s what we did! Picking historic moments such as, <span class="bold">The Betrayal</span>, The Trial paired perfectly with well-known GIFs  we told Easter-esque story.</p>
+        </div>
+        <div class="case4-card-row">
+            <img src="{{ asset('assets/case_study/case4-img1.webp') }}" alt="">
+
+            <img src="{{ asset('assets/case_study/case4-img2.webp') }}" alt="">
+
+            <img src="{{ asset('assets/case_study/case4-img2.webp') }}" alt="">
+        </div>
+    </div>
+
+    <div class="case5-container">
+        <img src="{{ asset('assets/case_study/case-bar-img.webp') }}" alt="">
+    </div>
+
+    <div class="case6-container">
+        <div class="case6-row1">
+            <h2>THE RESULTS <br> <span class="bold">Inspiration</span></h2>
+            <p>An engaging social media execution fusing agency life with elements of the Easter story to create relatable and engaging content.</p>
+        </div>
+        <div class="case6-row2">
+            <h2>Feed <br> <span class="bold">Back</span></h2>
+            <p>Here’s what the client had to say:</p>
+        </div>
+    </div>
+</section>
 
 
 

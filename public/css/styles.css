@@ -137,7 +137,10 @@ header {
     background-repeat: no-repeat;
 }
 #header-case-open {
-    background-image: url(../assets/case_study/easter-header.png);
+    background-image: url(../assets/about-banner.webp);
+    height: 34rem;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 header .header-2 {
     margin-top: 2rem;
@@ -2755,7 +2758,8 @@ header .aboutus-header-cta p {
 #header-online-ad a,
 #header-sm-marketing a,
 #header-digital-strategy a,
-#header-case-study a {
+#header-case-study a,
+#header-case-open a {
     text-decoration: none;
 }
 
@@ -5394,15 +5398,23 @@ section .blog-cards-row {
 /* Case Study Page Begins  */
 
 .case-study-row {
-    margin: 8rem 0 0 17rem;
+    margin: 8rem 0 0 15rem;
     display: inline-flex;
     gap: 2rem;
+}
+
+.case-study-row a {
+    text-decoration: none;
 }
 
 .case-study-row .case-study-desc {
     background-color: #FBE5E5;
     padding: 1rem 0 1rem 1rem;
     margin-top: -7px;
+}
+
+.case-study-row a:hover .case-study-desc {
+    background-color: #e2b5b5;
 }
 
 .case-study-row .case-study-desc h2 {
@@ -5435,223 +5447,259 @@ section .blog-cards-row {
 
 
 /* Case Study Open Page Begin  */
+.first-container {
+    display: inline-flex;
+    margin: 8rem 0 -3rem 0;
+    padding: 3rem 8rem;
+    background-image: url('../assets/case_study/case-sec1-bg.webp');
+    height: 32rem;
+}
 
-#case-study-container {
+.first-container .case1-text {
     display: block;
+    background-color: #FFF;
+    box-shadow: 0px 0px 10px 0px #00000012;
+    box-shadow: 0px 20px 25px 19px #0000001A;
+    margin: 1rem 12px 120px 0;
+    padding: 2rem 3rem 3rem 2rem;
+    position: relative;
+    top: 64px;
+    right: 66px;
+}
+
+.first-container .case1-img img {
+    margin-left: 1rem;
+}
+
+.first-container .case1-text h2 {
+    font-family: 'poppinsLight';
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.first-container .case1-text h2 span {
+    color: red;
+}
+
+.first-container .case1-text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #0F172A;
+}
+
+
+
+.second-container {
     margin: 5rem 9rem;
 }
 
-.case-row-1 {
+.second-container .case2-row,
+.second-container .case3-row {
     display: inline-flex;
     width: 100%;
+    margin: 2rem 0;
 }
 
-.case-row-1 .case-row-1-image img {
-    height: 28rem;
-}
-
-.case-row-1 .case-row-1-text {
-    position: relative;
-    left: 3rem;
-}
-
-.case-row-1 .case-row-1-text h1 {
-    font-size: 48px;
-    font-weight: 500;
-    line-height: 52px;
-    color: rgba(15, 23, 42, 1);
+.case2-row .case2-img img,
+.case3-row .case3-img img {
+    height: 29rem;
 }
 
 
-.case-row-1 .case-row-1-text p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 28px;
-    color: rgba(71, 85, 105, 1);
-    width: 39rem;
+.case2-row .case2-text {
+    padding: 8rem 9rem 0 0;
 }
 
-
-.case-row-2 {
-    display: inline-flex;
-    width: 100%;
-    margin: 8rem 0 0 32px;
+.case3-row .case3-text {
+    padding: 59px 4rem 0 0;
+    margin-left: 6rem;
 }
 
-.case-row-2 .case-row-2-image img,
-.case-row-3 .case-row-3-image img {
-    height: 19rem;
-}
-
-.case-row-2 .case-row-2-text {
-    position: relative;
-    right: 5rem;
-    top: 7rem;
-    background-color: #FFF;
-    padding: 1rem 1rem 14px 1rem;
-    height: fit-content;
-    width: fit-content;
-    box-shadow: 0px 0px 9.546875px 0px rgba(0, 0, 0, 0.07);
-    box-shadow: 0px 19.09375px 23.8671875px -4.7734375px rgba(0, 0, 0, 0.1);
-}
-.case-row-2 .case-row-2-text h1,
-.case-row-3 .case-row-3-text h1 {
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 20px;
+.case2-row .case2-text h2,
+.case3-row .case3-text h2,
+.case6-container .case6-row1 h2,
+.case6-container .case6-row2 h2 {
+    font-family: 'poppinsLight';
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 33px;
+    color: #1B2534;
     text-transform: uppercase;
-    color: rgba(15, 23, 42, 1);
 }
 
-.case-row-2 .case-row-2-text p,
-.case-row-3 .case-row-3-text p {
-    font-size: 14px;
-    font-weight: 400;
-    color: rgba(71, 85, 105, 1);
-    width: 30rem;
-}
-
-
-
-
-
-.case-row-3 {
-    display: inline-flex;
-    width: 100%;
-    margin: 3rem 0 3rem 145px;
-}
-
-.case-row-3 .case-row-3-text {
-    position: relative;
-    left: 38px;
-    top: 2rem;
-    background-color: #FFF;
-    padding: 1rem 1rem 14px 1rem;
-    height: fit-content;
-    width: fit-content;
-    box-shadow: 0px 0px 9.546875px 0px rgba(0, 0, 0, 0.07);
-    box-shadow: 0px 19.09375px 23.8671875px -4.7734375px rgba(0, 0, 0, 0.1);
-
-}
-
-.case-row-3 .case-row-3-text p {
-    width: 33rem;
-}
-
-
-
-
-.case-study-banner {
-    /* background-image: url(../assets/case_study/bar-bg.png); */
-    height: 414px;
-    width: 74rem;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin: 0 2rem;
-}
-
-.case-study-banner .case-study-banner-text {
-    position: relative;
-    top: 6rem;
-    left: 50rem;
-}
-
-.case-study-banner-text h1 {
-    font-size: 38px;
-    font-weight: 800;
-    line-height: 53px;
-    color: rgba(120, 59, 196, 1);
-}
-
-.case-study-banner-text p {
-    color: rgba(120, 59, 196, 1);
-}
-
-
-.case-row-4 {
-    margin: 0 2rem;
-}
-
-.case-row-4 h1{
-    font-size: 56px;
-    font-weight: 500;
-    line-height: 27px;
-    color: #0F172A;
-    font-family: "poppinsMedium";
-}
-
-
-
-.case-row-5 {
-    width: 100%;
-    display: inline-flex;
-    background-color: #F1F5F9;
-    padding: 5rem
-}
-.case-row-5 .case-row-5-image {
-    margin-left: 5rem;
-}
-.case-row-5 .case-row-5-image img {
-    height: 28rem;
-}
-
-.case-row-5 .case-row-5-text {
-    margin: 7rem 0 0 66px;
-}
-.case-row-5 .case-row-5-text h5{
-    font-size: 24px;
+.case2-row .case2-text h2 span,
+.case3-row .case3-text h2 span,
+.case6-container .case6-row1 h2 span,
+.case6-container .case6-row2 h2 span {
+    font-size: 35px;
     font-weight: 700;
-    line-height: 35px;
-    color: rgb(223, 223, 53);
-    width: 35rem;
+    line-height: 38px;
+    color: #DC0000;
 }
 
-.case-row-5 .case-row-5-text p {
-    font-size: 20px;
-    font-weight: 800;
-    color: #6F44BD;
-    position: relative;
-    bottom: 2rem;
-}
-.case-row-5 .case-row-5-text img {
-    position: relative;
-    bottom: 3rem;
-    right: 1rem;
-}
-
-
-
-
-.case-row-6 {
-    width: 100%;
-    display: inline-flex;
-    background-color: #F7F8F9;
-    padding: 3rem 5rem;
-    margin: 2rem 0 -1rem 0;
-}
-.case-row-6 .case-row-6-text {
-    margin: 0 5rem 0 4rem;
-}
-.case-row-6 .text-row h1 {
-    font-size: 56px;
-    font-weight: 500;
-    line-height: 61px;
-    color: #0F172A;
-    font-family: "poppinsMedium";
-}
-.case-row-6 .text-row p {
+.case2-row .case2-text p,
+.case3-row .case2-text p,
+.case6-container .case6-row1 p,
+.case6-container .case6-row2 p {
     font-size: 18px;
     font-weight: 400;
-    line-height: 32px;
-    color: #475569;
+    line-height: 28px;
+    color: #0F172A;
+}
+.case4-row .case4-text {
+    margin: 0 3rem 0 0
+}
+
+.case4-row .case4-text h2 {
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 48px;
+    color: #DC0000;
+}
+
+.case4-row .case4-text p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.case4-row .case4-text p span {
+    font-weight: 900;
+    color: #DC0000;
+}
+
+.case4-row .case4-card-row {
+    display: inline-flex;
+    gap: 10rem;
+}
+
+.case5-container {
+    margin: 9rem 0 0 0;
+}
+
+.case5-container img {
+    height: 28rem;
+}
+
+.case6-container .case6-row1 p,
+.case6-container .case6-row2 p {
+    font-size: 16px !important;
 }
 
 
-.case-row-6 .case-row-6-img img {
-    height: 36rem;
-    position: relative;
-    right: 12rem;
+.case6-container {
+    margin: 0 0 8rem 0;
 }
+
+
+
+
+@media screen and (min-width: 1700px) {
+    .second-container {
+        margin: 5rem 9rem 0 13rem;
+    }
+
+    .case4-row {
+        margin: 0 3rem;
+    }
+
+    .case5-container {
+        margin: 9rem 0 0 3rem;
+    }
+
+    .case6-container {
+        margin: 0 0 8rem 4rem;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .case2-row .case2-img img,
+    .case3-row .case3-img img {
+        height: 28rem;
+    }
+
+    .case2-row .case2-text {
+        padding: 8rem 2rem 0 0;
+    }
+
+    .case3-row .case3-text {
+        padding: 59px 0 0 0;
+    }
+
+    .case4-row {
+        margin: 0 -1rem;
+    }
+
+    .case5-container {
+        margin: 9rem 0 0 -2rem;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    .case2-row .case2-img img,
+    .case3-row .case3-img img {
+        height: 33rem;
+    }
+
+    .case2-row .case2-img img {
+        position: relative;
+        right: 3rem;
+    }
+
+    .case3-row .case3-text {
+        padding: 59px 3rem 0 4rem;
+    }
+
+    .case4-row .case4-card-row {
+        margin: 1rem 0 0 5rem;
+    }
+
+    .case5-container img {
+        height: 32rem;
+    }
+
+    .case5-container {
+        margin: 9rem 0 0 4rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* End of Case Study  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

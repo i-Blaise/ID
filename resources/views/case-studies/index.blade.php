@@ -44,31 +44,37 @@
 
 
 <section class="case-study-row">
-    <div class="case-study-card">
-        <div class="case-study-image">
-            <img src="{{ asset('assets/services/case1.webp') }}" alt="Easter Bunnies">
-        </div>
-        <div class="case-study-desc">
-            <h2><span class="bold">Easter</span> <br> Holidays</h2>
-        </div>
+    <a href="{{ route('case-open') }}">
+        <div class="case-study-card">
+            <div class="case-study-image">
+                <img src="{{ asset('assets/services/case1.webp') }}" alt="Easter Bunnies">
+            </div>
+            <div class="case-study-desc">
+                <h2><span class="bold">Easter</span> <br> Holidays</h2>
+            </div>
+    </a>
     </div>
 
     <div class="case-study-card">
-        <div class="case-study-image">
-            <img src="{{ asset('assets/services/case2.webp') }}" alt="Easter Bunnies">
-        </div>
-        <div class="case-study-desc">
-            <h2><span class="bold">Malta</span> <br> Guinness</h2>
-        </div>
+        <a href="{{ route('case-open') }}">
+            <div class="case-study-image">
+                <img src="{{ asset('assets/services/case2.webp') }}" alt="Easter Bunnies">
+            </div>
+            <div class="case-study-desc">
+                <h2><span class="bold">Malta</span> <br> Guinness</h2>
+            </div>
+        </a>
     </div>
 
     <div class="case-study-card">
-        <div class="case-study-image">
-            <img src="{{ asset('assets/services/case3.webp') }}" alt="Easter Bunnies">
-        </div>
-        <div class="case-study-desc">
-            <h2><span class="bold">MTN</span> <br> Ghana</h2>
-        </div>
+        <a href="{{ route('case-open') }}">
+            <div class="case-study-image">
+                <img src="{{ asset('assets/services/case3.webp') }}" alt="Easter Bunnies">
+            </div>
+            <div class="case-study-desc">
+                <h2><span class="bold">MTN</span> <br> Ghana</h2>
+            </div>
+        </a>
     </div>
 </section>
 
