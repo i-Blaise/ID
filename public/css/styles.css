@@ -882,23 +882,36 @@ section .header-main {
   }
 
   .prev-btn {
-    background-color: grey;
+    background-color: rgb(175, 175, 175);
     position: relative;
     top: 3rem;
     left: 67rem;
-    border-radius: 35px;
-    height: 3rem;
+    border-radius: 39px;
+    height: 57px;
+    width: 57px;
+    border: none;
+    cursor: pointer;
+    display: block !important;
   }
 
   .next-btn {
     background-color: red;
     position: relative;
-    top: -20rem;
-    left: 70rem;
+    bottom: 332px;
+    left: 72rem;
     border-radius: 35px;
-    height: 3rem;
+    height: 57px;
+    width: 57px;
+    border: none;
+    cursor: pointer;
   }
 
+  .next-btn img,
+  .prev-btn img {
+    height: 22px;
+    position: relative;
+    top: 2px;
+  }
   /* .test-dots {
 
   } */

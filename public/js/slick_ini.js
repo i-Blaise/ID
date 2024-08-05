@@ -12,12 +12,12 @@ $(".regular").slick({
 
 
 $(".lazy").slick({
-    lazyLoad: 'ondemand', // ondemand progressive anticipated
+    // lazyLoad: 'ondemand', // ondemand progressive anticipated
     infinite: true,
     arrows: true,
-    prevArrow: '<button type="button" class="prev-btn"><-</button>',
-    nextArrow: '<button type="button" class="next-btn">-></button>',
+    prevArrow: '<button type="button" class="prev-btn"><img src="../assets/homepage/left.svg" alt=""></button>',
+    nextArrow: '<button type="button" class="next-btn"><img src="../assets/homepage/right.svg" alt=""></button>',
     dots: true,
-    autoplay: true,
+    // autoplay: true,
     // dotsClass: 'test-dots'
   });
