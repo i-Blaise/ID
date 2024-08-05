@@ -845,6 +845,22 @@ section .header-main {
   }
 
 
+  .testimonial-title {
+    display: inline;
+  }
+
+  .testimonial-title img {
+    position: relative;
+    left: 134px;
+    top: 9rem;
+  }
+
+  /* .testimonial-title h1 {
+    font-size: 73px;
+    font-weight: 700;
+    line-height: 73px;
+  } */
+
   .testimonial-container {
     display: inline-flex !important;
   }

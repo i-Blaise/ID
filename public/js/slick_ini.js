@@ -18,6 +18,6 @@ $(".lazy").slick({
     prevArrow: '<button type="button" class="prev-btn"><img src="../assets/homepage/left.svg" alt=""></button>',
     nextArrow: '<button type="button" class="next-btn"><img src="../assets/homepage/right.svg" alt=""></button>',
     dots: true,
-    // autoplay: true,
+    autoplay: true
     // dotsClass: 'test-dots'
   });

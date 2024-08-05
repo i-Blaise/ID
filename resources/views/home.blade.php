@@ -320,6 +320,11 @@
     </div> --}}
 
 
+    <div class="testimonial-title">
+        {{-- <h1>Don't take our word for it <br> Ask them!</h1> --}}
+        <img src="{{ asset('assets/homepage/testiminial-title.webp') }}" alt="">
+    </div>
+
       <section class="lazy slider" data-sizes="50vw">
     <div class="testimonial-container">
       <div class="testimonial-img">
