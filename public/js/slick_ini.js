@@ -9,3 +9,15 @@ $(".regular").slick({
   swipe: true,
   pauseOnFocus: false
 });
+
+
+$(".lazy").slick({
+    lazyLoad: 'ondemand', // ondemand progressive anticipated
+    infinite: true,
+    arrows: true,
+    prevArrow: '<button type="button" class="prev-btn"><-</button>',
+    nextArrow: '<button type="button" class="next-btn">-></button>',
+    dots: true,
+    autoplay: true,
+    // dotsClass: 'test-dots'
+  });

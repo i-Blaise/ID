@@ -845,7 +845,63 @@ section .header-main {
   }
 
 
+  .testimonial-container {
+    display: inline-flex !important;
+  }
 
+  .testimonial-container .testimonial-img img {
+    height: 20rem;
+    width: 20rem;
+  }
+
+  .testimonial-container .testimonial-text {
+    background-image: url(../assets/homepage/quotes.webp);
+    background-repeat: no-repeat;
+    background-position: 20rem 0;
+    margin: 0 0 0 3rem
+  }
+
+  .testimonial-container .testimonial-text h1 {
+    font-size: 46px;
+    line-height: 46px;
+    font-weight: 400;
+  }
+
+  .testimonial-container .testimonial-text h3 {
+    font-size: 23px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #10203F;
+  }
+
+  .testimonial-container .testimonial-text p {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #0F172A;
+  }
+
+  .prev-btn {
+    background-color: grey;
+    position: relative;
+    top: 3rem;
+    left: 67rem;
+    border-radius: 35px;
+    height: 3rem;
+  }
+
+  .next-btn {
+    background-color: red;
+    position: relative;
+    top: -20rem;
+    left: 70rem;
+    border-radius: 35px;
+    height: 3rem;
+  }
+
+  /* .test-dots {
+
+  } */
 
 
 

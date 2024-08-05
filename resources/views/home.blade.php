@@ -320,6 +320,39 @@
     </div> --}}
 
 
+      <section class="lazy slider" data-sizes="50vw">
+    <div class="testimonial-container">
+      <div class="testimonial-img">
+        <img src="{{ asset('assets/homepage/testimonial-img.webp') }}" alt="">
+      </div>
+      <div class="testimonial-text">
+        <h1>Emillie <br> Jonas</h1>
+        <h3>CEO</h3>
+        <p>Eduprix is an ideal location for anybody who wants to learn something new or share what they know with others.  Eduprix is a worldwide platform for online learning that helps to connect with one another via knowledge. It comes highly recommended from my side.</p>
+      </div>
+    </div>
+    <div class="testimonial-container">
+        <div class="testimonial-img">
+          <img src="{{ asset('assets/homepage/testimonial-img.webp') }}" alt="">
+        </div>
+        <div class="testimonial-text">
+          <h1>Emillie <br> Jonas</h1>
+          <h3>CEO</h3>
+          <p>Eduprix is an ideal location for anybody who wants to learn something new or share what they know with others.  Eduprix is a worldwide platform for online learning that helps to connect with one another via knowledge. It comes highly recommended from my side.</p>
+        </div>
+      </div>
+      <div class="testimonial-container">
+        <div class="testimonial-img">
+          <img src="{{ asset('assets/homepage/testimonial-img.webp') }}" alt="">
+        </div>
+        <div class="testimonial-text">
+          <h1>Emillie <br> Jonas</h1>
+          <h3>CEO</h3>
+          <p>Eduprix is an ideal location for anybody who wants to learn something new or share what they know with others.  Eduprix is a worldwide platform for online learning that helps to connect with one another via knowledge. It comes highly recommended from my side.</p>
+        </div>
+      </div>
+  </section>
+
 
     <section id="home-blog">
         {{-- <h1 class="home-blog-title">Our Blog</h1> --}}
