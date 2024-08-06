@@ -1,4 +1,4 @@
-<section class="top-nav" id="{{ Route::currentRouteNamed('contactus') ? 'white-nav' : '' }}">
+<section class="top-nav">
           <div class="logo">
             <a href="{{ route('home') }}"><img src="assets/logo-digital.png" alt="logo" /></a>
           </div>

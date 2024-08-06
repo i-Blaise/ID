@@ -4198,6 +4198,65 @@ section .online-ad-row2 img {
 
 
 
+/* CONTACT2  */
+
+
+.contact2 {
+    background-image: url('../assets/contact-bg.webp');
+    height: 794px;
+    background-repeat: no-repeat;
+    margin: 9rem 0 9rem 22rem;
+}
+
+.contact2 .contact2-form {
+    display: block;
+    padding: 1rem 0 0 25rem
+}
+
+.contact2 .contact2-form input,
+.contact2 .contact2-form textarea {
+   width: 44%;
+   padding: 18px 20px;
+   border-radius: 10px;
+   box-sizing: border-box;
+   -webkit-transition: 0.5s;
+   transition: 0.5s;
+   outline: none;
+   border: none;
+   margin-top: 30px;
+ }
+
+ .contact2 .contact2-form textarea {
+    height: 10rem;
+ }
+
+ .contact2 .contact2-form input[type=submit] {
+    background-color: #BE0000;
+    color: #FFF;
+    width: 37%;
+    margin: 17px 15px;
+    cursor: pointer;
+ }
+
+ .contact2 .contact2-form input[type=submit]:hover {
+    background-color: #8d0808;
+ }
+
+ .contact2 .contact2-form label {
+    position: relative;
+    top: 26PX;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #0D0140;
+ }
+
+
+
+
+
+
+
 
 
 

@@ -68,7 +68,7 @@ Route::get('/blogs-open', function () {
 })->name('blog-open');
 
 Route::get('/contact', function () {
-    return view('contactus.index');
+    return view('contactus.contact2');
 })->name('contactus');
 
 Route::get('/view-blogs', function () {
