@@ -142,10 +142,61 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 header .header-2 {
-    margin-top: 2rem;
-    text-align: center;
+    margin: 2rem 0 0 9rem;
+    text-align: left;
 }
+
+header .header-2 h1 span {
+    color: red;
+}
+
+header .header-2 h1 {
+    position: relative;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #FFF;
+    width: 31rem;
+}
+
+header .header-2 .about-title{
+    bottom: 4rem;
+    margin: -81px 0 0 13rem;
+}
+
+header .header-2 .service-title{
+    bottom: 8rem;
+    margin: -40px 0 0 13rem;
+}
+
+header .header-2 .marketing-title{
+    bottom: 8rem;
+    margin: -80px 0 0 13rem;
+}
+
+header .header-2 .casestudy-title{
+    bottom: 8rem;
+    margin: -41px 0 0 13rem;
+}
+
+@media screen and (max-width: 1440px)  {
+    header .header-2 {
+        margin: 2rem 0 0 100px;
+    }
+
+    header .aboutus-header-cta {
+        margin: 30px 22rem !important;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    header .header-2 {
+        margin: 2rem 0 0 15rem;
+    }
+}
+
 
 
 /* Navbar Begins  */
@@ -473,9 +524,12 @@ section .header-main {
 
 .header-info-row .right-header-info .ID-text-logo {
     position: relative;
-    bottom: 2rem;
+    /* bottom: 2rem;
     left: 3rem;
-    height: 143px;
+    height: 143px; */
+    top: 71px;
+    left: 1rem;
+    height: 151px;
 }
 
 .header-info-row .right-header-info .client-row {
@@ -1042,7 +1096,7 @@ section .header-main {
     }
 
     section .main-blog-row .blog-cards-row-home {
-        margin: 136px 0 0 180px !important;
+        margin: 136px 0 0 206px !important;
     }
 }
 @media (min-width: 700px) {
@@ -2641,9 +2695,6 @@ section .home-blog-title {
     .slideshow-hero .r2 {
         bottom: 28rem;
     }
-    .about-section-2 .section-2 {
-        margin: auto 269px;
-    }
 
     #portfolio-section .portfolio-row {
         margin-left: 7%;
@@ -2819,9 +2870,10 @@ header .aboutus-header-cta {
     display: flow;
     height: 50px;
     position: relative;
-    top: 40px;
-    /* left: 21rem; */
+    top: 50px;
+    left: 16rem;
     margin: 0 3rem;
+    width: 56rem;
 }
 
 header .aboutus-header-cta p {
@@ -3051,6 +3103,22 @@ header .aboutus-header-cta p {
 
 /* About Us Responsive  */
 
+@media screen and (min-width: 1400px) {
+    header .header-2 .aboutus-header-2 {
+        top: 75px;
+        width: 76rem
+    }
+
+    .about-section-2 .section-2 {
+        margin: auto 255px !important;
+        bottom: 8rem;
+    }
+
+    .about-section-3 {
+        margin: auto 7rem;
+    }
+}
+
 @media screen and (max-width: 700px) {
     header .about-header {
         display: block;
@@ -3209,13 +3277,13 @@ header .aboutus-header-cta p {
 }
 
 
-@media screen and (min-width: 850px) {
-    /* New About Us Header  */
+
+@media screen and (max-width: 1440px) {
     header .aboutus-header-cta {
-        margin: 0 22rem;
+        left: -78px !important;
+        top: 41px;
     }
 }
-
 
 
 
@@ -3233,7 +3301,9 @@ header .aboutus-header-cta p {
     }
 
     .about-section-2 .section-2 {
-        margin: -6rem 27rem 7rem 27rem;
+        margin: -6rem 17rem 7rem 27rem;
+        position: relative;
+        right: 3rem;
     }
 
     .section-2 .section-2-img img {
@@ -3254,7 +3324,16 @@ header .aboutus-header-cta p {
 
     /* New About Us Header  */
     header .aboutus-header-cta {
-        left: 4rem !important;
+        left: 22rem !important;
+        top: 3rem;
+    }
+
+    .about-row-2 .about-intro-text {
+        margin: 160px 13rem 0 257px;
+    }
+
+    .about-row-2 .about-intro-img img {
+        left: 7rem;
     }
 }
 
@@ -3713,6 +3792,17 @@ section .online-ad-row2 img {
 
 .header-title-mobile {
     display: none;
+}
+
+
+@media screen and (min-width: 1700px) {
+    .ad-space {
+        margin: 6rem 250px;
+    }
+
+    #online-ad {
+        margin: -4rem 8rem 12rem 250px;
+    }
 }
 
 @media screen and (min-width: 1800px) {
@@ -4256,9 +4346,17 @@ section .online-ad-row2 img {
 
 
 
+ @media screen and (min-width: 1700px) {
+    .contact2 {
+        margin: 9rem 0 9rem 438px;
+    }
+ }
 
-
-
+ @media screen and (max-width: 1450px) {
+    .contact2 {
+        margin: 9rem 0 9rem 294px;
+    }
+ }
 
 
 
@@ -4333,6 +4431,16 @@ section .online-ad-row2 img {
 @media screen and (min-width: 1900px) {
     .ds-row .ds-text {
         padding: 6rem 11rem 0 0;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .ds-text-row .ds-desc {
+        margin: 0 5rem;
+    }
+
+    .ds-row .ds-text {
+        margin: 0 6rem;
     }
 }
 
@@ -5542,7 +5650,7 @@ section .blog-cards-row {
 /* Case Study Page Begins  */
 
 .case-study-row {
-    margin: 8rem 0 0 15rem;
+    margin: 8rem 0 0 14rem;
     display: inline-flex;
     gap: 2rem;
 }
@@ -5573,13 +5681,13 @@ section .blog-cards-row {
 
 @media screen and (min-width: 1700px) {
     .case-study-row {
-        margin: 8rem 0 0 22rem;
+        margin: 8rem 0 0 344px;
     }
 }
 
 @media screen and (max-width: 1450px) {
     .case-study-row {
-        margin: 8rem 0 0 234px !important;
+        margin: 8rem 0 0 188px !important;
     }
 }
 

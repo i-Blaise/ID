@@ -51,6 +51,7 @@
 
         <div class="header-2">
           <img src="{{ asset('assets/about-banner2.webp') }}" class="aboutus-header-2" alt="">
+          <h1 class="about-title">We <span class="bold">empower</span> you <br> to grow your bussiness.</h1>
           {{-- <img src="{{ asset('assets/about-banner2.webp') }}" class="service-header-2-mobile" alt=""> --}}
         </div>
         <a class="aboutus-header-cta" href="#">
@@ -79,7 +80,7 @@
         </div>
       </section>
 
-      <img src="assets/about-page-blob.svg" alt="" class="about-blob-1">
+      <img src="assets/about-page-blob.webp" alt="" class="about-blob-1">
 
       <secion class="about-section-2">
         <div class="banner-1">

@@ -30,6 +30,7 @@
       @include('components.navbar')
       <div class="header-2">
         <img src="assets/services/casestudy-header.webp" class="aboutus-header-2" alt="">
+        <h1 class="casestudy-title">Case <span class="bold">Study</span></h1>
         {{-- <img src="assets/mobile-header-service.png" class="service-header-2-mobile" alt=""> --}}
       </div>
       <a class="aboutus-header-cta" href="#">
