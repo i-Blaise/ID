@@ -163,7 +163,7 @@ header .header-2 h1 {
 
 header .header-2 .about-title{
     bottom: 4rem;
-    margin: -81px 0 0 13rem;
+    margin: -81px 0 0 10rem;
 }
 
 header .header-2 .service-title{
@@ -750,11 +750,11 @@ section .header-main {
 
 .home-body-row3 {
     display: inline-flex;
-    margin: 0rem 8rem;
     background-image: url(../assets/homepage/process-bg.webp);
     background-repeat: no-repeat;
     height: 34rem;
-    width: 90rem;
+    width: 100%;
+    background-size: contain;
 }
 
 .home-body-row3 .process-title {
@@ -764,12 +764,11 @@ section .header-main {
     line-height: 42px;
     font-family: 'Rubik';
     text-transform: uppercase;
-    text-align: center;
 }
 
 .home-body-row3 .process-container {
     display: block;
-    margin: 39px 3rem;
+    margin: 58px 7rem;
 }
 
 .home-body-row3 .process-card-row {
@@ -780,8 +779,8 @@ section .header-main {
 .process-container .process-card {
     background-color: #FFF;
     display: block;
-    width: 196px;
-    height: 300px;
+    width: 223px;
+    height: 330px;
     padding: 9px 8px 0 8px;
 }
 
@@ -817,11 +816,13 @@ section .header-main {
 }
 
 .process-container .process-card p {
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 400;
     line-height: 18px;
     color: #0F172A;
     text-align: center;
+    position: relative;
+    top: 16px;
 }
 
 .process-container .process-card-bg p,
@@ -901,6 +902,9 @@ section .header-main {
 
   .testimonial-title {
     display: inline;
+    position: relative;
+    top: 7rem;
+    left: 8rem;
   }
 
   .testimonial-title img {
@@ -909,11 +913,16 @@ section .header-main {
     top: 9rem;
   }
 
-  /* .testimonial-title h1 {
-    font-size: 73px;
+  .testimonial-title h1 {
+    font-size: 37px;
     font-weight: 700;
-    line-height: 73px;
-  } */
+    line-height: 37px;
+    font-family: 'Rubik';
+    color: rgba(255, 255, 255, 0);
+
+      /* Text Shadow Property */
+      -webkit-text-stroke: 1px #FF0226;
+  }
 
   .testimonial-container {
     display: inline-flex !important;
@@ -927,8 +936,11 @@ section .header-main {
   .testimonial-container .testimonial-text {
     background-image: url(../assets/homepage/quotes.webp);
     background-repeat: no-repeat;
-    background-position: 20rem 0;
-    margin: 0 0 0 3rem
+    background-position: 15rem 0;
+    background-size: contain;
+    margin: 0 0 0 3rem;
+    height: 10rem;
+    width: 40rem;
   }
 
   .testimonial-container .testimonial-text h1 {
@@ -2530,7 +2542,7 @@ section .header-main {
     /* Home Blog  */
     .blog-cards-row .blog-card .home {
         border-radius: 30px;
-        height: 16rem;
+        height: 14rem;
     }
 
     .blog-cards-row-home .blog-card .blog-card-text {
@@ -2538,8 +2550,8 @@ section .header-main {
     }
 
     section .main-blog-row .blog-cards-row-home  {
-        margin: 136px 0 0 244px;
-        gap: 26px;
+        margin: 136px 0 0 300px;
+        gap: 10px;
     }
 
     section  .main-blog-row .blog-cards-row-home a {
@@ -2565,7 +2577,7 @@ section .header-main {
     }
 
     .blog-cards-row-home .blog-card {
-        width: 300px;
+        width: 300px !important;
     }
 
     .main-blog-row .blog-cards-row-home a .home-blog-btn{
@@ -2870,7 +2882,7 @@ header .aboutus-header-cta {
     display: flow;
     height: 50px;
     position: relative;
-    top: 50px;
+    top: 49px;
     left: 16rem;
     margin: 0 3rem;
     width: 56rem;
@@ -2966,20 +2978,25 @@ header .aboutus-header-cta p {
 
 .about-section-2 .section-2 {
     display: block;
-    margin: auto 296px;
-    padding: 4rem;
-    margin-top: -7rem;
-    background-color: #fff;
     position: relative;
     margin-bottom: 3rem;
-    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.25);
 }
 
 .about-section-2 .section-2 .section-2-container {
     display: inline-flex;
-    margin-right: 0;
-}
+    margin: -2rem 0 0 19rem;
 
+    background-image: url('../assets/aboutus/about-bg.webp');
+    background-repeat: no-repeat;
+    background-position: -40px 0rem;
+    width: 58%;
+    padding: 8rem 0 4rem 6rem;
+
+
+    box-shadow: -4px 9px 32px -10px rgba(0,0,0,0.82);
+    -webkit-box-shadow: -4px 9px 32px -10px rgba(0,0,0,0.82);
+    -moz-box-shadow: -4px 9px 32px -10px rgba(0,0,0,0.82);
+}
 .about-section-2 .section-2 h2 {
     color: #1C1F35;
     font-size: 26px;
@@ -2996,16 +3013,19 @@ header .aboutus-header-cta p {
 }
 
 .section-2 .section-2-img img {
-    height: 22rem;
+    height: 20rem;
 
 }
 .about-section-2 .section-2 .section-2-text {
     margin-top: 110px;
+    position: relative;
+    right: 2rem;
 }
 
 .about-section-2 .section-2 .section-2-img {
     position: relative;
     left: 4px;
+    bottom: 2rem;
 }
 
 .about-section-3 .section-title {
@@ -3110,7 +3130,7 @@ header .aboutus-header-cta p {
     }
 
     .about-section-2 .section-2 {
-        margin: auto 255px !important;
+        /* margin: auto 255px !important; */
         bottom: 8rem;
     }
 

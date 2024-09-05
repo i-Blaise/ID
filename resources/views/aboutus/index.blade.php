@@ -71,7 +71,7 @@
 
         <div class="about-row-2">
             <div class="about-intro-img">
-                <img src="{{ asset('assets/aboutus/about-into.webp') }}" alt="">
+                <img src="{{ asset('assets/aboutus/about-intro.webp') }}" alt="">
             </div>
             <div class="about-intro-text">
                 <h2 class="bold-red">LET US INTRODUCE OURSELVES!</h2>
