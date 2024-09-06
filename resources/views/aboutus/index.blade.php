@@ -90,7 +90,7 @@
             <div class="section-2-container">
                 <div class="section-2-text">
                     <h2 class="bold-red">Why choose ID?</h2>
-                    <p>We are committed to conceptualizing and executing impactful communication solutions that authentically connect with audiences. Through a blend of artistry and insights, we guarantee that every campaign captures attention and drives tangible, quantifiable results.</p>
+                    <p>We are committed to conceptualizing <br> and executing impactful communication <br> solutions that authentically connect with <br> audiences. Through a blend of artistry <br> and insights, we guarantee that every <br> campaign captures attention and drives <br> tangible, quantifiable results.</p>
                 </div>
                 <div class="section-2-img">
                     <img src="{{ asset('assets/abt-img2.webp') }}" alt="">
@@ -114,7 +114,7 @@
             </div> --}}
 
             <div class="team-card">
-                <img src="assets/team/team1.png" alt="" class="team-pic">
+                <img src="assets/team/Ekow.webp" alt="" class="team-pic">
                 <div class="team-title">
                     <h5>Chief Operating Officer</h5>
                 </div>

@@ -209,10 +209,10 @@ header .header-2 {
         position:fixed;
         padding:0;
         margin:0;
-    
+
         top:0;
         left:0;
-    
+
         width: 100%;
         height: 100%;
         background:rgba(255,255,255,0.5);
@@ -224,7 +224,7 @@ header .header-2 {
     .navbar .nav-links .menu-link a {
         display: none;
     }
-    
+
     .navbar .nav-links .menu-link a.icon {
       float: right;
       display: none;
@@ -237,7 +237,7 @@ header .header-2 {
         display: none;
     }
 
-     .navbar .nav-links .menu-link .responsive 
+     .navbar .nav-links .menu-link .responsive
     {
         position: relative;
     }
@@ -278,7 +278,7 @@ header .header-2 {
     margin-left: 90px;
     padding: 15px;
 }
-  
+
   .menu {
     display: flex;
     flex-direction: row;
@@ -286,7 +286,7 @@ header .header-2 {
     margin: 0 108px 0 0;
     padding: 0;
   }
-  
+
   .menu > li {
     margin: 0 1rem;
     overflow: hidden;
@@ -308,7 +308,7 @@ header .header-2 {
     text-underline-offset: 5px;
     text-decoration-thickness: 2px
   }
-  
+
   .menu-button-container {
     display: none;
     height: 100%;
@@ -318,11 +318,11 @@ header .header-2 {
     justify-content: center;
     align-items: center;
   }
-  
+
   #menu-toggle {
     display: none;
   }
-  
+
   .menu-button,
   .menu-button::before,
   .menu-button::after {
@@ -334,26 +334,26 @@ header .header-2 {
     transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
     border-radius: 2px;
   }
-  
+
   .menu-button::before {
     content: '';
     margin-top: -8px;
   }
-  
+
   .menu-button::after {
     content: '';
     margin-top: 8px;
   }
-  
+
   #menu-toggle:checked + .menu-button-container .menu-button::before {
     margin-top: 0px;
     transform: rotate(405deg);
   }
-  
+
   #menu-toggle:checked + .menu-button-container .menu-button {
     background: rgba(255, 255, 255, 0);
   }
-  
+
   #menu-toggle:checked + .menu-button-container .menu-button::after {
     margin-top: 0px;
     transform: rotate(-405deg);
@@ -487,14 +487,14 @@ section .header-main {
     display: inline;
 }
 
-.header-card-row .card {  
-    display: flex;  
+.header-card-row .card {
+    display: flex;
     margin: 60px -58px 0 0;
     position: absolute;
     z-index: 1;
 }
 
-.header-card-row .card img{    
+.header-card-row .card img{
     height: 13rem;
 
 }
@@ -567,7 +567,7 @@ section .header-main {
     line-height: 25px;
     color: #FFF;
   }
-  
+
 
   .slideshow-container .slideshow-hero .slideshow-dot {
     text-align: center;
@@ -588,7 +588,7 @@ section .header-main {
     /* position: relative;
     z-index: 5; */
   }
-  
+
   .slideshow-hero .slideshow-dot .on,
   .slideshow-dot .dot:hover {
     background-color: #CE1919;
@@ -628,7 +628,7 @@ section .header-main {
     animation-name: fade;
     animation-duration: 1.5s;
   }
-  
+
   @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
@@ -644,7 +644,7 @@ section .header-main {
   @-webkit-keyframes slide {
     100% { left: 0; }
 }
-  
+
   @keyframes slide {
     100% { left: 0; }
   }
@@ -667,7 +667,7 @@ section .header-main {
         line-height: 38px;
         text-align: center;
     }
-    
+
     #clients .clients-row {
         display: inline-flex;
         gap: 0 2rem;
@@ -807,13 +807,13 @@ section .header-main {
             /* display: block; */
             margin: -82px 0 0 0;
           }
-    
+
           .slideshow-container .slideshow-hero .slide-image {
             height: 456px;
             width: 104% !important;
             overflow-x: hidden !important;
         }
-    
+
           .slideshow-hero .slide-image img {
             height: 451px;
             width: 208% !important;
@@ -821,40 +821,40 @@ section .header-main {
             position: relative;
             left: -27rem;
           }
-    
+
           .slideshow-container .slideshow-hero .slideshow-dot {
             display: none;
           }
-    
+
           .slideshow-container .slideshow-hero .slideshow-cta {
             width: 75%;
             bottom: 245px;
         }
-    
+
         .slideshow-container .slideshow-cta p {
             font-size: 14px;
             top: 18px;
         }
-    
+
           .hero-style {
             display: none;
           }
-    
+
           .slideshow-hero {
             display: none;
             background-color: white;
         }
-    
+
         .slideshow-hero .r1 {
             font-size: 27px !important;
             position: relative;
             bottom: 12rem;
         }
-    
+
         .slideshow-hero .r2 {
             display: none;
         }
-    
+
           .slideshow-hero  h1 {
             font-size: 41px;
             position: relative;
@@ -862,7 +862,7 @@ section .header-main {
             bottom: 16rem;
             line-height: 28px;
           }
-    
+
           .slideshow-hero p {
             font-size: 8px;
             position: relative;
@@ -879,7 +879,7 @@ section .header-main {
 
 
 
-    
+
         #clients {
             display: block;
             padding: 0 10rem;
@@ -897,7 +897,7 @@ section .header-main {
 
         #clients .clients-row {
             gap: 0 1rem;
-            
+
         }
 
         .clients-row img {
@@ -997,7 +997,7 @@ section .header-main {
             height: 4rem;
             bottom: 23px;
             z-index: 5;
-        }        
+        }
 
 
 
@@ -1075,7 +1075,7 @@ section .header-main {
             flex-wrap: nowrap;
             overflow-x: auto;
         }
-        
+
         #portfolio-section .portfolio-row .portfolio-card {
             flex: 0 0 auto;
         }
@@ -1226,7 +1226,7 @@ section .header-main {
             font-size: 17px !important;
         }
 
-        
+
         .footer-row-2 .footer-menu {
             display: block !important;
             padding: 38px 13rem 3rem 46px !important;
@@ -1324,7 +1324,7 @@ section .header-main {
         font-size: 15px;
         font-weight: 500;
         line-height: 22px;
-        color: #ED3224;    
+        color: #ED3224;
         position: relative;
         top: 2rem;
         left: 10px;
@@ -1500,7 +1500,7 @@ section .header-main {
         z-index: 1;
      }
 
-     
+
 
      #testimonial-section {
         display: block;
@@ -1616,11 +1616,11 @@ section .header-main {
     }
 
     .testimonial-right .testimonial-slider-counter .one:hover,
-    
+
     .testimonial-right .testimonial-slider-counter .two:hover,
-    
+
     .testimonial-right .testimonial-slider-counter .three:hover,
-    
+
     .testimonial-right .testimonial-slider-counter .four:hover
     {
         color: #CF1D1D !important;
@@ -1977,7 +1977,7 @@ header .about-header {
 .adbox-2 {
     background-color: #26282C;
     margin-top: 4rem;
-} 
+}
 
 .adbox-2-row {
     width: 100%;
@@ -2321,7 +2321,7 @@ section .account2-row {
 
 
 /* Digital marketing Responsive  */
-@media screen and (min-width: 1700px) { 
+@media screen and (min-width: 1700px) {
     .sm-marketing-section .sm-marketing-row {
         margin: 0 14rem 0 33rem;
     }
@@ -2469,7 +2469,7 @@ section .account2-row {
  }
 
 
- 
+
  .contact-row .contact-form {
     display: block;
     /* border: 1px solid red; */
@@ -2535,7 +2535,7 @@ section .account2-row {
     transition: 0.5s;
     outline: none;
   }
-  
+
   .contact-form input[type=submit]:hover {
     background-color: #790707;
   }
@@ -2547,7 +2547,7 @@ section .account2-row {
   }
 
 
-  @media screen and (min-width: 1700px) { 
+  @media screen and (min-width: 1700px) {
     .contact-form textarea {
         width: 78%;
     }
@@ -2719,7 +2719,7 @@ section .account2-row {
     font-size: 16px;
     background: rgba(241, 241, 241, 1);
     background-image: url('../assets/search-icon.svg');
-    background-position: 12px 14px; 
+    background-position: 12px 14px;
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
     margin-top: 52px;
@@ -3421,7 +3421,7 @@ section .blog-cards-row {
     flex-wrap: nowrap;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch; */
-    
+
 }
 
 .video-show-card-row .video-show-card .video-card {
@@ -3592,7 +3592,7 @@ section .blog-cards-row {
 
 
 /* Video Responsive  */
-@media screen and (min-width: 1700px) { 
+@media screen and (min-width: 1700px) {
     .video-project-row .project-videos .video img {
         height: 26rem;
     }
@@ -3775,7 +3775,7 @@ footer {
     border: none;
 } */
 
-.footer-row-3 video { 
+.footer-row-3 video {
     /* Swap margin and make height: 88% without max height when you have the right video ; */
     /* margin: 18px 0 0 58px;  */
     margin: 14px 0 -90px 58px;
@@ -3819,7 +3819,7 @@ footer .copy-rights a {
         gap: 0 70px;
     }
 
-    
+
     .footer-row-3 video {
         margin: 0 0 0 58px;
         height: 100%;

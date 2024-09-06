@@ -2917,7 +2917,8 @@ header .aboutus-header-cta p {
 
 .about-section-3 {
     margin: auto 9rem;
-    /* border: 1px solid red; */
+    position: relative;
+    bottom: 8rem;
 }
 .about-column {
     display: block;
@@ -2993,9 +2994,9 @@ header .aboutus-header-cta p {
     padding: 8rem 0 4rem 6rem;
 
 
-    box-shadow: -4px 9px 32px -10px rgba(0,0,0,0.82);
-    -webkit-box-shadow: -4px 9px 32px -10px rgba(0,0,0,0.82);
-    -moz-box-shadow: -4px 9px 32px -10px rgba(0,0,0,0.82);
+    box-shadow: -1px 7px 28px -13px rgba(0,0,0,0.82);
+    -webkit-box-shadow: -1px 7px 28px -13px rgba(0,0,0,0.82);
+    -moz-box-shadow: -1px 7px 28px -13px rgba(0,0,0,0.82);
 }
 .about-section-2 .section-2 h2 {
     color: #1C1F35;
@@ -3014,6 +3015,8 @@ header .aboutus-header-cta p {
 
 .section-2 .section-2-img img {
     height: 20rem;
+    position: relative;
+    bottom: 6px;
 
 }
 .about-section-2 .section-2 .section-2-text {
@@ -3026,6 +3029,12 @@ header .aboutus-header-cta p {
     position: relative;
     left: 4px;
     bottom: 2rem;
+}
+
+.about-section-3 h1 {
+    font-size: 35px;
+    line-height: 52px;
+    font-weight: 900;
 }
 
 .about-section-3 .section-title {
@@ -3135,7 +3144,8 @@ header .aboutus-header-cta p {
     }
 
     .about-section-3 {
-        margin: auto 7rem;
+        margin: auto 174px;
+        margin-bottom: -6rem;
     }
 }
 
