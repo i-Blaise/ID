@@ -11,7 +11,7 @@
         <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
         <link rel="manifest" href="assets/favicon_io/site.webmanifest">
-        
+
     <link rel="stylesheet" href="css/styles.css" />
     <link
       rel="stylesheet"
@@ -27,25 +27,29 @@
     />
   </head>
   <body>
-            <!-- navbar begins here -->
+    <header id="header-blog">
 
-            @include('components.navbar')
-        <!-- ends here -->
-    
-    <header id="header-blogspage">
-        <div class="blogheader-row">
-            <div class="blogheader-text">
-                <h1>Latest news</h1>
-                <h2>Updates</h2>
-                <p>Lorem Ipsum is simply a dummt text of the <br> printing.</p>
-                <form action="">
-                  <input type="text" name="searchblog" placeholder="Search">
-                </form>
-            </div>
+        @include('components.navbar')
+
+
+        <div class="header-2">
+          <img src="{{ asset('assets/blogs/blog-header2.webp') }}" class="aboutus-header-2" alt="">
+          <h1 class="service-title">Latest <span class="bold">news</span></h1>
+          {{-- <img src="assets/mobile-header-service.png" class="service-header-2-mobile" alt=""> --}}
         </div>
-    </header>
+        <a class="aboutus-header-cta" href="#">
+            <p>your digital powerhouse...</p>
+        </a>
+        <!-- ends here -->
+      </header>
 
-    <img src="assets/blog-blob1.svg" class="blob1" alt="">
+      <div class="blog-search-row">
+        <form class="blog-search" action="">
+            <input type="text" name="searchblog" placeholder="Search">
+        </form>
+      </div>
+
+    {{-- <img src="assets/blog-blob1.svg" class="blob1" alt=""> --}}
     <img src="assets/blog-blob2.svg" class="blob2" alt="">
     <img src="assets/blog-blob3.svg" class="blob3" alt="">
     <div class="blog-body">
@@ -65,7 +69,7 @@
               <img src="assets/blog-author.png" alt="Blog Aurthor Image">
               <div class="blog-name-date">
                 <h3>John Doe</h3>
-                <p>12.02.2020</p>
+                <p>April 02, 2024  &nbsp; <img src="assets/red-dot.svg" alt=""> 7 min read</p>
               </div>
               <a href="{{ route('blog-open') }}"><p class="read-more">Read More</p></a>
             </div>
@@ -82,10 +86,10 @@
               <h2>Lorem Ipsum is simply dummy text of the printing.</h2>
               <p class="blog-excerpt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the .</p>
               <div class="card-info">
-                <img src="assets/blog-author2.png" alt="Blog Author">
+                <img src="{{ asset('assets/homepage/5.webp') }}"  alt="Blog Author">
                 <div class="card-info-name-date">
-                  <h3>John Doe</h3>
-                  <p>20.12.2024</p>
+                  <h3>Judith Abani</h3>
+                  <p>April 02, 2024  &nbsp; <img src="assets/red-dot.svg" alt=""> 7 min read</p>
                 </div>
               </div>
             </div>
@@ -100,7 +104,7 @@
                 <img src="assets/blog-author3.png" alt="Blog Author">
                 <div class="card-info-name-date">
                   <h3>John Doe</h3>
-                  <p>20.12.2024</p>
+                  <p>April 02, 2024  &nbsp; <img src="assets/red-dot.svg" alt=""> 7 min read</p>
                 </div>
               </div>
             </div>
@@ -115,7 +119,7 @@
                 <img src="assets/blog-author4.png" alt="Blog Author">
                 <div class="card-info-name-date">
                   <h3>John Doe</h3>
-                  <p>20.12.2024</p>
+                  <p>April 02, 2024  &nbsp; <img src="assets/red-dot.svg" alt=""> 7 min read</p>
                 </div>
               </div>
             </div>
@@ -130,7 +134,7 @@
                 <img src="assets/blog-author2.png" alt="Blog Author">
                 <div class="card-info-name-date">
                   <h3>John Doe</h3>
-                  <p>20.12.2024</p>
+                  <p>April 02, 2024  &nbsp; <img src="assets/red-dot.svg" alt=""> 7 min read</p>
                 </div>
               </div>
             </div>
@@ -145,7 +149,7 @@
                 <img src="assets/blog-author3.png" alt="Blog Author">
                 <div class="card-info-name-date">
                   <h3>John Doe</h3>
-                  <p>20.12.2024</p>
+                  <p>April 02, 2024  &nbsp; <img src="assets/red-dot.svg" alt=""> 7 min read</p>
                 </div>
               </div>
             </div>
@@ -176,27 +180,26 @@
         @include('components.footer')
     <!-- Footer Ends  -->
 
-    <script> 
-  
-      // Targeting video element  
-      let clip = document.querySelector(".vid") 
-      let footer = document.querySelector(".footer-row") 
+    <script>
 
-      /* Applying mouseover event on video clip  
-      and then we call play() function to play  
-      the video when the mouse is over the video */ 
-      footer.addEventListener("mouseover", function (e) { 
-          clip.play(); 
-      }) 
+      // Targeting video element
+      let clip = document.querySelector(".vid")
+      let footer = document.querySelector(".footer-row")
 
-      /* Applying mouseout event on video clip  
-      and then we call pause() function to stop  
-      the video when the mouse is out the video */ 
-      footer.addEventListener("mouseout", function (e) { 
-          clip.pause(); 
-      }) 
-  </script> 
+      /* Applying mouseover event on video clip
+      and then we call play() function to play
+      the video when the mouse is over the video */
+      footer.addEventListener("mouseover", function (e) {
+          clip.play();
+      })
+
+      /* Applying mouseout event on video clip
+      and then we call pause() function to stop
+      the video when the mouse is out the video */
+      footer.addEventListener("mouseout", function (e) {
+          clip.pause();
+      })
+  </script>
 
 </body>
 </html>
-        

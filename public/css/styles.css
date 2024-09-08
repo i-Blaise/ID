@@ -105,6 +105,13 @@ header {
     background-repeat: no-repeat;
 }
 
+#header-blog {
+    background-image: url(../assets/about-banner.webp);
+    height: 34rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 #header-online-ad {
     background-image: url(../assets/about-banner.webp);
     height: 34rem;
@@ -2975,7 +2982,8 @@ header .aboutus-header-cta p {
 #header-sm-marketing a,
 #header-digital-strategy a,
 #header-case-study a,
-#header-case-open a {
+#header-case-open a,
+#header-blog a{
     text-decoration: none;
 }
 
@@ -4583,7 +4591,7 @@ section .online-ad-row2 img {
     font-size: 14px;
 }
 
-.blogheader-text input[type=text] {
+.blog-search-row input[type=text] {
     width: 22%;
     box-sizing: border-box;
     border: none;
@@ -4594,11 +4602,11 @@ section .online-ad-row2 img {
     background-position: 12px 14px;
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
-    margin-top: 52px;
+    margin: 9rem;
   }
 
 
-  .blogheader-text input[type=text]:focus {
+  .blog-search-row input[type=text]:focus {
     border: 2px solid rgb(255, 0, 0) !important;
   }
 
@@ -4606,7 +4614,7 @@ section .online-ad-row2 img {
 
 .blog-body {
     display: block;
-    margin: -45rem 10rem 0 10rem;
+    margin: -48rem 10rem 0 148px;
 }
 
   section .main-blog-row {
@@ -4650,7 +4658,6 @@ section .online-ad-row2 img {
 
   .main-blog-text .blog-info {
     display: inline-flex;
-    /* border: 1px solid green; */
     width: 100%;
     margin-top: 10px;
   }
@@ -4662,6 +4669,7 @@ section .online-ad-row2 img {
   .main-blog-text .blog-info .blog-name-date {
     height: 10px;
     margin: -26px 0 0 24px;
+    width: 22rem;
   }
 
   .main-blog-text .blog-info .blog-name-date h3{
@@ -4674,10 +4682,21 @@ section .online-ad-row2 img {
     bottom: 15px;
   }
 
+  .main-blog-text .blog-info .blog-name-date p img {
+    height: 10px;
+  }
+
   .main-blog-text .blog-info a{
-    margin-left: 16rem;
     margin-top: -3px;
     text-decoration: none;
+  }
+
+  .main-blog-text .blog-info .read-more {
+    padding: 10px;
+    background: #ED07070A;
+    color: #ED0707;
+    position: relative;
+    bottom: 1rem;
   }
 
   .blob1 {
@@ -4725,7 +4744,7 @@ section .blog-cards-row {
 
 .blog-card-text p {
     line-height: 33px;
-    height: 14rem;
+    height: 8rem;
 }
 
 
