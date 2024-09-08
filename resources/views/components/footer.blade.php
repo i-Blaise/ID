@@ -41,7 +41,7 @@
               <h4>Platforms</h4>
               <a href="{{ route('aboutus') }}">About Us</a>
               <a href="{{ route('services') }}">Services</a>
-              <a href="#">Portfolio</a>
+              <a href="{{ route('blogs') }}">Blogs</a>
               <a href="{{ route('case-study') }}">Case Study</a>
               <a href="{{ route('contactus') }}">Contact Us</a>
             </div>
