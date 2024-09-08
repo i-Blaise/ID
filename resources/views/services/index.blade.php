@@ -47,7 +47,7 @@
         <div class="service1-row1">
             <img src="{{ asset('assets/services/smm1.webp') }}" alt="">
             <div class="service1-content">
-                <h2>Social Media <br> <span class="bold">Marketing</span></h2>
+                <h2>Social media <br> <span class="bold">Marketing</span></h2>
                 <p>Cut through the noise and find your people! <br> You need people to see you and what you can do. No <br> problem! Sit back, relax, and let us create content that <br>speaks to your tribe!</p>
                 <a href="{{ route('sm-marketing') }}"><p>Get interactive on social media</p></a>
             </div>

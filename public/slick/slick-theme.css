@@ -147,6 +147,11 @@
 
     cursor: pointer;
 }
+
+ul, ol {
+    list-style: none; /* Removes the default marker */
+}
+
 .slick-dots li button
 {
     font-size: 0;

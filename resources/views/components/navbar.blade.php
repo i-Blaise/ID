@@ -13,6 +13,8 @@
             <li class="menu-link"><a class="{{ Route::currentRouteNamed('blogs') ? 'active' : '' }}" href="{{ route('blogs') }}">Blog</a></li>
             <li class="menu-link"><a class="{{ Route::currentRouteNamed('case-study') ||
             Route::currentRouteNamed('case-open')? 'active' : '' }}" href="{{ route('case-study') }}">Case Studies</a></li>
-            <li class="menu-link"><a class="{{ Route::currentRouteNamed('contactus') ? 'active' : '' }}" href="{{ route('contactus') }}">Contact us</a></li>
+            <li class="menu-link call-us"><a href="{{ route('contactus') }}">
+                <button>Call us</button>
+            </a></li>
           </ul>
 </section>

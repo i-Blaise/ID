@@ -168,7 +168,7 @@ header .header-2 .about-title{
 
 header .header-2 .service-title{
     bottom: 8rem;
-    margin: -40px 0 0 13rem;
+    margin: -40px 0 0 160px;
 }
 
 header .header-2 .marketing-title{
@@ -208,7 +208,7 @@ header .header-2 .casestudy-title{
     background: rgba(26, 26, 26, 0.8);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #FFF;
-    height: 50px;
+    height: 98px;
     padding: 1em;
     z-index: 10;
     position: relative;
@@ -237,11 +237,13 @@ header .header-2 .casestudy-title{
     overflow: hidden;
   }
 
-  .menu > li a {
+  .menu > li a,
+  .menu li button {
     color: #FFF;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 21px;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 18px;
+    text-transform: uppercase;
     text-decoration: none;
   }
 
@@ -257,10 +259,26 @@ header .header-2 .casestudy-title{
   .menu > li a:hover
    {
     color: red;
-    text-decoration: underline;
+    text-decoration: none;
     text-underline-offset: 5px;
     text-decoration-thickness: 2px
   }
+
+  .menu li:not(:last-child) {
+    position: relative;
+    top: 7px    ;
+  }
+
+  .menu li button {
+    margin-right: 4rem;
+    position: relative;
+    left: 4rem;
+    padding: 8px 15px;
+    background-color: red;
+    border: 1px solid red;
+    cursor: pointer;
+    }
+
 
   #white-nav .menu > li .active,
   #white-nav .menu > li a:hover
@@ -348,6 +366,7 @@ header .header-2 .casestudy-title{
     .menu .menu-link {
         z-index: 100 !important;
     }
+
 
     #menu-toggle ~ .menu li {
       height: 0;
@@ -491,6 +510,8 @@ section .header-main {
     opacity: 0.75;
     height: 24rem;
     width: 50%;
+    position: relative;
+    bottom: 30px;
 }
 
 .header-info-row .left-header-info h1 {
@@ -524,10 +545,8 @@ section .header-main {
 
 .header-info-row .right-header-info .ID-text-logo {
     position: relative;
-    /* bottom: 2rem;
-    left: 3rem;
-    height: 143px; */
-    top: 71px;
+    /* top: 71px; */
+    top: 19px;
     left: 1rem;
     height: 151px;
 }
@@ -894,11 +913,30 @@ section .header-main {
   }
 
   .portfolio-dots {
-    color: red;
     display: inline-flex;
-    text-align: center;
+    margin: 10px 33rem;
   }
 
+  .portfolio-dots button {
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: #CFD3D6;
+    border-radius: 12px;
+    height: 12px;
+    width: 10px;
+
+    cursor: pointer;
+  }
+
+  .portfolio-dots button:hover,
+  .portfolio-dots li.slick-active button{
+    background: red;
+  }
+
+  .portfolio-dots li:not(:last-child) {
+    margin-right: 10px;
+  }
 
   .testimonial-title {
     display: inline;
@@ -994,6 +1032,35 @@ section .header-main {
     position: relative;
     top: 2px;
   }
+
+  .testimonial-dots {
+    display: inline-flex;
+    margin: 0 0 0 62rem;
+  }
+
+  .testimonial-dots button {
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: #FF022680;
+    height: 10px;
+    width: 7px;
+
+    cursor: pointer;
+    transition: width 0.4s;
+  }
+
+  .testimonial-dots button:hover,
+  .testimonial-dots li.slick-active button{
+    background: red;
+    width: 58px;
+
+  }
+
+  .testimonial-dots li:not(:last-child) {
+    margin-right: 10px;
+  }
+
   /* .test-dots {
 
   } */
@@ -3409,13 +3476,15 @@ header .aboutus-header-cta p {
     font-size: 30px;
     font-weight: 300;
     line-height: 30px;
-    font-family: 'poppinsMedium';
+    font-family: 'poppinsLight';
     color: #475569;
 }
 
 .service1-row1 .service1-content h2 span {
     color: red;
     text-transform: uppercase;
+    font-size: 35px;
+    line-height: 35px;
 }
 
 .service1-row1 .service1-content p {
@@ -3484,12 +3553,15 @@ header .aboutus-header-cta p {
     font-size: 30px;
     font-weight: 300;
     line-height: 30px;
-    font-family: 'poppinsMedium';
+    font-family: 'poppinsLight';
+    color: #1B2534;
 }
 
 .service2-row .service2-content h2 span {
     color: red;
     text-transform: uppercase;
+    font-size: 35px;
+    line-height: 35px;
 }
 
 .service2-row .service2-content p {
