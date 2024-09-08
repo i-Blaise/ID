@@ -333,7 +333,7 @@
         {{-- <img src="{{ asset('assets/homepage/testiminial-title.webp') }}" alt=""> --}}
     </div>
 
-      <section class="lazy slider" data-sizes="50vw">
+      <section class="lazy slider testimonial-row" data-sizes="50vw">
     <div class="testimonial-container">
       <div class="testimonial-img">
         <img src="{{ asset('assets/homepage/testimonial-img.webp') }}" alt="">

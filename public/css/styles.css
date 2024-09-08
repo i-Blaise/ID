@@ -1057,6 +1057,10 @@ section .header-main {
     transition: width 0.4s;
   }
 
+  .testimonial-row {
+    margin-left: 15rem;
+  }
+
   .testimonial-dots button:hover,
   .testimonial-dots li.slick-active button{
     background: red;
@@ -1163,6 +1167,8 @@ section .header-main {
     }
     .header-info-row .right-header-info .ID-text-logo {
         height: 135px;
+        position: relative;
+        top: 29px;
     }
 
     .header-info-row .left-header-info h1,
@@ -1348,7 +1354,7 @@ section .header-main {
     }
 
     .header-info-row .right-header-info .ID-text-logo {
-        top: 42px;
+        top: -7px;
         left: 3rem;
         height: 160px;
     }
@@ -1373,19 +1379,33 @@ section .header-main {
     }
 
     .home-body-row3 {
-        margin: 0rem 17rem;
+        height: 38rem;
+    }
+
+    .process-container .process-card {
+        width: 235px;
+        height: 351px;
+    }
+
+    .home-body-row3 .process-container {
+        margin: 69px 7rem;
     }
 
     section .main-blog-row .blog-cards-row-home {
-        margin: 136px 0 -76px 235px !important;
+        margin: 136px 0 -76px 389px  !important;
     }
     section .blog-cards-row {
-        gap: 138px 119px !important;
+        gap: 134px 25px !important;
     }
 
     section .main-blog-row .blog-cards-row-home a {
         left: 151% !important;
         bottom: 7rem !important;
+    }
+
+    .main-blog-row .blog-cards-row-home a .home-blog-btn {
+        position: relative;
+        right: 6rem;
     }
 
     .logos-home {
@@ -1402,7 +1422,7 @@ section .header-main {
     }
 
     .header-info-row .right-header-info .ID-text-logo {
-        top: 36px;
+        top: -12px;
         height: 179px;
     }
 
@@ -3060,12 +3080,12 @@ header .aboutus-header-cta p {
 
 .about-section-2 .section-2 .section-2-container {
     display: inline-flex;
-    margin: -2rem 0 0 19rem;
+    margin: -7rem 0 112px 19rem;
 
     background-image: url('../assets/aboutus/about-bg.webp');
     background-repeat: no-repeat;
     background-position: -40px 0rem;
-    width: 58%;
+    width: 59%;
     padding: 8rem 0 4rem 6rem;
 
 
@@ -3207,7 +3227,7 @@ header .aboutus-header-cta p {
 
 /* About Us Responsive  */
 
-@media screen and (min-width: 1400px) {
+@media screen and (max-width: 1450px) {
     header .header-2 .aboutus-header-2 {
         top: 75px;
         width: 76rem
@@ -3226,6 +3246,7 @@ header .aboutus-header-cta p {
 
     .about-section-2 .section-2 .section-2-container {
         margin: -2rem 0 0 17rem;
+        width: 58% !important;
     }
 }
 
@@ -3391,7 +3412,7 @@ header .aboutus-header-cta p {
 @media screen and (max-width: 1440px) {
     header .aboutus-header-cta {
         left: -78px !important;
-        top: 41px;
+        top: 38px;
     }
 }
 
@@ -3411,9 +3432,18 @@ header .aboutus-header-cta p {
     }
 
     .about-section-2 .section-2 {
-        margin: -6rem 17rem 7rem 27rem;
+        display: block;
         position: relative;
-        right: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .about-section-2 .section-2 .section-2-container {
+        background-size: contain;
+        width: 70rem;
+        height: 47rem;
+        box-shadow: none;
+        padding: 10rem 5rem 4rem 7rem;
+        margin: -9rem 0 0 22rem;
     }
 
     .section-2 .section-2-img img {
@@ -3435,7 +3465,7 @@ header .aboutus-header-cta p {
     /* New About Us Header  */
     header .aboutus-header-cta {
         left: 22rem !important;
-        top: 3rem;
+        top: 37px;
     }
 
     .about-row-2 .about-intro-text {
@@ -4704,6 +4734,10 @@ section .online-ad-row2 img {
     bottom: 1rem;
   }
 
+  .main-blog-text .blog-info .read-more:hover {
+    background: #ed070725;
+  }
+
   .blob1 {
     position: relative;
     bottom: 60rem;
@@ -4855,6 +4889,17 @@ section .blog-cards-row {
         width: 18rem;
       }
 }
+
+@media screen and (min-width: 1700px) {
+    .blog-body {
+        margin: -48rem 10rem 0 241px;
+    }
+
+    .blog-search-row input[type=text] {
+        margin: 11rem 15rem;
+    }
+}
+
   @media screen and (max-width: 700px) {
 
     header {
