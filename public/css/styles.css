@@ -1416,7 +1416,7 @@ section .header-main {
 
 
 
-@media screen and (max-width: 1700px) {
+@media screen and (min-width: 1600px) {
 
     #header-homepage {
        height: 61rem !important;
@@ -3598,7 +3598,7 @@ header .aboutus-header-cta p {
 
 
 
-@media screen and (max-width: 1700px) {
+@media screen and (min-width: 1600px) {
     header .about-header {
         margin: 10rem;
     }
@@ -3845,7 +3845,7 @@ header .aboutus-header-cta p {
     }
 }
 
-@media screen and (max-width: 1700px) {
+@media screen and (min-width: 1600px) {
     .service-row {
         margin: 100px 0 0 228px;
     }
@@ -5117,7 +5117,7 @@ section .blog-cards-row {
 }
 
 
-@media screen and (max-width: 1700px) {
+@media screen and (min-width: 1600px) {
     .blog-body {
         margin: -48rem 5rem 0 196px;
     }
@@ -6256,7 +6256,7 @@ section .blog-cards-row {
 
 
 
-@media screen and (max-width: 1700px) {
+@media screen and (min-width: 1600px) {
     .second-container {
         margin: 5rem 9rem 0 11rem;
     }
