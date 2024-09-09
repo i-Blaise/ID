@@ -3500,6 +3500,69 @@ header .aboutus-header-cta p {
     }
 }
 
+
+
+@media screen and (max-width: 1700px) {
+    header .about-header {
+        margin: 10rem;
+    }
+
+    .about-column .about-row-1 {
+        margin: 6rem 12rem;
+    }
+
+    .about-section-2 .banner-1 img {
+        width: 118rem;
+    }
+
+    .about-section-2 .section-2 {
+        display: block;
+        position: relative;
+        margin-bottom: 3rem;
+    }
+
+    .about-section-2 .section-2 .section-2-container {
+        background-size: contain;
+        width: 70rem;
+        height: 47rem;
+        box-shadow: none;
+        padding: 10rem 5rem 4rem 7rem;
+        margin: -9rem 0 0 22rem;
+    }
+
+    .section-2 .section-2-img img {
+        height: 26rem;
+    }
+
+    .about-section-3 .team-card-row {
+        gap: 0 8rem;
+        margin: 0 40px !important;
+    }
+
+    .about-section-3 .team-card-row-1 {
+        margin: 0 524px !important;
+    }
+
+
+
+
+    /* New About Us Header  */
+    header .aboutus-header-cta {
+        left: 22rem !important;
+        top: 37px;
+    }
+
+    .about-row-2 .about-intro-text {
+        margin: 160px 13rem 0 257px;
+    }
+
+    .about-row-2 .about-intro-img img {
+        left: 7rem;
+    }
+}
+
+
+
 @media screen and (min-width: 1900px) {
     .about-section-3 {
         margin: auto 15rem;
