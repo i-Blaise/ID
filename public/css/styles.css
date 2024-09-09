@@ -1382,6 +1382,7 @@ section .header-main {
         height: 38rem;
     }
 
+
     .process-container .process-card {
         width: 235px;
         height: 351px;
@@ -1412,6 +1413,93 @@ section .header-main {
         margin: 5rem 14rem !important;
     }
 }
+
+
+
+@media screen and (max-width: 1700px) {
+
+    #header-homepage {
+       height: 61rem !important;
+   }
+   .header-info-row {
+    margin-top: 42rem !important;
+    }
+    .home-intro-text {
+        margin: 10rem 0 0 0;
+    }
+
+    .header-info-row .right-header-info .ID-text-logo {
+        top: -33px;
+        left: 3rem;
+        height: 160px;
+    }
+
+    .header-info-row .left-header-info {
+        bottom: 67px;
+    }
+
+    .home-body-row1 {
+        margin: 10rem 0;
+        background-repeat: repeat;
+        background-position: 1rem 0;
+        background-size: 85rem;
+        height: 44rem;
+        width: 100%;
+    }
+
+    .home-body-row1 .row1-image img {
+        position: relative;
+        right: 4rem;
+        height: 40rem;
+    }
+
+    .home-body-row2 {
+        margin: 7rem 11rem !important;
+    }
+
+    .home-body-row3 {
+        height: 38rem;
+    }
+
+
+    .testimonial-row {
+        margin-left: 12rem !important;
+    }
+
+    .process-container .process-card {
+        width: 235px;
+        height: 351px;
+    }
+
+    .home-body-row3 .process-container {
+        margin: 69px 7rem;
+    }
+
+    section .main-blog-row .blog-cards-row-home {
+        margin: 136px 0 -76px 389px  !important;
+    }
+    section .blog-cards-row {
+        gap: 134px 25px !important;
+    }
+
+    section .main-blog-row .blog-cards-row-home a {
+        left: 151% !important;
+        bottom: 7rem !important;
+    }
+
+    .main-blog-row .blog-cards-row-home a .home-blog-btn {
+        position: relative;
+        right: 6rem;
+    }
+
+    .logos-home {
+        margin: 5rem 14rem !important;
+    }
+}
+
+
+
+
 @media screen and (min-width: 1900px) {
 
      #header-homepage {
@@ -3502,7 +3590,15 @@ header .aboutus-header-cta p {
 
 
 
-/* @media screen and (max-width: 1700px) {
+@media screen and (max-width: 1650px) {
+    header .aboutus-header-cta {
+        left: 18rem !important;
+    }
+}
+
+
+
+@media screen and (max-width: 1700px) {
     header .about-header {
         margin: 10rem;
     }
@@ -3513,6 +3609,10 @@ header .aboutus-header-cta p {
 
     .about-section-2 .banner-1 img {
         width: 118rem;
+    }
+
+    header .header-2 {
+        margin: 2rem 0 0 12rem !important;
     }
 
     .about-section-2 .section-2 {
@@ -3527,7 +3627,7 @@ header .aboutus-header-cta p {
         height: 47rem;
         box-shadow: none;
         padding: 10rem 5rem 4rem 7rem;
-        margin: -9rem 0 0 22rem;
+        margin: -9rem 0 0 20rem;
     }
 
     .section-2 .section-2-img img {
@@ -3547,7 +3647,7 @@ header .aboutus-header-cta p {
 
 
     header .aboutus-header-cta {
-        left: 22rem !important;
+        left: 20rem !important;
         top: 37px;
     }
 
@@ -3558,7 +3658,11 @@ header .aboutus-header-cta p {
     .about-row-2 .about-intro-img img {
         left: 7rem;
     }
-} */
+
+    .about-section-3 {
+        margin: auto 8rem;
+    }
+}
 
 
 
@@ -3738,6 +3842,25 @@ header .aboutus-header-cta p {
 
     .service1-container {
         margin: 10rem 10rem 0rem 15rem;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .service-row {
+        margin: 100px 0 0 228px;
+    }
+
+    .service1-container {
+        margin: 10rem 10rem 0rem 15rem;
+    }
+
+    .service1-container {
+        margin: 11rem 10rem 0rem 12rem;
+    }
+
+    .service2-container .service2-row {
+        position: relative;
+        left: 3rem;
     }
 }
 
@@ -4993,6 +5116,17 @@ section .blog-cards-row {
     }
 }
 
+
+@media screen and (max-width: 1700px) {
+    .blog-body {
+        margin: -48rem 5rem 0 196px;
+    }
+
+    .blog-search-row input[type=text] {
+        margin: 11rem 12rem;
+    }
+}
+
   @media screen and (max-width: 700px) {
 
     header {
@@ -5953,6 +6087,12 @@ section .blog-cards-row {
     }
 }
 
+@media screen and (max-width: 1700px) {
+    .case-study-row {
+        margin: 10rem 0 0 18rem;
+    }
+}
+
 @media screen and (max-width: 1450px) {
     .case-study-row {
         margin: 8rem 0 0 188px !important;
@@ -6115,6 +6255,24 @@ section .blog-cards-row {
 }
 
 
+
+@media screen and (max-width: 1700px) {
+    .second-container {
+        margin: 5rem 9rem 0 11rem;
+    }
+
+    .case4-row {
+        margin: 0 3rem;
+    }
+
+    .case5-container {
+        margin: 9rem 0 0 3rem;
+    }
+
+    .case6-container {
+        margin: 0 0 8rem 4rem;
+    }
+}
 
 
 @media screen and (min-width: 1700px) {
