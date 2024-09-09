@@ -54,7 +54,7 @@
           <h1 class="about-title">We <span class="bold">empower</span> you <br> to grow your bussiness.</h1>
           {{-- <img src="{{ asset('assets/about-banner2.webp') }}" class="service-header-2-mobile" alt=""> --}}
         </div>
-        <a class="aboutus-header-cta" href="#">
+        <a class="aboutus-header-cta services-header-cta" href="#">
             <p>your digital powerhouse...</p>
         </a>
         <!-- ends here -->

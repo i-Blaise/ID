@@ -3001,6 +3001,10 @@ header .aboutus-header-cta {
     width: 56rem;
 }
 
+header .aboutus-header-cta {
+    top: 39px;
+}
+
 header .aboutus-header-cta p {
     color: #ffffff;
     font-size: 20px;
@@ -5852,7 +5856,7 @@ section .blog-cards-row {
 /* Case Study Page Begins  */
 
 .case-study-row {
-    margin: 8rem 0 0 14rem;
+    margin: 10rem 0 0 14rem;
     display: inline-flex;
     gap: 2rem;
 }
