@@ -3269,7 +3269,7 @@ header .aboutus-header-cta p {
 
     .about-section-2 .section-2 .section-2-container {
         margin: -2rem 0 0 17rem;
-        width: 58% !important;
+        width: 57% !important;
     }
 }
 
@@ -3434,7 +3434,7 @@ header .aboutus-header-cta p {
 
 @media screen and (max-width: 1440px) {
     header .aboutus-header-cta {
-        left: -78px !important;
+        left: -5rem !important;
         top: 38px;
     }
 }
@@ -3502,7 +3502,7 @@ header .aboutus-header-cta p {
 
 
 
-@media screen and (max-width: 1700px) {
+/* @media screen and (max-width: 1700px) {
     header .about-header {
         margin: 10rem;
     }
@@ -3546,7 +3546,6 @@ header .aboutus-header-cta p {
 
 
 
-    /* New About Us Header  */
     header .aboutus-header-cta {
         left: 22rem !important;
         top: 37px;
@@ -3559,7 +3558,7 @@ header .aboutus-header-cta p {
     .about-row-2 .about-intro-img img {
         left: 7rem;
     }
-}
+} */
 
 
 
