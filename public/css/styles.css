@@ -1438,11 +1438,30 @@ section .header-main {
     }
 
     .home-body-row3 {
-        margin: 0rem 29rem;
+        margin: 0rem 0;
+        height: 43rem;
+    }
+
+    .home-body-row3 .process-container {
+        margin: 69px 10rem;
+    }
+
+    .process-container .process-card {
+        width: 255px;
+        height: 395px;
+    }
+
+    .process-container .process-card p {
+        font-size: 14px;
+        top: 30px;
     }
 
     .home-body-row1 .row1-image img {
         height: 43rem;
+    }
+
+    .testimonial-row {
+        margin-left: 19rem;
     }
 
 }
@@ -2882,7 +2901,7 @@ section .home-blog-title {
     }
 
     section .main-blog-row .blog-cards-row-home {
-        margin: 136px 0px 0px 337px !important;
+        margin: 136px 0px 0px 488px !important;
     }
 
     .hero-style {
@@ -3483,7 +3502,15 @@ header .aboutus-header-cta p {
     }
 
     header .aboutus-header-cta {
-        left: 10rem !important;
+        left: 30rem !important;
+    }
+
+    header .header-2 {
+        margin: 2rem 0 0 21rem;
+    }
+
+    .about-section-2 .section-2 .section-2-container {
+        margin: -9rem 0 0 25rem;
     }
 }
 
