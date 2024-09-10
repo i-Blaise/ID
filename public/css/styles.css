@@ -2340,11 +2340,14 @@ header .aboutus-header-cta p {
 
 @media (min-width: 1250px) and (max-width: 1350px) {
     header .header-2 .aboutus-header-2 {
-        width: 66rem
+        width: 66rem !important;
+        left: 25px;
+        top: 90px;
     }
 
     header .aboutus-header-cta {
-        left: -10rem !important;
+        left: -9rem !important;
+        top: 55px !important;
     }
 
     header .header-2 .about-title {
@@ -2355,202 +2358,161 @@ header .aboutus-header-cta p {
         height: 381px;
         top: 6rem;
     }
+
+    .about-section-2 .section-2 .section-2-container {
+        margin: -7rem 0 8rem 13rem !important;
+        width: 68% !important;
+    }
+
+    .about-section-2 .section-2 .section-2-text {
+        margin-top: 74px;
+    }
+
+    .about-section-3 {
+        margin: auto 43px !important;
+    }
 }
 
-@media screen and (max-width: 1450px) {
+@media (min-width: 1350px) and (max-width: 1450px) {
+
     header .header-2 .aboutus-header-2 {
-        top: 75px;
-        width: 76rem
+        top: 95px;
+        width: 69rem !important;
+        left: 2rem;
     }
 
-    .about-section-2 .section-2 {
-        /* margin: auto 255px !important; */
-        bottom: 8rem;
-        width: 110%;
+    header .aboutus-header-cta {
+        left: -136px !important;
+        top: 60px !important;
+        margin: 30px 26rem !important;
     }
 
-    .about-section-3 {
-        margin: auto 117px;
-        margin-bottom: -6rem;
+    .header-w-cta {
+        margin: 0 0 0 22px !important;
     }
 
     .about-section-2 .section-2 .section-2-container {
-        margin: -2rem 0 0 17rem;
-        width: 57% !important;
+        width: 62%;
+        margin: -7rem 0 112px 16rem;
+    }
+
+    .about-section-3 {
+        margin: auto 6rem;
     }
 }
 
-@media screen and (max-width: 700px) {
-    header .about-header {
-        display: block;
-    }
-
-    .about-header .header-text {
-        margin-left: 1rem;
-        margin-bottom: 5rem;
-    }
-    .about-header .header-text p {
-        width: 24rem;
-    }
-    .about-header .header-image {
-        display: inline-flex;
-        margin-left: 0rem;
-    }
-
-    .about-header .header-image .header1{
-        height: 156px;
-    }
-
-    .about-header .header-image .header2{
-        height: 259px;
-        position: relative;
-        bottom: 4rem;
-    }
 
 
 
-    /* New Header  */
+@media screen and (min-width: 1450px) and (max-width: 1550px) {
+    header .header-2 .aboutus-header-2 {
+        top: 52px;
+    }
+
     header .aboutus-header-cta {
-        left: 21rem;
+        top: 27px;
     }
 
-
-
-
-
-
-    .about-column {
-        display: inline-block;
-        margin: 23rem 0 0 0;
-    }
-
-    .about-column .about-row-1 {
-        /* display: flex;
-        flex-wrap: nowrap;
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch; */
-
-
-        width: 100%;
-        height: fit-content;
-
-        /**used to scroll text*/
-        white-space: nowrap;
-        overflow-x: scroll;
-        overflow-y: hidden;
-        /**keep scrolling when
-          *finger or cursor scrolling*/
-        -webkit-overflow-scrolling: touch;
-    }
-
-    .about-column .about-row-1 .about-card{
-        flex: 0 0 auto;
-
-        width: 100%;
-        height: 100%;
-        float: none;
-        display: inline-block;
-        margin-right: -12rem;
-    }
-
-    .about-column .about-row-2 {
-        display: block;
-        -webkit-transform:  rotate(180deg);
-        transform:  rotate(180deg);
-        background-color: #FFF;
-    }
-
-    .about-column .about-row-2 > div {
-        display: block;
-        margin: 0 auto 111px;
-        -webkit-transform: rotate(-180deg);
-        transform: rotate(-180deg);
-    }
-
-    .about-intro-text h2 {
-        position: relative;
-        top: 4rem;
-        left: 0rem;
-        font-size: 32px !important;
-    }
-
-    .about-intro-text p {
-        position: relative;
-        left: 0rem;
-        bottom: -48px;
-        width: 355px;
-    }
-
-    .about-row-2 .about-intro-img img {
-        height: 16rem;
-        position: relative;
-        top: 2rem;
-    }
-
-    .about-section-2 .banner-1 img {
-        height: 7rem;
-    }
-
-    .about-section-2 .section-2 .section-2-container {
-        display: block;
-    }
-
-    .about-section-2 .section-2 {
-        margin: -5rem 22px 0 22px ;
-        padding: 2rem;
-        box-shadow: 0px 2.7128028869628906px 10.851211547851562px 0px rgba(0, 0, 0, 0.25);
-
-    }
-
-    .section-2 .section-2-img img {
-        height: 16rem;
-    }
-
-    .about-section-3 {
-        margin: 12rem 1rem 5rem 22px;
-    }
-
-     .about-column {
-        margin: 24rem 1rem 5rem 22px;
-    }
-
-    .about-section-3 .team-card-row {
-        display: block;
-        margin: 0 0 0 43px;
-        gap: 0 70px;
-    }
-
-    .team-card-row .team-card {
-        width: 17rem;
-    }
-
-    .team-card .team-pic {
-        height: 319px;
-    }
-
-    .about-blob-1 {
-        display: none;
+    header .header-2 .about-title {
+        margin: -81px 0 0 12rem;
     }
 
     .about-section-3 .team-card-row-1 {
-        margin: 0 42px !important;
+        margin: 0 27rem !important;
     }
 }
 
 
 
-@media screen and (max-width: 1440px) {
+
+@media (min-width: 1550px) and (max-width: 1650px) {
+
     header .aboutus-header-cta {
-        left: -5rem !important;
-        top: 38px;
+        left: 18rem;
+    }
+
+    .about-section-3 {
+        margin: auto 6rem !important;
+    }
+
+
+    .about-column .about-row-1 {
+        margin: 6rem 12rem;
+    }
+
+    .about-section-2 .banner-1 img {
+        width: 118rem;
+    }
+
+    header .header-2 {
+        margin: 2rem 0 0 11rem !important;
+    }
+
+    .about-section-2 .section-2 {
+        display: block;
+        position: relative;
+        margin-bottom: 3rem;
+    }
+
+    .about-section-2 .section-2 .section-2-container {
+        margin: -9rem 0 0 18rem !important;
+        background-size: contain;
+        width: 70rem;
+        height: 47rem;
+        box-shadow: none;
+        padding: 10rem 5rem 4rem 6rem;
+    }
+
+    .section-2 .section-2-img img {
+        height: 26rem;
+    }
+
+    .about-section-3 .team-card-row {
+        gap: 0 8rem;
+        margin: 0 40px !important;
+    }
+
+    .about-section-3 .team-card-row-1 {
+        margin: 0 524px !important;
+    }
+
+
+
+
+    header .aboutus-header-cta {
+        left: 20rem !important;
+        top: 37px;
+    }
+
+    .about-row-2 .about-intro-text {
+        margin: 160px 13rem 0 257px;
+    }
+
+    .about-row-2 .about-intro-img img {
+        left: 7rem;
+    }
+
+    .about-section-3 {
+        margin: auto 8rem;
     }
 }
 
 
-
-@media screen and (min-width: 1700px) {
+@media (min-width: 1650px) and (max-width: 1750px) {
     header .about-header {
         margin: 10rem;
+    }
+
+    header .header-2 {
+        margin: 2rem 0 0 14rem !important;
+    }
+
+    header .header-2 .aboutus-header-2 {
+        right: 4rem;
+    }
+
+    .header-w-cta {
+        margin: 0 0 0 68px !important;
     }
 
     .about-column .about-row-1 {
@@ -2594,7 +2556,7 @@ header .aboutus-header-cta p {
 
     /* New About Us Header  */
     header .aboutus-header-cta {
-        left: 22rem !important;
+        left: 18rem !important;
         top: 37px;
     }
 
@@ -2608,99 +2570,137 @@ header .aboutus-header-cta p {
 }
 
 
+@media (min-width: 1750px) and (max-width: 1850px) {
+    header .header-2 .aboutus-header-2 {
+        width: 84rem;
+    }
 
-@media screen and (max-width: 1650px) {
+    .header-w-cta {
+        margin: -63px 0 0 -7px !important;
+    }
+
     header .aboutus-header-cta {
-        left: 18rem !important;
-    }
-}
-
-
-
-@media screen and (min-width: 1600px) {
-    header .about-header {
-        margin: 10rem;
-    }
-
-    .about-column .about-row-1 {
-        margin: 6rem 12rem;
+        left: 26rem;
     }
 
     .about-section-2 .banner-1 img {
-        width: 118rem;
-    }
-
-    header .header-2 {
-        margin: 2rem 0 0 12rem !important;
-    }
-
-    .about-section-2 .section-2 {
-        display: block;
-        position: relative;
-        margin-bottom: 3rem;
-    }
-
-    .about-section-2 .section-2 .section-2-container {
-        background-size: contain;
-        width: 70rem;
-        height: 47rem;
-        box-shadow: none;
-        padding: 10rem 5rem 4rem 7rem;
-        margin: -9rem 0 0 20rem;
-    }
-
-    .section-2 .section-2-img img {
-        height: 26rem;
-    }
-
-    .about-section-3 .team-card-row {
-        gap: 0 8rem;
-        margin: 0 40px !important;
-    }
-
-    .about-section-3 .team-card-row-1 {
-        margin: 0 524px !important;
-    }
-
-
-
-
-    header .aboutus-header-cta {
-        left: 20rem !important;
-        top: 37px;
+        height: 31rem;
     }
 
     .about-row-2 .about-intro-text {
-        margin: 160px 13rem 0 257px;
+        margin: 160px 13rem 0 193px;
     }
 
-    .about-row-2 .about-intro-img img {
-        left: 7rem;
+    .about-section-2 .section-2 .section-2-container {
+        margin: -7rem 0 112px 29rem;
+        width: 49%;
     }
 
     .about-section-3 {
-        margin: auto 8rem;
+        margin: auto 298px;
     }
 }
 
 
+@media (min-width: 1850px) and (max-width: 1950px) {
+    .header-w-cta {
+        margin: -73px 0 0 -114px !important;
+    }
 
-@media screen and (min-width: 1900px) {
+    header .header-2 .aboutus-header-2 {
+        width: 92rem;
+    }
+
     .about-section-3 {
         margin: auto 15rem;
     }
 
     header .aboutus-header-cta {
-        left: 30rem !important;
+        left: 37rem !important;
+        width: 80rem !important;
     }
 
     header .header-2 {
         margin: 2rem 0 0 21rem;
     }
 
-    .about-section-2 .section-2 .section-2-container {
-        margin: -9rem 0 0 25rem;
+    .about-column .about-row-2 {
+        margin: 7rem 0 -108px 0;
     }
+
+    .about-section-2 .section-2 .section-2-container {
+        margin: -9rem 0 0 31rem;
+        width: 47%;
+    }
+
+    header .header-2 .about-title {
+        margin: -81px 0 0 19rem;
+    }
+
+    .about-section-2 .banner-1 img {
+        height: 32rem;
+    }
+
+    .about-section-3 {
+        margin: auto 22rem;
+        position: relative;
+        bottom: 0;
+    }
+
+}
+
+
+
+
+@media (min-width: 1950px) {
+    header .header-2 .aboutus-header-2 {
+        width: 88rem;
+    }
+
+    .header-w-cta {
+        margin: -68px 0 0 52px !important;
+    }
+    header .aboutus-header-cta {
+        left: 468px;
+    }
+
+    .about-column .about-row-2 {
+        padding-left: 15rem;
+    }
+
+    .about-row-2 .about-intro-img img {
+        height: 446px;
+    }
+
+    .about-row-2 .about-intro-text {
+        margin: 160px 13rem 0 201px;
+    }
+
+    .about-section-2 {
+        margin-top: 5rem;
+    }
+
+    .about-section-2 .banner-1 {
+        margin-top: 19px;
+    }
+
+    .about-section-2 .banner-1 img {
+        height: 35rem;
+    }
+
+    .about-section-2 .section-2 .section-2-container {
+        margin: -7rem 0 112px 37rem;
+        width: 44%;
+    }
+
+    .about-section-3 {
+        margin: auto 26rem;
+    }
+
+    .ad-section p {
+        left: 46rem;
+    }
+
 }
 
 /* About Us Page  Ends Here*/
@@ -5632,6 +5632,14 @@ box-shadow: 0px 2.7128028869628906px 10.851211547851562px 0px rgba(0, 0, 0, 0.25
 
 .zoomBig:hover {
 transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.zoomNoShadow {
+    transition: transform .2s;
+}
+
+.zoomNoShadow:hover {
+transform: scale(1.01); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 

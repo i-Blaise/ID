@@ -49,14 +49,17 @@
         @include('components.navbar')
 
 
-        <div class="header-2">
-          <img src="{{ asset('assets/about-banner2.webp') }}" class="aboutus-header-2" alt="">
-          <h1 class="about-title">We <span class="bold">empower</span> you <br> to grow your bussiness.</h1>
-          {{-- <img src="{{ asset('assets/about-banner2.webp') }}" class="service-header-2-mobile" alt=""> --}}
+        <div class="header-w-cta">
+            <div class="header-2">
+                <img src="{{ asset('assets/about-banner2.webp') }}" class="aboutus-header-2" alt="">
+                <h1 class="about-title">We <span class="bold">empower</span> you <br> to grow your bussiness.</h1>
+                {{-- <img src="{{ asset('assets/about-banner2.webp') }}" class="service-header-2-mobile" alt=""> --}}
+              </div>
+              <a class="aboutus-header-cta" href="#">
+                  <p>your digital powerhouse...</p>
+              </a>
         </div>
-        <a class="aboutus-header-cta services-header-cta" href="#">
-            <p>your digital powerhouse...</p>
-        </a>
+
         <!-- ends here -->
       </header>
 
@@ -70,8 +73,8 @@
 
 
         <div class="about-row-2">
-            <div class="about-intro-img zoom">
-                <img src="{{ asset('assets/aboutus/about-intro.webp') }}" alt="">
+            <div class="about-intro-img">
+                <img class="zoomNoShadow" src="{{ asset('assets/aboutus/about-intro.webp') }}" alt="">
             </div>
             <div class="about-intro-text">
                 <h2 class="bold-red">LET US INTRODUCE OURSELVES!</h2>
@@ -92,8 +95,8 @@
                     <h2 class="bold-red">Why choose ID?</h2>
                     <p>We are committed to conceptualizing <br> and executing impactful communication <br> solutions that authentically connect with <br> audiences. Through a blend of artistry <br> and insights, we guarantee that every <br> campaign captures attention and drives <br> tangible, quantifiable results.</p>
                 </div>
-                <div class="section-2-img zoom">
-                    <img src="{{ asset('assets/abt-img2.webp') }}" alt="">
+                <div class="section-2-img">
+                    <img class="zoomNoShadow" src="{{ asset('assets/abt-img2.webp') }}" alt="">
                 </div>
             </div>
         </div>
