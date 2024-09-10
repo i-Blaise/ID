@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>!D - About Us</title>
 
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
@@ -70,7 +70,7 @@
 
 
         <div class="about-row-2">
-            <div class="about-intro-img">
+            <div class="about-intro-img zoom">
                 <img src="{{ asset('assets/aboutus/about-intro.webp') }}" alt="">
             </div>
             <div class="about-intro-text">
@@ -88,11 +88,11 @@
         </div>
         <div class="section-2">
             <div class="section-2-container">
-                <div class="section-2-text">
+                <div class="section-2-text scrollFade">
                     <h2 class="bold-red">Why choose ID?</h2>
                     <p>We are committed to conceptualizing <br> and executing impactful communication <br> solutions that authentically connect with <br> audiences. Through a blend of artistry <br> and insights, we guarantee that every <br> campaign captures attention and drives <br> tangible, quantifiable results.</p>
                 </div>
-                <div class="section-2-img">
+                <div class="section-2-img zoom">
                     <img src="{{ asset('assets/abt-img2.webp') }}" alt="">
                 </div>
             </div>
@@ -259,5 +259,10 @@
           clip.pause();
       })
   </script>
+
+  <!-- Calling jQuery -->
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript" src="{{ asset('js/scroll.js') }}"></script>
   </body>
   </html>

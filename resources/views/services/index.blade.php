@@ -45,7 +45,7 @@
 
       <div class="service1-container">
         <div class="service1-row1">
-            <img src="{{ asset('assets/services/smm1.webp') }}" alt="">
+            <img class="zoom" src="{{ asset('assets/services/smm1.webp') }}" alt="">
             <div class="service1-content">
                 <h2>Social media <br> <span class="bold">Marketing</span></h2>
                 <p>Cut through the noise and find your people! <br> You need people to see you and what you can do. No <br> problem! Sit back, relax, and let us create content that <br>speaks to your tribe!</p>
@@ -53,14 +53,14 @@
             </div>
         </div>
         <div class="service1-row2">
-            <img src="{{ asset('assets/services/smm2.webp') }}" alt="">
-            <img src="{{ asset('assets/services/smm3.webp') }}" alt="">
+            <img class="zoom" src="{{ asset('assets/services/smm2.webp') }}" alt="">
+            <img class="zoom" src="{{ asset('assets/services/smm3.webp') }}" alt="">
         </div>
       </div>
 
       <div class="service2-container">
         <div class="service2-row">
-            <img src="{{ asset('assets/services/prod-img.webp') }}" alt="">
+            <img class="zoom" src="{{ asset('assets/services/prod-img.webp') }}" alt="">
             <div class="service2-content">
                 <h2>Media <br> <span class="bold">PRODUCTION</span></h2>
                 <p>the hustle and bustle of infinite scrolling, you need a story that stops people in their tracks, with captivating visuals to match. And that’s where we come in…</p>
@@ -71,7 +71,7 @@
 
       <div class="service1-container">
         <div class="service1-row1">
-            <img src="{{ asset('assets/services/online-ad1.webp') }}" alt="">
+            <img class="zoom" src="{{ asset('assets/services/online-ad1.webp') }}" alt="">
             <div class="service1-content">
                 <h2>Online <br> <span class="bold">ADVERTISEMENT</span></h2>
                 <p>Getting found online is hard. Getting found by the right audience? - even harder. Navigating the Wild West of the Internet is no easy feat… unless you’re a pro, like us!</p>
@@ -79,14 +79,14 @@
             </div>
         </div>
         <div class="service1-row2">
-            <img src="{{ asset('assets/services/online-ad2.webp') }}" alt="">
-            <img src="{{ asset('assets/services/online-ad3.webp') }}" alt="">
+            <img class="zoom" src="{{ asset('assets/services/online-ad2.webp') }}" alt="">
+            <img class="zoom" src="{{ asset('assets/services/online-ad3.webp') }}" alt="">
         </div>
       </div>
 
       <div class="service2-container service2-consult">
         <div class="service2-row">
-            <img src="{{ asset('assets/services/consulting.webp') }}" alt="">
+            <img class="zoom" src="{{ asset('assets/services/consulting.webp') }}" alt="">
             <div class="service2-content consulting-text">
                 <h2>Strategy<br> <span class="bold">CONSULTING</span></h2>
                 <p>If at first you don’t succeed, just call us! Millions of accounts and thousands of brands, all fighting for top billing. Standing out is all about cracking the code. And would you look at that, we have that here, ready and waiting - just for you!</p>
@@ -97,7 +97,7 @@
 
       <div class="service1-container">
         <div class="service1-row1">
-            <img src="{{ asset('assets/services/software-dev.webp') }}" alt="">
+            <img class="zoom" src="{{ asset('assets/services/software-dev.webp') }}" alt="">
             <div class="service1-content">
                 <h2>Software<br> <span class="bold">DEVELOPMENT</span></h2>
                 <p>Find your spot in a noisy world. We know the exact place We harness the power of digital channels to expand your brand’s reach. Our digital marketing experts develop data-driven strategies to connect with your target audience, increase engagement, and drive conversions..</p>
@@ -105,8 +105,8 @@
             </div>
         </div>
         <div class="service1-row2">
-            <img src="{{ asset('assets/services/smm2.webp') }}" alt="">
-            <img src="{{ asset('assets/services/smm3.webp') }}" alt="">
+            <img class="zoom" src="{{ asset('assets/services/smm2.webp') }}" alt="">
+            <img class="zoom" src="{{ asset('assets/services/smm3.webp') }}" alt="">
         </div>
       </div>
 
@@ -140,5 +140,10 @@
         clip.pause();
     })
 </script>
+
+  <!-- Calling jQuery -->
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+
+  <script type="text/javascript" src="{{ asset('js/scroll.js') }}"></script>
   </body>
 </html>

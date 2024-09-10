@@ -59,7 +59,7 @@
     </div>
 
 
-    <div class="slideshow-container">
+    {{-- <div class="slideshow-container">
         <div class="slideshow-hero" id="fade">
           <div class="slide-image">
             <img src="assets/slideshow/slider1.png" alt="">
@@ -77,43 +77,24 @@
               <p>Come have a chat (CTA)...</p>
           </a>
         </div>
+    </div> --}}
     </header>
 
-
-    {{-- <section id="clients">
-        <h1>Touched by Us</h1>
-        <div class="clients-row">
-          <img src="assets/gino.png" alt="client-logo" class="client-logo">
-          <img src="assets/yango.png" alt="client-logo" class="client-logo">
-          <img src="assets/lucozade.png" alt="client-logo" class="client-logo">
-          <img src="assets/hdplus.png" alt="client-logo" class="client-logo">
-          <img src="assets/coke.png" alt="client-logo" class="client-logo">
-        </div>
-      </section> --}}
-
-
-
-    {{-- <div class="home-intro-text">
-        <img src="{{ asset('assets/homepage/arrow-header.svg') }}" alt="">
-        <p>Creating experiences, driving solutions, growing your business...
-         <br>   is our business.</p>
-    </div> --}}
-
     <div class="home-body-row1">
-        <div class="row1-text">
+        <div class="row1-text scrollFade">
             <h1 class="bold">You dream it, <br> we create it</h1>
             <p>An award-winning 360° marketing communications agency that creates compelling experiences for great brands. Our solutions leverage strategy, creative thinking and coordinated executions to deliver on business goals with focus on digital. Our approach is agile, collaborative and human-led...</p>
         </div>
-        <div class="row1-image">
+        <div class="row1-image zoom">
             <img src="{{ asset('assets/homepage/image-1-home.webp') }}" alt="Background says Movin'">
         </div>
     </div>
 
     <div class="home-body-row2">
-        <div class="row2-image">
+        <div class="row2-image zoom">
             <img src="{{ asset('assets/homepage/image-2-home.webp') }}" alt="">
         </div>
-        <div class="row2-text">
+        <div class="row2-text scrollFade">
             <h1 class="bold">Our Services</h1>
             <p>When we say 360, we mean it. From content creation to media production, we do it all.</p>
             <div class="services-container">
@@ -160,9 +141,9 @@
             </div>
             {{-- <a href="{{ route('services') }}"><h3 class="view-all bold">View All</h3></a> --}}
         </div>
-        <div class="row2-image-mobile">
+        {{-- <div class="row2-image-mobile">
             <img src="{{ asset('assets/homepage/mobile-service-img.webp') }}" alt="">
-        </div>
+        </div> --}}
     </div>
 
     {{-- <div class="home-body-row3">
@@ -214,12 +195,12 @@
     </div> --}}
 
 
-    <div class="home-body-row3">
+    <div class="home-body-row3 scrollFade">
 
         <div class="process-container">
         <h1 class="process-title">Our Process</h1>
         <div class="process-card-row">
-            <div class="process-card">
+            <div class="process-card zoom">
                 <h2 class="process-card-title">id</h2>
                 <h2 class="process-card-subtitle">...always listening</h2>
                 <hr class="process-card-hr">
@@ -229,14 +210,14 @@
                     consumers.</p>
             </div>
 
-            <div class="process-card process-card-bg">
+            <div class="process-card process-card-bg zoom">
                 <h2 class="process-card-title">id</h2>
                 <h2 class="process-card-subtitle">...always listening</h2>
                 <hr class="process-card-hr">
                 <p>We don’t just plan - we <br> explore your market <br> and discover the truth <br> about how it works, <br> and what makes a <br>difference in your <br> industry. <br>Keeping pace with the <br> speed of digital Truck</p>
             </div>
 
-            <div class="process-card">
+            <div class="process-card zoom">
                 <h2 class="process-card-title">id</h2>
                 <h2 class="process-card-subtitle">...always listening</h2>
                 <hr class="process-card-hr">
@@ -256,31 +237,31 @@
     <div class="home-body-row4">
         <h1 class="portfolio-title bold">Our Portfolio</h1>
         <section class="regular slider">
-            <div class="portfolio-card">
+            <div class="portfolio-card zoomBig">
               <img src="{{ asset('assets/homepage/malt.webp') }}">
               <h2 class="portfolio-card-title">Malta Guinness</h2>
             </div>
-            <div class="portfolio-card">
+            <div class="portfolio-card zoomBig">
               <img src="{{ asset('assets/homepage/stanbic.webp') }}">
               <h2 class="portfolio-card-title">Stanbic Bank</h2>
             </div>
-            <div class="portfolio-card">
+            <div class="portfolio-card zoomBig">
               <img src="{{ asset('assets/homepage/mtn.webp') }}">
               <h2 class="portfolio-card-title">MTN</h2>
             </div>
-            <div class="portfolio-card">
+            <div class="portfolio-card zoomBig">
               <img src="{{ asset('assets/homepage/dosh.webp') }}">
               <h2 class="portfolio-card-title">DOSH</h2>
             </div>
-            <div class="portfolio-card">
+            <div class="portfolio-card zoomBig">
                 <img src="{{ asset('assets/homepage/malt.webp') }}">
                 <h2 class="portfolio-card-title">Malta Guinness</h2>
             </div>
-            <div class="portfolio-card">
+            <div class="portfolio-card zoomBig">
                 <img src="{{ asset('assets/homepage/malt.webp') }}">
                 <h2 class="portfolio-card-title">Malta Guinness</h2>
             </div>
-            <div class="portfolio-card">
+            <div class="portfolio-card zoomBig">
               <img src="{{ asset('assets/homepage/dosh.webp') }}">
               <h2 class="portfolio-card-title">DOSH</h2>
             </div>
@@ -288,44 +269,6 @@
     </div>
 
 
-
-
-    {{-- <div class="home-body-row5">
-        <h1 class="big-screen bold">Don't take our word for it, <br> ask them</h1>
-        <h1 class="mobile bold">What everyone says</h1>
-        <div class="testimonial-row">
-            <div class="row5-testimonial-card">
-                <div class="testimonial-info-row">
-                    <div class="info">
-                        <img src="{{ asset('assets/homepage/1.webp') }}" alt="">
-                        <div class="text">
-                            <h3>Felix Sowah</h3>
-                            <p>Product Manager</p>
-                        </div>
-                    </div>
-                </div>
-                <p>An innovative digital company, committed to delivering exceptional personalized services, seamlessly integrates technology and expertise to fulfill tasks with style and finesse..</p>
-            </div>
-
-            <div class="row5-testimonial-card">
-                <div class="testimonial-info-row">
-                    <div class="info">
-                        <img src="{{ asset('assets/homepage/2.webp') }}" alt="">
-                        <div class="text">
-                            <h3>Mathias Akoto-Philips</h3>
-                            <p>UI-UX Designer</p>
-                        </div>
-                    </div>
-                </div>
-                <p>Combining advanced automation with a dedicated team of professionals, the company consistently delivers high-quality results, making it the go-to choice for discerning individuals seeking a seamless blend of style, functionality, and class..</p>
-            </div>
-        </div>
-
-        <div class="testimonial-row5-dots">
-            <span class="dot on"></span>
-            <span class="dot"></span>
-        </div>
-    </div> --}}
 
 
     <div class="testimonial-title">
@@ -372,7 +315,7 @@
         <div class="main-blog-row">
         <div class="blog-cards-row blog-cards-row-home">
           <div class="blog-card">
-            <img src="{{ asset('assets/homepage/blog1.webp') }}" class="home"  alt="">
+            <img src="{{ asset('assets/homepage/blog1.webp') }}" class="home zoomBig"  alt="">
             <div class="blog-card-text">
               <h2>A dive into the digital phase of advertising</h2>
               <p class="body-text">Advertising has transcended traditional boundaries into the digital phase over the last 30 years, and it’s a change anyone in the advertising field should be constantly adapting to..</p>
@@ -387,7 +330,7 @@
           </div>
 
           <div class="blog-card">
-            <img src="{{ asset('assets/homepage/blog2.webp') }}" class="home" alt="">
+            <img src="{{ asset('assets/homepage/blog2.webp') }}" class="home zoomBig" alt="">
             <div class="blog-card-text">
               <h2>Influencers vs social media personalities</h2>
               <p class="body-text">While influencers can certainly impact consumer decisions, their effectiveness can vary depending on factors such as industry niche, audience engagement, and the specific goals of a brand's marketing...</p>
@@ -402,7 +345,7 @@
           </div>
 
           <div class="blog-card">
-            <img src="{{ asset('assets/homepage/blog3.webp') }}" class="home" alt="">
+            <img src="{{ asset('assets/homepage/blog3.webp') }}" class="home zoomBig" alt="">
             <div class="blog-card-text">
               <h2>How Artificial Intelligence is Shaping Our Future</h2>
               <p class="body-text">There’s no denying that technology is transforming our world. From the way we work to the way we communicate, innovation seems to be the name...</p>
@@ -430,26 +373,26 @@
       <section class="logos-home">
         <h2>Touched by !D</h2>
         <div class="logos-row1">
-            <img src="{{ asset('assets/homepage/mtn-logo.webp') }}" alt="">
+            <img src="{{ asset('assets/homepage/mtn-logo.webp') }}" class="zoomBig">
 
-            <img src="{{ asset('assets/homepage/stanbic-logo.webp') }}" alt="">
+            <img src="{{ asset('assets/homepage/stanbic-logo.webp') }}" class="zoomBig">
 
-            <img src="{{ asset('assets/homepage/malt-logo.webp') }}" alt="">
+            <img src="{{ asset('assets/homepage/malt-logo.webp') }}" class="zoomBig">
 
-            <img src="{{ asset('assets/homepage/yango.webp') }}" alt="">
+            <img src="{{ asset('assets/homepage/yango.webp') }}" class="zoomBig">
 
-            <img src="{{ asset('assets/homepage/lucozade.webp') }}" alt="">
+            <img src="{{ asset('assets/homepage/lucozade.webp') }}" class="zoomBig">
         </div>
         <div class="logos-row2">
-            <img src="{{ asset('assets/homepage/hdplus.webp') }}" alt="">
+            <img src="{{ asset('assets/homepage/hdplus.webp') }}" class="zoomBig">
 
-            <img src="{{ asset('assets/homepage/gino.webp') }}" alt="">
+            <img src="{{ asset('assets/homepage/gino.webp') }}" class="zoomBig">
 
-            <img src="{{ asset('assets/homepage/gcb.webp') }}" alt="">
+            <img src="{{ asset('assets/homepage/gcb.webp') }}" class="zoomBig">
 
-            <img src="{{ asset('assets/homepage/starbow.webp') }}" class="starbow" alt="">
+            <img src="{{ asset('assets/homepage/starbow.webp') }}" class="starbow zoomBig" alt="">
 
-            <img src="{{ asset('assets/homepage/fiesta.webp') }}" alt="">
+            <img src="{{ asset('assets/homepage/fiesta.webp') }}" class="zoomBig">
         </div>
       </section>
 
@@ -509,6 +452,10 @@
 <script type="text/javascript" src="{{ asset('slick/slick.js') }}"></script>
 
 <script type="text/javascript" src="{{ asset('js/slick_ini.js') }}"></script>
+
+
+
+<script type="text/javascript" src="{{ asset('js/scroll.js') }}"></script>
 
 
 

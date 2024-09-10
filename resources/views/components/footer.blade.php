@@ -76,7 +76,7 @@
       <!-- <p>Contact &nbsp; / &nbsp; Terms of Service &nbsp; /  &nbsp;   Privacy Statement</p> -->
     </div>
 
-    <div class="mobile-copy-rights">
+    {{-- <div class="mobile-copy-rights">
       <div class="row-1">
         <p>© 2024 interactivedigital | All Rights reserved</p>
       </div>
@@ -97,5 +97,5 @@
           <img src="assets/accessibility-icon.svg" alt="">
         </div>
       </div>
-    </div>
+    </div> --}}
 </footer>
