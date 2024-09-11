@@ -28,10 +28,10 @@
       <header id="header-online-ad">
         @include('components.navbar')
         <div class="header-2">
-            <img src="assets/services/online-ad-header.webp" class="aboutus-header-2" alt="">
+            <img src="assets/services/online-ad-header2.webp" class="online-ad-header-2" alt="">
             {{-- <img src="assets/mobile-header-service.png" class="service-header-2-mobile" alt=""> --}}
           </div>
-          <a class="aboutus-header-cta" href="#">
+          <a class="online-ad-header-cta" href="#">
               <p>your digital powerhouse...</p>
           </a>
         <!-- ends here -->

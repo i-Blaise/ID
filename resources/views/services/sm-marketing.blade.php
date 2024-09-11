@@ -31,11 +31,11 @@
         {{-- Navbar  --}}
         @include('components.navbar')
         <div class="header-2">
-            <img src="assets/services/marketing-header.webp" class="aboutus-header-2" alt="">
+            <img src="assets/services/marketing-header2.webp" class="marketing-header-2" alt="">
             <h1 class="marketing-title">Digital <br> <span class="bold">MARKETING</span></h1>
             {{-- <img src="assets/mobile-header-service.png" class="service-header-2-mobile" alt=""> --}}
           </div>
-          <a class="aboutus-header-cta" href="#">
+          <a class="marketing-header-cta" href="#">
               <p>your digital powerhouse...</p>
           </a>
         <!-- ends here -->
@@ -48,7 +48,7 @@
             <p>Find your spot in a noisy world. We know the exact place we harness the power of digital channels to expand your brand’s reach. Our digital marketing experts develop data-driven strategies to connect with your target audience, increase engagement, and drive conversions.</p>
         </div>
       </section> --}}
-      <section class="sm-marketing-text-row">
+      <section class="sm-marketing-text-row scrollFade">
         <div class="sm-marketing-desc">
             <h1>“Bring your “<span class="bold">business to social media</span>”, they said. “It will be easy”, they said.</h1>
             <p>Yes, it’s clear to see why it’s not so easy. Over 4 billion people currently use social media to share, inform and build profitable relationships. However, there are unique ways of using your voice in the best-suited forms for your existing and potential customers. Sometimes that can be overwhelming and that’s where WE come in. We take on the reins to help you define your brand, identify your people and seamlessly integrate your goals, and objectives into sellable, valuable content that your tribe will care about.</p>
@@ -59,13 +59,13 @@
 
 
       <section class="marketing-row">
-        <div class="marketing-card card-1">
+        <div class="marketing-card card-1 zoomNoShadow">
             <h3>Search Engine Optimization</h3>
         </div>
-        <div class="marketing-card card-2">
+        <div class="marketing-card card-2 zoomNoShadow">
             <h3>Digital <br> Advertising</h3>
         </div>
-        <div class="marketing-card card-3">
+        <div class="marketing-card card-3 zoomNoShadow">
             <h3>Email / drip Marketing</h3>
         </div>
       </section>
@@ -103,5 +103,9 @@
         })
     </script>
 
+  <!-- Calling jQuery -->
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+
+  <script type="text/javascript" src="{{ asset('js/scroll.js') }}"></script>
   </body>
   </html>

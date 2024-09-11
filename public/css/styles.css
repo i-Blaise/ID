@@ -1357,7 +1357,7 @@ section .home-blog-title {
     }
 
     .logos-home {
-        margin: 5rem 7rem !important;
+        margin: 5rem 0 !important;
     }
 
     .ad-section p {
@@ -1494,7 +1494,7 @@ section .home-blog-title {
     }
 
     .ad-section p {
-        left: 27rem !important;
+        left: 29rem !important;
     }
 }
 
@@ -2424,6 +2424,7 @@ header .aboutus-header-cta p {
 
     header .aboutus-header-cta {
         top: 27px;
+        left: 290px;
     }
 
     header .header-2 .about-title {
@@ -2899,6 +2900,18 @@ header .service-header-cta {
         margin: 10rem 10rem 0rem 5rem;
     }
 
+
+    .service2-container .service2-row .service2-content {
+        margin: 28px -90px;
+        height: 26rem;
+        right: 7rem;
+    }
+
+    .service2-container .service2-row {
+        display: inline-flex;
+        margin: 20px 7rem;
+    }
+
 }
 
 @media (min-width: 1350px) and (max-width: 1450px) {
@@ -2932,6 +2945,13 @@ header .service-header-cta {
 
 @media (min-width: 1450px) and (max-width: 1550px) {
 
+    .service2-container .service2-row {
+        margin: 20px 7rem;
+    }
+    .service2-container .service2-row .service2-content {
+        margin: 2rem 24px !important;
+        width: 40rem !important;
+    }
 }
 
 @media (min-width: 1550px) and (max-width: 1650px) {
@@ -2978,6 +2998,11 @@ header .service-header-cta {
     .service1-container {
         margin: 10rem 10rem 0rem 17rem;
     }
+
+    .service2-container .service2-row {
+        position: relative;
+        left: 4rem;
+    }
 }
 
 @media (min-width: 1750px) and (max-width: 1850px) {
@@ -3000,6 +3025,11 @@ header .service-header-cta {
 
     .service1-container {
         margin: 13rem 10rem 0rem 20rem;
+    }
+
+    .service2-container .service2-row {
+        position: relative;
+        left: 4rem;
     }
 }
 
@@ -3074,6 +3104,42 @@ header .service-header-cta {
 
 
 /* Start Online Ad Page  */
+
+
+
+.online-ad-header-2 {
+    height: 26rem;
+    position: relative;
+    top: 3rem;
+    left: -4px;
+}
+
+header .online-ad-header-cta {
+    background-color: #CE1919;
+    max-width: 54rem;
+    display: flow;
+    height: 50px;
+    position: relative;
+    top: 40px;
+    left: 16rem;
+    margin: 0 3rem;
+    width: 56rem;
+}
+
+header .online-ad-header-cta p {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
 
 .ad-space {
     width: 73rem;
@@ -3237,6 +3303,87 @@ section .online-ad-row2 img {
 }
 
 
+
+
+/* Online Ad Responsiveness  */
+
+@media (min-width: 1250px) and (max-width: 1350px) {
+    .online-ad-header-2 {
+        height: 24rem;
+        position: relative;
+        top: 4rem;
+        left: -12px;
+    }
+
+    header .online-ad-header-cta {
+        top: 38px;
+        left: 10rem;
+    }
+
+    .ad-space .ad-space-banner {
+        margin: 0 6rem 0 0;
+    }
+
+    .online-ad-row1 .row1-image img {
+        height: 25rem;
+    }
+
+    section .online-ad-row1 {
+        width: 106%;
+    }
+
+    .online-ad-row1 .malt-sec {
+        height: 25rem;
+    }
+
+    section .online-ad-row2 img {
+        height: 153px !important;
+    }
+
+    .online-ad-row1 .malt-sec {
+        padding: 4rem 7rem;
+        max-width: 33rem;
+    }
+
+    .online-ad-row1 .row1-content {
+        max-width: 33rem;
+        height: 398px;
+    }
+
+    .online-ad-row1 .dosh-sec p {
+        font-size: 14px;
+        position: relative;
+        bottom: 1rem;
+    }
+
+    .online-ad-row1 .dosh-sec h2 {
+        line-height: 18px;
+        position: relative;
+        bottom: 1rem;
+    }
+
+    .online-ad-row1 .dosh-sec,
+    .online-ad-row1 .mtn-sec {
+        padding: 0 2rem 1px 4rem;
+    }
+
+    .online-ad-row1 .mtn-sec p {
+        font-size: 14px;
+    }
+
+    .online-ad-row1 .mtn-sec h2 {
+        line-height: 18px;
+        position: relative;
+        bottom: 1rem;
+    }
+
+    .online-ad-row1 .stanbic-sec {
+        padding: 6rem 6rem 13px 4rem;
+    }
+}
+
+
+
 @media screen and (min-width: 1700px) {
     .ad-space {
         margin: 6rem 250px;
@@ -3319,7 +3466,38 @@ section .online-ad-row2 img {
 
 /* Start of Social Media Marketing Page  */
 
+.marketing-header-2 {
+    height: 26rem;
+    position: relative;
+    top: 3rem;
+    left: -4px;
+}
 
+header .marketing-header-cta {
+    background-color: #CE1919;
+    max-width: 54rem;
+    display: flow;
+    height: 50px;
+    position: relative;
+    top: 40px;
+    left: 16rem;
+    margin: 0 3rem;
+    width: 56rem;
+}
+
+header .marketing-header-cta p {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
 
 .sm-marketing-text-row {
     margin: 8rem 10rem -28rem 11rem;
@@ -3397,53 +3575,198 @@ section .online-ad-row2 img {
 
 
 /* Digital marketing Responsive  */
-@media screen and (min-width: 1700px) {
+
+@media (min-width: 1250px) and (max-width: 1350px) {
+    .marketing-header-2 {
+        position: relative;
+        top: 2rem;
+        right: 22px;
+    }
+
+    header .marketing-header-cta {
+        left: 12rem !important;
+        top: 5px !important;
+    }
+
     .marketing-row {
-        margin: 28rem 0 0 19rem;
+        margin: 30rem 0 0 102px;
     }
 
     .sm-line-illustration {
-        left: 23rem;
+        left: 10rem;
     }
 }
 
-@media screen and (min-width: 1900px) {
-    .marketing-row {
-        margin: 29rem 0 0 26rem;
+@media (min-width: 1350px) and (max-width: 1450px) {
+
+    .marketing-header-2 {
+        position: relative;
+        left: 12px;
+        top: 4rem;
     }
 
+    header .marketing-header-cta {
+        top: 38px;
+        left: 13.5rem;
+    }
+
+    .marketing-row {
+        margin: 30rem 0 0 145px;
+    }
+
+    .sm-line-illustration {
+        left: 14rem;
+    }
+}
+
+
+@media (min-width: 1450px) and (max-width: 1550px) {
+    .marketing-header-2 {
+        height: 26rem;
+        position: relative;
+        top: 3rem;
+        left: -4px;
+    }
+
+    header .header-2 .marketing-title {
+        margin: -80px 0 0 12rem;
+    }
+
+    header .marketing-header-cta {
+        top: 21px;
+        left: 17rem;
+    }
+
+    .marketing-row {
+        margin: 29rem 0 0 12rem;
+    }
+}
+
+@media (min-width: 1550px) and (max-width: 1650px) {
+    .marketing-header-2 {
+        height: 27rem;
+        top: 3rem;
+    }
+
+    header .marketing-header-cta {
+        top: 20px !important;
+        left: 20rem;
+    }
+
+    .sm-marketing-text-row {
+        margin: 11rem 10rem -27rem 11rem;
+    }
+
+    .marketing-row {
+        margin: 28rem 0 0 14.5rem;
+    }
+
+    .sm-line-illustration {
+        left: 20rem;
+    }
+}
+
+@media (min-width: 1650px) and (max-width: 1750px) {
+    .marketing-header-2 {
+        height: 28rem;
+        top: 1rem;
+        left: -39px;
+    }
+
+    header .marketing-header-cta {
+        top: -11px;
+        left: 22.5rem;
+    }
+
+    .sm-marketing-text-row {
+        margin: 9rem 10rem -27rem 11rem;
+    }
+
+    .marketing-row {
+        margin: 28rem 0 0 18rem;
+    }
+
+    .sm-line-illustration {
+        left: 22rem;
+    }
+}
+
+@media (min-width: 1750px) and (max-width: 1850px) {
+    .marketing-header-2 {
+        height: 29rem;
+        top: 0rem;
+        left: -25px;
+    }
+
+    header .marketing-header-cta {
+        top: -26px;
+        left: 25.5rem;
+    }
+
+    .marketing-row {
+        margin: 29rem 0 0 20rem;
+    }
+
+    .sm-line-illustration {
+        left: 25rem;
+    }
+}
+
+@media (min-width: 1850px) and (max-width: 1950px) {
+    .marketing-header-2 {
+        height: 30rem;
+        top: -1rem;
+        left: -95px;
+    }
+
+    header .header-2 .marketing-title {
+        bottom: 14rem;
+        margin: -80px 0 0 12rem;
+    }
+
+    header .marketing-header-cta {
+        top: -42px;
+        left: 29.5rem;
+    }
+
+    .marketing-row {
+        margin: 29rem 0 0 25rem;
+    }
+}
+
+@media screen and (min-width: 1950px) {
+
+    .marketing-header-2 {
+        height: 30rem;
+        position: relative;
+        top: -1rem;
+        left: 48px;
+    }
+
+    header .marketing-header-cta {
+        top: -43px;
+        left: 32rem;
+    }
+
+    header .header-2 .marketing-title {
+        bottom: 15rem;
+        margin: -80px 0 0 20rem;
+    }
+
+    .sm-marketing-text-row .sm-marketing-desc {
+        width: 87rem;
+        position: relative;
+        left: 8rem;
+    }
+
+    .marketing-row {
+        margin: 29rem 0 0 28rem;
+    }
     .sm-line-illustration {
         left: 28rem;
     }
 }
 
-
-@media screen and (max-width: 700px) {
-    #header-sm-marketing {
-        background-position: 46% 0%;
-    }
-    header .header-2 .sm-header-2 {
-        display: none;
-    }
-    header .header-2 .sm-header-2-mobile {
-        display: inline;
-    }
-    /* .ad-space {
-        display: none;
-    } */
-    .sm-marketing-text-row {
-        margin: 8rem 1rem 4rem 1rem;
-    }
-    .sm-blob-1 {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 1450px) {
-    .marketing-row {
-        margin: 28rem 0 0 168px;
-    }
-}
 
 
 
