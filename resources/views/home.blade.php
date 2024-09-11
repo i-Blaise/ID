@@ -85,7 +85,7 @@
             <h1 class="bold">You dream it, <br> we create it</h1>
             <p>An award-winning 360° marketing communications agency that creates compelling experiences for great brands. Our solutions leverage strategy, creative thinking and coordinated executions to deliver on business goals with focus on digital. Our approach is agile, collaborative and human-led...</p>
         </div>
-        <div class="row1-image zoom">
+        <div class="row1-image zoomNoShadow">
             <img src="{{ asset('assets/homepage/image-1-home.webp') }}" alt="Background says Movin'">
         </div>
     </div>
@@ -315,7 +315,7 @@
         <div class="main-blog-row">
         <div class="blog-cards-row blog-cards-row-home">
           <div class="blog-card">
-            <img src="{{ asset('assets/homepage/blog1.webp') }}" class="home zoomBig"  alt="">
+            <img src="{{ asset('assets/homepage/blog1.webp') }}" class="home zoom"  alt="">
             <div class="blog-card-text">
               <h2>A dive into the digital phase of advertising</h2>
               <p class="body-text">Advertising has transcended traditional boundaries into the digital phase over the last 30 years, and it’s a change anyone in the advertising field should be constantly adapting to..</p>
@@ -330,7 +330,7 @@
           </div>
 
           <div class="blog-card">
-            <img src="{{ asset('assets/homepage/blog2.webp') }}" class="home zoomBig" alt="">
+            <img src="{{ asset('assets/homepage/blog2.webp') }}" class="home zoom" alt="">
             <div class="blog-card-text">
               <h2>Influencers vs social media personalities</h2>
               <p class="body-text">While influencers can certainly impact consumer decisions, their effectiveness can vary depending on factors such as industry niche, audience engagement, and the specific goals of a brand's marketing...</p>
@@ -345,7 +345,7 @@
           </div>
 
           <div class="blog-card">
-            <img src="{{ asset('assets/homepage/blog3.webp') }}" class="home zoomBig" alt="">
+            <img src="{{ asset('assets/homepage/blog3.webp') }}" class="home zoom" alt="">
             <div class="blog-card-text">
               <h2>How Artificial Intelligence is Shaping Our Future</h2>
               <p class="body-text">There’s no denying that technology is transforming our world. From the way we work to the way we communicate, innovation seems to be the name...</p>

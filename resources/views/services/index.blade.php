@@ -31,14 +31,16 @@
         @include('components.navbar')
 
 
-        <div class="header-2">
-          <img src="assets/services/header2.webp" class="aboutus-header-2" alt="">
-          <h1 class="service-title">Our <span class="bold">Services</span></h1>
-          {{-- <img src="assets/mobile-header-service.png" class="service-header-2-mobile" alt=""> --}}
+        <div class="header-w-cta">
+            <div class="header-2">
+            <img src="assets/services/header2.webp" class="service-header-2" alt="">
+            <h1 class="service-title">Our <span class="bold">Services</span></h1>
+            {{-- <img src="assets/mobile-header-service.png" class="service-header-2-mobile" alt=""> --}}
+            </div>
+            <a class="aboutus-header-cta service-header-cta" href="#">
+                <p>your digital powerhouse...</p>
+            </a>
         </div>
-        <a class="aboutus-header-cta" href="#">
-            <p>your digital powerhouse...</p>
-        </a>
         <!-- ends here -->
       </header>
 
