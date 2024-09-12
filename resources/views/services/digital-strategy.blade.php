@@ -28,11 +28,11 @@
       <header id="header-digital-strategy">
         @include('components.navbar')
         <div class="header-2">
-            <img src="assets/services/ds-header.webp" class="aboutus-header-2" alt="">
-            <h1 class="marketing-title">Strategy & <br> <span class="bold">CONSULTING</span></h1>
+            <img src="assets/services/ds-header.webp" class="strategy-header-2" alt="">
+            <h1 class="strategy-title">Strategy & <br> <span class="bold">CONSULTING</span></h1>
             {{-- <img src="assets/mobile-header-service.png" class="service-header-2-mobile" alt=""> --}}
           </div>
-          <a class="aboutus-header-cta" href="#">
+          <a class="strategy-header-cta" href="#">
               <p>your digital powerhouse...</p>
           </a>
         <!-- ends here -->
@@ -51,19 +51,19 @@
     <section class="ds-body-container">
 
         <section class="ds-row">
-            <div class="ds-text">
+            <div class="ds-text scrollFade">
                 <h2 class="bold">Brand Strategy:</h2>
                 <p>Development of comprehensive brand strategies for clients, including market segmentation, brand positioning, targeting, messaging, and differentiation strategies.</p>
             </div>
             <div class="ds-image">
-                <img src="{{ asset('assets/services/strat.webp') }}" alt="Laptop design">
+                <img class="zoomNoShadow" src="{{ asset('assets/services/strat.webp') }}" alt="Laptop design">
             </div>
         </section>
 
 
         <section class="ds-row">
             <div class="ds-image">
-                <img src="{{ asset('assets/services/strat1.webp') }}" alt="Laptop design">
+                <img class="zoomNoShadow" src="{{ asset('assets/services/strat1.webp') }}" alt="Laptop design">
             </div>
             <div class="ds-text">
                 <h2 class="bold">Digital Marketing Service:</h2>
@@ -79,14 +79,14 @@
                 <p>Development of comprehensive brand strategies for clients, including market segmentation, brand positioning, targeting, messaging, and differentiation strategies.</p>
             </div>
             <div class="ds-image">
-                <img src="{{ asset('assets/services/strat2.webp') }}" alt="Laptop design">
+                <img class="zoomNoShadow" src="{{ asset('assets/services/strat2.webp') }}" alt="Laptop design">
             </div>
         </section>
 
 
         <section class="ds-row">
             <div class="ds-image">
-                <img src="{{ asset('assets/services/strat3.webp') }}" alt="Laptop design">
+                <img class="zoomNoShadow" src="{{ asset('assets/services/strat3.webp') }}" alt="Laptop design">
             </div>
             <div class="ds-text">
                 <h2 class="bold">Marketing Research and Analytics:</h2>
@@ -101,7 +101,7 @@
                 <p>Development of comprehensive brand strategies for clients, including market segmentation, brand positioning, targeting, messaging, and differentiation strategies.</p>
             </div>
             <div class="ds-image">
-                <img src="{{ asset('assets/services/strat4.webp') }}" alt="Laptop design">
+                <img class="zoomNoShadow" src="{{ asset('assets/services/strat4.webp') }}" alt="Laptop design">
             </div>
         </section>
 
@@ -135,5 +135,11 @@
                 clip.pause();
             })
         </script>
+
+
+  <!-- Calling jQuery -->
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+
+  <script type="text/javascript" src="{{ asset('js/scroll.js') }}"></script>
   </body>
   </html>
