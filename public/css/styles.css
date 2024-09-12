@@ -3382,19 +3382,119 @@ section .online-ad-row2 img {
     }
 }
 
+@media (min-width: 1350px) and (max-width: 1450px) {
+    .online-ad-header-2 {
+        left: -9px;
+    }
+
+    section .online-ad-row2 img {
+        height: 166px;
+    }
+
+    .online-ad-row1 .row1-image img {
+        height: 27rem;
+    }
+
+    header .online-ad-header-cta {
+        top: 21px;
+        left: 14rem;
+    }
+
+    .ad-space {
+        margin: 6rem 125px !important;
+    }
+
+    section .online-ad-row1 {
+        width: 102%;
+    }
+
+    .online-ad-row1 .mtn-sec {
+        padding: 2rem 3rem 13px
+    }
+
+    .online-ad-row1 .dosh-sec {
+        padding: 1rem 2rem 13px
+    }
+
+    .online-ad-row1 .row1-content {
+        max-width: 36rem;
+        height: 431px;
+    }
+}
 
 
-@media screen and (min-width: 1700px) {
+@media (min-width: 1450px) and (max-width: 1550px) {
+    .ad-space {
+        margin: 6rem 169px !important;
+    }
+
+    header .online-ad-header-cta {
+        top: 21px;
+    }
+
+    .online-ad-row1 .row1-image img {
+        height: 28rem;
+    }
+
+    .online-ad-row1 .row1-content {
+        max-width: 38rem;
+        height: 447px;
+    }
+
+    section .online-ad-row2 img {
+        height: 175px;
+    }
+}
+
+
+@media (min-width: 1550px) and (max-width: 1650px) {
+    header .online-ad-header-cta {
+        top: 22px;
+        left: 19rem;
+    }
+
+    .ad-space {
+        margin: 6rem 195px;
+    }
+
+    #online-ad {
+        margin: -4rem 8rem 12rem 11rem;
+    }
+
+    .online-ad-row1 .malt-sec {
+        max-width: 40rem;
+    }
+
+    section .online-ad-row2 img {
+        height: 185px;
+    }
+}
+
+@media (min-width: 1650px) and (max-width: 1750px) {
     .ad-space {
         margin: 6rem 250px;
     }
 
     #online-ad {
-        margin: -4rem 8rem 12rem 250px;
+        margin: -4rem 8rem 12rem 218px;
+    }
+
+    .online-ad-header-2 {
+        height: 28rem;
+        position: relative;
+        top: 2rem;
+        left: -39px;
+    }
+
+    header .online-ad-header-cta {
+        top: 6px;
+        left: 23rem;
+
     }
 }
 
-@media screen and (min-width: 1800px) {
+
+@media (min-width: 1750px) and (max-width: 1850px) {
     .ad-space {
         margin: 6rem 361px !important;
     }
@@ -3402,58 +3502,95 @@ section .online-ad-row2 img {
     #online-ad {
         margin: -4rem 8rem 12rem 19rem;
     }
-}
-
-
-
-@media screen and (max-width: 1450px) {
-    section .online-ad-row2 img {
-        height: 169px;
-    }
-}
-
-@media screen and (max-width: 1500px) {
-    .ad-space {
-        margin: 6rem 138px !important;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    #header-online-ad {
-        background-image: url(../assets/services/online-ad-bg-mobile.png);
-        height: 47rem;
-    }
-    .header-title-mobile {
-        display: inline;
-    }
-    .header-title-mobile h1{
-        font-size: 32px;
-        font-weight: 700;
-        color: #FFF;
-        position: relative;
-        top: 12rem;
-        left: 1rem;
-        line-height: 18px;
-    }
-
-    .header-title-mobile .two-x{
-        font-size: 58px;
-        font-weight: 900;
-    }
 
     .online-ad-header-2 {
-        display: none;
+        height: 29rem;
+        position: relative;
+        top: 1rem;
+        left: -28px;
     }
-    .marketing-blob1,
-    .marketing-blob2 {
-        display: none;
+
+    header .online-ad-header-cta {
+        top: -11px;
+        left: 27rem;
     }
-    .ad-space {
-        margin: -3rem 0;
-        height: 20rem;
+
+    #online-ad {
+        margin: -4rem 8rem 12rem 17rem;
+    }
+
+    section .online-ad-row2 img {
+        height: 185px;
+    }
+
+    .online-ad-row1 .malt-sec {
+        max-width: 40rem;
     }
 
 }
+
+@media (min-width: 1850px) and (max-width: 1950px) {
+    .online-ad-header-2 {
+        height: 30rem;
+        position: relative;
+        top: 0rem;
+        left: -92px;
+    }
+
+    header .online-ad-header-cta {
+        top: -27px;
+        left: 30rem;
+    }
+
+    .ad-space {
+        width: 83rem;
+        margin: 6rem 286px;
+    }
+
+    #online-ad {
+        margin: -4rem 8rem 12rem 22rem;
+    }
+
+    section .online-ad-row2 img {
+        height: 185px;
+    }
+
+    .online-ad-row1 .malt-sec {
+        max-width: 40rem;
+    }
+}
+
+@media (min-width: 1950px) {
+    .online-ad-header-2 {
+        height: 30rem;
+        position: relative;
+        top: 1rem;
+        left: 42px;
+    }
+
+    header .online-ad-header-cta {
+        top: -10px;
+        left: 33rem;
+    }
+
+    .ad-space {
+        width: 84rem;
+        margin: 6rem 283px;
+    }
+
+    #online-ad {
+        margin: -4rem 8rem 12rem 23rem;
+    }
+
+    section .online-ad-row2 img {
+        height: 185px;
+    }
+
+    .online-ad-row1 .malt-sec {
+        max-width: 40rem;
+    }
+}
+
 
 
 /* End Online Ad Page  */
