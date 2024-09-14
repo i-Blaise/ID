@@ -27,19 +27,7 @@
     />
   </head>
   <body>
-      <header id="header-sm-marketing">
-        {{-- Navbar  --}}
-        @include('components.navbar')
-        <div class="header-2">
-            <img src="assets/services/marketing-header2.webp" class="marketing-header-2" alt="">
-            <h1 class="marketing-title">Digital <br> <span class="bold">MARKETING</span></h1>
-            {{-- <img src="assets/mobile-header-service.png" class="service-header-2-mobile" alt=""> --}}
-          </div>
-          <a class="marketing-header-cta" href="#">
-              <p>your digital powerhouse...</p>
-          </a>
-        <!-- ends here -->
-      </header>
+    @include('components.header')
 
 
       {{-- <section class="ad-space">

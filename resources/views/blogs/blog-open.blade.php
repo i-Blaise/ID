@@ -12,7 +12,7 @@
         <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
         <link rel="manifest" href="assets/favicon_io/site.webmanifest">
 
-        
+
     <link rel="stylesheet" href="css/styles.css" />
     <link
       rel="stylesheet"
@@ -31,11 +31,11 @@
             <!-- navbar begins here -->
 
             @include('components.navbar')
-    
+
 
     <section id="blog-content-container">
 
-      
+
       <img src="assets/blog-blob2.svg" alt="" class="blob2">
       <img src="assets/blog-blob3.svg" alt="" class="blob3">
       <div class="blog-content-left">
@@ -53,7 +53,7 @@
           <p class="main-body-1">dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodomolestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan eiusto odio dignissim qui blandit praesent luptatum. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet .<br><br>
 
             legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. <br><br>
-            
+
             mmy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
 
             <div class="body-image-row">
@@ -75,7 +75,7 @@
               </h1>
               <p class="main-body-3">
                 dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodomolestie consequat, vel illum dolore eu feugiat <br> <br>
-  
+
                 legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
               </p>
             </div>
@@ -136,7 +136,7 @@
                     </textarea>
                   </div>
                 </div>
-                  
+
                 <input type="checkbox" id="save-data" name="save-data" value="save-data">
                 <label for="save-data" class="save-data">
                   Save my name, email, and website in this browser for the next time I comment.</label><br>
@@ -153,7 +153,7 @@
 
 
 
-      <img src="assets/blog-blob1.svg" alt="" class="blob1">
+      {{-- <img src="assets/blog-blob1.svg" alt="" class="blob1"> --}}
       <div class="blog-content-right">
         <form action="#" class="search-bar">
           <input type="text" name="fullname" placeholder="Search...">
@@ -171,7 +171,7 @@
                 <p>May 02, 2022 &nbsp; <img src="assets/blue-dot.svg" alt=""> 3 min read</p>
             </div>
           </div>
-          
+
           <div class="recent-post-card">
             <div class="recent-post-image">
               <img src="assets/recentpost-blog2.png" alt="">
@@ -182,7 +182,7 @@
                 <p>May 02, 2022 &nbsp; <img src="assets/blue-dot.svg" alt=""> 3 min read</p>
             </div>
           </div>
-          
+
           <div class="recent-post-card">
             <div class="recent-post-image">
               <img src="assets/recentpost-blog3.png" alt="">
@@ -280,28 +280,28 @@
     <!-- Footer Starts  -->
         @include('components.footer')
     <!-- Footer Ends  -->
-    
 
-    <script> 
-  
-      // Targeting video element  
-      let clip = document.querySelector(".vid") 
-      let footer = document.querySelector(".footer-row") 
 
-      /* Applying mouseover event on video clip  
-      and then we call play() function to play  
-      the video when the mouse is over the video */ 
-      footer.addEventListener("mouseover", function (e) { 
-          clip.play(); 
-      }) 
+    <script>
 
-      /* Applying mouseout event on video clip  
-      and then we call pause() function to stop  
-      the video when the mouse is out the video */ 
-      footer.addEventListener("mouseout", function (e) { 
-          clip.pause(); 
-      }) 
-  </script> 
+      // Targeting video element
+      let clip = document.querySelector(".vid")
+      let footer = document.querySelector(".footer-row")
+
+      /* Applying mouseover event on video clip
+      and then we call play() function to play
+      the video when the mouse is over the video */
+      footer.addEventListener("mouseover", function (e) {
+          clip.play();
+      })
+
+      /* Applying mouseout event on video clip
+      and then we call pause() function to stop
+      the video when the mouse is out the video */
+      footer.addEventListener("mouseout", function (e) {
+          clip.pause();
+      })
+  </script>
 
   </body>
   </html>

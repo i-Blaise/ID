@@ -25,43 +25,10 @@
     />
   </head>
   <body>
-      {{-- <header>
 
-        @include('components.navbar') --}}
-
-        <!-- ends here -->
-
-        {{-- <div class="about-header">
-            <div class="header-text"> --}}
-                {{-- <h3>About Us</h3> --}}
-                {{-- <h1 class="bold">Welcome</h1> --}}
-                {{-- <p>We discus on business performance and metrics that matter- sales, new customers, revenue, and such.</p> --}}
-            {{-- </div>
-            <div class="header-image">
-                <img src="assets/about-header-1.png" alt="" class="header1">
-                <img src="assets/about-header-2.png" alt="" class="header2">
-            </div>
-        </div>
-      </header> --}}
-
-      <header id="header-aboutus">
-
-        @include('components.navbar')
+    @include('components.header')
 
 
-        <div class="header-w-cta">
-            <div class="header-2">
-                <img src="{{ asset('assets/about-banner2.webp') }}" class="aboutus-header-2" alt="">
-                <h1 class="about-title">We <span class="bold">empower</span> you <br> to grow your bussiness.</h1>
-                {{-- <img src="{{ asset('assets/about-banner2.webp') }}" class="service-header-2-mobile" alt=""> --}}
-              </div>
-              <a class="aboutus-header-cta" href="#">
-                  <p>your digital powerhouse...</p>
-              </a>
-        </div>
-
-        <!-- ends here -->
-      </header>
 
 
       <section class="about-column">

@@ -27,21 +27,7 @@
     />
   </head>
   <body>
-    <header id="header-blog">
-
-        @include('components.navbar')
-
-
-        <div class="header-2">
-          <img src="{{ asset('assets/blogs/blog-header2.webp') }}" class="aboutus-header-2" alt="">
-          <h1 class="service-title">Latest <span class="bold">news</span></h1>
-          {{-- <img src="assets/mobile-header-service.png" class="service-header-2-mobile" alt=""> --}}
-        </div>
-        <a class="aboutus-header-cta" href="#">
-            <p>your digital powerhouse...</p>
-        </a>
-        <!-- ends here -->
-      </header>
+    @include('components.header')
 
       <div class="blog-search-row">
         <form class="blog-search" action="">
@@ -57,7 +43,7 @@
         <div class="main-blog-row">
           <a href="{{ route('blog-open') }}">
             <div class="main-blog-img">
-              <img src="assets/main-blog-img.png" alt="">
+              <img class="zoom" src="assets/main-blog-img.png" alt="">
             </div>
           </a>
           <div class="main-blog-text">
@@ -81,9 +67,11 @@
         <div class="blog-cards-row">
 
           <div class="blog-card">
-            <img src="assets/blog2.png" alt="">
+            <img class="zoomNoShadow" src="assets/blog2.png" alt="">
             <div class="blog-card-text">
-              <h2>Lorem Ipsum is simply dummy text of the printing.</h2>
+                <a href="#">
+                  <h2>Lorem Ipsum is simply dummy text of the printing.</h2>
+                </a>
               <p class="blog-excerpt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the .</p>
               <div class="card-info">
                 <img src="{{ asset('assets/homepage/5.webp') }}"  alt="Blog Author">
@@ -96,7 +84,7 @@
           </div>
 
           <div class="blog-card">
-            <img src="assets/blog3.png" alt="">
+            <img class="zoomNoShadow" src="assets/blog3.png" alt="">
             <div class="blog-card-text">
               <h2>Lorem Ipsum is simply dummy text of the printing.</h2>
               <p class="blog-excerpt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the .</p>
@@ -111,9 +99,11 @@
           </div>
 
           <div class="blog-card">
-            <img src="assets/blog4.png" alt="">
+            <img class="zoomNoShadow" src="assets/blog4.png" alt="">
             <div class="blog-card-text">
-              <h2>Lorem Ipsum is simply dummy text of the printing.</h2>
+              <a href="#">
+                <h2>Lorem Ipsum is simply dummy text of the printing.</h2>
+              </a>
               <p class="blog-excerpt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the .</p>
               <div class="card-info">
                 <img src="assets/blog-author4.png" alt="Blog Author">
@@ -126,7 +116,7 @@
           </div>
 
           <div class="blog-card">
-            <img src="assets/blog2.png" alt="">
+            <img class="zoomNoShadow" src="assets/blog2.png" alt="">
             <div class="blog-card-text">
               <h2>Lorem Ipsum is simply dummy text of the printing.</h2>
               <p class="blog-excerpt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the .</p>

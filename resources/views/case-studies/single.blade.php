@@ -26,19 +26,7 @@
     />
 </head>
 <body>
-    <header id="header-case-open">
-      @include('components.navbar')
-
-
-      <div class="header-2">
-        <img src="assets/case_study/case-open-header.webp" class="aboutus-header-2" alt="">
-        {{-- <img src="assets/mobile-header-service.png" class="service-header-2-mobile" alt=""> --}}
-      </div>
-      <a class="aboutus-header-cta" href="#">
-          <p>your digital powerhouse...</p>
-      </a>
-        <!-- ends here -->
-      </header>
+    @include('components.header')
 <!-- partial:index.partial.html -->
 
 

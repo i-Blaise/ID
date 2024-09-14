@@ -25,18 +25,7 @@
     />
   </head>
   <body>
-      <header id="header-digital-strategy">
-        @include('components.navbar')
-        <div class="header-2">
-            <img src="assets/services/ds-header.webp" class="strategy-header-2" alt="">
-            <h1 class="strategy-title">Strategy & <br> <span class="bold">CONSULTING</span></h1>
-            {{-- <img src="assets/mobile-header-service.png" class="service-header-2-mobile" alt=""> --}}
-          </div>
-          <a class="strategy-header-cta" href="#">
-              <p>your digital powerhouse...</p>
-          </a>
-        <!-- ends here -->
-        </header>
+    @include('components.header')
 
 
         <section class="ds-text-row">

@@ -26,22 +26,7 @@
     />
   </head>
   <body>
-            <!-- navbar begins here -->
-    <header id="header-services">
-
-        @include('components.navbar')
-
-
-        <div class="header-2">
-            <img src="assets/contact-header2.webp" class="aboutus-header-2" alt="">
-            <h1 class="casestudy-title">Contact <span class="bold">Us</span></h1>
-            {{-- <img src="assets/mobile-header-service.png" class="service-header-2-mobile" alt=""> --}}
-        </div>
-        <a class="aboutus-header-cta" href="#">
-            <p>your digital powerhouse...</p>
-        </a>
-        <!-- ends here -->
-        </header>
+    @include('components.header')
 
       <section class="contact2">
         <form class="contact2-form" action="#">

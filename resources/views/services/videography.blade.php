@@ -27,13 +27,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   </head>
 <body>
-    <header id="header-videography">
-      @include('components.navbar')
-        <!-- ends here -->
-      </header>
+
+    @include('components.header')
 <!-- partial:index.partial.html -->
-<div class="grid-container">
-    
+{{-- <div class="grid-container">
+
     <h2>Projects</h2>
   <main class="grid-item main">
     <img src="assets/videography/video-line-1.svg" class="line-1" alt="">
@@ -49,7 +47,7 @@
               <p>1h 14m</p>
             </div>
         </div>
-        
+
         <div class="video-show-card item item2">
             <div class="video-card">
               <img src="assets/videography/video-show2.png" alt="">
@@ -60,7 +58,7 @@
             </div>
         </div>
 
-        
+
         <div class="video-show-card item item3">
             <div class="video-card">
               <img src="assets/videography/video-show3.png" alt="">
@@ -71,7 +69,7 @@
             </div>
         </div>
 
-        
+
         <div class="video-show-card item item4">
             <div class="video-card">
               <img src="assets/videography/video-show4.png" alt="">
@@ -83,7 +81,7 @@
         </div>
 
 
-        
+
         <div class="video-show-card item item5">
             <div class="video-card">
               <img src="assets/videography/video-show5.png" alt="">
@@ -96,7 +94,7 @@
     </div>
   </main>
 
-</div>
+</div> --}}
 
 
 
