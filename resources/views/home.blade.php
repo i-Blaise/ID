@@ -38,7 +38,7 @@
 
     <div class="header-info-row">
         <div class="left-header-info">
-            <h1 class="bold">YOUR <br> <span>DIGITAL</span> <br>POWER HOUSE.
+            <h1 class="bold home-title">YOUR <br> <span>DIGITAL</span> <br>POWER HOUSE.
             </h1>
             <p>Creating experiences, driving solutions, growing your business...
                 <br>   is our business.</p>
