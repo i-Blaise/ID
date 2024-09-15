@@ -117,3 +117,27 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+
+@media (max-width: 600px) {
+
+    /* .slick-slide img {
+        width: 13rem;
+    }
+
+    .portfolio-dots {
+        margin: 10px 5rem;
+    }
+
+    .slick-slide {
+        margin-left: 13rem;
+    }
+
+    .slick-slider .slick-track {
+        width: max-content !important;
+    } */
+
+    .slick-slide {
+        width: 400px !important;
+    }
+}
