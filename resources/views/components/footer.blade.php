@@ -57,13 +57,14 @@
           </div>
         </div>
         <div class="footer-row-3">
+
           <video id="player" poster="assets/footer-video.png" class="vid" playsinline width="848" height="480" data-poster="assets/blog2.png" controls muted loop>
             <source src="assets/video/footer-vid.mp4" type="video/mp4">
             <source src="assets/video/footer-vid.mp4" type="video/ogg">
             Your browser does not support the video tag.
           </video>
 
-          </div>
+        </div>
     </div>
 
     <!-- <hr> -->

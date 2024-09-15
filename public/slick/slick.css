@@ -136,8 +136,8 @@
     .slick-slider .slick-track {
         width: max-content !important;
     } */
-
-    .slick-slide {
-        width: 400px !important;
+    .slick-list {
+        width: 30rem;
     }
+
 }

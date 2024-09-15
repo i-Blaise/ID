@@ -281,6 +281,9 @@
       <div class="testimonial-img">
         <img src="{{ asset('assets/homepage/testimonial-img.webp') }}" alt="">
       </div>
+      <div class="testimonial-img-mobile">
+        <img src="{{ asset('assets/homepage/testimonial-image.webp') }}" alt="">
+      </div>
       <div class="testimonial-text">
         <h1>Emillie <br> Jonas</h1>
         <h3>CEO</h3>
@@ -291,6 +294,9 @@
         <div class="testimonial-img">
           <img src="{{ asset('assets/homepage/testimonial-img.webp') }}" alt="">
         </div>
+        <div class="testimonial-img-mobile">
+          <img src="{{ asset('assets/homepage/testimonial-image.webp') }}" alt="">
+        </div>
         <div class="testimonial-text">
           <h1>Emillie <br> Jonas</h1>
           <h3>CEO</h3>
@@ -300,6 +306,9 @@
       <div class="testimonial-container">
         <div class="testimonial-img">
           <img src="{{ asset('assets/homepage/testimonial-img.webp') }}" alt="">
+        </div>
+        <div class="testimonial-img-mobile">
+          <img src="{{ asset('assets/homepage/testimonial-image.webp') }}" alt="">
         </div>
         <div class="testimonial-text">
           <h1>Emillie <br> Jonas</h1>
@@ -393,6 +402,28 @@
             <img src="{{ asset('assets/homepage/starbow.webp') }}" class="starbow zoomBig" alt="">
 
             <img src="{{ asset('assets/homepage/fiesta.webp') }}" class="zoomBig">
+        </div>
+
+        <div class="logos-row-mobile">
+            <img src="{{ asset('assets/homepage/mtn-logo.webp') }}" >
+
+            <img src="{{ asset('assets/homepage/stanbic-logo.webp') }}" >
+
+            <img src="{{ asset('assets/homepage/malt-logo.webp') }}" >
+
+            <img src="{{ asset('assets/homepage/yango.webp') }}" >
+
+            <img src="{{ asset('assets/homepage/lucozade.webp') }}" >
+
+            <img src="{{ asset('assets/homepage/hdplus.webp') }}" >
+
+            <img src="{{ asset('assets/homepage/gino.webp') }}" >
+
+            <img src="{{ asset('assets/homepage/gcb.webp') }}" >
+
+            <img src="{{ asset('assets/homepage/starbow.webp') }}" class="starbow zoomBig" alt="">
+
+            <img src="{{ asset('assets/homepage/fiesta.webp') }}" >
         </div>
       </section>
 
