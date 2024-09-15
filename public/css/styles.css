@@ -1588,6 +1588,39 @@ section .home-blog-title {
     .home-body-row2 .row2-image img {
         height: 470px;
     }
+
+    .home-body-row3 {
+    height: 38rem;
+    width: 427%;
+    background-position: -64rem 0;
+    background-size: contain;
+    }
+
+    .home-body-row3::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+    }
+
+    .home-body-row3 .process-card-row {
+        display: flex; /* Makes the child divs align horizontally */
+        overflow-x: auto; /* Allows horizontal scrolling */
+        white-space: nowrap; /* Prevents the items from wrapping to the next line */
+        width: 100%; /* Adjust the width as needed */
+    }
+
+    .process-card {
+        min-width: 200px; /* Adjust the width of each item */
+        margin-right: 10px; /* Add space between items */
+        background-color: #f0f0f0; /* Just for visibility */
+        text-align: center;
+        line-height: 150px; /* Vertically centers text in the div */
+        border: 1px solid #ccc;
+      }
 }
 
 
