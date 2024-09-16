@@ -7543,6 +7543,11 @@ footer .copy-rights a {
     bottom: 14px !important;
 }
 
+@media (min-width: 1250px) and (max-width: 1350px) {
+    .footer-row .footer-row-2 {
+        width: 42% !important;
+    }
+}
 
 @media screen and (min-width: 1700px) {
     .footer-row {
