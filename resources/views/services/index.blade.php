@@ -50,7 +50,7 @@
             <div class="service2-content">
                 <h2>Media <br> <span class="bold">PRODUCTION</span></h2>
                 <p>the hustle and bustle of infinite scrolling, you need a story that stops people in their tracks, with captivating visuals to match. And that’s where we come in…</p>
-                <a href="{{ route('videography') }}"><p>Shoot my big story!</p></a>
+                <a href="#"><p>Shoot my big story!</p></a>
             </div>
         </div>
       </div>
