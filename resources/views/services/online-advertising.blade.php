@@ -43,17 +43,17 @@
             <div class="row1-image">
                 <img src="{{ asset('assets/services/alvaro-ad.webp') }}" alt="Alvaro Ad">
             </div>
-            <div class="row1-content malt-sec">
+            <div class="row1-content malt-sec zoomNoShadow">
                 <h3 class="malt">Team Work</h3>
                 <h2>Malta <br> <span class="ad-white-text">Guinness</span></h2>
                 <p>Cut through the noise and find your people! You need people to see you and what you can do. No problem! Sit back, relax, and let us create content that speaks to your tribe!</p>
             </div>
         </div>
         <div class="online-ad-row2">
-            <img src="{{ asset('assets/services/malt-ad.webp') }}" alt="Malt Ad">
-            <img src="{{ asset('assets/services/malt-ad1.webp') }}" alt="Malt Ad">
-            <img src="{{ asset('assets/services/malt-ad2.webp') }}" alt="Malt Ad">
-            <img src="{{ asset('assets/services/malt-ad3.webp') }}" alt="Malt Ad">
+            <img class="zoomNoShadow" src="{{ asset('assets/services/malt-ad.webp') }}" alt="Malt Ad">
+            <img class="zoomNoShadow"  src="{{ asset('assets/services/malt-ad1.webp') }}" alt="Malt Ad">
+            <img class="zoomNoShadow"  src="{{ asset('assets/services/malt-ad2.webp') }}" alt="Malt Ad">
+            <img class="zoomNoShadow"  src="{{ asset('assets/services/malt-ad3.webp') }}" alt="Malt Ad">
         </div>
       </section>
 
