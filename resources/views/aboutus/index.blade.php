@@ -147,7 +147,7 @@
             </div>
 
             <div class="team-card">
-                <img src="assets/team/danda.png" alt="" class="team-pic">
+                <img src="assets/team/Danda.png" alt="" class="team-pic">
                 <div class="team-title">
                     <h5>Programme Manager</h5>
                 </div>
