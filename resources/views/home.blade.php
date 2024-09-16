@@ -253,7 +253,7 @@
               <img src="{{ asset('assets/homepage/dosh.webp') }}">
               <h2 class="portfolio-card-title">DOSH</h2>
             </div>
-            <div class="portfolio-card zoomBig">
+            {{-- <div class="portfolio-card zoomBig">
                 <img src="{{ asset('assets/homepage/malt.webp') }}">
                 <h2 class="portfolio-card-title">Malta Guinness</h2>
             </div>
@@ -264,7 +264,7 @@
             <div class="portfolio-card zoomBig">
               <img src="{{ asset('assets/homepage/dosh.webp') }}">
               <h2 class="portfolio-card-title">DOSH</h2>
-            </div>
+            </div> --}}
         </section>
     </div>
 
