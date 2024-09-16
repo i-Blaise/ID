@@ -203,7 +203,7 @@ body p{
 
 
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 800px) {
 
     .logo img {
         margin-left: 0;
@@ -250,7 +250,7 @@ body p{
       width: 100%;
       color: rgba(0, 0, 0, 1);
       background-color: rgba(255, 255, 255, 1);
-      height: 50px !important;
+      height: 80px !important;
       overflow-y: hidden;
     }
     .menu > li {
@@ -468,6 +468,36 @@ header .header-2 .header2-image {
 /* Start Header Responsive  */
 
 
+@media (max-width: 600px){
+    header .header-2 {
+        margin: -96px 0 0 -7rem;
+        width: 136% !important;
+        max-width: 200%;
+        overflow: hidden;
+    }
+
+    header .header-2 .header2-image {
+        width: 66rem !important;
+        margin: 6rem 0 0 -28rem;
+    }
+
+    header .header-2 h1 {
+        font-size: 28px;
+    }
+
+    header .header-2 .header-title-1 {
+        margin: -81px 0 0 1rem;
+    }
+
+    header .header-cta {
+        margin: -20px 0 0 -4rem !important;
+        width: 18rem;
+    }
+
+    header .header-cta p {
+        font-size: 15px;
+    }
+}
 
 @media (min-width: 1250px) and (max-width: 1350px) {
     header .header-2 .header2-image {
@@ -1654,8 +1684,7 @@ section .home-blog-title {
         display: block !important;
         background-color: #F1F5F9;
         padding: 4rem 0 12rem 28px;
-        margin: 0 12px;
-        width: 120% !important;
+        width: 114% !important;
     }
 
     .testimonial-row {
@@ -1664,7 +1693,7 @@ section .home-blog-title {
 
     .testimonial-title h1 {
         margin: 0 -7rem;
-        font-size: clamp(28px, 35px, 40px);
+        font-size: 30px;
     }
 
     .testimonial-container .testimonial-img {
@@ -1676,8 +1705,8 @@ section .home-blog-title {
     }
 
     .testimonial-container .testimonial-img-mobile img {
-        height: 25rem;
-        width: 25rem;
+        height: auto;
+        width: auto;
     }
 
     .testimonial-container .testimonial-text {
@@ -1706,7 +1735,7 @@ section .home-blog-title {
 
     .prev-btn {
         z-index: 1;
-        top: 60rem;
+        top: 57rem;
         left: 10rem;
     }
 
@@ -2755,6 +2784,70 @@ section .home-blog-title {
 
 
 /* About Us Responsive  */
+
+@media (max-width: 600px) {
+    .about-blob-1 {
+        display: none;
+    }
+
+    /* .about-column {
+        height: 90rem;
+    } */
+
+    .about-column .about-row-2 {
+        display: flex;
+        flex-direction: column-reverse; /* Reverses the order */
+        background-color: #F3F7FA;
+        height: 36rem;
+        padding-left: 1rem;
+        margin: 5rem 0 37rem 0
+    }
+
+    .about-row-2 .about-intro-img img {
+        height: 257px;
+    }
+
+    .about-row-2 .about-intro-text {
+        margin: 160px 12px 0 0;
+    }
+
+    .about-section-2 .banner-1 img {
+        height: 10rem;
+    }
+
+    .about-section-2 .section-2 .section-2-container {
+        display: flex;
+        flex-direction: column-reverse; /* Reverses the order */
+        margin: -7rem 0 285px 1px;
+        width: 94%;
+        padding: 8rem 0 4rem 6rem;
+        background-size: 74rem;
+    }
+
+    .about-section-2 .section-2 .section-2-text {
+        margin-top: -29px;
+        right: 4rem;
+    }
+
+    .section-2 .section-2-img img {
+        height: 17rem;
+        position: relative;
+        bottom: 61px;
+        right: 5rem;
+    }
+
+    .about-section-3 .team-card-row-1 {
+        margin: 0 -4px !important;
+    }
+
+    .about-section-3 .team-card-row {
+        display: block;
+    }
+
+    .about-section-3 {
+        margin: auto 23px;
+    }
+}
 
 
 @media (min-width: 1250px) and (max-width: 1350px) {

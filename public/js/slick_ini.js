@@ -38,7 +38,6 @@ $(".lazy").slick({
     nextArrow: '<button type="button" class="next-btn"><img src="../assets/homepage/right.svg" alt=""></button>',
     dots: true,
     // autoplay: true,
-    dotsClass: 'testimonial-dots',
-    mobileFirst: true
+    dotsClass: 'testimonial-dots'
 
   });
