@@ -2881,8 +2881,8 @@ section .home-blog-title {
     }
 
     .about-section-3 .team-card-row-1 {
-        /* margin: 0 35px !important; */
-        margin-top: 0 !important;
+        position: relative;
+        right: 26rem;
     }
 
     .about-section-3 .team-card-row {
