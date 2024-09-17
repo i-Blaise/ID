@@ -2881,11 +2881,12 @@ section .home-blog-title {
     }
 
     .about-section-3 .team-card-row-1 {
-        margin: 0 -4px !important;
+        margin: 0 35px !important;
     }
 
     .about-section-3 .team-card-row {
         display: block;
+        margin: -7rem 0 0 2rem !important;
     }
 
     .about-section-3 {
