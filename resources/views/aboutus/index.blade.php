@@ -85,6 +85,10 @@
 
             <div class="team-card">
                 <img src="assets/team/Ekow.webp" alt="" class="team-pic">
+                <div class="team-card-overlay">
+                    <img src="{{ asset('assets/team/logo.svg') }}" alt="">
+                    <p class="team-card-overlay-text">Heading our tech department, Jerry enjoys creating products that make our daily tasks easier.Having worked in tech, financial, and identity companies worldwide, he has 10 years of expertise in both product and UI/UX design. His portfolio of work includes applications for waste management for Zoomlion, a stock management system for , a the mobile app for Heritage Bank, Applications for Liberia motto service (NAFOMTAL). He also has experience with automated techniques for fingerprint identification.</p>
+                  </div>
                 <div class="team-title">
                     <h5>Chief Operating Officer</h5>
                 </div>
@@ -96,6 +100,10 @@
         <div class="team-card-row">
             <div class="team-card">
                 <img src="assets/team/team2.png" alt="" class="team-pic">
+                <div class="team-card-overlay">
+                    <img src="{{ asset('assets/team/logo.svg') }}" alt="">
+                    <p class="team-card-overlay-text">Heading our tech department, Jerry enjoys creating products that make our daily tasks easier.Having worked in tech, financial, and identity companies worldwide, he has 10 years of expertise in both product and UI/UX design. His portfolio of work includes applications for waste management for Zoomlion, a stock management system for , a the mobile app for Heritage Bank, Applications for Liberia motto service (NAFOMTAL). He also has experience with automated techniques for fingerprint identification.</p>
+                  </div>
                 <div class="team-title">
                     <h5>Head IT</h5>
                 </div>
@@ -106,6 +114,10 @@
 
             <div class="team-card">
                 <img src="assets/team/frankay.webp" alt="" class="team-pic">
+                <div class="team-card-overlay">
+                    <img src="{{ asset('assets/team/logo.svg') }}" alt="">
+                    <p class="team-card-overlay-text">Heading our tech department, Jerry enjoys creating products that make our daily tasks easier.Having worked in tech, financial, and identity companies worldwide, he has 10 years of expertise in both product and UI/UX design. His portfolio of work includes applications for waste management for Zoomlion, a stock management system for , a the mobile app for Heritage Bank, Applications for Liberia motto service (NAFOMTAL). He also has experience with automated techniques for fingerprint identification.</p>
+                  </div>
                 <div class="team-title">
                     <h5>Creative Director</h5>
                 </div>
@@ -116,6 +128,10 @@
 
             <div class="team-card">
                 <img src="assets/team/afia.webp" alt="" class="team-pic">
+                <div class="team-card-overlay">
+                    <img src="{{ asset('assets/team/logo.svg') }}" alt="">
+                    <p class="team-card-overlay-text">Heading our tech department, Jerry enjoys creating products that make our daily tasks easier.Having worked in tech, financial, and identity companies worldwide, he has 10 years of expertise in both product and UI/UX design. His portfolio of work includes applications for waste management for Zoomlion, a stock management system for , a the mobile app for Heritage Bank, Applications for Liberia motto service (NAFOMTAL). He also has experience with automated techniques for fingerprint identification.</p>
+                  </div>
                 <div class="team-title">
                     <h5>Creative Lead, Content</h5>
                 </div>
@@ -128,6 +144,10 @@
         <div class="team-card-row">
             <div class="team-card">
                 <img src="assets/team/kofi.webp" alt="" class="team-pic">
+                <div class="team-card-overlay">
+                    <img src="{{ asset('assets/team/logo.svg') }}" alt="">
+                    <p class="team-card-overlay-text">Heading our tech department, Jerry enjoys creating products that make our daily tasks easier.Having worked in tech, financial, and identity companies worldwide, he has 10 years of expertise in both product and UI/UX design. His portfolio of work includes applications for waste management for Zoomlion, a stock management system for , a the mobile app for Heritage Bank, Applications for Liberia motto service (NAFOMTAL). He also has experience with automated techniques for fingerprint identification.</p>
+                  </div>
                 <div class="team-title">
                     <h5>Snr Account Manager</h5>
                 </div>
@@ -138,6 +158,10 @@
 
             <div class="team-card">
                 <img src="assets/team/colby.webp" alt="" class="team-pic">
+                <div class="team-card-overlay">
+                    <img src="{{ asset('assets/team/logo.svg') }}" alt="">
+                    <p class="team-card-overlay-text">Heading our tech department, Jerry enjoys creating products that make our daily tasks easier.Having worked in tech, financial, and identity companies worldwide, he has 10 years of expertise in both product and UI/UX design. His portfolio of work includes applications for waste management for Zoomlion, a stock management system for , a the mobile app for Heritage Bank, Applications for Liberia motto service (NAFOMTAL). He also has experience with automated techniques for fingerprint identification.</p>
+                  </div>
                 <div class="team-title">
                     <h5>Production Lead</h5>
                 </div>
@@ -148,6 +172,10 @@
 
             <div class="team-card">
                 <img src="assets/team/Danda.png" alt="" class="team-pic">
+                <div class="team-card-overlay">
+                    <img src="{{ asset('assets/team/logo.svg') }}" alt="">
+                    <p class="team-card-overlay-text">Heading our tech department, Jerry enjoys creating products that make our daily tasks easier.Having worked in tech, financial, and identity companies worldwide, he has 10 years of expertise in both product and UI/UX design. His portfolio of work includes applications for waste management for Zoomlion, a stock management system for , a the mobile app for Heritage Bank, Applications for Liberia motto service (NAFOMTAL). He also has experience with automated techniques for fingerprint identification.</p>
+                  </div>
                 <div class="team-title">
                     <h5>Programme Manager</h5>
                 </div>
@@ -160,6 +188,10 @@
         <div class="team-card-row">
             <div class="team-card">
                 <img src="assets/team/jade.webp" alt="" class="team-pic">
+                <div class="team-card-overlay">
+                    <img src="{{ asset('assets/team/logo.svg') }}" alt="">
+                    <p class="team-card-overlay-text">Heading our tech department, Jerry enjoys creating products that make our daily tasks easier.Having worked in tech, financial, and identity companies worldwide, he has 10 years of expertise in both product and UI/UX design. His portfolio of work includes applications for waste management for Zoomlion, a stock management system for , a the mobile app for Heritage Bank, Applications for Liberia motto service (NAFOMTAL). He also has experience with automated techniques for fingerprint identification.</p>
+                  </div>
                 <div class="team-title">
                     <h5>Head, Strategy</h5>
                 </div>
@@ -170,6 +202,10 @@
 
             <div class="team-card">
                 <img src="assets/team/fred.webp" alt="" class="team-pic">
+                <div class="team-card-overlay">
+                    <img src="{{ asset('assets/team/logo.svg') }}" alt="">
+                    <p class="team-card-overlay-text">Heading our tech department, Jerry enjoys creating products that make our daily tasks easier.Having worked in tech, financial, and identity companies worldwide, he has 10 years of expertise in both product and UI/UX design. His portfolio of work includes applications for waste management for Zoomlion, a stock management system for , a the mobile app for Heritage Bank, Applications for Liberia motto service (NAFOMTAL). He also has experience with automated techniques for fingerprint identification.</p>
+                  </div>
                 <div class="team-title">
                     <h5> Head, Performance Marketing and Media</h5>
                 </div>

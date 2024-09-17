@@ -2707,7 +2707,8 @@ section .home-blog-title {
 .about-section-3 .team-card-row {
     display: inline-flex;
     gap: 0 70px;
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
+    margin-top: -25rem;
 }
 
 .team-card-row .team-card {
@@ -2721,7 +2722,7 @@ section .home-blog-title {
     padding: 0 30px;
     width: fit-content;
     position: relative;
-    bottom: 48px;
+    bottom: 35rem;
     float: right;
     z-index: 5;
 }
@@ -2742,8 +2743,51 @@ section .home-blog-title {
     background-color: #ED3224;
     padding: 40px 19px 0 10px;
     position: relative;
-    bottom: 7px;
+    /* bottom: 7px; */
+    bottom: 32.5rem;
 }
+
+/* The overlay */
+.team-card-overlay {
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+    /* margin: 81px 23.5rem  114rem 27rem; */
+    height: 34rem;
+    z-index: 7;
+    background-color: #ed0707b6; /* Dark background with transparency */
+    opacity: 0; /* Hidden by default */
+    transition: opacity 0.5s ease; /* Smooth transition */
+    /* display: flex; Center the text */
+    display: block;
+    position: relative;
+    bottom: 26.5rem;
+    max-height: 32rem;
+    /* align-items: center;
+    justify-content: center; */
+  }
+
+  /* The overlay text */
+  .team-card-overlay-text {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    padding: 0 20px;
+    position: relative;
+    top: 4rem;
+  }
+
+  .team-card-overlay-text img {
+    position: absolute;
+  }
+
+  /* Show overlay on hover */
+  .team-card:hover .team-card-overlay {
+    opacity: 1; /* Make the overlay visible */
+  }
 
 
 .adbox-2 {
@@ -2961,6 +3005,7 @@ section .home-blog-title {
     .about-section-3 .team-card-row {
         gap: 0 8rem;
         margin: 0 40px !important;
+        margin-top: -25rem !important;
     }
 
     .about-section-3 .team-card-row-1 {
