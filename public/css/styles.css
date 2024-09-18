@@ -2705,16 +2705,21 @@ section .home-blog-title {
 }
 
 .about-section-3 .team-card-row {
-    display: inline-flex;
+    /* display: grid;
     gap: 0 70px;
-    /* margin-top: 3rem; */
-    margin-top: -25rem;
+    margin-top: -25rem; */
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
+    gap: 10px; /* Optional: Adds space between the grid items */
+    padding: 10px; /* Optional: Adds padding around the grid */
 }
 
 .team-card-row .team-card {
     display: block;
     /* border: 1px red solid; */
     width: 356px;
+    height: 35rem;
 }
 
 .team-card-row .team-card .team-title {
@@ -2882,15 +2887,22 @@ section .home-blog-title {
 
     .about-section-3 .team-card-row-1 {
         position: relative;
-        right: 26rem;
+        right: 24rem;
     }
 
     .about-section-3 .team-card-row {
-        display: block;
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto 2rem;
     }
 
     .about-section-3 {
         margin: auto 23px;
+    }
+
+    .team-card-overlay img {
+        position: relative;
+        top: 1rem;
+        left: 1rem;
     }
 }
 
